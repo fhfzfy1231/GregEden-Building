@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40FEA7CC3D814DAD"
+	group: "3A7548FF9A1E28AB"
+	icon: "create_new_age:generator_coil"
+	id: "40FEA7CC3D814DAD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C72B4A6945F28E7"
+			tasks: [{
+				id: "2BD77DEE0A527BF1"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			title: "基础磁铁"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "64874671834A7876"
+			subtitle: "因为它无缝链接"
+			tasks: [{
+				id: "01D2CBE805B29A47"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			title: "不强，但是好看"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0C72B4A6945F28E7"
+				"7CBC13E262A53964"
+			]
+			id: "326CDC51A4AB3D9D"
+			subtitle: "但是很吃应力"
+			tasks: [{
+				id: "7BAF1BF306DFAB3E"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			title: "顶级磁铁"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C72B4A6945F28E7"]
+			description: ["有点帅，但是效率感人，还吃应力"]
+			id: "7A5CCE0FD4F6ABEB"
+			tasks: [
+				{
+					id: "4E9EB312D435FF80"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "1901600846CC03F3"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			title: "切割磁感线！"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "6C40296C3FB2B662"
+			tasks: [{
+				id: "2D26F4473BBA6E3B"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C40296C3FB2B662"]
+			id: "2FE52EE5CDEC5DB9"
+			tasks: [{
+				id: "17907E7DA204F22D"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C40296C3FB2B662"]
+			id: "5663FC3E6CE9BFF4"
+			tasks: [{
+				id: "0B572E75E0EFE2CD"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			title: "双倍应力"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5663FC3E6CE9BFF4"]
+			id: "4D1B78ED087F2D99"
+			tasks: [{
+				id: "5E2A9DD482FB30CD"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			title: "四倍应力！"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "25BD7A827DB2F2F2"
+			tasks: [
+				{
+					id: "7ABE7A9194AD7076"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+				{
+					id: "43A522D57C6070B9"
+					item: "create_new_age:copper_wire"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25BD7A827DB2F2F2"]
+			id: "746843846E3AE8DA"
+			tasks: [{
+				id: "689A52C19B348A2C"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4200C2AD44F89B0D"]
+			description: ["除了玻璃，别的都是必要的"]
+			id: "304E6C9BD5BB99CE"
+			subtitle: "很便宜"
+			tasks: [
+				{
+					id: "5C5BBF9964D38EFC"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4C1B547C406AAD63"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "071D34D91B0C97E5"
+					item: "create_new_age:reactor_rod"
+					type: "item"
+				}
+				{
+					id: "6CB119557798D731"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "49204BB07E76BAF6"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "5DC1F15D05453958"
+			subtitle: "不如反应堆"
+			tasks: [{
+				id: "620D78A2D2514946"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DC1F15D05453958"]
+			id: "5696A1415BDC0E2F"
+			subtitle: "啊，也不如反应堆（"
+			tasks: [{
+				id: "5EA04EE5F6EFF91D"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			id: "11A7E0E4015CDF7E"
+			tasks: [
+				{
+					id: "749474A1C3E288C0"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "299018B0942917D8"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+			]
+			title: "热传递"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["11A7E0E4015CDF7E"]
+			id: "075CA1255AB7B405"
+			tasks: [
+				{
+					id: "644B46B011732A33"
+					item: "create_new_age:heater"
+					type: "item"
+				}
+				{
+					id: "13B040E413B12359"
+					item: "create_new_age:stirling_engine"
+					type: "item"
+				}
+			]
+			title: "加热蒸汽机的好东西"
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			id: "41BF85B73093B615"
+			subtitle: "这玩意居然能增产"
+			tasks: [{
+				id: "51FFCC46A671F644"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "4200C2AD44F89B0D"
+			tasks: [{
+				id: "655E3587551EE44E"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4200C2AD44F89B0D"]
+			id: "7CBC13E262A53964"
+			tasks: [{
+				id: "526457A025A6FE02"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11A7E0E4015CDF7E"]
+			id: "28AD537BF2DB0D79"
+			tasks: [{
+				id: "68AA3F636C349ABC"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+	]
+	title: "电力时代"
+}

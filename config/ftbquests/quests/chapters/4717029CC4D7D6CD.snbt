@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4717029CC4D7D6CD"
+	group: "3D9BC6400BFF91CE"
+	id: "4717029CC4D7D6CD"
+	images: [
+		{
+			height: 5.0d
+			image: "akzs_custom_items:item/chi_cheng_tou_xiang_"
+			rotation: 0.0d
+			width: 4.966777408637873d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "akzs_custom_items:textures/victoriousmikototou_xiang_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "akzs_custom_items:item/dkzero01tou_xiang_"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "akzs_custom_items:textures/star-set.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "akzs_custom_items:item/dryil2"
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.5d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["552051C11C893584"]
+			description: ["&m笨蛋&r作者"]
+			icon: {
+				Count: 1
+				id: "akzs_custom_items:akzs_headportrait"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "0D4375418567B68B"
+			rewards: [{
+				id: "674C90D88415DD62"
+				item: {
+					Count: 1
+					id: "akzs_custom_items:akzs_headportrait"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "一刀千血"
+			tasks: [{
+				id: "6E6EE60563A61C0C"
+				type: "checkmark"
+			}]
+			title: "最强大脑！"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552051C11C893584"]
+			description: ["沉浸原油全是他搞的"]
+			icon: {
+				Count: 1
+				id: "akzs_custom_items:victorious_mikotos_headportrait"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "22107902CFD9CD0B"
+			rewards: [{
+				id: "328D11A0320EFE16"
+				item: {
+					Count: 1
+					id: "akzs_custom_items:victorious_mikotos_headportrait"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "38511DEC73AE8F8B"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552051C11C893584"]
+			description: ["真，吉祥物"]
+			icon: {
+				Count: 1
+				id: "akzs_custom_items:d_kzero_01s_headportrait"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "15623D39B7FCE721"
+			rewards: [{
+				id: "2E8713C1D5C3E9AA"
+				item: {
+					Count: 1
+					id: "akzs_custom_items:d_kzero_01s_headportrait"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "709B7FB1143D2E47"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552051C11C893584"]
+			description: [
+				"从MC百科搬来了几乎整个新生魔艺教程"
+				"帮助建立了FTBQuest的商场"
+				"&m腐竹专属黑奴&r"
+				"（试试看打人）"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "akzs_custom_items:star_set_headportrait"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "532D2EC99E71078D"
+			rewards: [{
+				id: "521D6FE3F2875685"
+				item: {
+					Count: 1
+					id: "akzs_custom_items:star_set_headportrait"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Handstand！"
+			tasks: [{
+				id: "304F17E7807DB057"
+				type: "checkmark"
+			}]
+			title: "¿"
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552051C11C893584"]
+			description: ["矿物抽屉基本上全是他写的,还有女仆和tacz"]
+			icon: {
+				Count: 1
+				id: "akzs_custom_items:dryil_2_headportrait"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "21C190DA3F1DD0A9"
+			rewards: [{
+				id: "1444835651C94BD0"
+				item: {
+					Count: 1
+					id: "akzs_custom_items:dryil_2_headportrait"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0E755A59A0DAC3FB"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"这里所有的名字都是制作者们的游戏id"
+				"同时感谢KODU16的伊甸空天和gregtech leisure（我的有些任务是从他们那里修改过来的）"
+			]
+			id: "552051C11C893584"
+			tasks: [{
+				id: "4CB282A493519736"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+	]
+	title: "感谢名单"
+}

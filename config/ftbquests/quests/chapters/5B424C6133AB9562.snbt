@@ -1,0 +1,1547 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5B424C6133AB9562"
+	group: "53BE6110B3CACC07"
+	icon: "ae2:controller"
+	id: "5B424C6133AB9562"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			id: "5AF9BB1CD070F872"
+			rewards: [{
+				count: 10
+				id: "3F601EF8F56D1EB9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBD4CA2A1A79666"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["167AFBE3E0A78BC2"]
+			id: "5613A52A55756289"
+			rewards: [{
+				count: 10
+				id: "3EFD3C82C9948ED3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D1BCE393C87B9BE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41F776CFEFD69296"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["30A8DA6BEA2202C9"]
+			description: ["还等什么呢，多做点这个重要的东西吧"]
+			id: "6D501570E9D272A1"
+			rewards: [{
+				count: 10
+				id: "21F43D70E28380C7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "只要你合成出了种子，用mek的富集仓直接就能生成水晶"
+			tasks: [
+				{
+					id: "0C93C2BE14EDBED6"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "72F4806D2B16756A"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+			]
+			title: "别老老实实去种这东西"
+			x: 21.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D501570E9D272A1"]
+			description: ["但如果你决定先发展AE，那还是需要做这个"]
+			id: "27D4E0065DF0AFFF"
+			rewards: [{
+				count: 10
+				id: "7A9696D35DFFDF25"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "那个特斯拉线圈比这个好用"
+			tasks: [{
+				id: "3813D582AC01BB34"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "我的建议是去做机械动力的"
+			x: 19.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["30A8DA6BEA2202C9"]
+			description: [
+				"AE的陨石是自己的陨石方块构成的，而另一种陨石主要是原版方块"
+				"只有AE的陨石才能提供赛特斯石英和样板，另外的那种只能给你几块无用的月沙！"
+			]
+			id: "417743D8B1A16B03"
+			rewards: [{
+				count: 10
+				id: "6AA703B91402674D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "要不你可能一无所获！"
+			tasks: [{
+				id: "563A1AC84CF2C90A"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "注意区分AE的和别的模组的陨石"
+			x: 23.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["30A8DA6BEA2202C9"]
+			description: [
+				"这些粉相比水晶，用途略微不一样"
+				"你可以用磨粉的方式把futurepack的陨石转化成AE的可以用的陨石粉"
+			]
+			id: "44DF0E4EC374D261"
+			rewards: [{
+				count: 10
+				id: "3D9BA8A35EC24C09"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "最好别用手磨这玩意..."
+			tasks: [
+				{
+					id: "6190C0740BE636EF"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "0E19AD1E0E3D5D64"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+			]
+			title: "磨粉"
+			x: 19.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["417743D8B1A16B03"]
+			description: [
+				"这四个缺一不可，尽量搜集它们吧"
+				"实在没有的话去商店里买你缺的也行"
+			]
+			id: "4E35DE88CC79EE5C"
+			rewards: [{
+				count: 10
+				id: "17282A3EE053C0CE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "鉴定为大制张"
+			tasks: [
+				{
+					id: "5F6F658E4D1B2FB6"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "0E2C4C5E25E17C1F"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "5F972F36779E0AF7"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "4D5687E322D0F845"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "压印丁真"
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E35DE88CC79EE5C"]
+			dependency_requirement: "all_started"
+			description: ["其它mod的扳手可能造成贴图转了但实际上没转的现象！"]
+			id: "74E02DA53591D37A"
+			rewards: [{
+				count: 10
+				id: "5EDE0BB4FB155A2D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这些机器娇贵的很"
+			tasks: [{
+				id: "13145C168457ACD2"
+				item: "ae2:nether_quartz_wrench"
+				type: "item"
+			}]
+			title: "扳手，AE专用"
+			x: 25.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["44DF0E4EC374D261"]
+			description: ["最基础的线缆，之后还可以合成更高级的"]
+			id: "49ADE171BD3F66E2"
+			rewards: [{
+				count: 10
+				id: "7F0C2FEFF7F344EE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但是多数时候已经足够了"
+			tasks: [{
+				count: 24L
+				id: "294F412EC5A8EF93"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "一小坨"
+			x: 19.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: ["你会需要很多这个的，因为频道总是不够！"]
+			id: "5B674D787BB51C78"
+			rewards: [{
+				count: 10
+				id: "6A0978585E2FB7AC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "既负责容纳频道又负责传输能量"
+			tasks: [{
+				id: "5BA81B7C5CF8C3B9"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "网络的大脑兼心脏"
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["417743D8B1A16B03"]
+			description: ["陨石块是合成ME控制器的最基本材料"]
+			id: "00BAFBAA4437AB21"
+			rewards: [{
+				count: 10
+				id: "0FFD2FF3B885D37E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "那些粗陨石不能作为合成物品"
+			tasks: [
+				{
+					count: 16L
+					id: "2A0F9EDC6EC30038"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "15ABE69B71D0F07A"
+					item: "ae2:smooth_sky_stone_block"
+					type: "item"
+				}
+			]
+			title: "再处理"
+			x: 25.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E35DE88CC79EE5C"]
+			description: [""]
+			icon: "ae2:inscriber"
+			id: "2C8B4AC1FB53827F"
+			rewards: [{
+				count: 10
+				id: "1B76283E5C202F15"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DB6DE834CB03988"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "什么垃圾压印器"
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C8B4AC1FB53827F"]
+			description: ["很棒的执行材料元件！"]
+			id: "4B506F14129C2C5A"
+			rewards: [{
+				count: 10
+				id: "5CDF33827FE692C0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "滚回旁边的沉浸工程去"
+			tasks: [
+				{
+					id: "0747033AA9A28AC3"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "26C86CF2E6B5875D"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+			]
+			title: "什么？不，这不是你该待的地方"
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"性能完全取决于肚子里装了啥"
+				"得和ME控制器连一起才行"
+			]
+			id: "3D7CB8DAD1E59A8F"
+			rewards: [{
+				count: 10
+				id: "377031F66A5ECBB2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "得塞点磁盘才能用"
+			tasks: [{
+				id: "198098C2BB064F04"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "脑容量"
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49ADE171BD3F66E2"]
+			id: "18C0B3E35FC0576D"
+			rewards: [{
+				count: 10
+				id: "6489A27192DAA144"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "有的时候那些石英纤维还是太细了"
+			tasks: [{
+				id: "492B0ED26F5C5AB4"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "高级一点的线缆"
+			x: 17.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: [
+				"AE并不能给你提供特别多的物品种类存储空间，它擅长大量单一物品存储"
+				"建议看看mek的QIO，它更适合大规模的存储，同时它和AE是联动的！"
+				"（但由于mek的qio会把数据存储到其所在区块nbt中，所以可能会出现存储物品太多导致区块nbt数据超出上限从而炸区块的情况，但ae没有这个问题）"
+			]
+			id: "167AFBE3E0A78BC2"
+			rewards: [{
+				count: 10
+				id: "57561AAB0CD8A91D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek的QIO更适合大规模的存储"
+			tasks: [{
+				id: "79A33050F3AE88E1"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "大量的存储，但不是大规模"
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C8B4AC1FB53827F"]
+			description: [
+				"主要用于信息化元件的制作"
+				""
+				"实际上各种元件建议直接做最高级的，因为存了物品的元件没法用于合成"
+				"当然资源不够那就算了"
+			]
+			id: "01EE4AAD35AF2517"
+			rewards: [{
+				count: 10
+				id: "52D6A480ED6C1FA2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "By using a cowculator"
+			tasks: [
+				{
+					id: "0B7BA4F790866243"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "7AB37BA5D29B4618"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+			]
+			title: "How do you count cows?"
+			x: 27.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: ["网络也能让你方便地管理和调用各种流体"]
+			id: "5E713FA04C6FC60A"
+			rewards: [{
+				count: 10
+				id: "68F9F7DE98FEBF75"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "经验加三"
+			tasks: [{
+				id: "59BC007E26581084"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			title: "水贴"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: ["而且一个个做很麻烦，建议一次做一堆，或者干脆自动化"]
+			id: "6E595A2006DC8A84"
+			rewards: [{
+				count: 10
+				id: "7BBF8D35A31E8AF7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这俩在之后会用到非常非常多"
+			tasks: [
+				{
+					id: "0726BA7B946F37B0"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "01EA7A6FD8A97A47"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "卧龙凤雏"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C8B4AC1FB53827F"]
+			description: ["用来干一些需要逻辑头脑的事情，比如分清楚要破坏的方块是啥！"]
+			id: "4ABE68EF0F7577EA"
+			rewards: [{
+				count: 10
+				id: "2E9D2E3B0E3C73B6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你辩不过它的"
+			tasks: [
+				{
+					id: "78D92BAAA71343B5"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "25900F7A934BC528"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			title: "白马非马"
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: ["实际上如果你是为了存储很多“种”物品，那就完全走错了，尽早转向mek的QIO吧"]
+			id: "3FBF3617A14F9CEB"
+			rewards: [{
+				count: 10
+				id: "014283A1C34BCF30"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你挺狂啊"
+			tasks: [{
+				id: "37501B6D0D4D730A"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			title: "哇"
+			x: 31.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: ["打开的时候最好不要犹豫太久"]
+			id: "0C547F1D382A84A8"
+			rewards: [{
+				count: 10
+				id: "4653AFCBFEF10CFB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但是它是耗电的"
+			tasks: [
+				{
+					id: "2CBB879B3F77919A"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "700721D0FF322D65"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "随身磁盘"
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: ["机械动力那个保险库是个反面教材，现在我要求所有物品随时都能被访问！"]
+			id: "4C6CBD9088C02015"
+			rewards: [{
+				count: 10
+				id: "250FE53D20DC76F3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "总得把东西取出来，是不是"
+			tasks: [{
+				id: "1E117F28A1DC6D1C"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "别当闷葫芦"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: [
+				"用于连接P2P通道，潜行右击(shift+右键)通道为选择主动端，再右击另一个通道设为被动端"
+				"一个主动端可以对应多个被动端。被动端会被设置成和主动端同样的类型"
+				""
+				"还可以用于复制粘贴部分网络设备的物品标记，如ME接口、ME输出总线、元件等的配置（物品名单，优先级，升级卡配置等）"
+				"在要复制的设备上潜行右击即可保存配置，在要粘贴的设备上右击即可加载配置"
+			]
+			id: "0E79BC6365C6972F"
+			rewards: [{
+				count: 10
+				id: "30C42CC4097080A5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "没记住也得记住"
+			tasks: [{
+				id: "38C214F109F58BCC"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "记住了吗"
+			x: 27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: [
+				"拿着网络工具对着网络任意一个部件或线缆右击可查看整个AE网络的储能，耗能，网络中安装的各个网络元件等"
+				"手持之右击空气可打开它的内部存储空间，里面的格子能存放一些升级卡（加速卡，容量卡，红石卡等）"
+				"左边的开关用来设置背包里有网络工具时，应用能源2的伪装板的透明度，方便布线。（只要背包里有一个如此设置好的网络工具则所有伪装板半透明）"
+				"当背包里有网络工具时，打开可插入升级卡的AE2机器的gui，右下角会出现你放入的升级"
+				""
+				"当然，这东西也保留了扳手的功能"
+			]
+			id: "0FADED31059B0DD7"
+			rewards: [{
+				count: 10
+				id: "369CA224B5FB6D15"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "功能远不局限于此"
+			tasks: [{
+				id: "6185BE922C8744FA"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			title: "电子扳手"
+			x: 29.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: [
+				"ME网络装上ME无线访问点，玩家就可以从与这个网络绑定了的无线终端中从网络中提取或者向网络中储存物品"
+				""
+				"ME无线访问点能通过安装无线信号增幅器增加有效范围，但相应的每增加一个都会增加较大的能耗"
+			]
+			id: "070EFE1B06D53091"
+			rewards: [{
+				count: 10
+				id: "3072A2C724423417"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "或者只是从仓库里头取件"
+			tasks: [{
+				id: "06826F43CFC95267"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "下单订货"
+			x: 31.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: ["在JEI里看看这能给你的网络添什么新花样！"]
+			id: "477DC55B451DF360"
+			rewards: [{
+				count: 10
+				id: "2F634B08F22A5EA3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "网络的升级"
+			tasks: [
+				{
+					id: "40BCDFB0795B8E9C"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "0424DE2B75A43215"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+			]
+			title: "嘀，莫妮卡"
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: ["根据网络内能源或存储情况是大于等于设定值还是低于设定值来发出红石信号"]
+			id: "7BB350543B5DD089"
+			rewards: [{
+				count: 10
+				id: "078C1D3BC9CC3273"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "最小的一集"
+			tasks: [
+				{
+					id: "73176CF51C37F748"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+				{
+					id: "33EB63420EA02EE4"
+					item: "ae2:energy_level_emitter"
+					type: "item"
+				}
+			]
+			title: "你看见它了，对吧"
+			x: 25.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: ["用来给元件(物品、流体存储元件，染色器、物质炮、便携元件、显示元件等)加入物品标记和升级卡"]
+			id: "1BF040FD79EC2398"
+			rewards: [{
+				count: 10
+				id: "2DAC1E0B13915AC4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "它不防腐"
+			tasks: [{
+				id: "32B3439007F06E8C"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			title: "不是对工程师工作台的模仿"
+			x: 25.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: [
+				"每个量子网桥由8个ME量子环围绕一个ME量子链接仓构成，放置方向不限"
+				"两个量子网桥为一对，需要在链接仓内放置成对的量子缠绕态奇点，当两端都被加载且都有电时工作"
+				"线缆连接在4个“边块”上——只有量子仓上下左右那四个块能连接线缆"
+				"一对量子网桥最大可传输32频道，并且频道的最大数量是根据你控制器近端提供的频道而定"
+				"量子网桥持续运作必须保证两端区块都被加载，并且至少一端存在供能"
+				""
+				"允许跨维度！"
+			]
+			id: "617DA61C2C7EC6CF"
+			rewards: [{
+				count: 10
+				id: "5C41D18AC1EAD311"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "当然，用好了的话你也会很快乐"
+			tasks: [
+				{
+					id: "12C131F9EB63AAB5"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "3ECB6BF475A42220"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "民科快乐环"
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4ABE68EF0F7577EA"]
+			description: [
+				"好吧，这套系统可以让你完全变成一个订货-下单的人，而不用自己去搓繁琐的合成"
+				"但是你得走出第一步..."
+			]
+			id: "759A3E470B5CB0FB"
+			rewards: [{
+				count: 10
+				id: "2CFF81ABFA679447"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "想不想完全解放自己的双手？"
+			tasks: [{
+				id: "00B7A48D7E388A42"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			title: "下单人，第一课"
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01EE4AAD35AF2517"]
+			description: ["考虑到AE的机器很多都不直接吃RF，做个这东西就很有必要"]
+			id: "67E56CED6ED1672C"
+			rewards: [{
+				count: 10
+				id: "0230534382FA36DE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "应该也有自己的用处"
+			tasks: [{
+				id: "049028404DA942DC"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "AE的能量立方"
+			x: 29.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"右键方块产生烧炼效果，shift右键方块产生降温效果"
+				"若方块无特殊效果，则直接点火，攻击生物使生物着火"
+				"或许你可以做一个制冰机？但我不认为这是最方便的途径"
+			]
+			id: "675CE3AC46A6F5C3"
+			rewards: [{
+				count: 10
+				id: "4B7B5C066D094A52"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "或是单纯的转移？"
+			tasks: [{
+				id: "4490DBF723D9F613"
+				item: "ae2:entropy_manipulator"
+				type: "item"
+			}]
+			title: "能量的转化"
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"P2P通道的绑定需要使用用内存卡，手持内存卡shift+右击可以会将该P2P通道设定为输入端，同时给与该P2P通道随机分配一个频率并且将该频率存储在内存卡中，并且P2P通道的背面和内存卡出现颜色变化以表示频率，如下图，再使用存储了频率的内存卡右击其他P2P通道即可设为输出端，输入端与输出端需要连接在同一个ME网络内"
+				"P2P通道-ME需要被动耗能2AE/t，无论该P2P通道是否被绑定是否正在工作"
+				"使用P2P通道-ME可以大幅度减少传递频道时候使用的线缆，常见应用是在细线缆传递128频道，一对P2P通道-ME最多可以传递32频道，本身占用2通道，但是因为P2P的特性，并不一定要连接在主网络中，一般通过子网络来承载P2P通道需要的频道"
+			]
+			id: "72B36EDFAB336E52"
+			rewards: [{
+				count: 10
+				id: "58ED110632BEE806"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "总是频道不够吗？那你需要这个"
+			tasks: [{
+				id: "1930204282E1C61C"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			title: "频道狂人"
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"用于加载所在ME网络经过的所有区块及维度。可以配合量子网桥使用"
+				"虽然可以配合量子网桥使用，但是如果需要跨维度加载网络时，请在该网络经过的每一个维度中的分支网络中分别放置至少一个空间锚，因为区块加载不会跨维度传播。例如，若一个ME网络经过主世界和下界两个维度，则你需要在主世界和下界分别放置一个与该网络相连的空间锚，才能确保这个网络在两个维度所经过的区块都被加载"
+				"能耗(用e表示，单位为AE)可通过以下公式计算，其中x为已被加载的区块数：e = 80 + (x*(x+1))/2"
+			]
+			id: "288D238F755D4CB1"
+			rewards: [{
+				count: 10
+				id: "3266EFD7BA69CBC7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "论性价比可能不如机械动力，但实用性还不错"
+			tasks: [{
+				id: "5DE5A4FA5D2BE507"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			title: "区块加载器，ME网络专用"
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"船舵的本质也是操纵空间，但空间塔的操纵方式与它并不相同"
+				"空间塔无法从规则的束缚中解放空间，但能将空间压缩为数字形态"
+				"这样可以在需要的时候调用出实体/方块来，或者搬运一些镐挖不掉的方块，如末地传送门框架"
+				""
+				"具体详见之后的任务！"
+			]
+			hide_dependency_lines: false
+			id: "75A028B49CD38977"
+			rewards: [{
+				count: 10
+				id: "6242AF1D5A59A509"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "以一种不同的方式"
+			tasks: [{
+				id: "3543171388B7B8D8"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			title: "操纵空间"
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75A028B49CD38977"]
+			description: [
+				"空间塔是用来存储一定范围内方块和实体的设备（实质是将方块和实体搬入封闭空间）"
+				"学习 https://www.mcmod.cn/item/655628.html 来搭建一个合格的空间塔！"
+				"记得供给足够的频道"
+			]
+			id: "29E125D88A752641"
+			rewards: [{
+				count: 10
+				id: "3EA4DBCC89C62C14"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "搬家（物理）"
+			tasks: [{
+				id: "4410FAB239C78E8C"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			title: "空间操纵者"
+			x: 25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D501570E9D272A1"]
+			description: ["在后面各种无线设备里面用的会很多"]
+			id: "714E01CA75240BD8"
+			rewards: [{
+				count: 10
+				id: "3882BAD85695DE6B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用来做一些传送相关的事情"
+			tasks: [{
+				id: "6E69E1CB04D71DC5"
+				item: "ae2:fluix_pearl"
+				type: "item"
+			}]
+			title: "紫色珍珠"
+			x: 21.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["49ADE171BD3F66E2"]
+			description: ["还有会发光的聚能石英玻璃，适合保持你农场的光照！"]
+			id: "01C4E186081198B8"
+			rewards: [{
+				count: 10
+				id: "56EC37B49695E025"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用于AE的高级制作，也是一种美观的建材"
+			tasks: [{
+				id: "5FB0B02E2801EDBF"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			title: "更坚固的玻璃"
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["18C0B3E35FC0576D"]
+			description: [
+				"在有ME触发总线的那一段线缆，可以通过红石信号来控制这一段线缆是接通还是断开，有信号则连通，无则断开"
+				""
+				"反相触发总线则相反"
+			]
+			id: "09E1E96D80DDB6E8"
+			rewards: [{
+				count: 10
+				id: "2C8D8B1156607F27"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用红石信号控制！"
+			tasks: [
+				{
+					id: "5EC60F7C93D65596"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+				{
+					id: "5FBC36C41EB177F1"
+					item: "ae2:inverted_toggle_bus"
+					type: "item"
+				}
+			]
+			title: "线缆的开关"
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["30A8DA6BEA2202C9"]
+			description: [
+				"线缆锚可以使AE线缆与线缆/机器之间不连接，也可以放在竖直线缆上当梯子"
+				"还可以合成伪装板——JEI快乐块，用来附着在线缆上改变外观"
+			]
+			id: "2B310EEE299C2AB5"
+			rewards: [{
+				count: 10
+				id: "31EEF12F4AC73113"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "看起来很不起眼，然而..."
+			tasks: [{
+				id: "04C15BEE7FB8B075"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "JEI霸占者"
+			x: 23.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["18C0B3E35FC0576D"]
+			description: ["但是它是重要的合成原料"]
+			id: "20A23091EA200978"
+			rewards: [{
+				count: 10
+				id: "051283FE147342AD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "虽说性能没啥提升"
+			tasks: [{
+				id: "029256141780036B"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			title: "买件大衣穿"
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["20A23091EA200978"]
+			id: "1ED2042B0F60A794"
+			rewards: [{
+				count: 10
+				id: "7602DDCCA3B9E4CE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F4557BFB28D5A0C"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4C6CBD9088C02015"]
+			description: [
+				"只需要能量，不需要网络"
+				"可以和数字采矿机搭配，将挖到的矿石快速存进元件里，之后把元件放回家里的网络，节省了转移的时间"
+			]
+			id: "687C81BC80CEB1E4"
+			rewards: [{
+				count: 10
+				id: "7758679BA1ED84C8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "只能放一个元件，但是便宜便携"
+			tasks: [{
+				id: "6B25D78B9CAF127C"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			title: "小型读卡器"
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B506F14129C2C5A"]
+			description: [
+				"将存储元件里的物品输入至ME网络，或者将ME网络里的物品输出至元件"
+				"最大的用处就是把存储单元里面的东西快速存到另一个存储单元，清空存储单元，方便合成更大的单元"
+			]
+			id: "338F78E7674D0F19"
+			rewards: [{
+				count: 10
+				id: "75F07A15A21347FE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "虽然看起来没用，但实际上并不是"
+			tasks: [{
+				id: "67B681E3A3B46668"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			title: "ME升级需要它"
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["759A3E470B5CB0FB"]
+			description: [
+				"这是个多用途的物品，你可以在 https://www.mcmod.cn/item/209833.html 查看它的所有用途"
+				"想要成为下单人，这个是必不可少的"
+				"注意，相比上面的功能，现在ME接口可以直接通流体，但样板功能被单独分离出来成样板供应器"
+			]
+			id: "0A94F7A7E7D0A315"
+			rewards: [{
+				count: 10
+				id: "0880A5B72BBF1A88"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用这个来让你的网络动起来！"
+			tasks: [{
+				id: "18CDF85E4A343FA5"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			title: "下单人，第二课"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["765FC3E29A39A0C4"]
+			description: [
+				"用于自动化工作台合成，锻造台合成，切石机合成"
+				"只接受ME网络供能，但不占用频道"
+				"合成产物会自动弹出，也可以被动抽出，当产物未弹出时不会继续进行合成"
+				"在 https://www.mcmod.cn/item/655652.html 查看相关指南！"
+			]
+			id: "1352A2CD1B4A5EC4"
+			rewards: [{
+				count: 10
+				id: "53E5F142B5AF416F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "自动组合物品！"
+			tasks: [{
+				id: "4DC36ABE056FB85D"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "下单人，第五课"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A94F7A7E7D0A315"]
+			description: [
+				"挨着分子装配室时可以根据CPU的请求，根据被放入的样板自动将合成配方，锻造配方，切石机配方的材料发送给分子装配室进行合成，并自动接受产物回流"
+				"而处理配方会被发入相邻的能够接受的容器内处理"
+				""
+				"在 https://www.mcmod.cn/item/520164.html 查看更多指南！"
+			]
+			id: "3BC69AEB33623FAF"
+			rewards: [{
+				count: 10
+				id: "62BD03948F5F00F0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "给自动化提供指导！"
+			tasks: [{
+				id: "05F8EA546E051B74"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "下单人，第三课"
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BC69AEB33623FAF"]
+			description: ["在 https://www.mcmod.cn/item/655784.html 查看指南！"]
+			id: "765FC3E29A39A0C4"
+			rewards: [{
+				count: 10
+				id: "3A9F99AAD64A4D49"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你决定如何加工！"
+			tasks: [
+				{
+					id: "4AECDBF24EBD2326"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0EFC404C5D8FAF47"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "下单人，第四课"
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1352A2CD1B4A5EC4"]
+			description: ["在 https://www.mcmod.cn/item/8755.html 查看详细指南！"]
+			id: "6853E9475725A7CD"
+			rewards: [{
+				count: 10
+				id: "5612E10B0206BC14"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "制作最初的CPU"
+			tasks: [{
+				id: "03E18A439FF32B8D"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			title: "下单人，第六课"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6853E9475725A7CD"]
+			description: ["合成系统也是可以扩展的！用这些来增进你的网络的功能性！"]
+			id: "166A3A5243FACBD3"
+			rewards: [{
+				count: 10
+				id: "045C2A1BA9AED70E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "扩展你的网络！"
+			tasks: [
+				{
+					id: "57B86D61B9445EB3"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "4A02DE3C911361A7"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "658E60F73E3E0312"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "下单人，第六课"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D501570E9D272A1"]
+			description: [
+				"不需要消耗能量就能运作，用于销毁多余物品，可以接受物品和液体。销毁的物品可以合成出物质球/奇点或者直接销毁"
+				"第一个模式会删除进去的物品或液体。不需要放入存储组件。达到垃圾桶的效果"
+				"第二个模式每删除256个物品能生产1个物质球，右上的位置需要放置1k-ME存储组件或更大的存储组件"
+				"第三个模式每删除256000个物品能生产1个奇点，右上的位置需要放置64k-ME存储组件"
+				"也可以通入流体，125mb流体算作1物品"
+				""
+				"xk-ME存储组件能够最多“缓存”x*8192个“物品”，因此上述模式需要对应的存储组件"
+				"你是不是该看看那个水槽..."
+				"嘻嘻，用尽的核废料是气体"
+			]
+			id: "0BABB52A64FAF806"
+			rewards: [{
+				count: 10
+				id: "2E1F42509B7ACE69"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "贪婪，但并不无尽"
+			tasks: [{
+				id: "4E8BE10400F04BD6"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "无尽贪婪"
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6E595A2006DC8A84"]
+			description: ["分别可以在网络查看容器物品，抽取容器物品进入网络，和从网络向容器输出物品"]
+			id: "71C909442BE13B1B"
+			rewards: [{
+				count: 10
+				id: "60B5A185F03903BE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "给我画一张松鼠鳜鱼"
+			tasks: [
+				{
+					id: "63C21C494BDFB512"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "349434807DAD302F"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "65E43A3F024A7D8F"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "公交车"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E595A2006DC8A84"]
+			description: ["用来破坏方块并输入掉落物到网络，或是从网络取出方块来放置！"]
+			id: "1AC226F74BA8AF21"
+			rewards: [{
+				count: 10
+				id: "730668655324548B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "主要用来玩方块"
+			tasks: [
+				{
+					id: "5E831A06217B69A7"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "7CD980480447CF0B"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			title: "机械手"
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0BABB52A64FAF806"]
+			description: [
+				"通过向物质聚合器注入256000个任意物品后的产物。需要在物质聚合器上方的组件格内放入64k存储组件才可将物质聚合器模式调节为合成奇点"
+				""
+				"将一个奇点和一个末影粉丢在地上，然后用任何爆炸（苦力怕、TNT等）引爆后获得两个成对的量子缠绕态奇点"
+				"不，不能放进爆米花机里面"
+			]
+			id: "4F01988F217CA6F8"
+			rewards: [{
+				count: 10
+				id: "1EBB129B570331E6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "都说了这一点不贪婪了"
+			tasks: [
+				{
+					id: "37BEBB1FE1872177"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "2549E9E595EE06D6"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+			]
+			title: "无尽贪婪，第二季"
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["30A8DA6BEA2202C9"]
+			description: [
+				"将石英切割刀与金属锭放于合成栏中（无序合成）即可得到线缆锚"
+				"手持石英切割刀右键可以打开它的gui，在中间的位置放入金属锭，在上面的栏内输入欲命名的文字，即可在右边得到对应名称的名称压印模板"
+				"可以通过和其他压印模板相同的使用方法给物品命名"
+			]
+			id: "284740752AD5F81E"
+			rewards: [{
+				count: 10
+				id: "3DFE8CA2351C7A77"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "君子不器"
+			tasks: [{
+				id: "2CBE93537817777D"
+				item: {
+					Count: 1
+					id: "ae2:certus_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "不只是厨具"
+			x: 23.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6E595A2006DC8A84"]
+			description: [
+				"消耗染色球（或染料、雪球）与能量，给方块染色，对线缆使用雪球会将其变为默认色"
+				"将染色器装入ME驱动器或者ME箱子中，然后将染色球（或染料、雪球）装入其中即可，与存储元件操作相同"
+				"不能给羊染色，给羊染色请用物质炮"
+			]
+			id: "1B440BFC344DEEA6"
+			rewards: [{
+				count: 10
+				id: "7C7C3F93E6808ACB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "高端版"
+			tasks: [{
+				id: "53D09B9A543A7CA8"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "油漆工刷子"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E595A2006DC8A84"]
+			description: ["用途十分甚至九分的多，在 https://www.mcmod.cn/item/7921.html 里了解！"]
+			id: "72B38D5ECE588793"
+			rewards: [{
+				count: 10
+				id: "6554A4DB8EAD37CD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "奇妙的变化"
+			tasks: [{
+				id: "5A27C1D1FBA3AD19"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "改变物质的根本"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BABB52A64FAF806"]
+			description: ["可以用来干各种闲的无聊的事情"]
+			id: "32C4C4785D262444"
+			rewards: [{
+				count: 10
+				id: "7CFE67520BC58777"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "物质炮的弹药"
+			tasks: [{
+				id: "423C70DC5A18051E"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			title: "高密度聚物质丸"
+			x: 17.5d
+			y: 11.5d
+		}
+		{
+			id: "30A8DA6BEA2202C9"
+			rewards: [{
+				count: 10
+				id: "4FD36D4904F926C4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4A76A7D4D8B932"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3FBF3617A14F9CEB"]
+			id: "1896C57CF94194A9"
+			rewards: [{
+				count: 10
+				id: "1D5BB789286B8504"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "05C75296274B31CF"
+				item: "bigger_ae2:quantum_cell_component"
+				type: "item"
+			}]
+			title: "GIANT！"
+			x: 31.5d
+			y: 3.5d
+		}
+	]
+	title: "超级大箱子"
+}

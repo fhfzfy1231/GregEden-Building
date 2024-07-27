@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "611FA8F76CE82DF8"
+	group: "0C0F2DDBCB145290"
+	icon: {
+		Count: 1
+		id: "touhou_little_maid:garage_kit"
+		tag: {
+			EntityInfo: {
+				ModelId: "touhou_little_maid:hakurei_reimu"
+				id: "touhou_little_maid:maid"
+			}
+		}
+	}
+	id: "611FA8F76CE82DF8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DAC6D2FDD816204"
+			rewards: [
+				{
+					id: "45F457C63EAA7FAA"
+					item: "netmusic:music_player"
+					type: "item"
+				}
+				{
+					id: "6873B4C413AB9B29"
+					item: "netmusic:music_player_backpack"
+					type: "item"
+				}
+				{
+					id: "43DC8F1D973EFE0A"
+					item: "netmusic:cd_burner"
+					type: "item"
+				}
+				{
+					id: "03E4CED8BF4F2689"
+					item: "netmusic:computer"
+					type: "item"
+				}
+			]
+			subtitle: "搓格雷机器时候让女仆做工挺好的,再放点音乐"
+			tasks: [{
+				id: "2ECCD2BBBD9712AA"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "显然先要有这个玩意"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			id: "69F231240DBA5931"
+			rewards: [
+				{
+					count: 20
+					id: "757F9897019C4EF0"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "218A728068866C7A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "53DEF5F11995FFB7"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "女仆喜欢的甜蜜玩意"
+			tasks: [{
+				id: "51954C76FC21F540"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			title: "洗脑利器"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			id: "6D72B7E46F19D849"
+			rewards: [
+				{
+					id: "7A03703931A8F8F3"
+					item: "touhou_little_maid:smart_slab_empty"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "36695B5767707F44"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "包包，装女仆身上的，还有各种类型"
+			tasks: [{
+				id: "452C51FC042D8DD6"
+				item: "touhou_little_maid:maid_backpack_big"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			id: "67FEE0A39B461273"
+			rewards: [
+				{
+					id: "7C8C790D596FE566"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3FA7EB1A92A18430"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "收女仆，别摔似了，你也是"
+			tasks: [{
+				id: "3E05A5553898E4DE"
+				item: "touhou_little_maid:smart_slab_empty"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			id: "3EDE313F7FE4F4FC"
+			rewards: [
+				{
+					count: 64
+					id: "50B792EBC4EB85A5"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "520BC33F5C8F321F"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "洗脑软件"
+			tasks: [{
+				id: "0E0490FAA135D989"
+				item: "touhou_little_maid:favorability_tool_add"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			description: ["                                   以防你气急刀了女仆"]
+			id: "3C84AFFE9AC2BE66"
+			rewards: [
+				{
+					id: "3595F3592E98454E"
+					item: "touhou_little_maid:film"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "75E14D45D3151591"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "休闲放松必备神器"
+			tasks: [{
+				id: "767E59744EECB946"
+				item: "touhou_little_maid:gomoku"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2DAC6D2FDD816204"
+				"2950FE6E6A7D7D98"
+			]
+			description: ["回家~是最好的礼物~"]
+			id: "46251D56892FA31D"
+			rewards: [
+				{
+					id: "0E5F6122EC978E81"
+					item: "touhou_little_maid:keyboard"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "67D063BD0DB576F1"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "661CEB9C87B645AE"
+				item: "touhou_little_maid:trumpet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3EDE313F7FE4F4FC"
+				"46251D56892FA31D"
+				"6D72B7E46F19D849"
+				"67FEE0A39B461273"
+				"3C84AFFE9AC2BE66"
+			]
+			id: "0BB74F31E32D4B11"
+			rewards: [
+				{
+					id: "283E51384C8D04FE"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0097D6F2F656102F"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "女仆右击可打开其界面，有工作模式，背包内容，饰品等选项"
+			tasks: [{
+				id: "31B786AB96C4E9A0"
+				type: "checkmark"
+			}]
+			title: "女仆入门"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BB74F31E32D4B11"]
+			id: "1151A7A877B9B2E8"
+			rewards: [
+				{
+					id: "3D6978C648ED5AC2"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 11
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_draftsman"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7453241D26827B06"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6C2B11EB9EF4B53E"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "女仆有各种模型和声音包，可以直接下载安装"
+			tasks: [{
+				id: "29329821FB496D83"
+				type: "checkmark"
+			}]
+			title: "更换模型"
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+	title: "你的二次元老婆们"
+}

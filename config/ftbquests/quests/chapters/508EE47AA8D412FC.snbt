@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "508EE47AA8D412FC"
+	group: "7C3D569440DB422B"
+	icon: "gtceu:nan_certificate"
+	id: "508EE47AA8D412FC"
+	order_index: 11
+	quest_links: [
+		{
+			id: "16750357F7EF12DB"
+			linked_quest: "412C1155C8BDB16A"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "7C723C08B49D3FBB"
+			linked_quest: "1E4739ED868346E7"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "16BED7869A69733C"
+			linked_quest: "60186540A44DB994"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "0AF02E0F71132439"
+			linked_quest: "2950FE6E6A7D7D98"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "1969B35AFAC7315E"
+			linked_quest: "028C3022C755630E"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0C8AB3A28086F0E9"
+			linked_quest: "37C6B340B1A2A9C1"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "13B2F4B8CBF58D4E"
+			linked_quest: "4B6EBD1BA486C6EA"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "05DA71827F7BC66F"
+			linked_quest: "1781763C8F415030"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "5C15BF156B1CB4CA"
+			linked_quest: "31AC84CBD7C26566"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "0934DCFE34C0EB27"
+			linked_quest: "3F0D5B17665DF1CE"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "5DA9258B92B47CCB"
+			linked_quest: "506BE1A622532375"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "61CCF9581AE042E4"
+			linked_quest: "4E1A28AFF661CED0"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "6E590792C82012FC"
+			linked_quest: "5BB55AABB91EEF9D"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "76A014290697FD0A"
+			linked_quest: "3DCB5E7F69CE5F7F"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "26BFD5996F940D29"
+			linked_quest: "09856E59E52AEE7D"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "0EF990A033590F41"
+			linked_quest: "233CA36D529EC3FB"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "200444EB08F04263"
+			linked_quest: "425D7CD010B9C90E"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "56465A40D74E77F6"
+			linked_quest: "582AFD622AA67792"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "26605629B69E3FC6"
+			linked_quest: "7CF037F2C4BF55B5"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "3874CBBDC0A9F8EA"
+			linked_quest: "0A2D46609F5C3CAB"
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "6C04B359DD1E68E5"
+			linked_quest: "13BBF0FF3267BFDB"
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "7792B7BE27D4AE71"
+			linked_quest: "7DCA0B7C9F3C3ACF"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "60903B6B79D5AD2B"
+			linked_quest: "768D0EE2B7B540CD"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "3B153AE3B0836471"
+			linked_quest: "2D1FCB687CF422C4"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "2DFCAE6BA6AC2BBF"
+			linked_quest: "14AF37055E614519"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "2ECC534CAE891724"
+			linked_quest: "23B23867F311BF51"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			id: "7A18EBF92A038B76"
+			linked_quest: "59CA7B4A4A417B53"
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			id: "7BBBE6D727523E17"
+			linked_quest: "5318093DC9D0A3AA"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "45D16333B9C033DB"
+			linked_quest: "24AF36998583181B"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "56B393313519FF63"
+			linked_quest: "108B850B258E493B"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "3665E019AA6AB846"
+			linked_quest: "68A3D32BFF9BF7F3"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6796AAE9CCD710F7"
+			linked_quest: "7F649184083236E1"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "7AA0EDC6CAAF289C"
+			linked_quest: "46855799A4471E34"
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+	quests: [ ]
+	title: "进度"
+}

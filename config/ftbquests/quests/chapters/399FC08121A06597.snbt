@@ -1,0 +1,2787 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "399FC08121A06597"
+	group: "79F30AFA452F4368"
+	icon: "mekanismgenerators:wind_generator"
+	id: "399FC08121A06597"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C0ACF693DB4C44D"]
+			description: [
+				"mek的物品一向注重实用性"
+				"这个发电机可以说是几家里头最简单实惠的"
+			]
+			id: "30A292FACE480C7F"
+			rewards: [{
+				count: 10
+				id: "0B5C4F10EE4565EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "合成也是很简单的"
+			tasks: [{
+				id: "5C9C793318F4457F"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "最基础的发电系统"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["是耗电！不要在不确认电量的情况下玩无绳蹦极，因为耗电量和抵消你摔落伤害量成正比！"]
+			hide_dependency_lines: true
+			id: "06A4B9897CF753D2"
+			rewards: [{
+				count: 10
+				id: "61337D422AFCFEB8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "那么，代价是什么呢"
+			tasks: [{
+				consume_items: true
+				id: "57BA2FAC6BF916EB"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			title: "幸运马掌，但科技的力量"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: ["但是很快你就没必要大量用这玩意了"]
+			id: "56566DBDC1E76D6C"
+			rewards: [{
+				count: 10
+				id: "5311614B07A7653F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且造价便宜"
+			tasks: [{
+				id: "30549661AE9C5801"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "清洁能源"
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["56977F4BC1A6842E"]
+			description: [""]
+			id: "4CFCEEB0E00AD02F"
+			rewards: [{
+				count: 10
+				id: "5BA82C4B4682AACE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我不管，这就是油漆刷子"
+			tasks: [{
+				id: "471CB83E72AA0273"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			title: "油漆刷子"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C0ACF693DB4C44D"]
+			description: [
+				"最基础的机器！"
+				"现在你可以制作mek的核心了——各种灌注合金"
+			]
+			id: "72AA01495D9C08C0"
+			rewards: [{
+				count: 10
+				id: "78A47F506BB49850"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "灌注合金谢谢喵"
+			tasks: [{
+				id: "398D01848133CBC9"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "灌注合金喵"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72AA01495D9C08C0"]
+			description: ["把物质富集一下再进行灌注是很有必要的"]
+			icon: "mekanism:enrichment_chamber"
+			id: "2AF5BFAF0CD9BE94"
+			rewards: [{
+				count: 10
+				id: "01BF9659E4474C2D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "因为富集的物质可以降低消耗量到八分之一"
+			tasks: [
+				{
+					id: "6C86CA8A2E1F6724"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22EA8334EB3196F5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:enriched"
+						}
+					}
+					title: "不能当板子用"
+					type: "item"
+				}
+			]
+			title: "这应该是你mek的第三台机器"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF5BFAF0CD9BE94"]
+			description: ["即使是最初级的合金，用途也非常广泛"]
+			id: "6A0028CB3BB03F95"
+			rewards: [{
+				count: 10
+				id: "131F1385F25332EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek的精饲料"
+			tasks: [{
+				count: 8L
+				id: "38236B1CEE453216"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "赛博泡芙"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A0028CB3BB03F95"]
+			description: ["用钻石加固一遍的合金可以用于制作精英物品"]
+			id: "68F61C214B5F0015"
+			rewards: [{
+				count: 10
+				id: "0E28D6F252B4D3BE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用于更坚硬也更高级的制作！"
+			tasks: [{
+				id: "161F6BC4963D1441"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "灌注两遍的赛博泡芙"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72AA01495D9C08C0"]
+			description: ["这东西是个很棒而又不太贵的工具和护甲材料，也能合成mek的最高级合金！"]
+			id: "297DB9A0DF22743B"
+			rewards: [{
+				count: 10
+				id: "49EDB020DD2EBE55"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "更坚硬，也更有用"
+			tasks: [{
+				count: 4L
+				id: "702746461C12C5B2"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			title: "混有钻石茬子的黑曜石"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"68F61C214B5F0015"
+				"297DB9A0DF22743B"
+			]
+			description: ["融合了多种材料的原子合金可以制作最终物品！"]
+			id: "56977F4BC1A6842E"
+			rewards: [{
+				count: 10
+				id: "1095C5F68A743404"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "真...真的不能再灌了"
+			tasks: [{
+				id: "565D0957F8EA712C"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "不能再灌注了的赛博泡芙"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72AA01495D9C08C0"]
+			description: ["这个整合包有大量套娃的合成电路！"]
+			id: "692B6F485DDB16F0"
+			rewards: [{
+				count: 10
+				id: "140B8B0EB594DF8C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "确实是“刻”“板”印象"
+			tasks: [{
+				id: "42930DCA689C5D87"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "符合我对电路板的刻板印象"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["往下的套娃有可能会把你逼疯的"]
+			id: "1F44D70AFC3A95DF"
+			rewards: [{
+				count: 10
+				id: "5682A57F828E7C76"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "形成两面包夹芝士"
+			tasks: [{
+				id: "7C1AD6970170C12F"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "我们联合"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: ["还远远没到头呢"]
+			id: "69B90D6CBBF8A670"
+			rewards: [{
+				count: 10
+				id: "7517227CB5B1CBD8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "故意的"
+			tasks: [{
+				id: "59AA51A8A6482968"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "有没有发现颜色一直一样？"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["69B90D6CBBF8A670"]
+			description: ["这已经是原版的极限了"]
+			id: "5C1A2310B69E8115"
+			rewards: [{
+				count: 10
+				id: "4B177807F0EBE69C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不亚于GT和等价交换的套娃"
+			tasks: [{
+				id: "748CE3A9A703B633"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			title: "mek的精髓就是套娃"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["72AA01495D9C08C0"]
+			description: [
+				"多做点吧，之后还要套娃很多次呢"
+				"通用线缆和机械管道可以少做一些，热力的线缆直接就比最顶级的通用线缆还强了"
+				"只要兼容，就尽量用热力的这两种"
+				"但得注意，热力的管道不能自动抽取，加了自动抽取又会限速，因此有必要在端口的地方用mek管道，中间用热力管道"
+				"这时候抽取的速度就由mek管道决定了"
+			]
+			id: "01576C30EF8BA53B"
+			rewards: [{
+				count: 10
+				id: "4F97AED55D536BF8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek的线缆和管道是功能最多，兼容性最好，运载能力也最强的线缆"
+			tasks: [
+				{
+					id: "4413F475B05B0111"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "6AE20F4D62627FC6"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "735A01A137DFC61A"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "05964D0C34F0F309"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "08DDC27E5BA32C85"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "基础运输套装"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01576C30EF8BA53B"]
+			description: ["多做点吧，之后还要套娃（很多-1）次呢"]
+			id: "732BAED188DF2B88"
+			rewards: [{
+				count: 10
+				id: "0B2CF016DE76553D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek的线缆和管道是套娃最多，合成最简单，抽吸能力也最强的线缆"
+			tasks: [
+				{
+					id: "6D7F82F7B11392DC"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					id: "5400BB3F503D5530"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "6B7FCF44002419C7"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "68D0333426C841F4"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "14862B6304CCDDD6"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "高级运输套装"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["732BAED188DF2B88"]
+			description: ["多做点吧，之后还要套娃（很多-2）次呢"]
+			id: "256B16D3248680AE"
+			rewards: [{
+				count: 10
+				id: "3DEFDA5679D94941"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek的线缆和管道是用到最多，调整最简单，缓存能力也最强的线缆"
+			tasks: [
+				{
+					id: "055FF7E898FEFA28"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					id: "1F6DC88FC8D2FEDD"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "06E1B17E7209D05E"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "64CAFFA166FEB529"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "0B1AC131B689E54F"
+					item: "mekanism:elite_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "精英运输套装"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["256B16D3248680AE"]
+			description: ["多做点吧"]
+			id: "1A09B5F473068305"
+			rewards: [{
+				count: 10
+				id: "38C10669AFC8A6B5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "终极个头"
+			tasks: [
+				{
+					id: "59034040B5FE53ED"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					id: "02DE4678B94A15C0"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "49BDA1B0C9354496"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "49DB1AE6D5BBF7E9"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "0BD869C9FD0D1637"
+					item: "mekanism:ultimate_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "终极运输套装"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72AA01495D9C08C0"]
+			description: [
+				"这些是储存各种东西的元件，你知道它们都有自己的高级版本...那就去自己做吧，如果你需要"
+				"能量立方是个好东西，这个包里最高能叠到“无穷能量立方”！（当然不是无限电）"
+			]
+			id: "3A17A9B848795B70"
+			rewards: [{
+				count: 10
+				id: "2767D12F0643CDAC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "套娃那些线缆和管道已经耗干净了我所有的蓝莓！"
+			tasks: [
+				{
+					id: "2E3B55A98DC1D3C9"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+				{
+					id: "614E752EA616EE2A"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "465565D2A6BC0624"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "092E4A42B3FDDE1C"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "52690099D78097C8"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			title: "我绝对不再陪你套娃这些玩意了"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0028CB3BB03F95"]
+			description: ["这东西会成为mek吃金最多的物品，特别是输导矩阵的套娃"]
+			id: "2F2FBEB15E9DC993"
+			rewards: [{
+				count: 10
+				id: "75CBC0A8040A913A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "所以时刻注意多做一些"
+			tasks: [{
+				id: "6FD821EDA741FF40"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			title: "不可堆叠但是用量极大"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: ["因为meka盔甲需要高级太阳能发电机来发电！"]
+			id: "3AA85F3DBB4B7AFA"
+			rewards: [{
+				count: 10
+				id: "0EEC99AFB8C8D536"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但是也是很值的"
+			tasks: [
+				{
+					id: "11FB5D2B6400E5C5"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+				{
+					id: "2EBF791DF7209DED"
+					item: "mekanismgenerators:solar_panel"
+					type: "item"
+				}
+				{
+					id: "6BAB1CE66D1A06E6"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			title: "有点小贵"
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"1.12.2有刷物品的bug，现在已经修复了"
+				"说实话我觉得私人桶的纹理更酷一些"
+				""
+				"注意，用这个参与合成时请清空它，否则会吞掉物品"
+			]
+			id: "49B0C8C84E56946F"
+			rewards: [{
+				count: 10
+				id: "6EFB5D8612C2B620"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且造价很便宜"
+			tasks: [{
+				id: "760B0736C276343A"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
+			title: "超大的潜影盒"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1A2310B69E8115"]
+			description: ["而且功能还少，耗电高，还有可能重进后失效"]
+			id: "3E3AB128536228CB"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "10934F36BA1FFE9C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这不是比机械动力的同类品贵多了"
+			tasks: [{
+				id: "5614EBFEA1058FBE"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			title: "你做这个干什么？"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C1A2310B69E8115"]
+			description: [
+				"将六氟化铀制作为裂变燃料"
+				"也负责将核废料加工成钚（注意，不是钚靶丸）"
+			]
+			id: "2A3CF8084A4364A1"
+			rewards: [{
+				count: 10
+				id: "34C0556A4718220B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "制作核燃料的最后一步"
+			tasks: [{
+				id: "1F9CE4D8BE546415"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "原（子）艺玻璃罩"
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["223E80ECAF7ED2AB"]
+			description: [
+				"科技发展到最后总是看起来很平凡"
+				"比如这个就很像一坨果酱，但它蕴藏了技术的最高水平"
+			]
+			id: "6E794CF043358D92"
+			rewards: [{
+				count: 10
+				id: "1F724D86709BB1F9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "除非你是史蒂夫的王之右手"
+			tasks: [{
+				id: "0AAA1CFA54D2C119"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			title: "不要用手拿"
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6E794CF043358D92"]
+			description: [
+				"把低价值物品变成难以置信的高价值物品"
+				"但耗反物质的量可是相当恐怖"
+				""
+				"查询JEI来了解这东西的强大功能！"
+				"注意：处理速率越高，反物质消耗越低，省着点用你的反物质！"
+			]
+			id: "1C80712CAD80D0FC"
+			rewards: [{
+				count: 10
+				id: "68C00B2B223861D7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "即使吃了华莱士也别往上坐！"
+			tasks: [{
+				id: "64F3B826E98A06D2"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			title: "马桶"
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["223E80ECAF7ED2AB"]
+			description: ["给它充电来让你的meka物品装上模块！"]
+			id: "6831E99382C32983"
+			rewards: [{
+				count: 10
+				id: "4C402BFF4E5BCD1E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek版"
+			tasks: [{
+				id: "0B726F3F6AE70FA8"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			title: "工匠砧"
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"1DFE033C8580E795"
+				"1CED4D5B1FB52B88"
+			]
+			description: ["核废料的另一种用途，合成不同方面的高级物品"]
+			id: "223E80ECAF7ED2AB"
+			rewards: [{
+				count: 10
+				id: "3180951F50BA14B0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "吃下去吗？"
+			tasks: [{
+				id: "4A896F05A71A1E97"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			title: "蓝色药丸"
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["56977F4BC1A6842E"]
+			description: ["只能一对一，还耗电，真是太逊了"]
+			id: "6C7B5DE8B61DE2FA"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "50DDCE3C0D092317"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这不是比传送石碑贵多了"
+			tasks: [
+				{
+					id: "1ABF1A361E52F04E"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+				{
+					id: "5F38FD926D5322A1"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					id: "648D308B7D3CA846"
+					item: "mekanism:portable_teleporter"
+					type: "item"
+				}
+			]
+			title: "你做这个干什么？"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56977F4BC1A6842E"]
+			id: "00521E163E59B1FF"
+			rewards: [{
+				count: 10
+				id: "73435DDF2A603430"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "是很多和传送完全不沾边的东西的原料"
+			tasks: [{
+				id: "3BEA5C1ACFD7D84E"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			title: "唰！"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00521E163E59B1FF"]
+			description: ["可以无视距离管理当前所有属于你的机器/方块的权限，内部可以设置覆写读取也可以设置白名单"]
+			id: "41A70C6FF51F8116"
+			rewards: [{
+				count: 10
+				id: "45CFD515F9C45263"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这件事是我们两个人之间的秘密"
+			tasks: [{
+				id: "26330AB53F05AB22"
+				item: "mekanism:security_desk"
+				type: "item"
+			}]
+			title: "让我访问！"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"用来压缩一些很奇妙的东西"
+				"注意，它不是工业模组通用的那种压缩机"
+			]
+			id: "3BB6A1362B2D0D55"
+			rewards: [{
+				count: 10
+				id: "1B3A51842F5C19BC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "当然电力也不可或缺"
+			tasks: [{
+				id: "4D136C29B59DA258"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			title: "锇能量"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69B90D6CBBF8A670"]
+			description: ["我是觉得用处不大"]
+			hide_dependency_lines: true
+			id: "20772B6017BF288B"
+			rewards: [{
+				count: 10
+				id: "07EC1BF7B4F7B896"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但有没有必要花这个材料呢"
+			tasks: [{
+				id: "323787FC420DB8C8"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			title: "我知道你讨厌精准采集"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"把各种东西粉碎成粉！"
+				"如果用来做奶茶里的碎奥利奥，保修失效"
+			]
+			id: "6FADC99F492E6F54"
+			rewards: [{
+				count: 10
+				id: "1916757113A02D5B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "小心你的手指"
+			tasks: [{
+				id: "30B762BD77CE1F68"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			title: "压的更碎一些！"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45633F26CD3A5B45"]
+			description: ["你可以往&m暮色森林&r的矿山顶上一放，根本不用和那里面的怪物打招呼就采掉所有矿石！"]
+			id: "59A96EF5BA12D682"
+			rewards: [{
+				count: 10
+				id: "650A89678E09D740"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "在采掘已有的矿石这方面，没人比它更强"
+			tasks: [{
+				id: "2A029EF281630711"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "强大的采矿机器"
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"好吧，的确不如AE好用"
+				"但是还是胜在造价便宜，而且功能也不少"
+				"看看 https://www.mcmod.cn/item/546126.html 来了解使用方法"
+				""
+				"它不耗电"
+			]
+			hide_dependency_lines: true
+			id: "1E4A385E482FB7A6"
+			rewards: [{
+				count: 10
+				id: "028DC3D75A04FE51"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我说的"
+			tasks: [{
+				id: "7CBA901EA3A53629"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			title: "谁说mek物流原始的？"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56977F4BC1A6842E"]
+			description: [
+				"哪怕是为了无限铁砧和数字采矿机，你也得做两个"
+				"右键绑定一个充电站来放下机器人"
+			]
+			id: "45633F26CD3A5B45"
+			rewards: [{
+				count: 10
+				id: "5171684296F5F26E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "与鸡器人"
+			tasks: [{
+				id: "1F9589DD476486EF"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			title: "爱，死亡"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"每个矿有三个碎块，粗矿也有两个，所以配合时运最高可以有2*2.2是4.4倍！"
+				"别忘了给它提供充足的氧气"
+			]
+			id: "36CC9D021606A3D5"
+			rewards: [{
+				count: 10
+				id: "0967E62D62F7B49E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用这个把原矿转化成矿物碎块！"
+			tasks: [{
+				id: "667CED5736103E5A"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			title: "三倍矿物"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C1A2310B69E8115"]
+			description: ["也是在核燃料产线和矿物产线都有用"]
+			id: "399F05952C3488B6"
+			rewards: [{
+				count: 10
+				id: "30C5A7515DC85187"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用化学的力量溶解一些硬骨头"
+			tasks: [{
+				id: "0C6237D1509EEC98"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "靠近一点！"
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C0ACF693DB4C44D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"硫酸是一种运用广泛的物质，核燃料和矿物倍产都要用它"
+				"必须提交一桶量的液态硫酸，如果你只有气体硫酸，需要用到气液转换机"
+				"有两种方法可以生产硫酸，两次氧化或者直接气化硫粉，这取决于你硫粉的产量"
+				""
+				"建议建立硫酸的产线，因为它真的用量很大"
+			]
+			id: "557122DB612E140D"
+			rewards: [{
+				count: 10
+				id: "18C934C54956EA08"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "具体步骤在JEI里查"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:flowing_sulfuric_acid"
+				id: "5D002F4E3938ADB4"
+				title: "用之前任务说的提交流体的方法提交一桶"
+				type: "fluid"
+			}]
+			title: "制取硫酸！"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A7982871C0D60C2"]
+			description: ["把你的浆液用这个机器转化成结晶，每200mB浆液可以产出一个结晶，也就是每个原矿合7.335个结晶"]
+			id: "38B4A0830260C958"
+			rewards: [{
+				count: 10
+				id: "33CDBF3385E3FCB2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "已经接近成功了"
+			tasks: [
+				{
+					id: "77EE86F3BEDB7211"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+				{
+					id: "5EA9E64ADA1B74F1"
+					item: "mekanism:crystal_iron"
+					type: "item"
+				}
+			]
+			title: "七倍矿产线，第四课"
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["399F05952C3488B6"]
+			description: [
+				"由于中间的几种流体没有桶的形式所以没法设置任务，就在这里写一下吧"
+				""
+				"首先，你得用时运三的镐挖原矿，平均一个原矿获得2.2个粗矿"
+				""
+				"然后，你得在化学溶解室里加硫酸溶解粗矿，得到污浊浆液，三个粗矿可以产出2000mB污浊浆液，也就是一个原矿可以产约1467mB污浊浆液"
+				""
+				"再次，你得在这个机器里用水和污浊浆液产出纯净浆液，这样一个原矿得到1467mB纯净浆液"
+			]
+			id: "0A7982871C0D60C2"
+			rewards: [{
+				count: 10
+				id: "0F94249BCC62E894"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "得配合时运三才有七倍"
+			tasks: [{
+				id: "174433C340FB5D5A"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			title: "七倍矿产线，第一二三课"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"38B4A0830260C958"
+				"14430AA51B5102B3"
+			]
+			description: ["把你的结晶转化成碎片，这样一个原矿可以得到7.335个碎片"]
+			id: "4F8FFD79BE941F3E"
+			rewards: [{
+				count: 10
+				id: "77D010D67A4D8687"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "本来这个压射室是做四倍线的，但为啥不直接上七倍呢"
+			tasks: [
+				{
+					id: "4A1524C8B5DC35D3"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+				{
+					id: "53210468EC29572D"
+					item: "mekanism:shard_iron"
+					title: "不要和碎块弄混"
+					type: "item"
+				}
+			]
+			title: "七倍矿产线，第五课"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4F8FFD79BE941F3E"]
+			description: [
+				"把碎片直接扔进你的三倍矿产线的提纯仓"
+				"这样一个矿最终可以得到7.33个锭了！"
+			]
+			id: "466DFF51C7BEBB01"
+			rewards: [{
+				count: 10
+				id: "6463823C17A034AC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你已经实现了7.33倍增产！"
+			tasks: [{
+				count: 7L
+				id: "52A9CBF719C9B9B7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:clumps"
+					}
+				}
+				title: "直接扔进三倍产线！"
+				type: "item"
+			}]
+			title: "七倍矿产线，最后一课"
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["43DB0C5D9BE0CAD9"]
+			description: ["和提交硫酸相似，注意要把气体氯化氢转化为流体氯化氢然后提交，做一些吧"]
+			id: "14430AA51B5102B3"
+			rewards: [{
+				count: 10
+				id: "048846A8FE7DEC10"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "还是需要你提交流体"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:flowing_hydrogen_chloride"
+				id: "38A4267FB6E4F407"
+				title: "蓝色的漂亮液体"
+				type: "fluid"
+			}]
+			title: "盐酸"
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["还要耗电，简直太逊了"]
+			id: "1EBC549B7B508E01"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "3DA9EF7C69A2FC92"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不如鼓风机一吹"
+			tasks: [{
+				id: "22A124F4898DFDD6"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "你做这个干什么？"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0028CB3BB03F95"]
+			description: ["在这个包里还用不是水槽外的东西供水的我得尊称苦行僧"]
+			id: "7EB53FC02FA53FFF"
+			rewards: [{
+				count: 10
+				id: "11C90EDA2A35EBCD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "抽水完全比不上水槽，还耗电"
+			tasks: [{
+				id: "3C7278A598CA2E1D"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			title: "只用来抽重水就行了"
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: [
+				"机器人如果没电了或者死了必定会打赢复活赛然后在这出现"
+				"如果挖掉这个会使绑定这个的机器人变成掉落物"
+				"自己站上去的时候会按盔甲栏、物品栏、背包的顺序给你的装备和物品充电"
+			]
+			id: "3FEEEAC82912DCE4"
+			rewards: [{
+				count: 10
+				id: "4C23EF65C262E810"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用途不太一样"
+			tasks: [{
+				id: "1E60D1831B82327D"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			title: "特斯拉线圈，mek版"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: [
+				"当摆放在地面后左端为气体交互端，右端为流体交互端"
+				"可以在流体和气体之间互相转换"
+				""
+				"警告：任何情况下都不要输入没有气体形态的流体"
+			]
+			id: "30F4F78466695C71"
+			rewards: [{
+				count: 10
+				id: "7FD5BDC7FDB26F75"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "气液互换"
+			tasks: [{
+				id: "2AD296A6BCEAA565"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "哈利路旋风"
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["一个原木出六个木板，在做齿轮的时候可以节约原料"]
+			id: "257FD17946D39A63"
+			rewards: [{
+				count: 10
+				id: "68D4CAB0DCC19569"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "实际上增产木板也很不错"
+			tasks: [{
+				id: "1EA3C8A6349F2AC6"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			title: "就只是为了那点木屑"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["257FD17946D39A63"]
+			description: ["完整的搬运无瑕母岩，刷怪笼乃至任何你想要但不掉落的物品！"]
+			id: "01CE28074512816B"
+			rewards: [{
+				count: 10
+				id: "6E8B8C27275CCC51"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "现在你可以去搬运那些母岩了！"
+			tasks: [{
+				id: "76392B394F9B7871"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			title: "唯二真神"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56977F4BC1A6842E"]
+			description: ["用这个升级你的机器形成工厂，每一级的安装器都可以升级一级工厂的等级，基础工厂安装器可以给最初的机器安装！"]
+			id: "0B5CAA2C7044AE78"
+			rewards: [{
+				count: 10
+				id: "4C394ED073A7A091"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "小作坊的生产还是太慢了"
+			tasks: [
+				{
+					id: "6B0C3CF744EA6B2A"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+				{
+					id: "5812B57BBB26DD3D"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+				{
+					id: "487B8D4DD20E1463"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					id: "7BEEBF084907A11B"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			title: "工业化"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49B0C8C84E56946F"]
+			description: [
+				"主要用处是氧化硫和生成气态盐水，是化工线的重要部件"
+				"左边输入材料，右边输出产物"
+			]
+			id: "449EE2FA8A7E0ECE"
+			rewards: [{
+				count: 10
+				id: "5EC4467F12243686"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "氧气是人类和化工的好朋友"
+			tasks: [{
+				id: "17DB485985A9D7DB"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "给分子做点有氧运动！"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["为可控振源供电后，可控振源将振动其所在区块的所有方块，使用有电的振动读取器对着此区块任意方块右键，可以读取此方块竖直方向下的所有方块，并显示各个方块的丰度"]
+			hide_dependency_lines: true
+			id: "17DD2A26B88876FD"
+			rewards: [{
+				count: 10
+				id: "27E20538BDB67339"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "放心，不会惊动监守者的"
+			tasks: [
+				{
+					id: "77A6EB2A87556257"
+					item: "mekanism:seismic_vibrator"
+					type: "item"
+				}
+				{
+					id: "3DB6511637631E7D"
+					item: "mekanism:seismic_reader"
+					type: "item"
+				}
+			]
+			title: "看看你脚底下是什么！"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF5BFAF0CD9BE94"]
+			description: [
+				"一种气体和液体反应的机器，主要用来制作乙烯"
+				"必须严格按照下面的配置来输入输出，否则机器不能正常运行"
+				""
+				"[后]液体原料输入"
+				"[左]气体原料输入"
+				"[顶]固体原料输入"
+				"[前]固体产物输出"
+				"[右]气体产物输出"
+				"[底]能量输入"
+			]
+			id: "506D8916F38E41E7"
+			rewards: [{
+				count: 10
+				id: "33BD00F96B6C1FD0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "做它的自动化是一个挑战"
+			tasks: [{
+				id: "7D09366DBF81F1BA"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			title: "六面都要用的**机器"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EB53FC02FA53FFF"]
+			description: ["是选择吃应力还是吃电的这类设备，取决于你的喜好"]
+			id: "64CFAC6470F03FAC"
+			rewards: [{
+				count: 10
+				id: "51AB5789FFAB878D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mek版"
+			tasks: [{
+				id: "7A5DAB0E953C55A4"
+				item: "mekanism:fluidic_plenisher"
+				type: "item"
+			}]
+			title: "软管滑轮"
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00521E163E59B1FF"]
+			description: [
+				"如果你有需求，那还是做一些吧，因为它是唯一的能无线传热量的机器"
+				"要注意，量子传送装置在玩家不在附近时，即使有其他方式的区块加载也无法正常工作，必须要在输入输出两端都插入锚升级才能保证玩家不在时能够正常工作"
+				""
+				"如果需要传输热量，输入、输出的传送装置都需要把对应面的“热量”设置为“输入”，热量即可传递给需要热量的机器（如热力锅炉）"
+				"量子传送装置传送流体的速度上限仅256mB/t，不过最大能量传输上限为6.4M RF/t"
+				"别忘了把管道改成抽出模式"
+			]
+			id: "6FB6575D73495BEB"
+			rewards: [{
+				count: 10
+				id: "2B3859CA824EE24D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但无线传递热量只能靠它"
+			tasks: [{
+				id: "2B9CA2ADF485FFD9"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			title: "不太好用"
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0E9B4043A5BBFC39"]
+			description: [
+				"把核废料转化成有用的钚（bu）和钋（po），用于后续的高级制作"
+				""
+				"注意：显然这玩意没太阳光就不干活，所以放在露天的地方，而且不要让晚上积累的核废料卡住反应堆！"
+			]
+			id: "1DFE033C8580E795"
+			rewards: [{
+				count: 10
+				id: "471363D031693F96"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让它们好好放松一下，晒晒太阳"
+			tasks: [{
+				id: "6F14456D872ADDD5"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "核废料的假日"
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"588B3F2C017CA345"
+				"506D8916F38E41E7"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"和旁边任务一样，提交一桶量的液态乙烯吧"
+				"气态的乙烯是燃气发电机的绝好燃料，能够产生大量的电能"
+				"液态乙烯可以用来制作聚乙烯相关的物品"
+			]
+			id: "10BFAF8023D2745E"
+			rewards: [{
+				count: 10
+				id: "0F75410C1B7DA70C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "本质上乙烯是生物燃料生产基片的副产物"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "mekanism:flowing_ethene"
+					id: "66226BBE1CBC1085"
+					type: "fluid"
+				}
+				{
+					id: "162F894090551AAE"
+					item: "mekanism:substrate"
+					title: "等你不用很多聚乙烯了你会烦这玩意的"
+					type: "item"
+				}
+			]
+			title: "乙烯一克，一克一克"
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["还是一台为硫酸和核燃料之类的服务的机器，用途广泛"]
+			id: "2A099537AA479DBF"
+			rewards: [{
+				count: 10
+				id: "16EFBA31841233A4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比冶金灌注机高级一些"
+			tasks: [{
+				id: "3E64D0B7D6CACAC9"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "灌注，但液体版"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FADC99F492E6F54"]
+			description: [
+				"生物燃料的产率本质是看堆肥桶的产率，这点马铃薯有独到的优势，因为它可以转化成烤马铃薯来增加生物燃料产量，只要烤一下就能多产两个生物燃料"
+				"配合你的鼓风机可以产生很多的生物燃料用于制取乙烯来供给燃气发电机"
+				""
+				"别忘了把毒马铃薯从你的农田里分出来，毒马铃薯没法产生物燃料，会卡住你的机器"
+			]
+			id: "588B3F2C017CA345"
+			rewards: [{
+				count: 10
+				id: "01E444B48B9ED21F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比单纯的食品可有用多了"
+			tasks: [{
+				id: "0FFC217B896CBC95"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			title: "有机...不是食品"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10BFAF8023D2745E"]
+			description: ["它还可以合成各种meka相关的工具，装备和升级模块"]
+			id: "0E9B4043A5BBFC39"
+			rewards: [{
+				count: 10
+				id: "18BF9350B6398F0E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "是伊甸号各种器件外壳的原料"
+			tasks: [
+				{
+					count: 3L
+					id: "2E12F2902FF24B44"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
+				}
+				{
+					id: "238122565E588750"
+					item: "mekanism:hdpe_sheet"
+					type: "item"
+				}
+			]
+			title: "轻而坚固的物质"
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1DFE033C8580E795"
+				"1CED4D5B1FB52B88"
+			]
+			description: ["核废料的用途之一，用来合成有意思的物品"]
+			id: "41B8E201E0A8FE84"
+			rewards: [{
+				count: 10
+				id: "74DDD91FCCBB5A4F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比蓝色要小一些"
+			tasks: [{
+				id: "740EDFEF99A3015B"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			title: "绿色药丸"
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6A0028CB3BB03F95"]
+			description: [
+				"电解水产生重要原料氧气和氢气，是各条产线的核心物质"
+				"实际上合成乙烯再燃气发电得到的电量远远超过电解水消耗的..."
+			]
+			id: "53492AD19C9477FA"
+			rewards: [{
+				count: 10
+				id: "524A6F0439F5078C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "它打破了能量守恒"
+			tasks: [
+				{
+					id: "51C5525516F8A971"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+				{
+					id: "2D7C64294F25BEB3"
+					item: "mekanism:electrolytic_core"
+					type: "item"
+				}
+			]
+			title: "广义水力发电机"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: [
+				"通电产生热量，热量需要使用热导线缆运输，接在热力蒸馏阀门上可以为盐化塔提供热量使其在夜间工作，也可以用来启动聚变反应堆"
+				""
+				"奇妙的用法：充当电力垃圾桶，防止出现由于工业蒸汽涡轮存满电，冷却液处理能力下降导致裂变反应堆过热爆炸的情况"
+				""
+				"GUI中可以输入数字调节耗电量，耗电越多发热越高。最高可消耗1M RF/t"
+			]
+			id: "784C6E77FC8125DF"
+			rewards: [{
+				count: 10
+				id: "470F495C1DD5784B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "开玩笑的，mek没有保险丝和空气开关"
+			tasks: [{
+				id: "06C6716798C41EB7"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			title: "跳闸快乐机"
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["你完全可以直接去搭乙烯燃气发电，然后用电阻加热器，这东西用处真心不大"]
+			hide_dependency_lines: true
+			id: "68FE94E44783B7A4"
+			rewards: [{
+				count: 10
+				id: "437416B81F14793D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "实际上就是个煤炉子"
+			tasks: [{
+				id: "2DA843AFB69A7C75"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			title: "名字很高端"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"放入物品摆出合成表，点击连续合成即可批量完成任务，也可以只做一个物品"
+				"如果需要自动化则需要在左边放入合成配方，并在摆出合成表之后点击下面的编码配方，切换到自动模式即可开始制造"
+				""
+				"注意，它需要耗电"
+			]
+			hide_dependency_lines: true
+			id: "7BA58F62FD6AAB34"
+			rewards: [{
+				count: 10
+				id: "21AC02B4C9349076"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这比ojng的合成器要实用的多，甚至可能比动力合成器强"
+			tasks: [
+				{
+					id: "312572C687740920"
+					item: "mekanism:formulaic_assemblicator"
+					type: "item"
+				}
+				{
+					id: "0658757002D4E429"
+					item: "mekanism:crafting_formula"
+					type: "item"
+				}
+			]
+			title: "官方...逼不死mod"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"从物品中将颜料提取出来并以气态输出"
+				"看起来用处不大"
+			]
+			hide_dependency_lines: true
+			id: "7D09DBC1DCAF7F24"
+			rewards: [{
+				count: 10
+				id: "2A6440EF629816E0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "注意这颜料是气体"
+			tasks: [{
+				id: "6486DC774A52BE05"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			title: "给你点颜色看"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E9B4043A5BBFC39"]
+			description: [
+				"总之它能将两种颜料混合为新颜料"
+				"颜料要用气体的加压管道运输"
+			]
+			hide_dependency_lines: true
+			id: "0FBD65A4940495D6"
+			rewards: [{
+				count: 10
+				id: "552360938380D1F1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不就是个化学灌注器吗"
+			tasks: [{
+				id: "2BD1030BA50569B8"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			title: "怎么这么贵啊"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"输入可染色的物品（羊毛，旗帜等）与你想要的颜料，将物品染成对应的颜色"
+				"只接受气态的颜料，染料不行"
+			]
+			hide_dependency_lines: true
+			id: "535E78739ECE7B58"
+			rewards: [{
+				count: 10
+				id: "6561B5DC27683E30"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "变成我的颜色吧~"
+			tasks: [{
+				id: "3EFFF98A42B2AEEE"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			title: "做一些彩色的标记"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"营养糊剂输出量=食物饥饿值×50 mB"
+				"糊剂是液体，需要用机械管道运输"
+			]
+			hide_dependency_lines: true
+			id: "6E0619DF82CC1662"
+			rewards: [{
+				count: 10
+				id: "242151DAABD11043"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "最大的作用还是把有毒的食物变成无毒的糊剂"
+			tasks: [{
+				id: "3BE230B6D7581C8F"
+				item: "mekanism:nutritional_liquifier"
+				type: "item"
+			}]
+			title: "通用机械：装食"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"223E80ECAF7ED2AB"
+				"41B8E201E0A8FE84"
+			]
+			description: [
+				"查阅 https://www.mcmod.cn/item/311264.html 来了解超临界移相器的搭建方法"
+				""
+				"要建成一个完整的超临界移相器需要至少291 个钋球、72 个钚球，至少需要燃烧核燃料3630000mB"
+				""
+				"这东西耗的电量足够让五十七座村庄去城市化，建议先整到聚变发电再考虑！"
+			]
+			id: "5D1132D54BDBD31A"
+			rewards: [{
+				count: 10
+				id: "049A181F13D516FE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但这是获得反物质的唯一方法"
+			tasks: [
+				{
+					count: 72L
+					id: "458D46CF306BC84F"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "40EA056F37D3E867"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "60E4BD6E19AB6F15"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "不好，是肝的味道"
+			x: 17.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6A0028CB3BB03F95"]
+			description: [
+				"你得优化你的工厂，否则它一定是低效率高耗能的"
+				""
+				"注意：锚定升级不能代替区块加载器，因为它不够稳定"
+			]
+			id: "116B103680F20ED7"
+			rewards: [{
+				count: 10
+				id: "5896653937165883"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但是这个升级应该最普遍用到"
+			tasks: [{
+				id: "321D364EF089A767"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			title: "乱七八糟的升级"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E9B4043A5BBFC39"]
+			description: [
+				"有些单元你得等到裂变、聚变和超临界做出来才能合成"
+				"配合改造站来安装它们"
+			]
+			id: "2188FCE9404C993F"
+			rewards: [{
+				count: 10
+				id: "3FC4F10C2B34DCE8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "做一些给你的meka装备用"
+			tasks: [{
+				count: 2L
+				id: "55BA30517E1A2FE1"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			title: "乱七八糟的模块"
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/7674.html 里找到蒸馏塔的搭建方法和使用指南"
+				"最好做几个高点的，分别制作盐水和液态锂"
+			]
+			id: "66A26BA351A96695"
+			rewards: [{
+				count: 10
+				id: "3E6BD86EFE53D7BD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你再说我就要去给冈易mc打好评了"
+			tasks: [
+				{
+					id: "7CF14B08E232E1DA"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "7CD1E57FC7767E16"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "27F3ABD8B5743F1F"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			title: "我们的盐水蒸蒸日上"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/168682.html 查看热力锅炉的搭建方法和使用指南"
+				"永远别忘记你有水槽这个离谱玩意，只要管道够快就能解决任何水问题"
+			]
+			id: "68E01FFD0BAFEFDB"
+			rewards: [{
+				count: 10
+				id: "08CA5E7DF75B564D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "蒸汽动力的另一个方向"
+			tasks: [
+				{
+					id: "494F06B443AA9AC2"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "719D5C3C0CB464F5"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					id: "6BF6B503A413C2AE"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "7CD5988B5C925E54"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+			]
+			title: "大炉子"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C0ACF693DB4C44D"]
+			description: [
+				"所以你只能把用尽的核废料导到这里面，等它们自然降解掉"
+				"注意一定是用尽的核废料才应该销毁，核废料是有用的材料"
+				""
+				"如果你嫌销毁太慢的话就多做几个然后平均分配进去"
+				"别想着用纸箱之类的搬走这玩意，或者把它放到瓦尔基里飞船上，mek的制作者没给你留这个后门！"
+			]
+			id: "087961E32177460E"
+			rewards: [{
+				count: 10
+				id: "55BF7074123FB0F9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "挖掉含有放射性物质的管道和容器会造成核泄漏！"
+			tasks: [{
+				id: "4226700737B577A4"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "管好你的核废料！"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F44D70AFC3A95DF"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/39965.html 查看工业蒸汽涡轮的建造方法和使用指南"
+				"一定要注意造足够大的涡轮，消化掉你所有的蒸汽，防止蒸汽积压让反应堆过热！"
+			]
+			id: "29D9848D0C1BAFD0"
+			rewards: [{
+				count: 10
+				id: "4B5679A15103FE66"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "造这玩意压力确实挺大"
+			tasks: [
+				{
+					id: "54E4C4F7C5100C7D"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "2BC850104F718120"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "3327105B37FEBE5A"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "54AF07BD0D55EB21"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "329622738702EFAE"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "34BF899C4962EC99"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "1BD0E2C891D58BED"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "140C0715F1DE3524"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "3BB152FD321591EC"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			title: "涡轮增压！"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"造价和压缩抽屉差不多，可以任意选择你喜欢的"
+				"由于这是万物可套娃的mek，所以箱柜也有四级，最高级可以容纳262144个单一物品！"
+			]
+			hide_dependency_lines: true
+			id: "14AEFBCA717ED245"
+			rewards: [{
+				count: 10
+				id: "113E2A06279D6D04"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "拆掉也可以保留物品"
+			tasks: [{
+				id: "4EA046E1FB542F51"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			title: "抽屉，mek版"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69B90D6CBBF8A670"
+				"43DB0C5D9BE0CAD9"
+			]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/11297.html 查看输导矩阵的搭建方法和使用指南"
+				"这是你见过的最大的多方块蓄电池！"
+				""
+				"注意：合成高等级的输导元件和供应器非常消耗金和锂，锂是蒸馏盐水的产物"
+			]
+			id: "26E06DA5CE7C3BAD"
+			rewards: [{
+				count: 10
+				id: "1431EA1693D02941"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "输服了"
+			tasks: [
+				{
+					id: "1303BD0BC83F2EAD"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "4729432AE957C1C8"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "5BC6321273C73932"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					id: "28A20C4B0A7C9734"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+			]
+			title: "导导你的"
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"如果你要存大量液体，千万别用这个，建一个AE流体网络比这个强"
+				"如果你还是想建一个，可以在 https://www.mcmod.cn/item/11299.html 里找到搭建方法和使用指南"
+			]
+			id: "63DD53FB7069DF40"
+			rewards: [{
+				count: 10
+				id: "39365ED90CEEB870"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "看看得了"
+			tasks: [
+				{
+					id: "741890273B8AFF30"
+					item: "mekanism:dynamic_tank"
+					type: "item"
+				}
+				{
+					id: "594759D65B8B1A04"
+					item: "mekanism:dynamic_valve"
+					type: "item"
+				}
+			]
+			title: "bug特别多"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53492AD19C9477FA"]
+			description: [
+				"不然也没法解释为啥不见明火和效率很高"
+				""
+				"它可以用乙烯产生很多电能，用到核聚变出来前都是够的"
+				""
+				"另外，使用氢气发电时，该发电机会随着氢气的补充速度自动调节消耗速率和发电量，在多倍矿物增产流程中，制造氯化氢时显得尤为方便：一旦氯化氢开始制作，燃气发电机效率自然而然降低以保证氯化氢的制作有足够的原材料，而一旦停止制作氯化氢，燃气发电机又会加快效率，所以在此矿物增产流程中，放心加入该发电机来填补能量缺口吧"
+			]
+			id: "41F4B9C9C8F7BDD0"
+			rewards: [{
+				count: 10
+				id: "7FB0EA58EEA62735"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "似乎因为这是燃料电池"
+			tasks: [{
+				id: "2C97D5141A1ABCD8"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			title: "为什么燃气发电需要电解？"
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["588B3F2C017CA345"]
+			description: ["生物质如果转换成乙烯，会拥有比它大得多的发电量，即使算上电解水的耗电也是如此"]
+			hide_dependency_lines: true
+			id: "608E076393604981"
+			rewards: [{
+				count: 10
+				id: "0004B487BF0D5928"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "显然燃气比它效率高太多了"
+			tasks: [{
+				id: "3643FC6BF85678A3"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			title: "这东西没必要做"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["223E80ECAF7ED2AB"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/36016.html 查看聚变反应堆的搭建方法和使用指南"
+				""
+				"用它来供给你的超临界移相器！"
+				"做一个全自动的之后你实际上就电力自由了"
+			]
+			id: "5BBE4FF3001A66A4"
+			rewards: [{
+				count: 10
+				id: "7A99A73FB5B7B423"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "百万匹的电力！"
+			tasks: [
+				{
+					id: "76B0546656791925"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					id: "0CC81E0379D475D9"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					id: "59DFF2D758F4CD77"
+					item: "mekanism:laser_tractor_beam"
+					type: "item"
+				}
+				{
+					id: "4D3FE85DA0370395"
+					item: "mekanismgenerators:hohlraum"
+					type: "item"
+				}
+				{
+					id: "3A49A1EBC05181E5"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "359AF6CE226BC094"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "3F40740E0ED33E74"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "6F3E3A6A9993973B"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "0ACC761A4C42C54E"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					id: "2BB13CECAC32A7DB"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "天顶星科技"
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2A3CF8084A4364A1"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/311255.html 查看裂变反应堆的搭建指南和使用方法"
+				""
+				"钚和钋的产速很慢，所以你得搭一个大一点的堆，但一定要配套足够大的工业涡轮和电量存储设备防止涡轮停工和蒸汽积累！"
+				"裂变燃料的产速也要跟上，否则反应堆再大也不管用"
+				""
+				"时刻小心核爆！"
+			]
+			id: "1CED4D5B1FB52B88"
+			rewards: [{
+				count: 10
+				id: "0CC8E89BF191E8AF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "如果你没有这个的话做不出来聚变"
+			tasks: [
+				{
+					id: "7ADA6BB8ED9AB733"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "79B3181783890650"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2257EF8BD513B799"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "6B692AE8D3399043"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "61C4B3A63019289E"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "578454E9AB44F751"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "不要乱挖！"
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["41B8E201E0A8FE84"]
+			description: [
+				"这东西可以在化学氧化机里做成裂变燃料"
+				""
+				"不过我还是推荐攒些靶丸然后直接做聚变"
+			]
+			id: "35031FF505F908AA"
+			rewards: [{
+				count: 10
+				id: "236E84FE55352C71"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "如果你不打算再获得两种靶丸的话"
+			tasks: [{
+				id: "26483ABFC47EF8DE"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			title: "节约你的裂变燃料"
+			x: 19.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["66A26BA351A96695"]
+			description: [
+				"蒸馏塔蒸馏水就能得到盐水，盐水的作用是蒸馏出锂，或电解为钠和氯，这三者都是非常有用的资源"
+				"锂用于合成输导矩阵等电力元件"
+				"钠可用于反应堆的冷却剂"
+				"氯用于合成氯化氢，用于处理矿物"
+			]
+			id: "43DB0C5D9BE0CAD9"
+			rewards: [{
+				count: 10
+				id: "08403BDE6C840FCB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "非常非常的咸"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:flowing_brine"
+				id: "08EF8442D505E00F"
+				title: "需要提交mek的液态盐水"
+				type: "fluid"
+			}]
+			title: "不能喝"
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2AF5BFAF0CD9BE94"]
+			description: ["之后还得继续氧化并用氢氟酸处理，由于流体提取可能很麻烦我就不设计任务了，快去构建你自己的裂变燃料产线！"]
+			id: "37877D9A24868FB1"
+			rewards: [{
+				count: 10
+				id: "2C5A450FE6F4FA1E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "还需要进行深加工"
+			tasks: [{
+				count: 2L
+				id: "18EE28A3E977DB68"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			title: "铀锭并不是最终形态"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["223E80ECAF7ED2AB"]
+			description: ["可以在改造站加装丰富的单元来提升它的能力！"]
+			id: "770F9137397B272B"
+			rewards: [{
+				count: 10
+				id: "152F3C0998AF2AC5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "至于它和你的匠魂套装孰优孰劣我就不清楚了"
+			tasks: [
+				{
+					id: "5C6D2A574B858B12"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+				{
+					id: "0EC33018DEB75E2D"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "733353A290AE9B21"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "54897E77BAEED41C"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "357EA8AF3115C703"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "mek的终极套装"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: ["如果你够自信自己不会把家里头弄成废土的话可以不做这个"]
+			hide_dependency_lines: true
+			id: "40419752D773780A"
+			rewards: [{
+				count: 10
+				id: "7D221040AEC41CB6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "盖革一响，爹妈白养"
+			tasks: [{
+				id: "6CD91E77DE17DABF"
+				item: "mekanism:geiger_counter"
+				type: "item"
+			}]
+			title: "身在辐中不知辐"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: [
+				"没整明白里面的电有啥用，所以你可以不给它充电"
+				""
+				"你可以在 https://www.mcmod.cn/item/545929.html 里了解它所有的使用方法"
+			]
+			id: "4E96AE09ABAA530E"
+			rewards: [{
+				count: 10
+				id: "28C328CB2EBABE36"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "所有的管道都得它来配置"
+			tasks: [{
+				id: "0413F34F11231AC2"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			title: "mek的扳手"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F2FBEB15E9DC993"]
+			description: [
+				"网络读取器可以用于读取通用机械电网、物流网、流体管道网的信息以及设备的信息"
+				"右击设备可以得到此设备接入电网、管道网的方向"
+				"右击电缆可以检测网络的信息，网络是指与所右击的电缆连接的所有电缆"
+				"右击物流管道和流体管道可以检测管道网络的信息"
+				"网络读取器的每次使用都会消耗一定的能量"
+			]
+			hide_dependency_lines: true
+			id: "7446A3F7173CEEE6"
+			rewards: [{
+				count: 10
+				id: "7B9F0616F9C8F7B4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比机械动力更复杂的网络"
+			tasks: [{
+				id: "37AEA90979BEA274"
+				item: "mekanism:network_reader"
+				type: "item"
+			}]
+			title: "管理你的工厂！"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"shift+右键机器读取其设置保存到配置卡，右键对准同种机器即可覆写其配置"
+				"读取不同的机器配置会覆盖配置卡中原有的数据"
+			]
+			hide_dependency_lines: true
+			id: "316B6A642DEB5C8B"
+			rewards: [{
+				count: 10
+				id: "751CFC85D8C59331"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "只能用来复制机器信息"
+			tasks: [{
+				id: "59F945C7D24A606D"
+				item: "mekanism:configuration_card"
+				type: "item"
+			}]
+			title: "剪贴板，mek版"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C0ACF693DB4C44D"]
+			description: [
+				"左键把滴管里的内容物输入机器的槽"
+				"右键把机器槽里的内容物输入滴管"
+				""
+				"别看这么小一点，它能装16桶进去，但只能装一种液体或者气体"
+				"不能用来清空核废料，试图移除核废料只会导致泄露"
+			]
+			id: "005695B8A157F7F7"
+			rewards: [{
+				count: 10
+				id: "3D191C421FE5DAAF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "还可以装气体"
+			tasks: [{
+				id: "471C1BBAF68562C1"
+				item: "mekanism:gauge_dropper"
+				type: "item"
+			}]
+			title: "小身材，大容量"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"不是说它伤害不高，是说它比不上这个包里其它远程武器"
+				""
+				"注意：可以附魔"
+			]
+			hide_dependency_lines: true
+			id: "40B0B3FE57EA573D"
+			rewards: [{
+				count: 10
+				id: "3976DE91431058B8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用着反物质装备却还在射箭的你看起来很滑稽"
+			tasks: [{
+				id: "141F01D6D656684A"
+				item: "mekanism:electric_bow"
+				type: "item"
+			}]
+			title: "最高的科技，最土的武器"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"潜水罐必须开启才能使用，而且在岸上开启也会耗氧气"
+				"各方面都不如机械动力的潜水套，不过造价便宜"
+			]
+			hide_dependency_lines: true
+			id: "63A2C6C9D43B4CB1"
+			rewards: [{
+				count: 10
+				id: "7EB5785E51F3E5BF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "注意：不提供任何护甲"
+			tasks: [
+				{
+					id: "2628C9A4D3785102"
+					item: "mekanism:scuba_mask"
+					type: "item"
+				}
+				{
+					id: "46D09FD7A3756829"
+					item: "mekanism:scuba_tank"
+					type: "item"
+				}
+			]
+			title: "潜水工具，mek版"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692B6F485DDB16F0"]
+			description: [
+				"性价比还不错的喷气背包，配上匠魂史莱姆靴子基本可以飞很久还不用担心摔死"
+				"记得及时充氢气"
+			]
+			hide_dependency_lines: true
+			id: "1EF8FA2C85CFF172"
+			rewards: [{
+				count: 10
+				id: "3CF4ADC974D758FE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让你尽早享受天空"
+			tasks: [{
+				consume_items: true
+				id: "4BA6515A435258CB"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			title: "前期的飞行"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"但是我觉得没啥人有把握一定不会泄露，反正这个造价也不贵"
+				"它没有护甲值，不过也没有耐久"
+			]
+			hide_dependency_lines: true
+			id: "3B54AC9294235C72"
+			rewards: [{
+				count: 10
+				id: "56FB3603C046AEF0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "如果你够自信自己不会造成核泄漏那就可以不做"
+			tasks: [
+				{
+					id: "6AF8EB5004E483C1"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "474B2F49FD0E2F91"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "58AE3C4B00AAF95F"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "3D1CB35D6A28F7BF"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "完美的防护服"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["223E80ECAF7ED2AB"]
+			description: [
+				"你可以在 https://www.mcmod.cn/item/382842.html 查看QIO的搭建指南和使用方法"
+				"这两个部件可以形成一套QIO，但你还需要驱动器才能让它工作起来"
+			]
+			id: "3D33C4F1EA579922"
+			rewards: [{
+				count: 10
+				id: "164ACB346966AABB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "似乎mek很喜欢做自己的各个系统，独立于其它模组"
+			tasks: [
+				{
+					id: "45587F2BCCB82F66"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "548B62EFBE4C3A36"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			title: "AE，mek版"
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3D33C4F1EA579922"]
+			description: [
+				"无穷QIO几乎可以存放一整个宇宙的东西"
+				"高级的驱动器比AE的磁盘要强，所以你可以在上面接存储总线，用AE管理它"
+			]
+			id: "2BA61180C731A5F2"
+			rewards: [{
+				count: 10
+				id: "72F15BF2DA59F988"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这玩意也可以套娃到“无穷”"
+			tasks: [{
+				id: "3217B82988665EFA"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			title: "以防你不知道"
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			id: "0C0ACF693DB4C44D"
+			rewards: [{
+				count: 10
+				id: "372A266AF1E3976D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4152A38D9A4936CB"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	title: "管道卡飞啦"
+}

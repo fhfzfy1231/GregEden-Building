@@ -1,0 +1,1969 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "221ECA6688D67D8E"
+	group: "39BFD343A3F055A9"
+	icon: "storagedrawers:oak_full_drawers_4"
+	id: "221ECA6688D67D8E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3A0B50A51887CA05"
+			rewards: [
+				{
+					id: "403C6F92E25AF180"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5DEBE5DA049ECAE3"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1055D8A14C3950F0"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "抽屉是个好东西"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "76B436C176EB7B39"
+			rewards: [{
+				id: "451C55218400051F"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:oak_log"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2304L
+				id: "111BE656173718C6"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "1A9F0870CC477B03"
+			rewards: [{
+				id: "64D59D76CBB25511"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "078D9B8D97A5EBCD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "028D2D92C0EEFB2C"
+			rewards: [{
+				id: "7EF86264C5F65534"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:coal"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5120L
+				id: "0292DFE93DF627E5"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "1CB9E3BA996935BA"
+			rewards: [{
+				id: "5726809A5543D763"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:redstone"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 7680L
+				id: "163305A184876662"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "1577B1E8D74BC58D"
+			rewards: [{
+				id: "08C524144B87966F"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:diamond"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "3EC136481C552726"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "31F04A4E7FBA689B"
+			rewards: [{
+				id: "4FB1451BB394ACF2"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:gold_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "7263A6A8D989F6D4"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "496D7AB10ECC5995"
+			rewards: [{
+				id: "2016BF0FF5BB0AF0"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:lapis_lazuli"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 11520L
+				id: "598729DAEAF62FD7"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "057D403D22646DF8"
+			rewards: [{
+				id: "0073F31DB1E4015D"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "mekanism:ingot_osmium"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "01AAA94A6B9D40A8"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "52D0E35F2E4C9387"
+			rewards: [{
+				id: "223D3970AF2699CB"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:copper_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5120L
+				id: "1232A3D9FC6C8EA3"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "79B144656B5C26A8"
+			rewards: [{
+				id: "7AA7EAA26E55FBEC"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:andesite"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "2205E5A1F32A6A0D"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4D661F7E6A5BDBF9"
+			rewards: [{
+				id: "4E3E5A35D376869A"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 7680L
+				id: "6DE58B9DD926B359"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "70057968E3781166"
+			rewards: [{
+				id: "583C3F1206240B65"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "ae2:certus_quartz_crystal"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "45B4AEE43E55CA29"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "13A4C6EDFEDC545A"
+			rewards: [{
+				id: "7C8576A40F19CD91"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "minecraft:gunpowder"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6400L
+				id: "7524D7830F6DDEE3"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "696C954D7FB24C6A"
+			rewards: [{
+				id: "70ED381BD3B9CDF4"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "ae2:fluix_crystal"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "0FFC4B3F7B681B45"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "3C102E13A70F9088"
+			rewards: [{
+				id: "5660AD1CAB507B54"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "1278AB15FF6034DE"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "7DABB437D26684D4"
+			rewards: [{
+				id: "1AE85AF1D10896D0"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:aluminium_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "776A9ADBC46C36F5"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "7F6F7AEB17DB9737"
+			rewards: [{
+				id: "4013B6589EED1F74"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:lead_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "3C22C1AB3D68D326"
+				item: "gtceu:lead_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "114634F430BAC627"
+			rewards: [{
+				id: "18FBCB4AFA9F171E"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:firebrick"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "6D644AC09E491982"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "35E994C79199EA9F"
+			rewards: [{
+				id: "395ECAE3563001CD"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:coke_oven_brick"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "364C2D3FB30152E2"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "62DAABDAFC2C56BE"
+			rewards: [{
+				id: "3E4FAA63503B89C0"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:rubber_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "0329E883D127AD60"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "5CE47DE0F8C3A491"
+			rewards: [{
+				id: "6F9F1EDEA0E95213"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:stainless_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "3B70300947A8F74E"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "5C749F4D22F04F83"
+			rewards: [{
+				id: "2F6280BBFC6A03FD"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:tungsten_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "7BA32CC773AA4A7C"
+				item: "gtceu:tungsten_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "1AF3A350A54644AE"
+			rewards: [{
+				id: "00F2D863396A3503"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						BlockEntityTag: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:chromium_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+							id: "storagedrawers:standard_drawers_1"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "13BDC01752B8D8D9"
+				item: "gtceu:chromium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			id: "07223C2D2F387443"
+			rewards: [{
+				id: "49D0A91E0A924C3A"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:zinc_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 160L
+				id: "15F457C7C1E25B7B"
+				item: { Count: 160, id: "gtceu:zinc_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "30139FD78E6AA91D"
+			rewards: [{
+				id: "1A5CA391C3F81059"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						BlockEntityTag: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:manganese_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+							id: "storagedrawers:standard_drawers_1"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "432E852FB76FCCDD"
+				item: "gtceu:manganese_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			id: "1F52A631C288E56B"
+			tasks: [{
+				count: 256L
+				id: "58DE541C0F6725FC"
+				item: { Count: 256, id: "gtceu:tin_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "23F5A52A38817B54"
+			rewards: [{
+				id: "503109A865A2B423"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "mekanism:ingot_tin"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "30F43BE3B529DF39"
+				item: "gtceu:tin_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2E44B6F9CB75F4C8"
+			rewards: [{
+				count: 10
+				id: "06D3095BDA7F48FA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FBA2B138D635788"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "064BC1668F0008FC"
+			rewards: [{
+				count: 10
+				id: "0B4AE8952649703B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FABAC5985C64441"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "49799C627DA77559"
+			rewards: [{
+				count: 10
+				id: "082F50C12EA9B3B6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE651DB4026AE85"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6C45C4DA0789955D"
+			rewards: [{
+				count: 10
+				id: "1C6DF68712EEE992"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15007BFF59AD496C"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "584FB1BF47993FD8"
+			rewards: [{
+				count: 10
+				id: "3982DECE3D6DEB9C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2165EDCFF873734E"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "5B1538C5446D1941"
+			rewards: [{
+				count: 10
+				id: "0A15A2E6CBD9686C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04B9860B6283FC67"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "258A92805F724520"
+			rewards: [{
+				count: 10
+				id: "7C371080A52ECCED"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ED40B8C2DB849DF"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "468EB9FE1BE4A75C"
+			rewards: [{
+				id: "331BD825402E3A51"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "create:zinc_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "2FEC5CEB894195D4"
+				item: { Count: 640, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "490BB66AE39228F7"
+			rewards: [{
+				id: "679ACEB48A9FEFD7"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "mekanism:ingot_uranium"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2560L
+				id: "52DE1D30255F2FA9"
+				item: { Count: 640, id: "mekanism:ingot_uranium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "4F684FFE67D0435D"
+			rewards: [{
+				id: "5469C775F7DFD4FB"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "mekanism:fluorite_gem"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 7680L
+				id: "65B870C2814C6696"
+				item: { Count: 640, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6C906A86969C42D7"
+			rewards: [{
+				id: "0D8C18A605C5A54A"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:black_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 1280L
+				id: "74E809F2097FBA62"
+				item: { Count: 640, id: "gtceu:black_steel_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "56173BA2434F405A"
+			rewards: [{
+				id: "638D6B20692D94E1"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:titanium_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "1B21914A62A7B095"
+				item: { Count: 640, id: "gtceu:titanium_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "5F666DFE0D04549A"
+			rewards: [{
+				id: "5754181A02525035"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:kanthal_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "2D57B00576A2EE9C"
+				item: { Count: 640, id: "gtceu:kanthal_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "09526F972C24A335"
+			rewards: [{
+				id: "7AFB7E181680A21D"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:invar_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "1AB7B5FE27407BC0"
+				item: { Count: 640, id: "gtceu:invar_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "1D30C21CBBBAC8F7"
+			rewards: [{
+				id: "4DDAF158ADD6BDBE"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:blue_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "0A8C817592834C8C"
+				item: { Count: 640, id: "gtceu:blue_steel_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "6106991207E26B1B"
+			rewards: [{
+				id: "3F46B6B10185F801"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:tungsten_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "55E2BDF240296334"
+				item: { Count: 640, id: "gtceu:tungsten_steel_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "47B07093D0A51D97"
+			rewards: [{
+				id: "7250519E094F91FE"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:vanadium_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "10C944B939542081"
+				item: { Count: 640, id: "gtceu:vanadium_steel_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "1B8AC2F58F21C847"
+			rewards: [{
+				id: "59A4CFC66C9A2E14"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:red_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "3655225CC0162A39"
+				item: "gtceu:red_steel_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "426C3E54F6450B81"
+			rewards: [{
+				id: "09D72902E3675A81"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:damascus_steel_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "50B51BCCE3551646"
+				item: { Count: 640, id: "gtceu:damascus_steel_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "663412C85811612B"
+			rewards: [{
+				id: "2FE7ACDB19295405"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:red_alloy_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "209309193C2A7276"
+				item: { Count: 640, id: "gtceu:red_alloy_ingot" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "30656BD8050A0E2F"
+			rewards: [{
+				id: "22F10A53C586B058"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "gtceu:bronze_ingot"
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "00C5C6FA213DC820"
+				item: { Count: 640, id: "gtceu:bronze_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "mekanism:creative_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+						componentConfig: {
+							config0: {
+								side0: 4
+								side1: 4
+								side2: 4
+								side3: 4
+								side4: 4
+								side5: 4
+							}
+						}
+					}
+				}
+			}
+			id: "7126F109735CDF34"
+			rewards: [{
+				id: "372DFE960E5894B4"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "我认可你了"
+			tasks: [
+				{
+					id: "53406F21E4B4EB55"
+					max_input: 1024000000L
+					title: "100x终极能量立方"
+					type: "forge_energy"
+					value: 10240000000L
+				}
+				{
+					consume_items: true
+					id: "2A1EE61D28EEF2DA"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "19C82C78F344822D"
+			rewards: [{
+				id: "61C4734195FEDDB4"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "55791D0F54DF4C0A"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "ars_nouveau:creative_spell_book"
+			id: "41C99D70085F5E39"
+			rewards: [{
+				id: "09A5296F44A20325"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "14E4CABCC220990D"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "23ADA4A57915B8F9"
+					item: { Count: 256, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "221A1DACB4B07FB1"
+			rewards: [{
+				id: "191245E4FEF23D93"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0D16E04B23BAFD1E"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["221A1DACB4B07FB1"]
+			id: "0026D91B74C3BC79"
+			rewards: [{
+				id: "30A876AD7DBA503F"
+				item: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "ae2:fluid_storage_cell_256k"
+									tag: { }
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "06F5D79799455088"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["221A1DACB4B07FB1"]
+			id: "74A617E08B92F219"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+					tag: {
+						tile: {
+							Drawers: [{
+								Count: 0
+								Item: {
+									Count: 1b
+									id: "appmek:chemical_storage_cell_256k"
+									tag: { }
+								}
+							}]
+							Upgrades: [{
+								Count: 1b
+								Slot: 0b
+								id: "storagedrawers:creative_vending_upgrade"
+							}]
+						}
+					}
+				}
+				id: "2798A788744870FB"
+				item: "appmek:creative_chemical_cell"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0AEA2965E8FF3627"
+				item: {
+					Count: 1
+					id: "appmek:chemical_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Creative: 1b
+				}
+			}
+			id: "52F3951C3B8B4DC8"
+			rewards: [{
+				id: "77805E133FCB6743"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Creative: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3000L
+				id: "2BB247C6565398DB"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "7332EE29B1771001"
+			rewards: [{
+				id: "64B21E4CD09652B8"
+				item: "touhou_little_maid:substitute_jizo"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "490CDBBC551C5249"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "create:creative_motor"
+			id: "7148FD7848606BCE"
+			rewards: [{
+				id: "6DBA3B7129064A64"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "50C211540F184C5E"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "神奇妙妙抽屉"
+}

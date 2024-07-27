@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "74B0FF16124EAEE1"
+	group: "6F54626611595F4C"
+	id: "74B0FF16124EAEE1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["从村民的箱子里掏永远比从它兜里换更快"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 21
+					}
+				}
+				id: "immersiveengineering:revolver"
+			}
+			id: "7D5B54536E01ECD2"
+			rewards: [{
+				count: 10
+				id: "7F9226688B1582B5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你很快就会发现怎样才能更快获得绿宝石"
+			tasks: [
+				{
+					count: 256L
+					id: "17CA5815666B18B4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2C0D4AD02C5A8283"
+					item: "minecraft:bell"
+					type: "item"
+				}
+			]
+			title: "那是掠夺者吗"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			id: "45DBE8C3B3ECCC56"
+			rewards: [{
+				count: 10
+				id: "4835F20F30E46457"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "战斗，爽"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "205DAFC26AED53A2"
+				type: "kill"
+				value: 100L
+			}]
+			title: "真是一场酣畅淋漓的赤石啊"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			description: ["希望你只是想完成这个挑战，而不是告诉我你没好好看任务书"]
+			id: "12ACB8816D301249"
+			rewards: [{
+				count: 10
+				id: "12A45CDA6CF96720"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "可能你没看见那个水槽任务吧"
+			tasks: [{
+				count: 8L
+				id: "48B036843B05BBDC"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			title: "苦行僧"
+			x: -12.5d
+			y: -5.5d
+		}
+	]
+	title: "探索者"
+}

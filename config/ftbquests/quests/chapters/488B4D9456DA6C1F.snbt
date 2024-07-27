@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "488B4D9456DA6C1F"
+	group: "679FFAAC8DE8A0E7"
+	id: "488B4D9456DA6C1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "705BD86F89A7298B"
+			rewards: [{
+				id: "7B6F4D5F3AACE81A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "260AE85C792EC2EE"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "129315B1858C27DA"
+			rewards: [{
+				id: "17FD4DB9B5E08BB6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "078AB2A00C98D2B4"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "70FB26CF5E9BD703"
+			rewards: [{
+				id: "67032DFC4A21A656"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "448BE77FB7CD3911"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "0708A5B8EBD8B962"
+			rewards: [{
+				count: 2
+				id: "499DDA8297905AF1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "58CB89D646D66967"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "2D12E68236FB45A7"
+			rewards: [{
+				count: 3
+				id: "2F8702C9C2499100"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3325FD883806DA29"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "6FBFABA2AE26FAF6"
+			rewards: [{
+				count: 5
+				id: "546E2E336FF8FF90"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C4D325F8A94E2D6"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "2241FE687033C8A8"
+			rewards: [{
+				count: 3
+				id: "7B30DFEC0710B051"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2DA3F4D41CE92B68"
+				item: { Count: 64, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "17DE918092AD8292"
+			rewards: [{
+				id: "20D27909967E961B"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3455631AC287942D"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "6CAF5E43919AC0BD"
+			rewards: [{
+				count: 20
+				id: "3E3BFB96466F6B5C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "16C6C26DDB8DB379"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "27E3F9786F611526"
+			rewards: [{
+				id: "29F02E401F0E3129"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3397B90F9BE38E21"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "0F29889F24CC1E2A"
+			rewards: [{
+				id: "3C7123B4E9491F2C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4F97FE24CC5544B5"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "21151655EE8143A8"
+			rewards: [
+				{
+					id: "3ACC42177C572A9F"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					id: "0E262FB821EE857E"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "65BCF77F1EC2286F"
+				item: { Count: 64, id: "immersiveengineering:he" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "2CDE62D3A4E367C4"
+			rewards: [{
+				id: "593B33B2C643B316"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7723891B04638B5D"
+				item: { Count: 64, id: "immersiveengineering:homing" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "7A78CC4A02B39257"
+			rewards: [{
+				count: 5
+				id: "16F98B5667B80234"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "45FF88B15035609C"
+				item: { Count: 64, id: "immersiveengineering:wolfpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "40A90B1905687D47"
+			rewards: [{
+				id: "6DECC8BAC2449DB9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:gasoline"
+				id: "019EEEC20E5D349C"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "05A1FCF263AD85BA"
+			rewards: [{
+				id: "1D96397EE308DA86"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:diesel"
+				id: "75AEDD07E1FFDC34"
+				type: "fluid"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			id: "79D6AEC64F468D2D"
+			rewards: [{
+				count: 6
+				id: "6784DDA67510A311"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:biodiesel"
+				id: "400FC77B78C3A6FF"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			id: "6F5B204DA8DE757B"
+			rewards: [{
+				count: 2
+				id: "4FD1E2E844018963"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:crudeoil"
+				id: "3F9651B3EC907382"
+				type: "fluid"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "365A3B61F920CA44"
+			rewards: [{
+				count: 3
+				id: "4A08BFC7D89A815B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "77EF2A8F22ADA0F5"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "778B330597725094"
+			rewards: [{
+				count: 5
+				id: "60441E2946C803C5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "67DD462DDE2684E1"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "26441BB96B72917E"
+			rewards: [{
+				count: 7
+				id: "07339DAEDFFC5C57"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3F7E4BF6D5555310"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "1E0FD2474E61FC1E"
+			rewards: [{
+				count: 4
+				id: "4AC743F3334F6706"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "03932DA41BE86729"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "7EB94AA5EFA324F2"
+			rewards: [{
+				count: 2
+				id: "00574999858F427C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "21B15BADB2C8584F"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			id: "75129D6EB94F5292"
+			rewards: [{
+				count: 20
+				id: "61E5AAB85B0D3C99"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5A21E3A52C82A81C"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			id: "7381D4E3BC778A66"
+			rewards: [{
+				count: 20
+				id: "62EF09977B76A27B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "07C768E733AE5E9B"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			id: "35044539F8E450E4"
+			rewards: [{
+				count: 3
+				id: "6109530B9153B44A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2AE387AC68C06926"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "6BE187446B4C7AC8"
+			rewards: [{
+				id: "01E5F1D19C8B9C1F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "43EA8D883CF16503"
+				item: { Count: 64, id: "mekanism:substrate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "62A650EC5CCC83E7"
+			rewards: [{
+				count: 2
+				id: "66E6A22EB51F7A20"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EF2ED3EFD14817E"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+	]
+	title: "卖"
+}

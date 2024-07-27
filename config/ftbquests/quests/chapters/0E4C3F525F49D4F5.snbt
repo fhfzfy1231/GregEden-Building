@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0E4C3F525F49D4F5"
+	group: "6F54626611595F4C"
+	id: "0E4C3F525F49D4F5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "48B61E084940DC3F"
+		rewards: [{
+			count: 10
+			id: "74CB131402A94869"
+			item: "gtceu:gold_credit"
+			type: "item"
+		}]
+		tasks: [
+			{
+				count: 100L
+				id: "63CADDF5D680FCFA"
+				item: { Count: 100, id: "fruitsdelight:apple_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "78A82ECF783BAADF"
+				item: { Count: 100, id: "fruitsdelight:blueberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "36D90B49B8774BBD"
+				item: { Count: 100, id: "fruitsdelight:glowberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "7B5800BF0DBE6642"
+				item: { Count: 100, id: "fruitsdelight:hamimelon_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "37D2BE9495B83723"
+				item: { Count: 100, id: "fruitsdelight:melon_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "236B53B20FB09BD0"
+				item: { Count: 100, id: "fruitsdelight:hawberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "1487B6D402F0AFA9"
+				item: { Count: 100, id: "fruitsdelight:lychee_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "1FE03FDEA68083E5"
+				item: { Count: 100, id: "fruitsdelight:mango_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "6CCD1AFF870EE753"
+				item: { Count: 100, id: "fruitsdelight:orange_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "724AFE0468FCAA3D"
+				item: { Count: 100, id: "fruitsdelight:peach_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "50AEE2D161DAC0E7"
+				item: { Count: 100, id: "fruitsdelight:pear_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "79B640F5099DF511"
+				item: { Count: 100, id: "fruitsdelight:persimmon_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "39CC2CCDFC3BEB2C"
+				item: { Count: 100, id: "fruitsdelight:pineapple_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "7FF1F5F9ECBBB73A"
+				item: { Count: 100, id: "fruitsdelight:lemon_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "460FFDE821EB1041"
+				item: { Count: 100, id: "fruitsdelight:cranberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "415F8C19FD6CA952"
+				item: { Count: 100, id: "fruitsdelight:mangosteen_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "4F395538EF2C83CA"
+				item: { Count: 100, id: "fruitsdelight:sweetberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "6BF5ACE3C6AC858E"
+				item: { Count: 100, id: "fruitsdelight:chorus_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "36FB8C8F5B9236BD"
+				item: { Count: 100, id: "fruitsdelight:bayberry_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "460053BFDAE2EA64"
+				item: { Count: 100, id: "fruitsdelight:kiwi_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "75B771748ECC006F"
+				item: { Count: 100, id: "fruitsdelight:fig_jelly" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "43C1F9B8A40BA6C2"
+				item: { Count: 100, id: "fruitsdelight:durian_jelly" }
+				type: "item"
+			}
+		]
+		title: "做酱的高手"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "大肝帝"
+}

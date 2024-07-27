@@ -1,0 +1,230 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tacz"
+	group: "3684040A604F5798"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 1
+			GunFireMode: "SEMI"
+			GunId: "tacz:rpg7"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "24E51BF347626747"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5399B60C495ACE0C"
+			rewards: [{
+				count: 10
+				id: "51D431030288F6DF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "从这里开始吧"
+			tasks: [{
+				id: "6452B17E397C8CEC"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "枪械工作台-TacZ的开端"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			id: "46CBE4F26276ECCC"
+			rewards: [{
+				count: 10
+				id: "2A13B106126A255C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "按z装配件，别太阴间"
+			tasks: [{
+				id: "52A8B1EEC3BCA75F"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sight_rmr_dot"
+					}
+				}
+				type: "item"
+			}]
+			title: "圣诞树的第一步"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			id: "14717EC1DBA9CED9"
+			rewards: [{
+				count: 10
+				id: "560EDF346A078EDC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "后座控制"
+			tasks: [{
+				id: "1E954C72AF3ED631"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_brake_cyclone_d2"
+					}
+				}
+				type: "item"
+			}]
+			title: "口口你的"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			id: "374A9512E3D7242C"
+			rewards: [{
+				count: 10
+				id: "7C1692EA059F6BBC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "为了美观"
+			tasks: [{
+				id: "351CE6F580DA6F60"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:oem_stock_light"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			description: [""]
+			id: "0373C671825E1262"
+			rewards: [{
+				count: 10
+				id: "30F1621B3FBAA7C1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不，不要误会，我真的不玩AEPX"
+			tasks: [{
+				id: "0D3DDC1FAD3EE402"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:light_extended_mag_1"
+					}
+				}
+				type: "item"
+			}]
+			title: "这里有轻型弹匣，等级0"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			id: "12F91488FAA29B7E"
+			rewards: [{
+				count: 10
+				id: "7E66557BF3A728DF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比较重要的（？）"
+			tasks: [{
+				id: "53516526C228C83D"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "helldiver2:laser_democracy"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			description: [""]
+			id: "4409C5992B39CE30"
+			rewards: [{
+				count: 10
+				id: "3F0D890C1A7B471D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "有点粗啊"
+			tasks: [{
+				id: "3959D5041EBB1E98"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "gucci_attachments:grip_rk2"
+					}
+				}
+				type: "item"
+			}]
+			title: "左手也能握个棒子了"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			description: ["火药火药，没有火药就会射不出来"]
+			id: "72AC3D2FDEFCF339"
+			rewards: [{
+				count: 10
+				id: "5D03F708369FC2A9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0BCC14090635AA71"
+				item: { Count: 64, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			title: "啊？射不出来？"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5399B60C495ACE0C"]
+			description: [""]
+			id: "628E45013EDB710E"
+			rewards: [{
+				count: 10
+				id: "2FFCCE27EE8BA0DE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "可惜是白色的"
+			tasks: [{
+				id: "1443F765D585C9C2"
+				item: "tacz:target"
+				type: "item"
+			}]
+			title: "啊？内，内个？"
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	title: "TacZ"
+}

@@ -1,0 +1,21 @@
+{
+	chapter_groups: [
+		{ id: "39BFD343A3F055A9", title: "抽屉" }
+		{ id: "7186237C57DBE938", title: "瓦尔基里" }
+		{ id: "79F30AFA452F4368", title: "MEK" }
+		{ id: "53BE6110B3CACC07", title: "AE2" }
+		{ id: "3A7548FF9A1E28AB", title: "机械动力" }
+		{ id: "3EEDEDDBDBA6C8D4", title: "末影接口" }
+		{ id: "3684040A604F5798", title: "TacZ" }
+		{ id: "3F878EC7B1C0604A", title: "电动力学" }
+		{ id: "7C3D569440DB422B", title: "格雷" }
+		{ id: "130ACEFB20AECFEF", title: "IE" }
+		{ id: "55D8174D25E6F57D", title: "农夫乐事" }
+		{ id: "5AF12DAB74779B81", title: "新生魔艺" }
+		{ id: "0C0F2DDBCB145290", title: "女仆" }
+		{ id: "679FFAAC8DE8A0E7", title: "商店" }
+		{ id: "6F54626611595F4C", title: "成就" }
+		{ id: "49F29100A45C3528", title: "怪东西" }
+		{ id: "3D9BC6400BFF91CE", title: "感谢" }
+	]
+}

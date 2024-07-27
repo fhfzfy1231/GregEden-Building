@@ -1,0 +1,810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54A9457937CCA83C"
+	group: "7C3D569440DB422B"
+	icon: "gtceu:lv_electric_motor"
+	id: "54A9457937CCA83C"
+	order_index: 4
+	quest_links: [{
+		id: "76E114838201264A"
+		linked_quest: "59D7F512A30C4290"
+		shape: "rsquare"
+		size: 1.5d
+		title: "LV时代"
+		x: -9.5d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"4F502327CEF9348F"
+				"3CE1CF84836DAB98"
+			]
+			description: [
+				"MV时代的主要材料"
+				"一旦你有了&3MV电解机&r，就可以通过许多其他矿石获得&a铝&r。"
+				"通过使用&9氮气&r，可以减少熔炼铝的过程，大约减少三分之一，&9氮气&r是通过离心从&3&a集气室&f&r获得的&9空气&f&r获得的."
+			]
+			id: "150F409313B13620"
+			rewards: [{
+				count: 10
+				id: "2F6153002D0100D7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "79805E59E3516033"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["667BE50F26659DF9"]
+			description: ["推荐电解蓝宝石"]
+			id: "4F502327CEF9348F"
+			rewards: [{
+				count: 10
+				id: "7317D04635C755B0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "579C94414B6CC32F"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2D1FCB687CF422C4"
+				"7297E271B8F9BC8F"
+			]
+			description: [
+				"后面冶炼各种金属的必备机器"
+				"能源仓可接受2A对应电压的电，2个能源仓就能达到更高级的电压。"
+				"在&r&6提示和技巧&r选项卡中查看教程以了解更多!"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "3CE1CF84836DAB98"
+			rewards: [{
+				count: 10
+				id: "532E28AC16FA3FCA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2A634638C3D28519"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "36C869BE262761D8"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59D7F512A30C4290"]
+			id: "667BE50F26659DF9"
+			rewards: [{
+				count: 10
+				id: "7CDE1B50DFB7DCEE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD9701FEB318F6F"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"77EE1581E1339F54"
+				"791E585BF965C976"
+			]
+			description: ["第一个发热线圈"]
+			id: "2D1FCB687CF422C4"
+			rewards: [{
+				count: 10
+				id: "0316930CF8155512"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3334273FD3FF5EB5"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3F67ECB648D581F7"
+				"7F39794EF1168325"
+				"59D7F512A30C4290"
+			]
+			description: ["这是进度中极其&9重要&r的机器。"]
+			id: "77EE1581E1339F54"
+			rewards: [{
+				count: 10
+				id: "3E88A23D4EB03064"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "038024DBE588BA7E"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3741518028BA2BDC"
+				"4478F22FDF831DF4"
+			]
+			description: [
+				"机械臂是一种模仿人类手臂功能的机械装置，通常由一系列连杆和关节组成，能够进行一系列复杂的运动，包括旋转、弯曲和伸展。机械臂可以通过编程或远程控制来执行各种任务，如搬运、组装、焊接、喷涂、测量和探索等。"
+				"这些部件还可以用作覆盖版"
+			]
+			hide_dependent_lines: true
+			id: "3F67ECB648D581F7"
+			rewards: [{
+				count: 10
+				id: "6142016A7CAB630F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FB378D0836CE9F3"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3741518028BA2BDC"]
+			description: ["电力活塞是由电力驱动的往复运动装置，可以将电动机的旋转运动转换为直线往复运动。这样的装置可以用于各种应用，如压缩机、气动执行器、机械臂等。"]
+			hide_dependent_lines: true
+			id: "4478F22FDF831DF4"
+			rewards: [{
+				count: 10
+				id: "763F38B631A5C703"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8DAFA252E71EDE"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C722E54C642B3CF"]
+			description: ["电动马达是一种将电能转换为机械能的装置。它的工作原理基于电磁感应，当电流通过电动机的线圈时，会在磁场中产生力，这个力使得电动机的转子旋转，从而驱动负载工作。电动马达广泛应用于各种工业、商业和家用电器中。"]
+			hide_dependent_lines: true
+			id: "3741518028BA2BDC"
+			rewards: [{
+				count: 10
+				id: "5CDD8DBFBEA17EBA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "623A183903DC30D3"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3741518028BA2BDC"]
+			description: ["电动泵是一种使用电能作为动力源的泵送设备，它通过电动机驱动泵的运转，用于输送流体，如水、油、化学品等。电动泵广泛应用于工业、农业、建筑、医疗和家庭等多个领域。"]
+			hide_dependent_lines: true
+			id: "5F80A7D38186BE29"
+			rewards: [{
+				count: 10
+				id: "6CF9FEF64C452104"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "711B664A1BB3E0F6"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3741518028BA2BDC"]
+			description: ["传送带是一种运输机械，用于将材料或产品从一个地点搬运到另一个地点。它由一个或多个连续的带状结构组成，围绕两个滚筒旋转，这些滚筒作为驱动和支撑点。传送带可以水平运行，也可以倾斜或垂直运行，以适应不同的搬运需求。"]
+			hide_dependent_lines: true
+			id: "7F39794EF1168325"
+			rewards: [{
+				count: 10
+				id: "075450DE3AEE5C9C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "401482CA2D86C7C6"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3741518028BA2BDC"
+				"4478F22FDF831DF4"
+				"59D7F512A30C4290"
+			]
+			description: [
+				"可以说是第二个最好制作的&7LV&r机器。"
+				"这解锁了将一个&6锭转换成一个板&r的能力，这是一个比&a锻造锤&f更好的比例。"
+			]
+			id: "46E1A84E9C7AC96A"
+			rewards: [{
+				count: 10
+				id: "1853E19F9D1F421B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2581A972B9D25E0A"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F80A7D38186BE29"
+				"4478F22FDF831DF4"
+				"59D7F512A30C4290"
+			]
+			description: ["获得&a流体提取功能"]
+			id: "791E585BF965C976"
+			rewards: [{
+				count: 10
+				id: "2698236B47281CC1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47481DA9C565190E"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3741518028BA2BDC"
+				"59D7F512A30C4290"
+			]
+			description: [
+				"橡胶的增产"
+				"在这台旁边放置流体固化机，以自动将橡胶固化成&a&a橡胶片&f&r。"
+			]
+			id: "5B71A1311F423B0C"
+			rewards: [{
+				count: 10
+				id: "3771AC904ADAED0E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EFE7DCEB339A203"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B71A1311F423B0C"
+				"77EE1581E1339F54"
+			]
+			description: ["MV时代机器的线缆"]
+			id: "1FDE883A248AA21A"
+			rewards: [{
+				count: 10
+				id: "0C8CDFD2E69E4EC7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79B08CC3C0F16091"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59D7F512A30C4290"]
+			description: [
+				"推荐使用MEK发电然后转换为GTEU来用"
+				"如果你使用GT原版的发电方式，那可以不用"
+				"能量转换器：红色为&6能量输出&r，使用&d软锤&f换模式"
+				"GT机器的配方运行需要达到相应的功率，在每一个配方表下都有标注"
+				"GT线缆有线损设定，终点功率为电流x(起点电压-线损x格数)。"
+			]
+			id: "1A1C7581E94CF6A7"
+			rewards: [
+				{
+					id: "55F45882AA7E4D30"
+					item: "gtceu:lv_8a_energy_converter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D5BDA1D5FE3F631"
+					item: "gtceu:manganese_phosphide_quadruple_wire"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D3042099EEDC5B1"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60324E1538689D28"
+				item: "gtceu:lv_4a_energy_converter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77EE1581E1339F54"]
+			description: ["这些仓可自由摆放，具体查看提示"]
+			id: "7297E271B8F9BC8F"
+			rewards: [
+				{
+					count: 64
+					id: "79EAB49C7882DD2C"
+					item: "gtceu:duct_tape"
+					type: "item"
+				}
+				{
+					id: "3329367B4D5BBA39"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "68F8D8F3B63A1EF2"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "209AFFEB6294C2FF"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "2C40E150E53CD0EA"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "15A5AE7F9C5BE37B"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "4EDD92F9FF95F221"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			title: "多方块仓室"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59D7F512A30C4290"]
+			description: [
+				"使用一点&9氧气&r以不同于熔炉的方式熔炼物品."
+				"你可以用它来更容易地制作&a&a锻铁&f&r，双倍你的&a玻璃&r，并获得&a&a退火铜&f&r"
+				"它还可以将各种组件和机器回收成它们的原始材料。"
+			]
+			id: "436883836B4865A1"
+			rewards: [{
+				count: 10
+				id: "02A23895BE4C6427"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36DD26C4ECF17710"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["436883836B4865A1"]
+			description: [
+				"退火铜是指经过特定热处理（退火过程）的铜材料，以减少内部应力、增加韧性和提高延展性。退火通常涉及将铜加热到一定温度，保持一段时间，然后缓慢冷却。这个过程使得铜的晶粒结构重新排列和生长，从而改善了其机械性能和加工性能。退火铜广泛用于制造电线、管材和各种加工产品。"
+				"包裹橡胶后可用作MV时代的电力传输。"
+			]
+			id: "3CF7DE85CD7B1323"
+			rewards: [{
+				count: 10
+				id: "0E9E73A9EF52247A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3189B6D082104A9F"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59D7F512A30C4290"]
+			description: ["使用这个来制作&6无红石参与的磁化杆&r，一旦你开始批量生产马达，这个机器将为你节省大量的红石。"]
+			id: "63AE8A245CE0B23C"
+			rewards: [{
+				count: 10
+				id: "2CDE86920D8B4D73"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C40C6A01B9074A2"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CE1CF84836DAB98"]
+			description: ["下界合金是一种非常坚固和耐用的材料"]
+			id: "0D68812CD832125E"
+			rewards: [{
+				count: 10
+				id: "4597069261EAF359"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24EBBB4C522A4FAF"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CE1CF84836DAB98"]
+			description: ["LV超导体"]
+			id: "567D1D4B5A1B372B"
+			rewards: [{
+				count: 10
+				id: "735CC1C11EFD1057"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55FC96BEFC17FBFF"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["567D1D4B5A1B372B"]
+			description: ["最高级的部件"]
+			id: "15ADCFDFC4830EEE"
+			rewards: [{
+				count: 10
+				id: "4A4CEAB0B9A83505"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CDCF3E6A69C84A3"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15ADCFDFC4830EEE"]
+			description: ["耗电的加速火把,但实际没什么用"]
+			id: "4AFFB5895E08B151"
+			rewards: [{
+				count: 10
+				id: "4E71ADF0C3101D1D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E8A5344A1225E0"
+				item: "gtceu:lv_world_accelerator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59D7F512A30C4290"]
+			description: ["收集空气，然后可以被离心成&a氧气&r和&a氮气&r."]
+			id: "7A16CA336F2DE4B1"
+			rewards: [{
+				count: 10
+				id: "4F915A524AE8F346"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29AD2D756D31AC11"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A16CA336F2DE4B1"]
+			description: ["前期稳定获取氮气"]
+			icon: "gtceu:air_bucket"
+			id: "02DDE47DD10770F0"
+			rewards: [{
+				count: 10
+				id: "3B1C93B943740294"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "049243AB9D308B7B"
+				title: "离心空气"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5F80A7D38186BE29"
+				"59D7F512A30C4290"
+			]
+			description: ["在能使用压模器之前可以配合提取机加工如转子的复杂半成品"]
+			id: "3631C387342A8E2A"
+			rewards: [{
+				count: 10
+				id: "27548AD8F9A33F14"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A31CD2F84818568"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B71A1311F423B0C"]
+			description: ["后面会用到，可以提前搭建产线，具体可以查看配方表，自由选择"]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "1621BCB4A957E781"
+			rewards: [{
+				count: 10
+				id: "48D31D316D4D9783"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4478360CAE7F3515"
+				title: "硫酸产线"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"59D7F512A30C4290"
+				"3741518028BA2BDC"
+			]
+			description: [
+				"你可以制作任何其他&7LV&r机器，但最好从最有用的机器开始。"
+				"&a线材轧机&f允许从锭制作&6两根电线&r，这应该是目前为止最便宜的!"
+				"在这个任务的右边，你会找到一些重要的机器，它们将为你提供更便宜的中间产品。"
+				""
+				"&9注意:&r在&3&aLV机器&f&r中的配方最多使用&a32 EU/t (LV)&r，任何高于此值的都需要&bMV&r(或更好)的机器，不用说，我们还没有到那一步。"
+				"你将需要一个&d&a编程电路&f&r用于某些配方，我们确信你不想花费宝贵的电路来制作一个，所以&6阅读专门的任务以获取重要细节&r。"
+				"随着这台机器安全地制作完成 - 欢迎来到电力时代!"
+			]
+			id: "1F0C667FF8F5D340"
+			rewards: [{
+				count: 10
+				id: "70B450AB285DFDA8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AF63AEF92466C0A"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"59D7F512A30C4290"
+				"4478F22FDF831DF4"
+				"3741518028BA2BDC"
+			]
+			description: ["&a车床&f是一个帮助塑造金属的重要机器，有了它，你可以将&6一个锭变成两个杆&r，以及&6一个螺栓变成一个螺丝&r，与手工制作相比，这些配方的效率是两倍。"]
+			id: "0F3EFB2685FF799F"
+			rewards: [{
+				count: 10
+				id: "203688DB5DD2D767"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "158790A81B68A007"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3F67ECB648D581F7"
+				"7F39794EF1168325"
+				"5F80A7D38186BE29"
+			]
+			description: ["覆盖板可以安装在各种GT的机器上，使用螺丝刀可以快速打开"]
+			icon: "gtceu:computer_monitor_cover"
+			id: "1551A4288CC800CC"
+			rewards: [{
+				count: 10
+				id: "4C6E00898A6774ED"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75D0AFC5850EC6AC"
+				title: "覆盖板"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F0C667FF8F5D340"]
+			description: ["可以理解为一个不消耗的物品，但不需要真正的物品，只需要在机器里设置。"]
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "5D5F45BEAEAE7EB6"
+			rewards: [{
+				count: 10
+				id: "34582A91853E0F95"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "561068474E039145"
+				title: "编程电路"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63AE8A245CE0B23C"]
+			description: ["如其名"]
+			id: "75974AB0B1ADEB28"
+			rewards: [{
+				count: 10
+				id: "2F6C62FB9CCE653A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184B507DD1D862C0"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"77EE1581E1339F54"
+				"1621BCB4A957E781"
+			]
+			description: ["GT的机器，管道，线缆可以被染色"]
+			id: "3E09992F64019ABA"
+			rewards: [{
+				count: 10
+				id: "70743ABA33412520"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14D608E1C36D8069"
+				item: "gtceu:empty_spray_can"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D1FCB687CF422C4"]
+			description: [
+				"在有了高等级线圈后速度非常快"
+				"并且可以代替合金炉"
+			]
+			id: "4AAB17BF5F958EE9"
+			rewards: [{
+				count: 10
+				id: "6CE16F6CA15AB4E1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00F4939D0568B154"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+	]
+	title: "低压"
+}

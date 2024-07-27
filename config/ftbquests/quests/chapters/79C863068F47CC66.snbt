@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79C863068F47CC66"
+	group: "3EEDEDDBDBA6C8D4"
+	icon: "enderio:sentient_ender"
+	id: "79C863068F47CC66"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"人话：你需要用打火石点燃基岩，一段时间（约13s）后扑灭火焰就会有一定几率掉落一个无限粉（1.12的时候叫做基岩粉）"
+				"如果不想这么干你也可以通过副手拿燧石，主手拿深板岩（圆石）潜行右键黑曜石/哭泣的黑曜石/砂轮来少量获得无限粉"
+			]
+			id: "11E1C55B48DA5E29"
+			rewards: [{
+				count: 10
+				id: "24642C4E742EA4E3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我们需要在地底之上做些什么"
+			tasks: [{
+				count: 16L
+				id: "105A7EC9BE55964D"
+				item: { Count: 16, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			title: "基岩粉"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11E1C55B48DA5E29"]
+			description: ["只是拿来过渡用的，理论上过不了多久你就可以抛弃它了"]
+			id: "55115659C0CB2B53"
+			rewards: [{
+				count: 10
+				id: "6BB0A3A3270F3361"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19CB4717495AAFAB"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			title: "原始的合金炉"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55115659C0CB2B53"]
+			description: ["本来应该先做斯特林发电机的，但是如果你推了Mek的话可以把那边的电拉过来逃课"]
+			id: "107F3C5DB5B9EBE2"
+			rewards: [
+				{
+					id: "64E36091C7FE875C"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+				{
+					id: "33918B734BC4247D"
+					item: "enderio:energetic_photovoltaic_module"
+					title: "以免你没推Mek"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5A99FFAFDEE8FB83"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0244885A43AD2F5F"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: [
+				"可以通过消耗能量使方块拥有其他方块的材质但不改变任何其他属性"
+				"但可被喷涂的方块仅限部分装饰方块和eio的导管及部分机器"
+			]
+			id: "36EC7DD300424739"
+			rewards: [{
+				count: 10
+				id: "4E137CD67097163A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D7E93DC74EFC73"
+				item: "enderio:painting_machine"
+				type: "item"
+			}]
+			title: "伪装板制造器（x）"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: ["磨粉用的，不多解释"]
+			id: "51EC4A86620B722E"
+			rewards: [{
+				count: 10
+				id: "39A12FA69ECEDF97"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "老版本叫SAG磨粉机"
+			tasks: [{
+				id: "08248FD966CD9AB5"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: [
+				"可以帮你捡起地上的物品"
+				"gui内可调工作范围"
+			]
+			id: "33346A2C2846C77D"
+			rewards: [{
+				count: 10
+				id: "15B6DE1DF510051C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "019916A510EA1716"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: [
+				"可以吸收地上的经验球，可以以液态xp的形式导出"
+				"但是需要先输入xp（通过输入液态xp）使其激活"
+			]
+			id: "65AA7E73D05416FD"
+			rewards: [{
+				count: 10
+				id: "1EAB46B1A19CCC77"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48B07AECE2602622"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"允许站在上面的玩家在旅行锚之间进行传送"
+				"具体用法自行mcmod"
+			]
+			id: "3CAEF338B2E53188"
+			rewards: [{
+				count: 10
+				id: "4DCAFFFB7A9B58B1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49229F7F670C7E60"
+				item: "enderio:travel_anchor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: ["gui里左边的3x3用来标记合成配方，右边为输入槽"]
+			id: "75CF54D9FE359DF3"
+			rewards: [{
+				count: 10
+				id: "21D193406AEF2715"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AEBD845C017AB54"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: ["可以通过消耗指定物品获得一本指定的附魔书"]
+			id: "105E85760C4C6A07"
+			rewards: [{
+				count: 10
+				id: "0B5130B01074032D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B0442DEBED5F70"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["107F3C5DB5B9EBE2"]
+			description: ["跟灵魂有关的机器基本都需要它"]
+			id: "2ABB2B28093B76D7"
+			rewards: [{
+				count: 10
+				id: "44F544E588E606EA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FA06E54814EB01"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2ABB2B28093B76D7"]
+			description: [
+				"用于制造各种与头颅有关的装置"
+				"最上面两格分别需要放斧头和剪刀"
+			]
+			id: "4A9FBE91D85F3659"
+			rewards: [{
+				count: 10
+				id: "01DDD7D1777608DE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3432E24333CD2867"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BCB1D4BAD66BEC5"]
+			description: ["把瓶内的灵魂绑定到另外一样东西上"]
+			id: "29C9459EE0FDCB28"
+			rewards: [{
+				count: 10
+				id: "3E49FF03F523EC58"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B59046D6A5B5197"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29C9459EE0FDCB28"]
+			description: ["需要先在铁砧上与已绑定灵魂的破损的刷怪笼合成才能使用"]
+			id: "1D86FB7019B670BE"
+			rewards: [{
+				count: 10
+				id: "188B6B01ABD6099F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "451E755BADF93EF6"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ABB2B28093B76D7"]
+			description: ["通过这个可以把你身上的经验转化为液态xp或者反向操作"]
+			id: "6BCB1D4BAD66BEC5"
+			rewards: [{
+				count: 10
+				id: "4651F072E0D57787"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "老版本叫这名，新版本没汉化"
+			tasks: [{
+				id: "362AA83FE3A05ACB"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			title: "经验交换方尖碑"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["eio家的管道还是挺好用的，不过某种意义上属于非必需品，因此我就不做成强制性任务了"]
+			id: "191CA93C0CCF1365"
+			rewards: [{
+				count: 10
+				id: "32F0950329C5FEE6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "593872916919FD21"
+				type: "checkmark"
+			}]
+			title: "eio的管道"
+			x: -7.0d
+			y: -1.5d
+		}
+	]
+	title: "末影接口"
+}

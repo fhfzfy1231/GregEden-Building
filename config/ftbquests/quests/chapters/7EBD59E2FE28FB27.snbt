@@ -1,0 +1,911 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7EBD59E2FE28FB27"
+	group: "7C3D569440DB422B"
+	icon: "gtceu:hv_electric_motor"
+	id: "7EBD59E2FE28FB27"
+	order_index: 6
+	quest_links: [{
+		id: "25DB02AC2C5DA2BB"
+		linked_quest: "60C149F551ED9513"
+		shape: "rsquare"
+		x: -9.5d
+		y: -2.5d
+	}]
+	quests: [
+		{
+			dependencies: ["60C149F551ED9513"]
+			id: "598A370A6E47DC00"
+			rewards: [{
+				count: 10
+				id: "4E1CE681F2288060"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5747C29F114465DB"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7E45923FC63F5F65"
+				"4F7BDD275AF220BA"
+			]
+			id: "2565B1BF17BCFB69"
+			rewards: [{
+				count: 10
+				id: "51D6DB5299BF6878"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B8A609E0D472199"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["你还需要准备炸药"]
+			id: "7E45923FC63F5F65"
+			rewards: [{
+				count: 10
+				id: "63116BF1D427D80E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2871E457400F8299"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			id: "37422938C200EB43"
+			rewards: [{
+				count: 10
+				id: "22A80AB40E92BB18"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CE738F09E508931"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37422938C200EB43"]
+			description: ["稳定的末影珍珠获取方式"]
+			id: "4F7BDD275AF220BA"
+			rewards: [{
+				count: 10
+				id: "17F38D6CD02BCF61"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1661ACEFFEBACC0D"
+				item: "gtceu:ender_pearl_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1466D94DB6CCE012"]
+			id: "4CE6EFB43885A2A7"
+			rewards: [{
+				count: 10
+				id: "434CB54DA5310CC2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D0803F3FF2915D"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			id: "6E3CDFF8C93D440B"
+			rewards: [{
+				count: 10
+				id: "547D6303B081A1C3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF29ECEE8FE6A53"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"24AF36998583181B"
+				"6868B484EEFE482D"
+				"5F2D336589FBEF61"
+				"40A9FCFA21CD32DB"
+			]
+			description: [
+				"第一套格雷电路"
+				"使用硅和更先进的基板开启了一种新型电路 。"
+			]
+			id: "412C1155C8BDB16A"
+			rewards: [{
+				count: 10
+				id: "007B98D5A6939CA3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6902386E43FA39FE"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1621BCB4A957E781"]
+			id: "6868B484EEFE482D"
+			rewards: [{
+				count: 10
+				id: "1563E4452FF0DA93"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BCD57D63A6D662"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6196AF86D37D0CCF"
+				"412C1155C8BDB16A"
+			]
+			description: ["处理器集群是一组相互连接的处理器，它们共同工作来执行计算任务。"]
+			id: "1E4739ED868346E7"
+			rewards: [{
+				count: 10
+				id: "524A04A10175DB34"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6323901687621B13"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			description: [
+				"超净间控制器必须在中心，顶层的其余部分必须是过滤方块。"
+				"所有边缘必须是混凝土，侧面可以是超净间玻璃和其他功能性仓."
+				"放置发电机或消声仓在里面是不允许的，它们太脏了。"
+				"组装后，超净间开始是污染的，在污染状态下，里面的机器将无法运行。"
+				"然后开始消耗能量并逐渐提高清洁度，直到其洁净度达到100%."
+				"一旦清洁，配方可以运行，那时它只会消耗4EU/t，始终保持供电，否则它会再次变脏!"
+				"超净间越大，变得清洁所需的时间就越长。"
+				"多方块结构也可以放入超净间中运行洁净室配方。"
+				"尝试使用机器外壳或二极管传输EU。"
+				"物品和流体传输可以使用连通仓完成。"
+				"机器外壳也可以作为ME电缆使用，以从外面传入ME网络来扩展你超净间内的ME网络。"
+				"如果在结构中使用了任何门，它们可以保持打开状态，不是很真实，但很方便!"
+				"如果你的超净间内部机器不工作了，可以检测超净间的完好程度，洁净度，如果不管用，可以尝试开关门。"
+			]
+			id: "07D0B32967D12EC9"
+			rewards: [
+				{
+					count: 20
+					id: "4128AC43A92C78C1"
+					item: "gtceu:cleanroom_glass"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3A1FDDA7A665BD98"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "369E642F789F4683"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1E4739ED868346E7"
+				"07D0B32967D12EC9"
+			]
+			description: ["处理器超级计算机是一种高性能计算系统，它由大量的处理器组成，通过高速网络连接，共同工作以解决复杂的计算问题。"]
+			id: "60186540A44DB994"
+			rewards: [{
+				count: 10
+				id: "607A05815BC07C5B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "710884B65493AB42"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60186540A44DB994"]
+			id: "0649C484BE9A2E59"
+			rewards: [{
+				count: 10
+				id: "01956C6C844E1931"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68D72B550C54E05D"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60186540A44DB994"]
+			description: [
+				"处理器主机是专门设计用于承载和处理高性能计算任务的服务器或集群系统。"
+				"EV电路组装机需要它"
+			]
+			id: "2950FE6E6A7D7D98"
+			rewards: [{
+				count: 10
+				id: "61562B55EB6AFD56"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "555DE1C550FDD6D9"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60186540A44DB994"]
+			description: ["在温度高于1750K的电力高炉中制造的所有锭都需要它."]
+			id: "29F656D6F293207D"
+			rewards: [{
+				count: 10
+				id: "481849B4E9C305D0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "276F47D3C20E163F"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["598A370A6E47DC00"]
+			id: "085A86CE27416AC7"
+			rewards: [{
+				count: 10
+				id: "0A17E116F0B33420"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60EF11AA0FCF7E4C"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"085A86CE27416AC7"
+				"1F7A9D09E9E43886"
+			]
+			id: "6FECFCF537B5B970"
+			rewards: [{
+				count: 10
+				id: "15600CC907602CA0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54AFDC6C0078AF04"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"29F656D6F293207D"
+				"54C29B528A493FDA"
+			]
+			description: [
+				"EV阶段的主要材料"
+				"需要搭建一条简单的自动化产线"
+			]
+			id: "2ECB47CBE5DC6E49"
+			rewards: [
+				{
+					count: 4
+					id: "7683874199B77773"
+					item: {
+						Count: 1
+						id: "gtceu:stainless_steel_fluid_cell"
+						tag: {
+							Fluid: {
+								Amount: 64000
+								FluidName: "gtceu:titanium_tetrachloride"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7AA56A372800F564"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6723DF20315C4322"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60186540A44DB994"]
+			description: [
+				"推荐搭一条石化产线，生产出各种资源"
+				"关于搭建：从第二层开始才能安装输出仓，且每层只能安装一个，对应配方有多少个输出就应搭建到多少层。"
+			]
+			id: "5EA725DDEF98D61E"
+			rewards: [
+				{
+					count: 20
+					id: "78133F77B0025552"
+					item: "gtceu:clean_machine_casing"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1DD90D88120BDCD8"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "56D55BD44B98E9BB"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["379C445245D2E30E"]
+			dependency_requirement: "one_completed"
+			description: ["聚四氟乙烯，简称PTFE是一种独特的塑料材料，具有卓越的化学稳定性、耐热性、低摩擦系数和非粘性表面，用作化学加工设备的零件、电子绝缘材料、泵和阀门的密封件。"]
+			id: "06B68027C26ED1CF"
+			rewards: [{
+				count: 10
+				id: "601D08B1A4A8D4A8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "638FBADD9663CE9B"
+				item: "gtceu:polytetrafluoroethylene_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06B68027C26ED1CF"]
+			description: ["无损超频，高效率"]
+			id: "66C0D17BAE340EB4"
+			rewards: [{
+				count: 10
+				id: "63522478336B8DE8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2DBBF9713781D4EE"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5EA725DDEF98D61E"
+				"29F656D6F293207D"
+			]
+			description: ["使用冷冻机获取液态空气，使用蒸馏塔蒸馏出各种产品。"]
+			icon: "gtceu:liquid_air_bucket"
+			id: "793900B2890ABC08"
+			rewards: [{
+				count: 10
+				id: "48247AFF4626FECB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F4AE97E0CF9FE3C"
+				title: "蒸馏空气"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F7A9D09E9E43886"]
+			description: ["你也可以使用普通的，但更推荐使用贴片的"]
+			id: "5F2D336589FBEF61"
+			rewards: [{
+				count: 10
+				id: "634E39C2AC8C60AB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19EFFE888C1C41F5"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "15734309745D4B69"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "50BE0BE99BF16796"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "68739E1EA9D328FE"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			id: "1F7A9D09E9E43886"
+			rewards: [{
+				count: 10
+				id: "028CC93A02911176"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B23AE8F732238BB"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			id: "5A6E700C56AA703C"
+			rewards: [{
+				count: 10
+				id: "264F8AB7C7CBB80E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7966D4623519D999"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5A6E700C56AA703C"
+				"5EA725DDEF98D61E"
+				"33AB93CADFC6B494"
+			]
+			description: ["蒸馏石油后脱硫，使用蒸汽裂化，蒸馏出各种产物。"]
+			icon: "gtceu:oil_bucket"
+			id: "379C445245D2E30E"
+			rewards: [{
+				count: 10
+				id: "36CEF22156977C1C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A15075FB7C1189F"
+				title: "石油处理"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29F656D6F293207D"]
+			description: ["这种合金具有优异的耐腐蚀性、耐高温性和机械性能，常用于制造耐热、耐腐蚀的设备和部件。"]
+			id: "0025367D22BC8ED6"
+			rewards: [{
+				count: 10
+				id: "5545BF00CAAE526F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E3FB692BAA7F54"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0025367D22BC8ED6"]
+			id: "14AF37055E614519"
+			rewards: [{
+				count: 10
+				id: "02515C734AD40F74"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66BF025ECEA07185"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2565B1BF17BCFB69"]
+			id: "1466D94DB6CCE012"
+			rewards: [{
+				count: 10
+				id: "7A3CBC1587901683"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "67525B5538291C5C"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29F656D6F293207D"]
+			description: ["MV超导体"]
+			id: "7DDAAE8394F6AAF9"
+			rewards: [{
+				count: 10
+				id: "4258661936A3892E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D6FF5D9F83D0F6A"
+				item: "gtceu:magnesium_diboride_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7DDAAE8394F6AAF9"]
+			id: "73015A7E47FEB195"
+			rewards: [{
+				count: 10
+				id: "4D9BEEC668BF91E5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A637158EDB08D67"
+				item: "gtceu:mv_field_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5E04CE621365ACA8"
+				"5DB1BB2C0A548348"
+			]
+			description: ["和组装机不同，不要搞混了"]
+			id: "40A9FCFA21CD32DB"
+			rewards: [{
+				count: 10
+				id: "6ED8B7A075822BE3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0957830BAAA50CA3"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"243583EB8035156C"
+				"35254A0EC193DF45"
+			]
+			id: "60256053364FB125"
+			rewards: [{
+				count: 10
+				id: "1F5DB95FEF1DE9F1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64904E27397F2DCC"
+				item: "gtceu:hv_field_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14AF37055E614519"]
+			description: ["HV超导体"]
+			id: "243583EB8035156C"
+			rewards: [{
+				count: 10
+				id: "05F9DD5100C90BFA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01C2BC571F517477"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66C0D17BAE340EB4"]
+			description: ["后面推荐蒸馏末地空气"]
+			icon: "gtceu:radon_bucket"
+			id: "2E368B29B19E24FB"
+			rewards: [{
+				count: 10
+				id: "2E3168EB1BEC40D6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A247DC348E0F746"
+				title: "氡"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2E368B29B19E24FB"]
+			id: "35254A0EC193DF45"
+			rewards: [{
+				count: 10
+				id: "1DDDED27E0BD4D45"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26A2B0C332FDCBF0"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			description: ["高级维护仓"]
+			id: "1642DCCDDA40E2D6"
+			rewards: [{
+				count: 10
+				id: "49E00A11D514DD95"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6FECCE7030631919"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "72D47CA18EEFCCA8"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["60C149F551ED9513"]
+			description: ["可以获得副产了"]
+			id: "2A852C5AA3CAA8B4"
+			rewards: [{
+				count: 10
+				id: "2ACF0AA907AAEC05"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF75478437DA87D"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6E3CDFF8C93D440B"
+				"4CE6EFB43885A2A7"
+			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "54C29B528A493FDA"
+			rewards: [{
+				count: 10
+				id: "18A67B9FD42FEC35"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DBE71C94A1AD580"
+				title: "四氯化钛"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F7A9D09E9E43886"]
+			description: ["比较方便的提供无限水"]
+			id: "3A8CED882B8368B3"
+			rewards: [{
+				count: 10
+				id: "6B7C82DD1C25721E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28762E04D7EADDBF"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2565B1BF17BCFB69"]
+			id: "4960DBA8C70201B5"
+			rewards: [{
+				count: 10
+				id: "7679546199079C82"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6786D99F093FAEC8"
+				item: "gtceu:hv_sensor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7C722E54C642B3CF"
+				"2950FE6E6A7D7D98"
+			]
+			description: [
+				"能转换流体和mek气体"
+				"原mek加入的大部分流体由GT流体替代"
+			]
+			id: "6756D8704789C246"
+			rewards: [{
+				count: 10
+				id: "5DFE2CE089490119"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "737BD50C5BCD64BE"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2950FE6E6A7D7D98"]
+			description: ["神器"]
+			id: "3541338A1C956F86"
+			rewards: [{
+				count: 10
+				id: "0864986CB4A0DA48"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75702D803D59A182"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+	]
+	title: "高压"
+}

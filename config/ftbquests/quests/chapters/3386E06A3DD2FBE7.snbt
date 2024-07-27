@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3386E06A3DD2FBE7"
+	group: "6F54626611595F4C"
+	id: "3386E06A3DD2FBE7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["“他进入了一个梦乡，那里的稻穗比梧桐还高，穗粒比花生还大。风轻轻吹过，他戴着草帽，就坐在稻穗下乘凉。”"]
+			id: "78A6B6A4539E7999"
+			rewards: [
+				{
+					id: "7F9607859D8FE327"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "47D1A2F7FF9EF6EF"
+					item: "gtceu:neutronium_credit"
+					type: "item"
+				}
+			]
+			subtitle: "致敬每一位怀揣梦想的伟人"
+			tasks: [
+				{
+					count: 16384L
+					id: "703063A82A3123FA"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					count: 16384L
+					id: "0EC06BB1BC26BE4C"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "禾下乘凉梦"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "642C040DE15D19AA"
+			rewards: [{
+				count: 20
+				id: "48333822EF0A6C57"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "瓜粒子也是"
+			tasks: [{
+				count: 8192L
+				id: "70CB94FEE904DAC0"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			title: "瓜皮子是金子做的"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"已知100个终极能量立方是10.24B，可以换一个创造能量立方，这里要4x1000000000B+30个创造能量立方，也就是一共需要40000003000个终极能量立方的电"
+				"&m区区400多亿个罢了&r"
+				"事实上，最难的还是第一个创造能量立方，只要出一个创造立方，后面就会越来越快（&m最好是能造1000个目标指示器&r）"
+			]
+			icon: {
+				Count: 1
+				id: "mekanism:creative_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+						componentConfig: {
+							config0: {
+								side0: 4
+								side1: 4
+								side2: 4
+								side3: 4
+								side4: 4
+								side5: 4
+							}
+						}
+					}
+				}
+			}
+			id: "306F104FBFF86451"
+			rewards: [{
+				count: 64
+				id: "5935A50F9EEB16BD"
+				item: "gtceu:neutronium_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "26E38EF0DD96D510"
+					max_input: 1024000000L
+					type: "forge_energy"
+					value: 1024000000000000000L
+				}
+				{
+					id: "1D782091AF77B397"
+					max_input: 1024000000L
+					type: "forge_energy"
+					value: 1024000000000000000L
+				}
+				{
+					id: "02E4F09666E31408"
+					max_input: 1024000000L
+					type: "forge_energy"
+					value: 1024000000000000000L
+				}
+				{
+					id: "4133F4D6A5E9D23B"
+					max_input: 1024000000L
+					type: "forge_energy"
+					value: 1024000000000000000L
+				}
+				{
+					count: 10L
+					id: "3450148C219DFFB9"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+								componentConfig: {
+									config0: {
+										side0: 4
+										side1: 4
+										side2: 4
+										side3: 4
+										side4: 4
+										side5: 4
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "17C1692BB8BC481E"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+								componentConfig: {
+									config0: {
+										side0: 4
+										side1: 4
+										side2: 4
+										side3: 4
+										side4: 4
+										side5: 4
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "68600B56C04AC8E5"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+								componentConfig: {
+									config0: {
+										side0: 4
+										side1: 4
+										side2: 4
+										side3: 4
+										side4: 4
+										side5: 4
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "超级无敌巨无霸电容库"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			description: ["既有耐心又有科技水平的大佬！"]
+			id: "45F18CD202612814"
+			rewards: [
+				{
+					id: "2F7810BE6C238EA3"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "25C3BC7076B8003E"
+					item: "gtceu:neutronium_credit"
+					type: "item"
+				}
+			]
+			subtitle: "去玩GTNH一定能做出星门来（但是我们有超先进的现代版格雷"
+			tasks: [
+				{
+					count: 2048L
+					id: "6DC8AD23B2E7C743"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3285FF5A86D6AADA"
+					item: { Count: 64, id: "gtceu:quantum_processor_mainframe" }
+					type: "item"
+				}
+			]
+			title: "你这也太夸张了"
+			x: -7.0d
+			y: -3.0d
+		}
+	]
+	title: "终究肝帝"
+}

@@ -1,0 +1,755 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ic2"
+	group: "3F878EC7B1C0604A"
+	id: "59DB18D54CB4BD96"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "2822F3F0E25CE329"
+			tasks: [
+				{
+					id: "6BB35DBE221E8339"
+					item: "electrodynamics:coalgenerator"
+					type: "item"
+				}
+				{
+					id: "0479EC6536C33EED"
+					item: "electrodynamics:thermoelectricgenerator"
+					type: "item"
+				}
+				{
+					id: "4E240F9A57DE9029"
+					item: "electrodynamics:hydroelectricgenerator"
+					type: "item"
+				}
+				{
+					id: "4BDE33370AB68ACE"
+					item: "electrodynamics:windmill"
+					type: "item"
+				}
+				{
+					id: "5B5027E30A8BFBCE"
+					item: "electrodynamics:combustionchamber"
+					type: "item"
+				}
+				{
+					id: "23922DDC51698B7C"
+					item: "electrodynamics:solarpanel"
+					type: "item"
+				}
+			]
+			title: "120v发电机"
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2822F3F0E25CE329"]
+			id: "5867E8D19C6774F3"
+			tasks: [{
+				id: "53D92F1D421313E3"
+				item: "electrodynamics:advancedsolarpanel"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"这个mod总体给我的感觉和IC2一样，说真的没啥好做任务的，有问题就看看EEC这本书吧，或者在mc百科看看（我也不会玩）"
+				"这本书也有可能存在翻译问题，因为是我AI翻译+人工翻译的结果。"
+			]
+			icon: "electrodynamics:guidebook"
+			id: "7B1A77A04F8E45F3"
+			shape: "square"
+			tasks: [
+				{
+					id: "7F617D874D6DB80A"
+					item: "electrodynamics:guidebook"
+					type: "item"
+				}
+				{
+					id: "427EEF06E94944B4"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "245005422C7E4B47"
+			tasks: [{
+				count: 4L
+				id: "76BB925E7EE2C8ED"
+				item: "electrodynamics:seismicmarker"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "5B152073AD628884"
+			tasks: [{
+				id: "6EFBADB98E82C7CE"
+				item: "electrodynamics:quarry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "349F32684D4AC404"
+			tasks: [{
+				id: "65AF918D90D1C7C5"
+				item: "electrodynamics:electricfurnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["349F32684D4AC404"]
+			id: "5064E335D241F05F"
+			tasks: [{
+				id: "28908BB2F97140AF"
+				item: "electrodynamics:electricfurnacedouble"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5064E335D241F05F"]
+			id: "584993AB50C854DF"
+			tasks: [{
+				id: "6BB07806DC5456D7"
+				item: "electrodynamics:electricfurnacetriple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "1B5B833B077BF563"
+			tasks: [{
+				id: "42A2F549C55DD045"
+				item: "electrodynamics:wiremill"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["56A3ECBAF148303E"]
+			id: "0C046ADEC003A32E"
+			tasks: [{
+				id: "6E507DFD2333DFA3"
+				item: "electrodynamics:wiremilldouble"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B5B833B077BF563"]
+			id: "56A3ECBAF148303E"
+			tasks: [{
+				id: "39DF3C28E72D2986"
+				item: "electrodynamics:wiremilltriple"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "560CD5834C3DCDA0"
+			tasks: [{
+				id: "3BFCB08417E79EFF"
+				item: "electrodynamics:mineralcrusher"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["560CD5834C3DCDA0"]
+			id: "43E7C689FD4D613F"
+			tasks: [{
+				id: "4AFBF85B549A343E"
+				item: "electrodynamics:mineralcrusherdouble"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43E7C689FD4D613F"]
+			id: "5AEA39653E366ABD"
+			tasks: [{
+				id: "5F5F18B0B3024266"
+				item: "electrodynamics:mineralcrushertriple"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "630799CCBA69E187"
+			tasks: [{
+				id: "697980CFB3DB1161"
+				item: "electrodynamics:mineralgrinder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["630799CCBA69E187"]
+			id: "5780663697139FDD"
+			tasks: [{
+				id: "03340D5ABC15FA61"
+				item: "electrodynamics:mineralgrinderdouble"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5780663697139FDD"]
+			id: "18C4DBF38F20CF35"
+			tasks: [{
+				id: "6378388CC586B8CD"
+				item: "electrodynamics:mineralgrindertriple"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "70E46F64D84AF0C1"
+			tasks: [{
+				id: "0B29DC5F9301024A"
+				item: "electrodynamics:batterybox"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70E46F64D84AF0C1"]
+			id: "70A83CAA3BA49EBF"
+			tasks: [{
+				id: "1CD101184E678429"
+				item: "electrodynamics:lithiumbatterybox"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70A83CAA3BA49EBF"]
+			id: "266087AC068C5A27"
+			tasks: [{
+				id: "3988DC90A6EBC306"
+				item: "electrodynamics:carbynebatterybox"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "74A75D26840BCEA1"
+			tasks: [{
+				id: "6FF94D63249BC281"
+				item: "electrodynamics:electricpump"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "162FFAE716DB3E9E"
+			tasks: [{
+				id: "277EB7A49A2CF734"
+				item: "electrodynamics:fermentationplant"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B1A77A04F8E45F3"]
+			id: "210B2E21A7D459C7"
+			tasks: [{
+				id: "71B3C31F258C20D7"
+				item: "electrodynamics:wirecopper"
+				type: "item"
+			}]
+			title: "最常见的导线"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "5EF5F8D58DD8CFD3"
+			tasks: [{
+				id: "54BD6A93A95A9FBE"
+				item: "electrodynamics:mineralwasher"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "2B36B92372A53C71"
+			tasks: [{
+				id: "24B943A498D3EBBE"
+				item: "electrodynamics:chemicalmixer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "7A320406D5391CBD"
+			tasks: [{
+				id: "52B17A52056C592C"
+				item: "electrodynamics:chemicalcrystallizer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "613A8DF53100BDC6"
+			tasks: [{
+				id: "6686FD3659B51D05"
+				item: "electrodynamics:energizedalloyer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "581FA127962019BB"
+			tasks: [{
+				id: "4AA90E6B87FD740B"
+				item: "electrodynamics:reinforcedalloyer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "3316A194D72BD149"
+			tasks: [{
+				id: "56411A0BA4C51A60"
+				item: "electrodynamics:lathe"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "4E98EF03885348A8"
+			tasks: [{
+				id: "7FDEB7AEB40DF5B2"
+				item: "electrodynamics:chargerlv"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E98EF03885348A8"]
+			id: "78143EA3B219909C"
+			tasks: [{
+				id: "1398B74B0ABC5A86"
+				item: "electrodynamics:chargermv"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78143EA3B219909C"]
+			id: "1C189E1BE3F47A6F"
+			tasks: [{
+				id: "67D5FDE63BE574C0"
+				item: "electrodynamics:chargerhv"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "7AE68FABED8DCD85"
+			tasks: [{
+				id: "4390F8A6E36885E3"
+				item: "electrodynamics:tanksteel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AE68FABED8DCD85"]
+			id: "0EB5FC14806E3A6A"
+			tasks: [{
+				id: "7B4CC359913F76A5"
+				item: "electrodynamics:tankreinforced"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EB5FC14806E3A6A"]
+			id: "3493BDB0F18CE5D6"
+			tasks: [{
+				id: "5EE13661CFF28644"
+				item: "electrodynamics:tankhsla"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AE68FABED8DCD85"]
+			id: "599BF7D82DDA7645"
+			tasks: [{
+				id: "0C5A67B4F36A02E7"
+				item: "electrodynamics:fluidvoid"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "23780083B2F6E6C7"
+			tasks: [{
+				id: "163C5ED46693170A"
+				item: "electrodynamics:wireinsulatedcopperblack"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "3E9EC03754F13314"
+			tasks: [{
+				id: "2F070185C0DFBC5E"
+				item: "electrodynamics:electrolyticseparator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6B60AC1B604D30E3"
+			tasks: [{
+				id: "21CB8DE3622B39F4"
+				item: "electrodynamics:seismicrelay"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["349F32684D4AC404"]
+			id: "784941949182D585"
+			tasks: [{
+				id: "6344635E602452EF"
+				item: "electrodynamics:electricarcfurnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D71D7D83ED28273"]
+			id: "315E1111FFC20E89"
+			tasks: [{
+				id: "0F4E27F99B60D385"
+				item: "electrodynamics:electricarcfurnacetriple"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "67C0016F56C1B6CC"
+			tasks: [{
+				id: "53589E07C74B1EFD"
+				item: "electrodynamics:coolantresavoir"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "413F12DB41CB6592"
+			tasks: [{
+				id: "6DBD828823A81975"
+				item: "electrodynamics:motorcomplex"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["784941949182D585"]
+			id: "5D71D7D83ED28273"
+			tasks: [{
+				id: "315599B045A71962"
+				item: "electrodynamics:electricarcfurnacedouble"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			id: "2F256BB76252F619"
+			tasks: [{
+				id: "4976E147FC938AFA"
+				item: "electrodynamics:gastanksteel"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F256BB76252F619"]
+			id: "1E28F96BCB042A19"
+			tasks: [{
+				id: "1BB7EE78DC679FE3"
+				item: "electrodynamics:gastankreinforced"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E28F96BCB042A19"]
+			id: "47ADB64DC45CD066"
+			tasks: [{
+				id: "6EF4010907AC243F"
+				item: "electrodynamics:gastankhsla"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F256BB76252F619"]
+			id: "094A5E61F81910C8"
+			tasks: [{
+				id: "23A1A202500C8479"
+				item: "electrodynamics:gasvent"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "0831EAEBFFBFC3FC"
+			tasks: [{
+				id: "2B5262F328D37A80"
+				item: "electrodynamics:logisticalmanager"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4AC7E5F3273CB38A"
+			tasks: [{
+				id: "2F381C64D8154E1C"
+				item: "electrodynamics:compressor"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "11B360A7AAF52A09"
+			tasks: [{
+				id: "0398E0C039760284"
+				item: "electrodynamics:decompressor"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "51D7225FA3D79786"
+			tasks: [{
+				id: "71C2982DCE469E44"
+				item: "electrodynamics:thermoelectricmanipulator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "60A983F4B616C3EA"
+			tasks: [{
+				id: "3B1DE9003666E5FD"
+				item: "electrodynamics:compressoraddontank"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "37C9789C6BA30DBA"
+			tasks: [{
+				id: "7ACFB41C8E5A19B5"
+				item: "electrodynamics:fluidvalve"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "12CCB243BE2ED38E"
+			tasks: [{
+				id: "0E40410497AA580F"
+				item: "electrodynamics:pipecopper"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "30161AC1585EF471"
+			tasks: [{
+				id: "079DAACCA012A104"
+				item: "electrodynamics:gaspipeuninsulatedcopper"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "2BD5764400E020A3"
+			tasks: [{
+				id: "47A999679539CFD3"
+				item: "electrodynamics:fluidpipepump"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "4DCA873D4228CEAD"
+			tasks: [{
+				id: "7FD2CB2718CEC036"
+				item: "electrodynamics:fluidpipefilter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "5CBCD835FE4EFC0C"
+			tasks: [{
+				id: "428C53E7AF8ABB01"
+				item: "electrodynamics:gasvalve"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			hide_dependency_lines: true
+			id: "45894E770E1993DB"
+			tasks: [{
+				id: "5C1290F3FFDA0F97"
+				item: "electrodynamics:gaspipepump"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["210B2E21A7D459C7"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7483712937ADA38D"
+			tasks: [{
+				id: "340556EEE1AFBEB4"
+				item: "electrodynamics:gaspipefilter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+	]
+	title: "好看的IC2？"
+}

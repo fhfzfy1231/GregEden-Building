@@ -1,0 +1,2002 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "398A50FBC91846E3"
+	group: "130ACEFB20AECFEF"
+	icon: {
+		Count: 1
+		id: "immersiveengineering:hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "398A50FBC91846E3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"这东西产出的纤维是沉浸工程的基础材料，种子打草就能获得"
+				""
+				"警告：这是工业大麻，工业机器吸食它们是违法的"
+				"（ps.事实上工业大麻并不被认为有制作你想的那种东西的价值，即使它仍含有微量的那种东西，但确实极少）"
+			]
+			id: "76D941238F616134"
+			rewards: [{
+				count: 10
+				id: "7AB0A88569D476B4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用的不好是恶魔"
+			tasks: [
+				{
+					id: "310287D9CE20D54A"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					id: "508B5E12A1B3E98C"
+					item: "immersiveengineering:hemp_fiber"
+					type: "item"
+				}
+			]
+			title: "用好了是天使"
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: ["在经过有效培训（指观察过工程师手册的目录）后，不正当使用工具造成的伤亡率有了50%的降低"]
+			id: "0B3A347BC94E9EA6"
+			rewards: [{
+				count: 10
+				id: "29C48E8724A4D7D4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你可能需要机械动力的工具盒来让它看起来更好"
+			tasks: [
+				{
+					id: "4FB68D0CB2E9DE88"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1277F6F2F8546D58"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B147BB615269D9A"
+					item: "immersiveengineering:screwdriver"
+					type: "item"
+				}
+			]
+			title: "工程师的工具包"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"我可以说你还没有思索吗..."
+				""
+				"每个工程师都必备的手册，里面从多方块机器的搭建到杂酚油炖腐肉的菜谱一应俱全"
+			]
+			id: "2EF03DFC8735712A"
+			rewards: [{
+				count: 10
+				id: "26542A00F2C83E66"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB7EF2ECFAF3837"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			title: "欢迎步入工程师的领域！"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B3A347BC94E9EA6"]
+			description: [
+				"建立第一个沉浸的结构！"
+				"焦炉的目的主要是做焦煤和杂酚油，木炭的话机械动力做的比这快的多"
+				"它的升级版是热力的热解炉，之后你可以做一个"
+				""
+				"由于我们还不了解的某种黑科技，这个堵的死死的炉子内部产生了加工物品的空间"
+				"不过也可能只是因为想防止某些可怜的玩家从一位变成一撮"
+			]
+			id: "7A5439D657A5BAF1"
+			rewards: [{
+				count: 10
+				id: "5E06FB0DF1B93757"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "搭一个实心立方体，然后用工程师锤右键侧面中心！"
+			tasks: [{
+				count: 27L
+				id: "265A9ED238F6A58E"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "不是焦黑炉子"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A5439D657A5BAF1"]
+			description: [
+				"这种精制的煤炭可以熔炼更多物品"
+				"禁止在冷水里洗涤，或在午夜喂给你的炉子"
+			]
+			id: "5D86A23B67967EEF"
+			rewards: [{
+				count: 10
+				id: "6C9BD08BAADE8094"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "烧过好几遍却更能烧"
+			tasks: [{
+				id: "0BB87113A3771036"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			title: "千磨万击还坚劲"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A5439D657A5BAF1"]
+			description: [
+				"你知道怎么提交流体，对吧"
+				"如果你不知道的话，看看任务显示器的任务！"
+				"你得做管道才能导入流体，什么管道倒是无所谓"
+				""
+				"味道很大的液体，你的木头浸泡过后可以抵抗本来就不存在的腐蚀"
+				"对已经腐烂的物体无效，请不要用来给僵尸泡澡"
+			]
+			id: "1C828441C586085D"
+			rewards: [{
+				count: 10
+				id: "6D288E63EC82AD3D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "防止木头腐烂，但是木头并不会腐烂"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:creosote_flowing"
+				id: "337CAAFF3F76585D"
+				title: "不要与热力的同类物品弄混，JEI查杂酚油桶可以找到做法"
+				type: "fluid"
+			}]
+			title: "杂酚油！"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C828441C586085D"]
+			description: ["虽然这是防腐木，但仍然不能防御僵尸，你需要给自己建立一个足够安全的环境"]
+			id: "29D12CBFA30A7773"
+			rewards: [{
+				count: 10
+				id: "7213592F547B120E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "工程师们坚称在防腐的工作台上工作是非常必要的"
+			tasks: [
+				{
+					count: 16L
+					id: "5F994B3C320A45F5"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					id: "6196580C9518B9A6"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					id: "10D97DC880AEED1D"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+			]
+			title: "“防腐”木"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B3A347BC94E9EA6"]
+			description: [
+				"它的主要作用就是产矿渣，用来合成混凝土和肥料，我早就说过钢锭有一种近乎智障的获得方式，用不上这玩意"
+				"搭建方法和焦炉一样，只是方块换了"
+				""
+				"工程师们坚称这不是从地狱要塞墙上刮下来的砖泥黏成的玩意"
+			]
+			id: "4F516D3F74BB3AEA"
+			rewards: [{
+				count: 10
+				id: "523ED770748E476F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "别用这玩意炼钢"
+			tasks: [{
+				count: 27L
+				id: "70831725726AFAE4"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "土高炉"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76D941238F616134"]
+			description: [
+				"你得用工业大麻的纤维制成这些耐用又实惠的布料"
+				""
+				"非常的扎人，不推荐把它穿在身上"
+			]
+			id: "0B3EAE7FC39F913D"
+			rewards: [{
+				count: 10
+				id: "65B720AFFFE7B568"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但这没有一般的布料..."
+			tasks: [{
+				id: "1C07D5B32F51EF40"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			title: "比一般的布料更坚韧"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"虽然你不需要用这些来供电，但它们仍然是合成材料"
+				""
+				"不附赠绕线的时候把自己勒死的意外保险"
+			]
+			id: "6C89C7E7DBED2FED"
+			rewards: [{
+				count: 10
+				id: "69DFDEA637B6DA79"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "机械动力的铜线和这个是通用的！"
+			tasks: [
+				{
+					id: "6C81B1CF2CB38FD1"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "1C3D05F4AF8AF0A6"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "7865F1AB660F9E08"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+			]
+			title: "用轧机更便捷"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"基础的合成材料，也可以当建材但是不太便宜"
+				""
+				"请勿敲开观测内部，导致的任何严重后果自负"
+			]
+			id: "1872EA530B78831E"
+			rewards: [{
+				count: 10
+				id: "665D1561B95A97CE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "所以建议有了机械动力的辊压机再做这个"
+			tasks: [
+				{
+					id: "031872AC5641E92A"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "09BBBA11DA00B652"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+			]
+			title: "还是不能铁板烧"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79B23ECC7AC938C9"]
+			description: ["为了保证结构强度，内部的空间不足以攀爬"]
+			id: "51BB256EE287E81B"
+			rewards: [{
+				count: 10
+				id: "7CFE9C81A9279A83"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "也可以用来攀爬"
+			tasks: [{
+				id: "60D47F4BA411AD84"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
+			title: "工业机器的原料之二"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"众所周知，交叉的结构可以减轻重量，同时保持结构强度"
+				""
+				"不保证能戳死或砸死生物"
+			]
+			id: "79B23ECC7AC938C9"
+			rewards: [{
+				count: 10
+				id: "35650C5062453560"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "机械动力又能搞定它"
+			tasks: [{
+				id: "77B5BD17C63F7BD0"
+				item: "immersiveengineering:stick_steel"
+				type: "item"
+			}]
+			title: "大铁棍子"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3527345385B61F2A"
+				"1872EA530B78831E"
+			]
+			description: [
+				"不含工程师"
+				""
+				"将工程师扔入轧机来制作工程块在任何地方都是严格禁止的，虽然这样可以让机器拥有易于沟通的机魂"
+			]
+			hide_dependency_lines: false
+			id: "0D4CF77F7F845EBC"
+			rewards: [{
+				count: 10
+				id: "09D8278E8940CC0C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用来真正执行一些东西"
+			tasks: [
+				{
+					id: "2D1911C9C8CB7CEA"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7070D6C14BE7266F"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "6A65A898B1E0F638"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "工业机器的原料之一"
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"上面可以且仅可以安装其它零件"
+				""
+				"禁止裹上面粉后烘烤，造成的补牙费用自负"
+			]
+			id: "3527345385B61F2A"
+			rewards: [{
+				count: 10
+				id: "1BCA9FC03CE15D39"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "别往脖子上套"
+			tasks: [
+				{
+					id: "6413A96AEDF8C809"
+					item: "immersiveengineering:component_iron"
+					type: "item"
+				}
+				{
+					id: "2425255D800AEF68"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+			]
+			title: "小铁圈子"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79B23ECC7AC938C9"]
+			description: [
+				"原本可能只是木栅栏的替代品，因为总有人想养一些恶魂之类的容易破坏围栏的生物"
+				""
+				"不过工程师们发现它在机器里也能起到很好的作用，比如给机魂划出限制移动的区域，就像围栏一样"
+			]
+			id: "76A6B5A52B23157B"
+			rewards: [{
+				count: 10
+				id: "0B5494A76B24D81E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不，它不是你家的围栏和灰色染料就能合成的"
+			tasks: [{
+				id: "7A7B32BCEB0DDEB9"
+				item: "immersiveengineering:steel_fence"
+				type: "item"
+			}]
+			title: "工业机器的原料之三"
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: ["除此之外，用它制作机械零件可以省一半材料，非常的赚"]
+			id: "76521E55277FA2AF"
+			rewards: [{
+				count: 10
+				id: "0EFB6FF835545A37"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用来解锁一些高级的配方"
+			tasks: [{
+				id: "5ADB2C96CFD86460"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			title: "电路的蓝图"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76521E55277FA2AF"]
+			description: [
+				"从头顶上接电，正面下方、底面和背面输入水和肥料，正面橙色接口输出产物"
+				"肥料可以不加"
+				"注意：不产生种子，工业大麻除外"
+				""
+				"如果用于种植动物或者进行邪恶的基因实验，保修失效"
+			]
+			id: "2F4612DC2008150F"
+			rewards: [{
+				count: 10
+				id: "6C994E83769CF9E8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "虽然被削了但还是很强"
+			tasks: [
+				{
+					id: "431424428F3A38BB"
+					item: "immersiveengineering:light_bulb"
+					type: "item"
+				}
+				{
+					id: "7F31089CE55AC79D"
+					item: "immersiveengineering:cloche"
+					type: "item"
+				}
+			]
+			title: "小温室，大能量"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"与机械动力的有相同之处也有不同"
+				"它是一格一格安装的，拿着工程师锤对着它右键可改变它的方向（潜行加右键可以改为倾斜向上），在传送带上方或旁边放置漏斗，漏斗中的物品将会一块一块地跳到传送带上"
+				""
+				"卸货传送带可以把物品漏进底下的漏斗，但不支持过滤"
+				"红石传送带接入红石时停止传送"
+				"垂直传送带可以让物体爬墙往上走"
+				"绝缘传送带可以避免你自动拾取上面的物品，但是这样就只能运输碰撞箱小于一格的生物，也有垂直版本"
+				"分流传送带可以把物体分成相等的两堆"
+				"抽取传送带可以从容器里抽取物品，可以用工程师螺丝刀右击以改变物品传输间隔，接入红石时停止抽取"
+				""
+				"即使你贿赂它也不能让它动的更快"
+			]
+			id: "65027E3B35B6D530"
+			rewards: [{
+				count: 10
+				id: "562074D5737AC028"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你可以选择做一部分这个和一部分机械动力传送带！"
+			tasks: [{
+				id: "7DA2E28ED8FDD358"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			title: "传送带，IE版"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3527345385B61F2A"]
+			description: [
+				"每一个侧面都有一组格子。将液体容器或物品放进其中一个格子标记，这样它会向指定的一面输出输入的流体或物品"
+				"如果流体路由器没有特定流体的配置，它将通过随机的一侧输出流体"
+				"流体不能从输入的面输出"
+				""
+				"将自己放进去只会导致机器卡住，不能判断你所属的物品和流体！"
+			]
+			id: "4461B590DF29DF42"
+			rewards: [{
+				count: 10
+				id: "25BE2CAFD173BB0D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "分离混合的流体和物品"
+			tasks: [
+				{
+					id: "6C9BA87FF9074FAF"
+					item: "immersiveengineering:fluid_sorter"
+					type: "item"
+				}
+				{
+					id: "6F9546B29BCAAC2C"
+					item: "immersiveengineering:sorter"
+					type: "item"
+				}
+			]
+			title: "黄铜隧道，IE版"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4AB0532BB0A05502"]
+			description: [
+				"工作时需要接通电源，输入红石信号，并从侧边通入所用流体"
+				"注意调整过滤器的时候不要让它开始喷你"
+			]
+			id: "05FDB60705E0C020"
+			rewards: [{
+				count: 10
+				id: "15887367DC5C49C1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "固定式的流体喷射防御"
+			tasks: [{
+				id: "12931CB432CA5150"
+				item: "immersiveengineering:turret_chem"
+				type: "item"
+			}]
+			title: "向敌人喷射流体！"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C89C7E7DBED2FED"]
+			description: ["不能当火腿食用（赛博坦星人除外）"]
+			id: "7FCEBBA777CAC345"
+			rewards: [{
+				count: 10
+				id: "7DA32597A122930D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "能把通进去的电流绕的晕头转向"
+			tasks: [
+				{
+					id: "29438F576C548426"
+					item: "immersiveengineering:coil_lv"
+					type: "item"
+				}
+				{
+					id: "3893033F6229BC80"
+					item: "immersiveengineering:coil_mv"
+					type: "item"
+				}
+			]
+			title: "一大捆线"
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76521E55277FA2AF"]
+			description: [
+				"一些工程师坚持认为“用嘴把里面吸真空可以达到更佳的效果”"
+				"不过，这事实上只是表示你和机魂真的很亲密而已"
+			]
+			id: "5BDAFFF70AAB6537"
+			rewards: [{
+				count: 10
+				id: "734F005AE30B0A40"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但是也不能用来装东西"
+			tasks: [{
+				id: "64F83C7F5548F903"
+				item: "immersiveengineering:electron_tube"
+				type: "item"
+			}]
+			title: "真的很空"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B3EAE7FC39F913D"]
+			description: [
+				"这可以代替皮革"
+				"动物保护组织和动物自己都非常满意"
+				""
+				"工程师们也会非常满意，因为不需要再料理那些麻烦的牛了"
+				"唯一发脾气的是蜜蜂和那些工业大麻，不过工业大麻不会说话，蜜蜂你可以用烟熏到没脾气"
+			]
+			id: "01D6B881C789C56E"
+			rewards: [{
+				count: 10
+				id: "7CE2107530E256C2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你看这涂点蜡都成皮革了"
+			tasks: [{
+				count: 8L
+				id: "60F592CAA2E6F39E"
+				item: "immersiveengineering:ersatz_leather"
+				type: "item"
+			}]
+			title: "我就说那个布料很硬"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5BDAFFF70AAB6537"
+				"719265E02C765EA6"
+			]
+			description: [
+				"用来进行一些令人兴奋的高级制作"
+				""
+				"工程师们拒绝承认它使用了外星科技，即使用这几个破管子就能做出自动跟踪的炮塔"
+			]
+			id: "4AB0532BB0A05502"
+			rewards: [{
+				count: 10
+				id: "36506309C81E1C5D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7617E405FC6D5A7B"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			title: "不是蛋糕"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AB0532BB0A05502"]
+			description: [
+				"来看看朴实无华的动能武器！"
+				"只要物品栏内有合适的“弹药”就能发射炮弹，按住右键使得右下角充能进度达到 99% 松开右键即可发射，每发射一次消耗 800RF，使用不同的弹药造成的伤害会不一样。在发射角度相同的情况下，重力越小，射程越远"
+				""
+				"目前最好的弹药是石墨电极和烈焰棒，前者可以造成30点伤害，后者可以点燃敌人"
+				"其它如铁杆，钢杆和铝杆乃至暮色森林的蝉都可以作为弹药，但伤害和射程都较低"
+				"可以发射三叉戟，除了激流外的附魔都能生效"
+				""
+				"使用工程师装配台可以给磁轨炮增加配件或更换皮肤"
+			]
+			id: "2B8515E682F99048"
+			rewards: [{
+				count: 10
+				id: "55E936C62225F6D4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "什么电光和爆炸都不符合科学，只是廉价的中二效果"
+			tasks: [{
+				id: "2152E8A937367F91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			title: "超电磁炮"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5347DC90F24F9906"]
+			description: [
+				"主要用于合成，储能的话不如能量立方"
+				""
+				"非流体食品，请勿喂食给婴儿机器人"
+			]
+			id: "7837DEE911BD704F"
+			rewards: [{
+				count: 10
+				id: "18D2A74E59F87E8D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "能量立方的下位版本"
+			tasks: [
+				{
+					id: "54C29A50746609BB"
+					item: "immersiveengineering:capacitor_lv"
+					type: "item"
+				}
+				{
+					id: "1D6A1749ACF5FC66"
+					item: "immersiveengineering:capacitor_mv"
+					type: "item"
+				}
+				{
+					id: "19B1828F543402A0"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+			]
+			title: "电池家族"
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: [
+				"尽管红石的确切性质即使对与最博学的工程师来说也是个谜，但最近的实验表明，它是一种酸性盐，溶解在水中会产生红石酸"
+				"这种酸的强度不足以溶解有机物，但对金属有轻微的腐蚀性，是一种用于蓄电池的优秀电解质"
+			]
+			id: "727FF42B5F9D08CD"
+			rewards: [{
+				count: 10
+				id: "336E4E458572EDC9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "闻起来酸溜溜的"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:redstone_acid_flowing"
+				id: "7246AF966764908F"
+				title: "不要告诉我你不明白怎么提交流体，我都写过了"
+				type: "fluid"
+			}]
+			title: "液体的红石"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A893DC7F768C346"]
+			description: [
+				"那可简直太令人失望了"
+				"不过这个是很广泛的合成原料，值得做一些"
+				""
+				"极度易燃，上次拿这个搭匠魂炉子的已经被烤的外焦里嫩了"
+			]
+			id: "5347DC90F24F9906"
+			rewards: [{
+				count: 10
+				id: "5371D5854438350F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "什么？现在不叫HOP锭了？"
+			tasks: [
+				{
+					id: "66BB7ABA3B2C278C"
+					item: "immersiveengineering:ingot_hop_graphite"
+					type: "item"
+				}
+				{
+					id: "002AD32A92A8E386"
+					item: "immersiveengineering:dust_hop_graphite"
+					type: "item"
+				}
+			]
+			title: "辣妹儿~"
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D4CF77F7F845EBC"]
+			description: [
+				"主要用于做HOP锭"
+				""
+				"不允许把面团放进去做煎饼"
+			]
+			icon: "immersiveengineering:squeezer"
+			id: "6A893DC7F768C346"
+			rewards: [{
+				count: 10
+				id: "28072600D1482F2F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "参考工程师手册做一个工业挤压机，把物品好好地挤扁！"
+			tasks: [
+				{
+					count: 6L
+					id: "7BD39F57B344A950"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65ABB2CE258CE1CB"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "76CF240A22584EAD"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FDBE71E2B06BCFD"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39A2391693702706"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "77C1EB9E152D98FD"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "239148DB08BE5C1F"
+					item: "minecraft:piston"
+					type: "item"
+				}
+			]
+			title: "辊压机，但更大"
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: [
+				"可以用在经常承受爆炸的地方，比如凋灵机器"
+				""
+				"不能在核爆中保全你的家当"
+			]
+			id: "53D2E98BE45B3D95"
+			rewards: [{
+				count: 10
+				id: "469D0F22D02F7FE8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "能防爆还是挺棒的"
+			tasks: [{
+				id: "5ED0629F4568ACEE"
+				item: "immersiveengineering:reinforced_crate"
+				type: "item"
+			}]
+			title: "木+铁≈黑曜石"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AB0532BB0A05502"]
+			description: [
+				"以256RF/t的速度消耗电力，并对以自身为中心13*13*13的区域内的生物造成电击伤害，额外消耗512RF/次，且使该区域内的荧光管发光"
+				"输入红石信号或者用工程师锤右击特斯拉线圈以激活它"
+				"特斯拉线圈拥有有高压和低压两种模式，用工程师锤按Shift右击特斯拉线圈以切换模式"
+				"高压模式：默认的模式，穿法拉第盔甲的玩家会受到更高的电击伤害"
+				"低压模式：常规耗电速率和有效范围半径是高压模式的一半，但穿法拉第盔甲的玩家不会受到电击伤害"
+				""
+				"工程师们原本是把它作为一种引雷装置来降低伤亡的，后来发现这东西自己造成的伤亡远高于雷电"
+			]
+			id: "119F909CDB8B46D8"
+			rewards: [{
+				count: 10
+				id: "32041B9457C5931C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "对，你也不例外"
+			tasks: [{
+				id: "274379B1145C2E37"
+				item: "immersiveengineering:tesla_coil"
+				type: "item"
+			}]
+			title: "需要点电疗？"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7FCEBBA777CAC345"]
+			description: [
+				"当一个方块连接到它活动的一面且被红石驱动时，这个方块将被旋转。用工程师锤 Shift 右击旋转台会使它朝着相反的方向工作。拿着工程师锤悬停在旋转台将显示当前的旋转方向"
+				""
+				"工程师们不建议把它作为游乐园的转盘使用"
+			]
+			id: "718B0A2AE2A2EE8A"
+			rewards: [{
+				count: 10
+				id: "6D6021280C26A601"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不耗应力"
+			tasks: [{
+				id: "006278912B55F072"
+				item: "immersiveengineering:turntable"
+				type: "item"
+			}]
+			title: "动力轴承，单方块版"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FCEBBA777CAC345"]
+			description: [
+				"用于在工程师装配台中给重型盾牌装配"
+				"装配完以后双击s（后退）就会把盾牌切到副手。再次双击可以卸下"
+				"盾牌切换到副手以后，如果有东西占了原盾牌背包格子的那一个，卸下的时候会被切换到副手"
+				"反之，副手上有东西也会和背包中的盾牌位置对调"
+				""
+				"如果用于表演飞来咒，后果自负"
+			]
+			id: "71B94166B3732FC1"
+			rewards: [{
+				count: 10
+				id: "4F842963379CCE9C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "只不过是用于防御"
+			tasks: [{
+				id: "252A8C2680B9342F"
+				item: "immersiveengineering:toolupgrade_shield_magnet"
+				type: "item"
+			}]
+			title: "磁场力量"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51BB256EE287E81B"]
+			description: [
+				"根据某位工程师养猴子用的笼子，工程师们研发了这种带笼子的梯子来解决跌落问题"
+				"不允许用来耍猴戏"
+			]
+			id: "7E9D176498845782"
+			rewards: [{
+				count: 10
+				id: "592B267F21E20CD6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不会掉下去"
+			tasks: [{
+				count: 3L
+				id: "77CC3517EC7DA2D7"
+				item: "immersiveengineering:metal_ladder_steel"
+				type: "item"
+			}]
+			title: "安全梯子"
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7837DEE911BD704F"]
+			description: [
+				"只有自然的（不是避雷针的雷）击中它才会发电"
+				"每劈一下就会产生16,000,000RF，不失为一个合适的被动发电方法"
+				"需要在正上面放钢栅栏，越多越好"
+				""
+				"在雷雨天攀爬可能会导致事故"
+			]
+			icon: "immersiveengineering:lightning_rod"
+			id: "31F6F567744EC81F"
+			rewards: [{
+				count: 10
+				id: "2666990C6F4384C7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "参考工程师手册搭一个避雷针，别想着人造雷来逃课！"
+			tasks: [
+				{
+					count: 8L
+					id: "708C9318AAF5BFEB"
+					item: "immersiveengineering:coil_lv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7DA1FCCC7AB0268A"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "604DB9F0AC6BB6D5"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "796806DAF9866454"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D7506680287446D"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5BEBEA958802AE86"
+					item: "immersiveengineering:coil_hv"
+					type: "item"
+				}
+			]
+			title: "惊雷"
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: ["只能用来合成石墨电极，但石墨电极本身除了是磁轨炮的良好弹药外，用处不大"]
+			id: "34AE7CBAEDDC01F5"
+			rewards: [{
+				count: 10
+				id: "29905B4AD10792C5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "虽然的确也没啥用"
+			tasks: [{
+				id: "428FC235D8E7552B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			title: "独占一份的蓝图"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: [
+				"防腐木让沉浸的工具可以承受哪怕最恶劣的环境"
+				""
+				"注意，不包括岩浆、火焰和仙人掌表面的环境"
+			]
+			id: "2B11ABFED0CD8F26"
+			rewards: [{
+				count: 10
+				id: "4735BBE4B9A3EE03"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "的确是拿在手里的"
+			tasks: [{
+				id: "4695C446B0D27D61"
+				item: "immersiveengineering:wooden_grip"
+				type: "item"
+			}]
+			title: "拿手好戏"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B11ABFED0CD8F26"]
+			description: [
+				"用丰富多样的子弹来让你的敌人乐呵乐呵"
+				"可容纳 8 发子弹。装弹按 Shift+右键打开该武器的GUI并在GUI内放入子弹，直接右击以射击"
+				"攻击时会激怒32格内的生物，包括中立和敌对生物。也有部分例外，比如狼和北极熊等中立的动物不会被激怒；作为敌对生物的史莱姆也不会被激怒"
+				"左轮快速装弹器中的子弹会自动装填进左轮手枪，同时左轮手枪中的空弹壳会被转移进背包"
+				""
+				"注意，与村民交易或是在工程师小屋中找到的左轮部件会带有一定属性效果，如幸运、射速、噪音等，可能是正的也可能是负的，可以有一个或多个效果，增益/减益可能超过100%"
+			]
+			id: "77D694A069E80C83"
+			rewards: [{
+				count: 10
+				id: "176B4AAEAC82248B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "来吧，玩一玩轮盘赌"
+			tasks: [{
+				id: "2BBCC92A2D3421FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			title: "午时已到"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: ["做一些你想用的子弹！"]
+			id: "1B2E8CDA5D8864F4"
+			rewards: [{
+				count: 10
+				id: "7336EDADA7E7DBFE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "花样非常的多"
+			tasks: [
+				{
+					id: "7E469472C5B38FA5"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "364862B8079BC1AE"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "specialBullet"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "弹药的蓝图"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B11ABFED0CD8F26"]
+			description: [
+				"可通过潜行右键打开点火装置以点燃装载的液体，内部缓存2桶量"
+				"注意，如果朝向头顶喷射燃烧液体将导致自身着火"
+			]
+			id: "7B676905543AC25E"
+			rewards: [{
+				count: 10
+				id: "363BBD852ACA33E1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "化学将净化一切"
+			tasks: [{
+				id: "76C7D4353C206800"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:chemthrower"
+				}
+				type: "item"
+			}]
+			title: "吃了太多辣椒"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77D694A069E80C83"]
+			description: ["但永远别忘记及时装子弹"]
+			id: "78FC99C93F08DB46"
+			rewards: [{
+				count: 10
+				id: "1160CAF0014F0AC8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这比小手枪里存的子弹多的多"
+			tasks: [
+				{
+					id: "629B57003FCA111C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 8
+							}
+						}
+						id: "immersiveengineering:speedloader"
+					}
+					type: "item"
+				}
+				{
+					id: "588E181E73A78490"
+					item: "immersiveengineering:toolupgrade_revolver_magazine"
+					type: "item"
+				}
+			]
+			title: "换弹癌解决方案"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B676905543AC25E"]
+			description: ["在工程师装配台里加装这些部件和皮肤！"]
+			id: "4DE48BEB344B5D1F"
+			rewards: [{
+				count: 10
+				id: "2468F9E73B8A690F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "或许你会想改装一下"
+			tasks: [
+				{
+					id: "1B40E536E62CAF5A"
+					item: "immersiveengineering:toolupgrade_drill_capacity"
+					type: "item"
+				}
+				{
+					id: "2266E12A03E91DA8"
+					item: "immersiveengineering:toolupgrade_chemthrower_focus"
+					type: "item"
+				}
+			]
+			title: "化学喷射器的部件"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B8515E682F99048"]
+			description: [
+				"将你的磁轨炮打造成一种...也不怎么强的武器"
+				"在工程师装配台里安装部件和皮肤"
+			]
+			id: "56229E904E3FA490"
+			rewards: [{
+				count: 10
+				id: "2DB3C650652950E7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不提供弹道下坠计算服务"
+			tasks: [
+				{
+					id: "700C29DC263E1601"
+					item: "immersiveengineering:toolupgrade_railgun_scope"
+					type: "item"
+				}
+				{
+					id: "13EBA682343F7850"
+					item: "immersiveengineering:toolupgrade_railgun_capacitors"
+					type: "item"
+				}
+			]
+			title: "磁轨炮的部件"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AB0532BB0A05502"]
+			description: [
+				"右击打开GUI设置过滤器，右边的箭头会改变弹壳的处理方式"
+				"当箭头是直的时，弹壳将会被储存起来"
+				"当箭头是弯的时，弹壳将会从右侧排出"
+				"炮塔后面的蓝色点可以输入子弹，需要电力和红石信号启动"
+				""
+				"其索敌逻辑使得它无法应用于伊甸号"
+				"注意：由于瓦尔基里的兼容性，可能会造成毁档问题，使用它之前请备份，不保证稳定性"
+			]
+			id: "1BD44FA61F6490DB"
+			rewards: [{
+				count: 10
+				id: "7841DBAA82A4A0CD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "真正让你的敌人沐浴枪林弹雨"
+			tasks: [{
+				id: "4A8B951B0D33C8E4"
+				item: "immersiveengineering:turret_gun"
+				type: "item"
+			}]
+			title: "洗个金属澡"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4F516D3F74BB3AEA"]
+			description: [
+				"&m但你需要模组的多方块粉碎机来获得硝酸盐，不过搭建好之后它就是很廉价的物品&r"
+				"现在变贵了:("
+				"最好也别用这个模组的矿渣，你可以注意到沙砾烧炼后会产生什么"
+			]
+			id: "7104CBAF3D88326A"
+			rewards: [{
+				count: 10
+				id: "0C462D275536CF6D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "获得方式也很简单"
+			tasks: [{
+				id: "4B55051219988D36"
+				item: "immersiveengineering:fertilizer"
+				type: "item"
+			}]
+			title: "不廉洁的肥料"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"376664264490BE1D"
+				"13CA3B5B02307131"
+				"35666B4BB14C26BF"
+			]
+			description: ["这需要你建立一条化工线，不过并不是太困难"]
+			id: "719265E02C765EA6"
+			rewards: [{
+				count: 10
+				id: "2B05FE7FEFCB9458"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "沉浸工程的精饲料"
+			tasks: [{
+				id: "059C01D24AB575DE"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			title: "小饼干"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D4CF77F7F845EBC"]
+			description: [
+				"主要用来做塑胶板"
+				""
+				"如果愿意的话也可以用来往嘴里倒饮料"
+			]
+			icon: "immersiveengineering:bottling_machine"
+			id: "376664264490BE1D"
+			rewards: [{
+				count: 10
+				id: "6D2A693D7DB6CC37"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "搭建一个灌装机，参考工程师手册！"
+			tasks: [
+				{
+					id: "046E148EB1B3E661"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4355B81A3BBF3885"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "79BEAAB05B43409C"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2AE0D057F73E20AF"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5658344E86C62AB3"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "07C87AFB32BCA350"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+				{
+					id: "1831562D137E39DD"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "灌装，沉浸工程版"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D4CF77F7F845EBC"]
+			description: [
+				"化工线的重要机器，需要硝酸盐做催化剂（不消耗）"
+				"生物柴油可以使烈焰人燃烧室超级燃烧，是很棒的液体"
+				"也用于制造沉浸原油里的汽油（不需要催化剂）"
+				"不能用来制作炼乳"
+			]
+			icon: "immersiveengineering:refinery"
+			id: "35666B4BB14C26BF"
+			rewards: [{
+				count: 10
+				id: "292769405150FC0B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "参考工程师手册搭建一个炼油厂，融合一些化学液体！"
+			tasks: [
+				{
+					count: 16L
+					id: "756DC8F1D7A1D0C0"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "48BE731C1E0A86DF"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2095C4DEDDE6741B"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "076FE409551AD7C9"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0FD3096C81D13703"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "3B7003A11B4AC715"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "合二为一"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D4CF77F7F845EBC"]
+			description: ["严禁饮用工业乙醇"]
+			icon: "immersiveengineering:fermenter"
+			id: "13CA3B5B02307131"
+			rewards: [{
+				count: 10
+				id: "293F468A5A5C3BE4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "参考工程师手册搭建一个发酵机，招募微生物给你产生乙醇！"
+			tasks: [
+				{
+					count: 6L
+					id: "02D837CE9A6596B9"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E560465E6C8A6E4"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "364237D0DB78E454"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FADFA2DA91A47A0"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "415EEA46E68C892A"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0470AAD3BD288EAD"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "48103B7FC5476FA8"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "微生物的力量"
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0D4CF77F7F845EBC"]
+			description: ["使用工程师装配台手工制作大量子弹和零件效率很低，所以你需要这个——自动化工程师装配台。它可以自动合成需要蓝图的物品，输入足够的能量和材料，并且正确设置了工程师蓝图，它就能工作"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "3FBD52EE567CE17A"
+			rewards: [{
+				count: 10
+				id: "51C4641DE0DDBB3E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "参考工程师手册搭一个自动化工程师装配台，向低效合成说再见！"
+			tasks: [
+				{
+					count: 5L
+					id: "5B4099AF3869561B"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01B302F61E4D27D7"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "229EF399235445DA"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4205038BAC8ABA72"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "37537CA31A5501D4"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "570FA27B8DD44F24"
+					item: { Count: 5, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			title: "自动化工程师"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: [
+				"耐久更高的盾牌，用法与原版的盾牌相同"
+				"可以加装改装件"
+			]
+			id: "06B9A6729D2C4AFE"
+			rewards: [{
+				count: 10
+				id: "079B8AA01347B938"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比一般的货色更好用"
+			tasks: [{
+				id: "7E41EFEBFE0F6C41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 2
+						}
+					}
+					id: "immersiveengineering:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "镇暴盾牌"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06B9A6729D2C4AFE"]
+			id: "441EF05B6F9C5D64"
+			rewards: [{
+				count: 10
+				id: "1CE2A515B115D5AC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让你的盾牌更加有力"
+			tasks: [
+				{
+					id: "4DA5661B098F4E0C"
+					item: "immersiveengineering:toolupgrade_shield_flash"
+					type: "item"
+				}
+				{
+					id: "217B083CB2CADB0A"
+					item: "immersiveengineering:toolupgrade_shield_shock"
+					type: "item"
+				}
+			]
+			title: "重型盾牌的配件"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: ["单独划出一张台子来制作电路对工程师来说是很有必要的，因为光是磁轨炮的一发走火就能毁掉电路的所有接头"]
+			id: "6BF75A7ACE3194DA"
+			rewards: [{
+				count: 10
+				id: "4C09B7A31D410FE4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "专一负责电路制作"
+			tasks: [{
+				id: "72772E57AC4F9CD3"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			title: "精密加工台"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: [
+				"能装12桶，这个和mek的流体储罐哪个更好得你自己选择"
+				""
+				"目前没有工程师宣称对往里面装岩浆所造成的把脚烤熟的惨案负责"
+				"猪脚饭还挺好吃的..."
+			]
+			hide_dependency_lines: true
+			id: "16CF526B8E73D756"
+			rewards: [{
+				count: 10
+				id: "2E508CC3262D2EA3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且是防腐的"
+			tasks: [{
+				id: "2720C1E4554295EA"
+				item: "immersiveengineering:wooden_barrel"
+				type: "item"
+			}]
+			title: "简单的流体储罐"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: ["为了避免闷一嘴杂酚油的味道，不能像竹脚手架一样在这个方块里面移动"]
+			hide_dependency_lines: true
+			id: "22704FFB5D369549"
+			rewards: [{
+				count: 10
+				id: "6098B6463BF126CE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且是防腐的"
+			tasks: [{
+				id: "21DF96EED3BCE465"
+				item: "immersiveengineering:treated_scaffold"
+				type: "item"
+			}]
+			title: "占一整个方块的梯子"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29D12CBFA30A7773"]
+			description: [
+				"工程师们坚称这个箱子不是用封印的潜影贝合成的，那样太不人道了"
+				"但对于上面潜影贝的贝壳花纹和封条的图案，目前还没有明确的解释"
+			]
+			hide_dependency_lines: true
+			id: "7B7B93B016EC07CF"
+			rewards: [{
+				count: 10
+				id: "06961D69EDFDF194"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且是防腐的"
+			tasks: [{
+				id: "7F81491DE349A5BD"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			title: "潜影盒"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C89C7E7DBED2FED"]
+			description: [
+				"用电力为最多五个原版熔炉提供热量，无需为熔炉提供燃料"
+				""
+				"加热器消耗 8RF/t，会随着每单位的热量增加而增加。最初为熔炉升温时，加热器会产生高达 4 热量/tick，但熔炉一旦达到最高温时，它就会以 1 的热量来让温度保持下去 。同时，达到最大温度后会额外消耗 24RF/t 的电量加速熔炼"
+				""
+				"可以给予外置加热器红石信号使其持续激活，持续为熔炉提供热量"
+				""
+				"适用于任何熔炉爱好者"
+			]
+			hide_dependency_lines: true
+			id: "2F0D1BB2F223E653"
+			rewards: [{
+				count: 10
+				id: "4A057CB05C71632F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "鼓风机：我不吃燃料"
+			tasks: [{
+				id: "0B4F18758DC8FB19"
+				item: "immersiveengineering:furnace_heater"
+				type: "item"
+			}]
+			title: "加速熔炉的熔炼"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0D4CF77F7F845EBC"
+				"51BB256EE287E81B"
+				"76A6B5A52B23157B"
+			]
+			description: [
+				"当然是不如mek的粉碎机便宜和便捷，但它能让一个骨头产出六个骨粉，也是硝酸盐的唯一产生途径，所以也就这块有用"
+				"樱模组的石磨也有这个产率，但很慢"
+				""
+				"看你需不需要这个就是了"
+			]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:crusher"
+			id: "0760B904BB4493BC"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "569B4F5BA5572786"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "搭建一个沉浸工程粉碎机，参考工程师手册！"
+			tasks: [
+				{
+					id: "4620BE4C3165237D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "55F0249392C474CC"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "59E8907AEEDB577F"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "405202DC3221C384"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E40ED42592A45F1"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "不是必须的"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1872EA530B78831E"]
+			description: [
+				"除了材质还行外一无是处"
+				"或许可以作为载具的装饰"
+			]
+			hide_dependency_lines: true
+			id: "4EA94FD999262321"
+			rewards: [{
+				count: 10
+				id: "3329053438DADC7E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "很贵，但作用却只是能装岩浆"
+			tasks: [
+				{
+					id: "03BC7C45EEA9806B"
+					item: "immersiveengineering:metal_barrel"
+					type: "item"
+				}
+				{
+					id: "40114877780CBC86"
+					item: "immersiveengineering:jerrycan"
+					type: "item"
+				}
+			]
+			title: "高级一点的桶"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: ["其中一些可以存储流体之类的"]
+			hide_dependency_lines: true
+			id: "0B4FE13A52F33D33"
+			rewards: [{
+				count: 10
+				id: "01C160333EC81834"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "沉浸工程加入了更多的矿车"
+			tasks: [
+				{
+					id: "271D317BFD49E8C1"
+					item: "immersiveengineering:minecart_woodencrate"
+					type: "item"
+				}
+				{
+					id: "300D327D5B35F9E6"
+					item: "immersiveengineering:minecart_woodenbarrel"
+					type: "item"
+				}
+			]
+			title: "以防你不知道"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: ["我猜你需要这个，尤其是搞沉浸原油"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "010CA06952BB0132"
+			rewards: [{
+				count: 10
+				id: "139006F42C0B6016"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A465144E429634"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "immersivepetroleum:projector"
+				}
+				type: "item"
+			}]
+			title: "3D！"
+			x: 2.5d
+			y: 9.5d
+		}
+	]
+	title: "沉浸工程"
+}

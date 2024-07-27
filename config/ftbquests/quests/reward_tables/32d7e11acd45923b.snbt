@@ -1,0 +1,17 @@
+{
+	id: "32D7E11ACD45923B"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 10, item: "gtceu:copper_credit", weight: 120.0f }
+		{ count: 10, item: "gtceu:cupronickel_credit", weight: 70.0f }
+		{ count: 10, item: "gtceu:silver_credit", weight: 50.0f }
+		{ count: 10, item: "gtceu:gold_credit", weight: 20.0f }
+		{ count: 10, item: "gtceu:platinum_credit", weight: 10.0f }
+		{ count: 10, item: "gtceu:osmium_credit", weight: 5.0f }
+		{ count: 10, item: "gtceu:naquadah_credit", weight: 2.0f }
+		{ count: 10, item: "gtceu:neutronium_credit" }
+		{ count: 10, item: "gtceu:ancient_gold_coin", weight: 20.0f }
+	]
+	title: "币"
+}

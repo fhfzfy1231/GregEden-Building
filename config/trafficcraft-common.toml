@@ -1,0 +1,13 @@
+
+[trafficcraft_common_config]
+
+	[trafficcraft_common_config.road_construction_tool]
+		#The max distance in blocks the road construction tool can be used for. Default: 32 blocks
+		#Range: 0 ~ 64
+		max_distance = 32
+		#Max width of roads built by the road construction tool. Default: 9 blocks.
+		#Range: 1 ~ 15
+		max_width = 9
+		#Max slope of roads built by the road construction tool. Default: 4.0
+		max_slope = 4.0
+

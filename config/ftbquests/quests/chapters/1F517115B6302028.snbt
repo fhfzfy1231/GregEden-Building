@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F517115B6302028"
+	group: "55D8174D25E6F57D"
+	icon: "farmersdelight:cooking_pot"
+	id: "1F517115B6302028"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["ps.由于农夫乐事对自动化不甚友好，因此任务树里掺杂了其他mod的设备"]
+			id: "0BF8BF1A150201B6"
+			tasks: [{
+				id: "5BA7BF6C0A55D467"
+				title: "不去种地就想做吃的？你在想什么"
+				type: "checkmark"
+			}]
+			title: "过来看之前请先去种点地"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: [
+				"除了jei给的配方以外，还可以用农夫乐事的刀（不限材质）打草（不会消耗耐久），会概率获得"
+				"ps.刀还会还有别的用，所以你可能需要额外做一些"
+			]
+			id: "0EF9D6F973780896"
+			tasks: [{
+				count: 8L
+				id: "50C89AF9E6B38576"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "救命稻草"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: [
+				"相信我，本体的其它厨具都没有必要了，砧板的功能可以通过机械手拿刀处理置物台上物品解决，煎锅原本就是非必需物品"
+				"如果想自动化需要顶面输入原料，侧面输入容器和输出成品"
+				"需要注意任何杂物和超过一组的原料都会把厨锅卡死（因为厨锅工作要求是原料栏中物品必须与配方严格对应）"
+				"后面会有一个基于机械动力：中央厨房的全自动方法（如果你不嫌麻烦也可以用ae，核心思想就是通过控制输入量保证能够持续工作）"
+			]
+			id: "1F048C9726DAA0E7"
+			tasks: [{
+				id: "3E527B8F8E6286BA"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "农夫乐事本体的厨具"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EF9D6F973780896"]
+			description: [
+				"锄成耕地的话不会退化，甚妙"
+				"种在上面的作物会随机得到相当于骨粉的加速"
+				"ps.沃土用在园艺玻璃罩里还可以获得额外产物"
+			]
+			id: "366C73762FFC0F6F"
+			tasks: [{
+				count: 4L
+				id: "568DD9698AAF5857"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "肥沃的土地"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F048C9726DAA0E7"]
+			description: [
+				"主要的内容基本都在思索里，这里只写一些细节"
+				"1.烈焰人炉灶无法插吸管来输入液体燃料，这就意味着如果你想保持超级燃烧就需要搓一条烈焰蛋糕的产线（当然要是你拿到了创造烈焰蛋糕那当我没说）"
+				"2.容器不能通过动力臂放入，需要自行另拉管道从侧面输入"
+				"3.输出端可以直接从侧面接管道输出，不需要用第二个动力臂（除非配方会导致合成后会有东西留在原料栏，比如某些需要桶装液体的配方）"
+			]
+			id: "1E46190524FBF2C2"
+			subtitle: "也许你已经发现了厨锅有一个同名的思索"
+			tasks: [
+				{
+					id: "379BBDE1296277F4"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "5852752D5141A999"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_central_kitchen:cooking_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "60CD91796BAA2246"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "基于烈焰人炉灶的厨锅自动化"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: ["这个锅与厨锅相似，但是速度比厨锅略快，代价是原料栏少了两个格子"]
+			id: "7DA0FEEDCBBEAA04"
+			rewards: [{
+				id: "7A419E7634827189"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:miners_cooking_guide"
+				}
+				title: "这个的自动化和厨锅一样，唯一的区别是烹饪指南要换成这个"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FF54F52808173E3"
+				item: "miners_delight:copper_pot"
+				type: "item"
+			}]
+			title: "谁说矿工不能乐事？"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: [
+				"往里面放入四个奶酪凝乳，一段时间后就可以获得一个奶酪轮，奶酪轮切块后可以用于后续合成"
+				"奶酪模具的自动化需要漏斗从顶面输入底面输出"
+			]
+			id: "312596744AC8FC1C"
+			subtitle: "意大利人狂喜？"
+			tasks: [{
+				id: "38F5B3E3088C9087"
+				item: "vintagedelight:cheese_mold"
+				type: "item"
+			}]
+			title: "奶酪的世界"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: ["蒸发器的侧面（有延伸向两边的黑点的面）紧邻着能形成无限水的水源时，蒸发器的顶面（只有一个大黑点，不向两侧延伸的面）会逐渐以类似雪的形式积累盐，虽然jei说比盐块快得多，但如果想成规模生产还是需要大量蒸发器放在一起"]
+			id: "018F0905814EC428"
+			tasks: [{
+				id: "6DA585D421A24F1D"
+				item: "vintagedelight:evaporator"
+				type: "item"
+			}]
+			title: "腌渍之前的准备"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["018F0905814EC428"]
+			description: [
+				"jei里可以查看每个配方需要的时间"
+				"这个如果想自动化的话应该就需要用ae了（红石理论上也可以？），不过原料栏全满的配方也可以考虑提前把所有位置塞满再自动输入原料"
+			]
+			id: "4EB554D3E15BA9F8"
+			tasks: [{
+				id: "3A1A30379E1D0DAF"
+				item: "vintagedelight:fermenting_jar"
+				type: "item"
+			}]
+			title: "超级耗时的腌制"
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BF8BF1A150201B6"]
+			description: ["烧烤的流程决定了这个几乎不可能自动化（如果真有人琢磨出来了欢迎联系开发者），具体方法jei里都有，细致到了哪只手该拿什么"]
+			id: "1285A5CB8A2457FC"
+			tasks: [{
+				id: "0556CBD6E9C29CF5"
+				item: "barbequesdelight:basin"
+				type: "item"
+			}]
+			title: "烧烤之前的准备"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1285A5CB8A2457FC"]
+			description: [
+				"跟厨锅一样下方需要放置热源"
+				"把串好的串放在上面，到上方的烟雾效果变浓时（摘自mcmod）需要潜行右击翻面，否则串串会烧焦。"
+				"翻面后稍等片刻就完成烤串了"
+				"ps.佐料除了这里就只能通过村民交易获得"
+			]
+			id: "7A4478665CF6C596"
+			rewards: [
+				{
+					id: "04555D694123F7FE"
+					item: {
+						Count: 1
+						id: "barbequesdelight:cumin_powder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47665E48F21FCF88"
+					item: {
+						Count: 1
+						id: "barbequesdelight:pepper_powder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1456FA95BD8E9468"
+					item: {
+						Count: 1
+						id: "barbequesdelight:chili_powder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A34435FEBAC2522"
+				item: "barbequesdelight:grill"
+				type: "item"
+			}]
+			title: "BBQ风味！"
+			x: -1.5d
+			y: 4.0d
+		}
+	]
+	title: "种地！爽！"
+}

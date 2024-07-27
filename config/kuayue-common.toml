@@ -1,0 +1,9 @@
+#.
+#Register integration tracks for mods that are not present
+#[@cui:RequiresReload:both]
+registerMissingTracks = false
+#.
+#Disable Kuayue datafixers. Do not enable this config if your world contains pre-Create 0.5.1 Kuayue's bogeys, because then they will be destroyed
+#[@cui:RequiresReload:both]
+disableDatafixer = false
+

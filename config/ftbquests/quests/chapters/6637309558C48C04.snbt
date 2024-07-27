@@ -1,0 +1,617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6637309558C48C04"
+	group: "3A7548FF9A1E28AB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "akzs_custom_items:item/zhong_guo_tie_lu_"
+		}
+	}
+	id: "6637309558C48C04"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4AD734EDE58B30DC"
+			rewards: [{
+				count: 10
+				id: "082BAF37A95C163C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33FFEB8C82A5A769"
+				item: "kuayue:weathering_resistant_steel_block_0"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "74131654E23CE7E1"
+			rewards: [{
+				count: 10
+				id: "49BEC0312FDC0490"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25E436EEEEC96CFA"
+					item: "kuayue:signal_pole"
+					type: "item"
+				}
+				{
+					id: "3F64787BC3625687"
+					item: "kuayue:signal_pole_light"
+					type: "item"
+				}
+				{
+					id: "2D119E7501921874"
+					item: "kuayue:shunting_signal"
+					type: "item"
+				}
+				{
+					id: "22866AC1A3699CCE"
+					item: "kuayue:station_entrance_signal"
+					type: "item"
+				}
+				{
+					id: "35C3F0381AB12751"
+					item: "kuayue:through_signal"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74131654E23CE7E1"]
+			id: "2066D9463D3AFC1B"
+			rewards: [{
+				count: 10
+				id: "03A5374B055931CB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "689BF853AF49FA6C"
+					item: "kuayue:green_fence"
+					type: "item"
+				}
+				{
+					id: "32EE88170D6F143E"
+					item: "kuayue:megaphone"
+					type: "item"
+				}
+			]
+			title: "侵线！侵线！"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74131654E23CE7E1"]
+			id: "383EBDA3463F6AD3"
+			rewards: [{
+				count: 10
+				id: "575700400FB85707"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A5F0F929DE802F8"
+					item: "kuayue:no_double_pantograph"
+					type: "item"
+				}
+				{
+					id: "5C6EA7B3321599F8"
+					item: "kuayue:switch_on_sign"
+					type: "item"
+				}
+				{
+					id: "67B0B1CA010E03D5"
+					item: "kuayue:switch_off_sign"
+					type: "item"
+				}
+			]
+			title: "降弓用刑"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "07E3811414207B52"
+			rewards: [{
+				count: 10
+				id: "077894937DCB8A1C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50FBE5A255A73F6C"
+					item: {
+						Count: 1
+						id: "kuayue:red_ticket"
+						tag: {
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "北京"
+								station_out: "上海虹桥"
+							}
+							ticketInfo: {
+								money: 0
+								valid: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58D23D04C0FBB9FA"
+					item: {
+						Count: 1
+						id: "kuayue:ticket"
+						tag: {
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "北京"
+								station_out: "上海虹桥"
+							}
+							ticketInfo: {
+								money: 0
+								valid: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76522C153973D8D3"
+					item: {
+						Count: 1
+						id: "kuayue:card"
+						tag: {
+							cardInfo: {
+								money: 0L
+								valid: 1b
+							}
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "太原"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69B5D8B116CE2353"
+					item: "kuayue:ticket_vendor"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07E3811414207B52"]
+			id: "10321E2956D635A1"
+			rewards: [{
+				count: 10
+				id: "47008D1B87B62E53"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "553C177630FFC5E4"
+					item: "kuayue:turns_a_block"
+					type: "item"
+				}
+				{
+					id: "4C62BFEEEC4F6B93"
+					item: "kuayue:turns_b_block"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "1705AB6364A11582"
+			rewards: [{
+				count: 10
+				id: "1122F54866DC0E55"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "690F030982E090B2"
+					item: "kuayue:laquered_board_item"
+					type: "item"
+				}
+				{
+					id: "7EA6670090AB9446"
+					item: "kuayue:brush"
+					type: "item"
+				}
+				{
+					id: "5341900E94B8077A"
+					item: {
+						Count: 1
+						id: "kuayue:colored_brush"
+						tag: {
+							durability: 256
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC510D4BBEBB564"
+					item: "kuayue:green_brush"
+					type: "item"
+				}
+				{
+					id: "3BAABA2A9C541F86"
+					item: "kuayue:sticker_item"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1705AB6364A11582"]
+			id: "0EE2C570F3FC6EF8"
+			rewards: [{
+				count: 10
+				id: "66FDDF5208C8B8BE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7626655222D4C207"
+					item: "kuayue:df11g_front2"
+					type: "item"
+				}
+				{
+					id: "18D5745D7D29A9F6"
+					item: "kuayue:df11g_cowcatcher"
+					type: "item"
+				}
+			]
+			title: "猪头，就是猪头"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1705AB6364A11582"]
+			id: "406913F34ACAD6FB"
+			rewards: [{
+				count: 10
+				id: "3B6B65BA3E01ADB4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AFB12767C4852C0"
+					item: "kuayue:hxd3d_front"
+					type: "item"
+				}
+				{
+					id: "0BFE34B3A7C88D51"
+					item: "kuayue:hxd3d_panel_hexie"
+					type: "item"
+				}
+			]
+			title: "红枣，但是不能吃"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1705AB6364A11582"]
+			id: "633DED48B24E5368"
+			rewards: [{
+				count: 10
+				id: "2AAC2C83244D645B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7581DA7E9E51B4EF"
+				item: "kuayue:cr200j_front"
+				type: "item"
+			}]
+			title: "立及甬"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["633DED48B24E5368"]
+			id: "32FD63B4A194E728"
+			rewards: [{
+				count: 10
+				id: "74FA6867226B2575"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18DD0319D4746554"
+					item: {
+						Count: 1
+						id: "kuayue:animatable_block_controller"
+						tag: {
+							control_elements: {
+								cr200j: "fairing, wind_shield"
+								door: "close, open, switch"
+							}
+							coupling: { }
+							recent: {
+								max: 5
+								number: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4500FC0E89BF0CD9"
+					item: {
+						Count: 1
+						id: "kuayue:automatic_control_coupling"
+						tag: {
+							contents: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EE2C570F3FC6EF8"]
+			id: "183D1DF9ACD6E377"
+			rewards: [{
+				count: 10
+				id: "1A6A9F0D4896B0EA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F5FF782D3B739E4"
+					item: "kuayue:df11g_panel_kuayue"
+					type: "item"
+				}
+				{
+					id: "26FECFF8F9C96CE3"
+					item: "kuayue:df11g_carport_kuayue"
+					type: "item"
+				}
+			]
+			title: "不朽的传奇"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "1E7949BFDD0D10FC"
+			rewards: [{
+				count: 10
+				id: "12B0CE143774382A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59AC49C38C00C3CC"
+				item: "kuayue:train_diet_1"
+				type: "item"
+			}]
+			title: "答辩"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "04D03C08DA1B19B0"
+			rewards: [{
+				count: 10
+				id: "321B8F209648E487"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0681B52C0F8E0A23"
+					item: "kuayue:new_insulator_b"
+					type: "item"
+				}
+				{
+					id: "7EDD5377A4A3F0BC"
+					item: "kuayue:new_insulator_a"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "0111E89E46171B12"
+			rewards: [{
+				count: 10
+				id: "4A759542DFE12BB7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10D05A53523F2E0D"
+					item: {
+						Count: 1
+						id: "kuayue:general_straight"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24179A9439C8A499"
+					item: {
+						Count: 1
+						id: "kuayue:general_hyperbolic"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0287E06AC1FC0CE0"
+					item: {
+						Count: 1
+						id: "kuayue:general_catenary"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "6D2D66883AAF2FBA"
+			rewards: [{
+				count: 10
+				id: "237234DA9EE05B6B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BFFE31202EBE699"
+					item: "kuayue:concrete_pole"
+					type: "item"
+				}
+				{
+					id: "03BD9307C5F2DFEF"
+					item: "kuayue:steel_pole"
+					type: "item"
+				}
+				{
+					id: "50430297CAB215FC"
+					item: "kuayue:new_catenary_end_counterweight"
+					type: "item"
+				}
+				{
+					id: "5008BB255746FA49"
+					item: "kuayue:new_catenary_grid_a"
+					type: "item"
+				}
+				{
+					id: "4FE647CA422285B9"
+					item: "kuayue:new_catenary_grid_c"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0111E89E46171B12"]
+			id: "337BEB15F1A91DD2"
+			rewards: [{
+				count: 10
+				id: "4DD6B710ED7CB44B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3251F45F9586600F"
+				item: { Count: 64, id: "kuayue:creative_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "2A1CC01D329D1A30"
+			rewards: [{
+				count: 10
+				id: "7AE8B93E3B25C8FD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3FD71F448C5AFCEA"
+					item: "kuayue:gantry_cast_head"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5CDD3DD130A19AAA"
+					item: { Count: 64, id: "kuayue:gantry_cast" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "412A8FE4A4426CE6"
+					item: { Count: 64, id: "kuayue:steel_gantry_pillar" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "029CDF0AF5A4CD2D"
+					item: { Count: 64, id: "kuayue:gantry_pillar" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A5607F94F8F3624"
+					item: { Count: 64, id: "kuayue:gantry_cast_pole_base" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "64AFA5778CDA0934"
+					item: { Count: 64, id: "kuayue:gantry_cast_pole_base2" }
+					type: "item"
+				}
+				{
+					id: "0C548E2C56D24E35"
+					item: "kuayue:gantry_cast_pole2"
+					type: "item"
+				}
+				{
+					id: "20409F5FB023A964"
+					item: "kuayue:gantry_cast_pole"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "6BC9DC8695C8DC54"
+			tasks: [{
+				id: "26E8CDFF7BD7F690"
+				item: "kuayue:platform_line_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "跨越！"
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "468E93912506E945"
+	group: "679FFAAC8DE8A0E7"
+	id: "468E93912506E945"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		description: [
+			"根据统计计算，E(x) = 12027.73238"
+			"也就是说，平均80币值换12027.73238币值，稳赚不赔啊老弟！"
+		]
+		disable_toast: true
+		icon: "gtceu:chocolate_coin"
+		id: "6F70429B078BB17B"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "4845D5D77BD65F56"
+			table_id: 3663644327118475835L
+			type: "loot"
+		}]
+		subtitle: "稳赚不赔"
+		tasks: [{
+			consume_items: true
+			count: 10L
+			id: "497E6B6292C1F30B"
+			item: "gtceu:silver_credit"
+			type: "item"
+		}]
+		title: "铸币"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "抽奖机"
+}

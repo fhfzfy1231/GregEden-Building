@@ -1,0 +1,3716 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55582A62CF13DAAD"
+	group: "679FFAAC8DE8A0E7"
+	id: "55582A62CF13DAAD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "citymod:pole"
+			id: "774A19FCA6F7C25F"
+			rewards: [
+				{
+					count: 64
+					id: "56DD315E8E20A6AF"
+					item: "citymod:pole_joint_double"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "19E5E52575D55315"
+					item: "citymod:pole"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "39E0E5251B4368D7"
+					item: "citymod:pole_horizontal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1BF1E221C902590F"
+					item: "citymod:pole_joint"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "58BB86FC367615CA"
+					item: "citymod:pole_joint_l"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0FC7FBB87F818910"
+					item: "citymod:polefine_joint_d"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BE108D0509870DD"
+					item: "citymod:pole_fine_d"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4B3F8A964CC75EE4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "杆"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "yuushya:road_light"
+			id: "3375DBC8AA1118DC"
+			rewards: [
+				{
+					count: 64
+					id: "6ABB64E98B7B0A28"
+					item: "citymod:lamppost"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "44AF86A62B6DD1DD"
+					item: "citymod:road_light_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0971FDE3F61FCAC9"
+					item: "citymod:street_light"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BA0BC8DA5DA44CE"
+					item: "citymod:street_light_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A3F5D89F8EC4471"
+					item: "citymod:road_light"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "045CA48B97611F87"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "路灯"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:concretebarrierfenced"
+			id: "3754E4D564F415BF"
+			rewards: [
+				{
+					count: 64
+					id: "689CE8371FB5D417"
+					item: "citymod:yellowline_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CD2E0C4E719FD68"
+					item: "citymod:double_yellowline_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "75BBD251D154E5AE"
+					item: "citymod:whiteline_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D5FB789935B40F4"
+					item: "citymod:concretebarrierfenced"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DAC5BEA35D74FAD"
+					item: "citymod:expressway_fence"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "237B598DE9E04DAE"
+					item: "citymod:expressway_fence_joint"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FB9490B1F3A2D65"
+					item: "citymod:expressway_fence_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "45581BF1303F98A8"
+					item: "citymod:expressway_fence_green_joint"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55DB289D64035EBA"
+					item: "citymod:road_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "11C91208FE359ABF"
+					item: "citymod:internet_famous_road_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "48BE5D808CB8B657"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "道路"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:roadblock_double_oblique"
+			id: "574AF5E38C40FF75"
+			rewards: [
+				{
+					count: 64
+					id: "7442ED7A5B78BAF0"
+					item: "citymod:road_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "186A21D2849D5DF0"
+					item: "citymod:road_white_connect"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1723A6548E64AF2A"
+					item: "citymod:road_zebra_crossing"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "59453B0586718279"
+					item: "citymod:road_yellow"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5931278AA881F2AD"
+					item: "citymod:road_yellow_double"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "450DA30F66303646"
+					item: "citymod:road_yellow_connect"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DE9252C05E319B5"
+					item: "citymod:roadblock_yellow_oblique"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "542AA8B015BA5516"
+					item: "citymod:roadblock_oblique"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6CB3009A96F64310"
+					item: "citymod:roadblock_double_oblique"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A78F24AA878B220"
+					item: "citymod:zebracrossing_oblique"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "542832D04C827128"
+					item: "citymod:road_straight"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "130B7844BC626244"
+					item: "citymod:road_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5BB964D363B63E19"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "道路线"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:traffic_sign"
+			id: "1E3B2A36E7200623"
+			rewards: [
+				{
+					count: 64
+					id: "5AE074A3EC43577C"
+					item: "citymod:traffic_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "770F62A8AA3CEEC5"
+					item: "citymod:traffic_sign_l"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4F584B5CFDEF0AEB"
+					item: "citymod:traffic_sign_r"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A7838CFC6CE5BBB"
+					item: "citymod:traffic_sign_t"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A9471C0C0EA7D0D"
+					item: "citymod:direction_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C8C4456D0F163F2"
+					item: "citymod:direction_sign_left"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0370605BB851A566"
+					item: "citymod:direction_sign_right"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04930DB0F985F95E"
+					item: "citymod:direction_signturnoff"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2BD5F87269C6A692"
+					item: "citymod:direction_sign_left_turnoff"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FE52AB9B0488473"
+					item: "citymod:direction_sign_left_straight"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12CCA8B2C7073455"
+					item: "citymod:direction_sign_right_straight"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B1F9161D4DBA70A"
+					item: "citymod:traffic_sign_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7FB1FBBC2359C57C"
+					item: "citymod:traffic_sign_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0D7977A9496079A0"
+					item: "citymod:direction_sign_left_right"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "784E8FA3C0AB8BDF"
+					item: "citymod:scenic_spot_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "6DC244AEC3C3098C"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "路牌"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:expr_5a"
+			id: "583BFCB3D4A03255"
+			rewards: [
+				{
+					count: 64
+					id: "061E67CDB3ECE620"
+					item: "citymod:expr_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A8ECD1337EEAF85"
+					item: "citymod:expr_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7601C92C29963ADC"
+					item: "citymod:expr_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A4A2038A76989B8"
+					item: "citymod:expr_4"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "18B3ADF22B702AB0"
+					item: "citymod:service_area_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "58858E34D4E16277"
+					item: "citymod:expr_5a"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B3B576C5E665551"
+					item: "citymod:expr_5b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BD89AEB96B1D799"
+					item: "citymod:expr_sign_large"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "795560919579E2C2"
+					item: "citymod:diversion_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60B861AAB605391C"
+					item: "citymod:diversion_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03229CCAA16834EA"
+					item: "citymod:vehicle_distance_confirmation_sign_c"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BB517A5BC56C64C"
+					item: "citymod:vehicle_distance_confirmation_sign_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28E27A5CEB7051BE"
+					item: "citymod:vehicle_dstance_confirmation_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "29778496EF263417"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "高速公路路牌"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:speed_limit_sign_3"
+			id: "2B04456E8EA9D3AF"
+			rewards: [
+				{
+					count: 64
+					id: "2F4925CA6635F13F"
+					item: "citymod:speed_limit_sign_4"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "07F2D464D7C8F31D"
+					item: "citymod:speed_limit_sign_6"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "237996056507C62C"
+					item: "citymod:speed_limit_sign_5"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "348525AF25C8CFDF"
+					item: "citymod:speed_limit_sign_8"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74938668022E5E3F"
+					item: "citymod:speed_limit_sign_7"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0796739BE7C49BFA"
+					item: "citymod:speed_limit_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "199E352558385E8F"
+					item: "citymod:speed_limit_sign_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "57EF91825A5E7BD1"
+					item: "citymod:speed_limit_sign_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A127C846DB0DD1F"
+					item: "citymod:speed_limit_sign_3"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "265AFB4BCF70827F"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "限速标志牌"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:pedestrians"
+			id: "3E25B087588C1DA2"
+			rewards: [
+				{
+					count: 64
+					id: "778F55FF779CDC4E"
+					item: "citymod:school_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7D38363F64625500"
+					item: "citymod:no_honking_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E295E7C8819BF31"
+					item: "citymod:sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B8E13E8B43949B2"
+					item: "citymod:noparking_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "37F90CEF39ABE026"
+					item: "citymod:pedestrians"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4076D2FD645754B2"
+					item: "citymod:parking"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "557C6D7B56833494"
+					item: "citymod:right_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1EA0C6C895DFB992"
+					item: "citymod:left_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4377ABBA0DADDE4B"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "一般标志牌"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:trash_bin"
+			id: "232EA9D4DE483428"
+			rewards: [
+				{
+					count: 64
+					id: "0B90827D0764A820"
+					item: "citymod:barrier_gate_main_up"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "45AD1A96FF991CAF"
+					item: "citymod:barrier_gate_up"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2096EED2ECA69008"
+					item: "citymod:barrier_gate_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DC2AADF17E05F17"
+					item: "citymod:barrier_gate_main_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A5712C64BE27FCE"
+					item: "citymod:glass_fence"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "79ED5B68C00B6AFE"
+					item: "citymod:modern_fence_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FCD22BD451E2A50"
+					item: "citymod:modern_fence_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "675EAB52A72B100E"
+					item: "citymod:modern_fence"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1124EF3A5C8AB119"
+					item: "citymod:trash_bin"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "29833962AD3EB181"
+					item: "citymod:manhole_cover_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5230DFBAFFBE54A3"
+					item: "citymod:manhole_cover_a"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "78E79F2DA42FCD1A"
+					item: "citymod:pole_fine"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1F273156AD175C4B"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "道路组件"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:fireextinguisherbox"
+			id: "1C85399E20C360B9"
+			rewards: [
+				{
+					count: 64
+					id: "24EFE758C876F579"
+					item: "citymod:security_window_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A886E4C2F11C459"
+					item: "citymod:security_window_small_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "34DE27C76457FD67"
+					item: "citymod:security_window_large"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E0BD8066D2972B4"
+					item: "citymod:security_window_medium"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01AE84B448DBB243"
+					item: "citymod:fireextinguisherbox"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "38C650202867ABB7"
+					item: "citymod:solarwaterheater"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2760105221A9AB27"
+					item: "school:spring_festival_couplets"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2DFF58BC2EFF0F99"
+					item: "school:fu"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3C27F9A95E3BA3C8"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "室外组件"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:old_pc_gslc"
+			id: "60A561D162229FC6"
+			rewards: [
+				{
+					count: 64
+					id: "4849B051BDD2144F"
+					item: "school:screen"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7DB5860FA3920176"
+					item: "school:pc"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "39E8298ED49DD296"
+					item: "school:seewo"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3B8CFC55BD39A5A2"
+					item: "school:main_unit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "263941DB9C4702D5"
+					item: "school:seewo_bsod"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "21D68A769BD2CA0E"
+					item: "school:pcmc"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5E331E6F5DA86141"
+					item: "school:old_pc"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00D63294E37082CC"
+					item: "school:old_pc_gslc"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4961CD2C2FD67BBA"
+					item: "school:smart_brand"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "44A7631EA0F0AFB4"
+					item: "school:easicamera"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60665F457BC96C96"
+					item: "school:laptop"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E15F913F0C74057"
+					item: "school:outdoorspeakers"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "69CB488994E4896B"
+					item: "school:loudspeaker"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3FE60134F85698D2"
+					item: "school:printer"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "26806951BBB4AD10"
+					item: "school:white_board"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0B340C84BB761F8C"
+					item: "citymod:central_air_conditioning"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "765541535B5EFD1F"
+					item: "citymod:centr_alir_conditioning"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3814649B716C3AB8"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "电脑"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:air_conditioning_external_unit"
+			id: "215B3B8185779C7E"
+			rewards: [
+				{
+					count: 64
+					id: "55AF1008748DD3FF"
+					item: "school:ac_out"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65CE934301FF83BD"
+					item: "school:acina"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C25E1EF6F741947"
+					item: "school:ac_large_out"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C645F409200E539"
+					item: "school:acin_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B69CFD544ABFFEA"
+					item: "school:windowairconditionergreenwindow"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "317B1D48828E8FB3"
+					item: "school:windowairconditioning"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "64520E1A2DFCCA3E"
+					item: "school:windowairconditionerblackwindow"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A1DB1ED42059AD4"
+					item: "school:windowairconditionerbluewindow"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53AE0EB94E105F5D"
+					item: "school:ac_bracket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7D312F5F439CC937"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "空调"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:window_large_green"
+			id: "074CF1B71F44970F"
+			rewards: [
+				{
+					count: 64
+					id: "0CBEC18662A2D094"
+					item: "citymod:window_large_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "443D5D2D1839D7A6"
+					item: "citymod:window_medium_a_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55038950D9B639E0"
+					item: "citymod:window_mediub_b_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4BCFAE2520A385CA"
+					item: "citymod:window_small_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35F7CFC3FB1A6D30"
+					item: "citymod:window_corner_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "682DA9EA18942BFC"
+					item: "citymod:window_oblique_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "13A15CC60FC12303"
+					item: "citymod:window_oblique_large_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A2FF65C6FBDF8CE"
+					item: "citymod:window_corner_small_green"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "57993476478A0BE2"
+					item: "school:greenvintageglasswindows_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4AF6A1EE2618C2A1"
+					item: "school:minigreenvintageglasswindows_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B09F06D11F1FC62"
+					item: "school:minigreenvintageglasswindows"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7CDB1A888300CB0E"
+					item: "school:greendoubleglasswindows"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "266CE6D5161D4C1A"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "现代玻璃窗（绿色）"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:window_large_white"
+			id: "6A1EDA31B08F72BF"
+			rewards: [
+				{
+					count: 64
+					id: "62E11F1B18F88534"
+					item: "citymod:window_oblique_large_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "36C11804F90CCD34"
+					item: "citymod:w_indow_oblique_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "59A7128339032AA4"
+					item: "citymod:window_corner_white_large"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "282086F9707A40B8"
+					item: "citymod:window_medium_b_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "566E2638AEC0C452"
+					item: "citymod:window_medium_a_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60849E12DDFCD074"
+					item: "citymod:window_large_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7FF935EA7C19AE61"
+					item: "citymod:window_corner_white_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A272E62999A73C9"
+					item: "citymod:window_small_white"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04A6E79A81F0A870"
+					item: "school:window_white_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "69C7D424B7F47919"
+					item: "school:window_white_up"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "70F4EF7070D4D7B5"
+					item: "school:window_white_up_single"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2B1C84919A7ADE49"
+					item: "school:window_white_down_single"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "54575F3FDAE37CE3"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "现代玻璃窗（白色）"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:window_large_black"
+			id: "0ACB5F8A81C24EC9"
+			rewards: [
+				{
+					count: 64
+					id: "169B85032A86D02D"
+					item: "citymod:window_oblique"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "160CC38D45F9556D"
+					item: "citymod:window_corner_black_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "363C208E43185AED"
+					item: "citymod:window_corner_black_large"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7ABB2BB27BDDA712"
+					item: "citymod:window_small_black"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55562388360A91A9"
+					item: "citymod:window_medium_b_black"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A83A4AEEEF8509E"
+					item: "citymod:window_large_black"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A07B4E6EFC1378E"
+					item: "citymod:window_medium_a_black"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "46CF58212B9F1F54"
+					item: "citymod:window_oblique_large"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7377EFFD9AB93FB9"
+					item: "school:window_black_down_single"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6EBAF0CC2E92A28F"
+					item: "school:window_black_up_single"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "488DFF36D2388B39"
+					item: "school:window_black_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "47297ED4358A9D22"
+					item: "school:window_black_up"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1C89BA0302FCEAB3"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "现代玻璃窗（黑色）"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "citymod:window_large_blue"
+			id: "187CC0883F6424C2"
+			rewards: [
+				{
+					count: 64
+					id: "0BA237FAC0EB15F5"
+					item: "citymod:window_corner_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "30DC9D62C7613401"
+					item: "citymod:window_oblique_large_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3B61B3D23DA9FE9F"
+					item: "citymod:window_oblique_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00DC83585CC53D0A"
+					item: "citymod:window_corner_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CEB5C1D9EB30B79"
+					item: "citymod:window_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "32F43956A898428A"
+					item: "citymod:window_medium_b_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73AAFEDC2BAF9735"
+					item: "citymod:window_medium_a_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1582C5AFE8759DBA"
+					item: "citymod:window_large_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E57B78873908267"
+					item: "school:window_old_down"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33FECB0B4034EDF0"
+					item: "school:window_old_up"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0327A45959E1A70A"
+					item: "school:window_old_up_single"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "54FE1C06F4F42235"
+					item: "school:window_old_down_single"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5E8DDB22794E22E2"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "现代玻璃窗（蓝色）"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:black_board"
+			id: "243D77881491FCD8"
+			rewards: [
+				{
+					count: 64
+					id: "6AA00E7B3DDC4A45"
+					item: "school:black_board"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BD6CDCB2432A47D"
+					item: "school:pushandpullchalkboard_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "534D659B1957E646"
+					item: "school:pushandpullchalkboard_4"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06461B1F06FA070E"
+					item: "school:pushandpullchalkboard_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53223AE07192012C"
+					item: "school:pushandpullchalkboard_3"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7275A83BA4A55C30"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "黑板"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:ballastless_track"
+			id: "257E256D65A51793"
+			rewards: [
+				{
+					count: 64
+					id: "1239669BDD7A4B9E"
+					item: "kuayue:ballastless_track"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5BEF5CA5481455C9"
+					item: "kuayue:standard_track"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7C82AF95FF4A4F96"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "铁轨"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:alcohol_lamp"
+			id: "7E542F31275467F6"
+			rewards: [
+				{
+					count: 64
+					id: "04E40A03ACAC0C06"
+					item: "school:laboratory_desk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00EE390FC2E3AD4C"
+					item: "school:laboratory_pool"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "58F2DD53E34AE9CF"
+					item: "school:laboratory_chair"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B2992E1A3AB7A6C"
+					item: "school:laboratory_cabinet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03CE7B69B766A553"
+					item: "school:laboratory_light"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50D0557112F9C90D"
+					item: "school:balance"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F51DDE391636B80"
+					item: "school:alcohol_lamp"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5F19449F0031B23B"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "实验室"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:mobile_red_flags"
+			id: "5A4C179E15F4DC0B"
+			rewards: [
+				{
+					count: 64
+					id: "11ADB9AAC2C687B6"
+					item: "school:desk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2D550B202B4AB5DF"
+					item: "school:chair"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0074E733CDC50606"
+					item: "school:chalk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B083569F50EA339"
+					item: "school:books"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "71E88189F939650C"
+					item: "school:glass_floor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "58BF271A3B0538B3"
+					item: "school:mobileblack"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0A0B6368A34438D6"
+					item: "school:mobile_red_flags"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F54773E3E441221"
+					item: "school:classcard"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4CE8D38FC7B1D0B9"
+					item: "school:certificate_of_merit"
+					type: "item"
+				}
+				{
+					id: "6FF46F775F8BCFA8"
+					item: {
+						Count: 1
+						id: "school:set_square"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C3EF0B211D15D73"
+					item: {
+						Count: 1
+						id: "school:ferule"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6298F8DAEBC306EC"
+					item: "school:chalks"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "626AA55BC4568352"
+					item: "school:projector"
+					type: "item"
+				}
+				{
+					id: "74C1396E8B770E4F"
+					item: "school:athlete_march"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "637AAC95F8B1459A"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "教室"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:student_meal"
+			id: "7E2B7BDDF1E12CE1"
+			rewards: [
+				{
+					count: 64
+					id: "4BA274E12520A714"
+					item: "school:student_meal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0FF012404C185BEB"
+					item: "school:laboratory_sugar"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6918965F4ABEF1EE"
+					item: "school:student_milk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "288CC22680398BCE"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "学生食物"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:tall_wall"
+			id: "77817C82C0CF2324"
+			rewards: [
+				{
+					count: 64
+					id: "46D3B6A0473888B1"
+					item: "school:tall_wall"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D1BE97F8F176DED"
+					item: "school:white_concrete_stair"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "52F16AE7C6646737"
+					item: "school:white_concrete_wall"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A50A0A360B8505D"
+					item: "school:tall_wall_corner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "586406325AB40245"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "教室墙"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "school:classroom_light"
+			id: "2CF2C2275682FD1A"
+			rewards: [
+				{
+					count: 64
+					id: "3DB85E819A45D815"
+					item: "school:classroom_light"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0EB5CA488B0D99E7"
+					item: "school:glass_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "011792C96781F357"
+					item: "school:top_lamp"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "51D6CFEFD9C501DD"
+					item: "school:strip_chandelier"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7C3324F67D4866B9"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "教室灯"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:signal_pole_light"
+			id: "0FFD4B31F0753007"
+			rewards: [
+				{
+					count: 64
+					id: "64E532295D1A379B"
+					item: "kuayue:through_signal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2CEF49695FF57EDB"
+					item: "kuayue:megaphone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0B32643FF36B018E"
+					item: "kuayue:green_fence_45"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "44D128094897752B"
+					item: "kuayue:green_fence"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C5EB133FE63ECCC"
+					item: "kuayue:signal_pole_light"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2A908F21D07FEB53"
+					item: "kuayue:signal_pole"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00F8E386790E0EFB"
+					item: "kuayue:switch_on_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "40D991EAD262444C"
+					item: "kuayue:switch_off_sign"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "539283FAACCA56B8"
+					item: "kuayue:shunting_signal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0443822ECD487871"
+					item: "kuayue:no_double_pantograph"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "440E751789CCDA07"
+					item: "kuayue:station_entrance_signal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3CF833DF255CC0F2"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "铁路组件"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:turns_a_block"
+			id: "7B2D437EDCFD5238"
+			rewards: [
+				{
+					count: 64
+					id: "7E9F7FE740B28B94"
+					item: "kuayue:tactile_paving_pin"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "744C9CAC8D816ADB"
+					item: "kuayue:tactile_paving_straight"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5220C19CA6BACD7E"
+					item: "kuayue:clay_stairs"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C3DDF18BCAC02CC"
+					item: "kuayue:clay_slab"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12030FA64DCD0A14"
+					item: "kuayue:smooth_quartz_angle_22_up"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "122025A24CAE8200"
+					item: "kuayue:smooth_quartz_panel_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7651CD1A7E3ECE7A"
+					item: "kuayue:smooth_quartz_panel_4"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7382D70E41F2FC63"
+					item: "kuayue:smooth_quartz_panel_half"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "735895711DC76560"
+					item: "kuayue:platform_line_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "468EA3D08FA05E54"
+					item: "kuayue:flourescent_light"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "42D93AA204F233BE"
+					item: "kuayue:turns_a_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A78CA4B44E5AFD1"
+					item: "kuayue:turns_b_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53F95FF3F0AEDF49"
+					item: "kuayue:ticket_vendor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7DFF6550AD19349E"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "车站组件"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "kuayue:ticket"
+				tag: {
+					stationInfo: {
+						enteredStation: 1b
+						station_in: "北京"
+						station_out: "上海虹桥"
+					}
+					ticketInfo: {
+						money: 0
+						valid: 1b
+					}
+				}
+			}
+			id: "58C3E7AC879581EE"
+			rewards: [
+				{
+					id: "3770C8EF4CEB3C65"
+					item: {
+						Count: 1
+						id: "kuayue:card"
+						tag: {
+							cardInfo: {
+								money: 0L
+								valid: 1b
+							}
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "太原"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A4C23345917F67B"
+					item: {
+						Count: 1
+						id: "kuayue:ticket"
+						tag: {
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "北京"
+								station_out: "上海虹桥"
+							}
+							ticketInfo: {
+								money: 0
+								valid: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56A0A3EE4DE5F6C8"
+					item: {
+						Count: 1
+						id: "kuayue:red_ticket"
+						tag: {
+							stationInfo: {
+								enteredStation: 1b
+								station_in: "北京"
+								station_out: "上海虹桥"
+							}
+							ticketInfo: {
+								money: 0
+								valid: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "62177B9DA4D74B21"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "车票"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:yz_seat2"
+			id: "5D4CC7F666631E3C"
+			rewards: [
+				{
+					count: 64
+					id: "7DFA03270297C33E"
+					item: "kuayue:sticker_item"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73114EC17BD807E2"
+					item: "kuayue:laquered_board_item"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2BE2DD5633D970AD"
+					item: "kuayue:seat_rz"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33E0A72C09C7F6A9"
+					item: "kuayue:yz_seat2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6ED5D36860187AE2"
+					item: "kuayue:yz_table"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CE78EA5DFB2ACFE"
+					item: "kuayue:ceilin_shelf"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "61FA54C8BBF674C4"
+					item: "kuayue:original_25z_floor_carpet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "04EBF1C186044774"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "车厢组件"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:df11g_front2"
+			id: "26E1980DA42A3AC6"
+			rewards: [
+				{
+					count: 64
+					id: "71C6A1E15DF8AAB4"
+					item: "kuayue:df11g_cowcatcher"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E08B9555FB5D56F"
+					item: "kuayue:df11g_front2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BD749F3D7E5ADD9"
+					item: "kuayue:df11g_carport_1"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3825D6D60CC0E7B0"
+					item: "kuayue:df11g_carport_general"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "403A691BF8561814"
+					item: "kuayue:df11g_carport_louver"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6315BCECAD00CBB3"
+					item: "kuayue:df11g_carport_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A8E33CB571A5C2C"
+					item: "kuayue:df11g_carport_louver_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "52C732CCFB975827"
+					item: "kuayue:df11g_carport_louver_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "719F75CCCA03768F"
+					item: "kuayue:df11g_carport_kuayue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "351A86F47D64B6A8"
+					item: "kuayue:df11g_panel_kuayue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7C16775EA4456809"
+					item: "kuayue:df11g_equip_room_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65033BDB8EC7A7CB"
+					item: "kuayue:df11g_panel_cr"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50D9A0B082404E5D"
+					item: "kuayue:df11g_panel_mid_front_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5AAA7B05ADB434C7"
+					item: "kuayue:df11g_end_face"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "227C9A5664700D1B"
+					item: "kuayue:ss8_pantograph"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1C036F9AB745F4C5"
+					item: "kuayue:pantograph"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "57315C656FAA12C6"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "DF11G"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:hxd3d_front"
+			id: "784504951D84596A"
+			rewards: [
+				{
+					count: 64
+					id: "506F6519BB63EB1C"
+					item: "kuayue:hxd3d_front"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3BC6ADE0ECD6ADE1"
+					item: "kuayue:hxd3d_cab_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "67E87B7E9C5DC917"
+					item: "kuayue:hxd3d_panel_red"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "578332426FB5FC8F"
+					item: "kuayue:hxd3d_panel_hexie"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00C96D919AC96ECE"
+					item: "kuayue:hxd3d_carport_general"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3E59551D91827E87"
+					item: "kuayue:hxd3d_slab"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50BCB03071A7008F"
+					item: "kuayue:ss8_pantograph"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "452311562BF4D904"
+					item: "kuayue:pantograph"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "76652BA31F3AA2B6"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "HXD3D"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:end_face_25g_original"
+			id: "79C1E92E2B77C7DC"
+			rewards: [
+				{
+					count: 64
+					id: "46D85EE0B46AADF1"
+					item: "kuayue:original_color_window_25g_small_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0A265E412BA6B414"
+					item: "kuayue:original_color_window_25g_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7DE4A6ABB8177BD3"
+					item: "kuayue:panel_25g_original_window"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A536AFB411127B4"
+					item: "kuayue:ladder_25g_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28239362F4C3AED9"
+					item: "kuayue:original_25g_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "584976DFB7304AE3"
+					item: "kuayue:panel_25g_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A263030CB3D1C68"
+					item: "kuayue:panel_25g_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6912A23B2FBFA5A3"
+					item: "kuayue:panel_25g_original_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1F53F977F4FD77B9"
+					item: "kuayue:slab_25g_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "715AA9B8CABAC9CE"
+					item: "kuayue:original_color_window_25"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0139A520072A3EA7"
+					item: "kuayue:direct_drainage_toilet_original_25g"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50CB127043EF04B1"
+					item: "kuayue:end_face_25g_original_upper_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "022EB256E6BE7C2E"
+					item: "kuayue:end_face_25g_original_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C3D662889AEE3AA"
+					item: "kuayue:end_face_25g_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "141D3CA89CC399DC"
+					item: "kuayue:original_color_window_25g_wide_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "21E63BA229589B2A"
+					item: "kuayue:original_color_window_25g_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "17C6398EF98BCC76"
+					item: "kuayue:original_color_window_25g_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65A6D52CD89F7418"
+					item: "kuayue:original_color_window_25g_sealed_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2AD0131EA45A52BB"
+					item: "kuayue:carport_25bgzkt_water_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C3CBA07E8D309BA"
+					item: "kuayue:carport_25bgzk_air_condition_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2501A54757F29DA5"
+					item: "kuayue:carport_25bgzkt_centre"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73C7374CB73DB4FD"
+					item: "kuayue:carport_25bgzk_air_condition_all"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "773B98AE5490DB75"
+					item: "kuayue:carport_25bgzk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5DA02793FC43E859"
+					item: "kuayue:ventiduct_25b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3ABA71B6720146D3"
+					item: "kuayue:original_color_window_25_sealed"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "06D0D3BFB632A8E3"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "25G"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:end_face_25b_original"
+			id: "21AEC6A69447A262"
+			rewards: [
+				{
+					count: 64
+					id: "69588FDD55F07EBF"
+					item: "kuayue:panel_25b_original_top_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33087EB5D525FED2"
+					item: "kuayue:panel_25b_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DFD13CCE4F0FD82"
+					item: "kuayue:panel_25b_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "439BB2FE57BE6A96"
+					item: "kuayue:panel_25b_original_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5224759CE1327D44"
+					item: "kuayue:carport_25bgzk_air_condition_all"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0F7F346F3A210EAF"
+					item: "kuayue:carport_25bgzk_air_condition_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "407B889FDB17F458"
+					item: "kuayue:original_color_window_25"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "326568E95175E0BA"
+					item: "kuayue:original_color_window_25_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DC200A562A25C51"
+					item: "kuayue:panel_25b_original_window"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3AD2D95946AA5E14"
+					item: "kuayue:original_color_window_25b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4F45AC60B782E32B"
+					item: "kuayue:original_color_window_25b_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BD35622AADB5D37"
+					item: "kuayue:original_color_window_25b_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3203918773E5CFB6"
+					item: "kuayue:original_color_window_25b_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "51E12C8DB42521C7"
+					item: "kuayue:original_color_window_25b_wide_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5821A97EE7BC4DBE"
+					item: "kuayue:end_face_25b_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4533C4E6282A6A7E"
+					item: "kuayue:end_face_25b_original_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "71B3C4C3024BA826"
+					item: "kuayue:end_face_25b_original_upper_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04B0643E7D69CEF1"
+					item: "kuayue:carport_25bgzk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "390B67A0061871C1"
+					item: "kuayue:carport_25bgzkt_water_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "451C49CDE8EE699F"
+					item: "kuayue:ladder_25b_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00E62BA1A584C035"
+					item: "kuayue:original_25b_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7DA89AD13EA48BB7"
+					item: "kuayue:slab_25b_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12E8C27886A880C3"
+					item: "kuayue:carport_25bgzkt_centre"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6B2FE497A119BF82"
+					item: "kuayue:direct_drainage_toilet_original_25b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C8DA3F77AFBEDD7"
+					item: "kuayue:ventiduct_25b"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "724830CC52024715"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "25B"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:end_face_25k_original_rubber"
+			id: "1D79152BD5366908"
+			rewards: [
+				{
+					count: 64
+					id: "7B3924F39A5A9CB6"
+					item: "kuayue:direct_drainage_toilet_original_25k"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "62B3701B49425531"
+					item: "kuayue:original_color_window_25"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "49E5E5A405E4860D"
+					item: "kuayue:original_color_window_25_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1D673C8382BA38BD"
+					item: "kuayue:carport_25bgzk_air_condition_all"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7DF953E9CBF44D2D"
+					item: "kuayue:carport_25bgzk_air_condition_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25E8C497331E1258"
+					item: "kuayue:carport_25bgzkt_water_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28358638B8FE9F0C"
+					item: "kuayue:carport_25bgzkt_centre"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "592C0914CB8DE579"
+					item: "kuayue:carport_25bgzk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01249D695F15E9EB"
+					item: "kuayue:ventiduct_25b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0827C23B093BD2D1"
+					item: "kuayue:slab_25k_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35474842ED83C3FF"
+					item: "kuayue:panel_25k_original_symbol"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "62D7DE3A976CC1D3"
+					item: "kuayue:panel_25k_original_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0087142211BF6D2C"
+					item: "kuayue:panel_25k_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73E63CFB6317A6F1"
+					item: "kuayue:panel_25k_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1323A73797DDA5C5"
+					item: "kuayue:ladder_25k_original_sliding"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1319372D83249C36"
+					item: "kuayue:original_25k_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1D7B5A6A7563CFA2"
+					item: "kuayue:original_25k_sliding_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "29AAF5CBCD2C4167"
+					item: "kuayue:panel_25k_original_bottom_line"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A583AE43EEC9D35"
+					item: "kuayue:panel_25k_original_window"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6AF18E59094B8A8C"
+					item: "kuayue:original_color_window_25k_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5AC18B2D94D81D02"
+					item: "kuayue:original_color_window_25k_sealed_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "765FE7D0A66D8EAC"
+					item: "kuayue:original_color_window_25k_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E597D767752D750"
+					item: "kuayue:original_color_window_25k_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5016A20B4D71111C"
+					item: "kuayue:original_color_window_25k_wide_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "548B20DDBC3A5A1C"
+					item: "kuayue:end_face_25k_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7EFAAAE1324A4662"
+					item: "kuayue:end_face_25k_original_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2988FC4576EDE982"
+					item: "kuayue:end_face_25k_original_upper_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3D635053362B13C0"
+					item: "kuayue:end_face_25k_original_rubber"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2D6CBAB89AD4CBAB"
+					item: "kuayue:end_face_25k_original_rubber_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6CD3C4A58089E9B8"
+					item: "kuayue:end_face_25k_original_rubber_upper_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "79ECF7CF97615C6E"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "25K"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:end_face_25z_original"
+			id: "1D992905E99B1E84"
+			rewards: [
+				{
+					count: 64
+					id: "666224C6D6B85F63"
+					item: "kuayue:original_25z_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "191056923F3352B0"
+					item: "kuayue:original_color_window_25"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "26C7ABF4C66C7208"
+					item: "kuayue:original_color_window_25_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25E9DBCF6607A3AF"
+					item: "kuayue:carport_25bgzk_air_condition_all"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3408435E6B53511E"
+					item: "kuayue:carport_25bgzk_air_condition_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "300E5BD961A1D8CA"
+					item: "kuayue:carport_25bgzkt_water_tank"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "307BC4C0A055C914"
+					item: "kuayue:carport_25bgzkt_centre"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "48E69BA62208332B"
+					item: "kuayue:carport_25bgzk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6E57B12DAF9F9924"
+					item: "kuayue:ventiduct_25b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0AFB0DA92220A763"
+					item: "kuayue:slab_25z_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "68960C33CA2060EE"
+					item: "kuayue:direct_drainage_toilet_original_25z"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60A65B7532783285"
+					item: "kuayue:panel_25z_original_bottom_symbol"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0D6D569FD091039B"
+					item: "kuayue:panel_25z_original_bottom_line"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7E441682D797B7EE"
+					item: "kuayue:panel_25z_original_bottom_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "118CB9BD5B2D7B80"
+					item: "kuayue:panel_25z_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1945A36247EEF84D"
+					item: "kuayue:panel_25z_original_mid_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "19765620FA5D3839"
+					item: "kuayue:original_color_window_25z"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7EFA1E3FA9324C37"
+					item: "kuayue:original_color_window_25z_small2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FF879DED737BDAB"
+					item: "kuayue:original_color_window_25z_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3D53C23843391963"
+					item: "kuayue:original_color_window_25z_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3BD3513CB756AD4B"
+					item: "kuayue:original_color_window_25z_level"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "468016E6601A1E6C"
+					item: "kuayue:panel_25z_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01CADF5E31511BA1"
+					item: "kuayue:ladder_25z_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "10F82787137EC2FA"
+					item: "kuayue:end_face_25z_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2C010929E13F7232"
+					item: "kuayue:end_face_25z_original_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "07CD559A27CFE254"
+					item: "kuayue:end_face_25z_original_upper_ac"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "71E72D79497FE4C2"
+					item: "kuayue:carport_centre_25z"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "49795A7DCD2ADFFD"
+					item: "kuayue:carport_25z"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3AE9BBA8C889A30A"
+					item: "kuayue:carport_25z_ac_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "00700DAD75920F43"
+					item: "kuayue:carport_25z_ac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3A32815F7DF6FDE0"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "25Z"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:original_color_window_bsp25t_wide_sealed_blue"
+			id: "682DD81B93C3F3F3"
+			rewards: [
+				{
+					count: 64
+					id: "75BD8ECD04176507"
+					item: "kuayue:air_condition_bsp25t"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "024130A88B1A6DC2"
+					item: "kuayue:carport_bsp25t_centre"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "75C1545377D1E836"
+					item: "kuayue:widepanel_bsp25t_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "32CCD45CEDF1F51C"
+					item: "kuayue:original_color_window_bsp25t_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "052452A31FDFDF16"
+					item: "kuayue:original_color_window_bsp25t_sealed_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D92DB13431656E9"
+					item: "kuayue:original_color_window_bsp25t_toilet_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60F2BE1522E08163"
+					item: "kuayue:original_color_window_bsp25t_wide_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3B39612C35584690"
+					item: "kuayue:original_color_window_bsp25t_wide_sealed_blue"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "45622FF6C55F3C38"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "BSP25T"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:end_face_25t_original_rubber"
+			id: "6EB2C4CBB8D024C8"
+			rewards: [
+				{
+					count: 64
+					id: "5DA80BDA710D4C48"
+					item: "kuayue:slab_25t_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B7C4098EEF2CFC6"
+					item: "kuayue:panel_25t_original_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "437C1DE2801E7198"
+					item: "kuayue:end_face_25t_original_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "776D37DAAA4B2714"
+					item: "kuayue:end_face_25t_original_upper_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "16C293937638F907"
+					item: "kuayue:end_face_25t_original_rubber"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1DE6FDCB2E966C7B"
+					item: "kuayue:end_face_25t_original_rubber_upper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "674B85A6A65FCAFB"
+					item: "kuayue:end_face_25t_original_rubber_upper_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "326ADC0EE6DB9E2B"
+					item: "kuayue:direct_drainage_toilet_original_25t"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "773964915F29AF10"
+					item: "kuayue:end_face_25t_original"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1AA3D8945A3DDEE5"
+					item: "kuayue:panel_25t_original_top_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7F149747EEC767A2"
+					item: "kuayue:panel_25t_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B43B48BD282CB5E"
+					item: "kuayue:panel_25t_original_mid_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "554AB1911AF4875B"
+					item: "kuayue:panel_25t_original_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "542D34283F89B9F9"
+					item: "kuayue:panel_25t_original_skirt_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "616F445300C97043"
+					item: "kuayue:panel_25t_original_skirt"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4051E257229523C4"
+					item: "kuayue:original_color_window_25t_toilet_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E9945C84A361061"
+					item: "kuayue:original_color_window_25t_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3E43FCCDF9825EEF"
+					item: "kuayue:original_color_window_25t_sealed_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4146EFEF236E6308"
+					item: "kuayue:original_color_window_25t_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "10D30040A6C3E011"
+					item: "kuayue:original_color_window_25t_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "59F96D98FDC82F90"
+					item: "kuayue:original_color_window_25t_sealed_small"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DF5670014981632"
+					item: "kuayue:original_color_window_25t_sealed_small_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "31E4C34D6D935BCE"
+					item: "kuayue:original_color_window_25t_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "72ED95534936F84D"
+					item: "kuayue:original_color_window_25t_wide_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "671B104F26964266"
+					item: "kuayue:original_color_window_25t_wide_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "08EFB00700342AA7"
+					item: "kuayue:original_color_window_25t_wide_sealed_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "022A5FC877361B91"
+					item: "kuayue:panel_xl25t_original_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3920132D862D25F4"
+					item: "kuayue:original_25t_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "68FA1259A87774F1"
+					item: "kuayue:original_25t_sliding_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "76D536CFED72DB1D"
+					item: "kuayue:carport_25t"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E01165FA5360BC6"
+					item: "kuayue:carport_25t_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "327A1E421BFAF213"
+					item: "kuayue:panel_25t_original_bottom_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0EF868625F1B7BEF"
+					item: "kuayue:ladder_25t_original_sliding"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "527EABB46D5AB250"
+					item: "kuayue:panel_25t_original_window"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6677D6CF1D0B206E"
+					item: "kuayue:original_color_window_25t_blue"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5E29CFAF5F58D69D"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "25T"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:panel_25_marshalled_bottom"
+			id: "0D14C4DE76DC9AB6"
+			rewards: [
+				{
+					count: 64
+					id: "2E070801A3F47E2B"
+					item: "kuayue:panel_25_marshalled_mid"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "07FC43A6D058C06C"
+					item: "kuayue:panel_25_marshalled_top_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0271124DDF432751"
+					item: "kuayue:panel_25_marshalled_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "75B186AFF71F4DB5"
+					item: "kuayue:marshalled_25_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7910B14E9074D61A"
+					item: "kuayue:slab_25_marshalled_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0AD89BF948912E7D"
+					item: "kuayue:panel_25t_marshalled_skirt_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FA2F4B9E553A2FF"
+					item: "kuayue:panel_25g_marshalled_symbol"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C16C2329F04CCB9"
+					item: "kuayue:panel_25k_marshalled_symbol"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "318E4451B6DEA567"
+					item: "kuayue:panel_25b_marshalled_symbol"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "725CA86A8AACEB69"
+					item: "kuayue:panel_25_marshalled_bottom_line"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7EFC6AE790AD93C8"
+					item: "kuayue:panel_25t_marshalled_skirt"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "385F9CB1688B8E6E"
+					item: "kuayue:panel_25_marshalled_bottom"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5C9A23C1DA5E2D5A"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "高阻绿"
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:cr200j_front"
+			id: "5EDEA7158BFA0C1C"
+			rewards: [
+				{
+					count: 64
+					id: "6DC43E35B79546E7"
+					item: "kuayue:widepanel_marshalled_cr200j_logo_cr"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "21FC59355E6D3153"
+					item: "kuayue:panel_cr200j_marshalled_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2F91098CDA85EFC1"
+					item: "kuayue:panel_cr200j_marshalled_top_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5E7D142C21A679D5"
+					item: "kuayue:panel_cr200j_marshalled_top_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "26CE0760B8A1945D"
+					item: "kuayue:panel_cr200j_marshalled_middle"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4AB26D398237C9D6"
+					item: "kuayue:widepanel_marshalled_cr200j"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F9580C3B52306F6"
+					item: "kuayue:widepanel_marshalled_cr200j_fu_xing"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "315DAB7802DAB03E"
+					item: "kuayue:panel_cr200j_marshalled_middle_logo_cr"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1D3C8D70DE19E027"
+					item: "kuayue:carport_cr200j_marshalled"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5E2F87131BE18DF2"
+					item: "kuayue:end_face_marshalled_cr200j_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2B13558A511734CA"
+					item: "kuayue:end_face_marshalled_cr200j"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "432DDAC3AA337425"
+					item: "kuayue:direct_drainage_toilet_marshalled_cr200j"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "238115FCAF1261FE"
+					item: "kuayue:marshalled_cr200j_cabin_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "63A1965C98A61D94"
+					item: "kuayue:marshalled_cr200j_door_2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "203689BD849FB2BE"
+					item: "kuayue:marshalled_cr200j_door"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "700233CAECD41DC7"
+					item: "kuayue:panel_marshalled_cr200j_skirt_side"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "41EB50EC85E26D85"
+					item: "kuayue:carport_cr200j_marshalled_center"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06F21306A8E47263"
+					item: "kuayue:slab_cr200j_marshalled_top"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A651381FF0FDBBF"
+					item: "kuayue:ladder_marshalled_cr200j"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "712DCA288CC3CD24"
+					item: "kuayue:marshalled_window_cr200j_wide_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "128AE7868CDD7FD3"
+					item: "kuayue:marshalled_window_cr200j_wide"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "793B63E2D1715F86"
+					item: "kuayue:marshalled_window_cr200j_toilet"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "252999BFF2A2D9D6"
+					item: "kuayue:marshalled_window_cr200j_sealed"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "619BF40B7A9EABA8"
+					item: "kuayue:panel_cr200j_marshalled_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3F68DC43C4BF1039"
+					item: "kuayue:panel_marshalled_cr200j_skirt"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A4DCC6F36D3B932"
+					item: "kuayue:cr200j_front"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "213961D97F5642FB"
+					item: "kuayue:ss8_pantograph"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3399EACA0C7731D0"
+					item: "kuayue:pantograph"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2CE49CC1579CF369"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "CR200J"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:steel_pole"
+			id: "5A421E8B3B400F6C"
+			rewards: [
+				{
+					count: 64
+					id: "3C1D4F20E2768F0D"
+					item: "kuayue:steel_pole"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1462A49E96677064"
+					item: "kuayue:steel_pole_45"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1DD3EE425A8D9A13"
+					item: "kuayue:concrete_pole"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A99136F034AAC97"
+					item: "kuayue:concrete_pole_45"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "64EEC1BADA236EFB"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "接触网柱"
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:steel_gantry_pillar"
+			id: "5D1960753F98DBB9"
+			rewards: [
+				{
+					count: 64
+					id: "4EDE749254A39F85"
+					item: "kuayue:gantry_pillar"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4AD50C8149E16E25"
+					item: "kuayue:gantry_cast_pole_base"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CBAC007ACE4636D"
+					item: "kuayue:gantry_cast_pole_base2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E528281C414DC2D"
+					item: "kuayue:gantry_cast_pole2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6AC155D64B36BDD0"
+					item: "kuayue:gantry_cast_pole"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0990A4B8AF4F6D4D"
+					item: "kuayue:gantry_cast_head"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12B81C7A17B04154"
+					item: "kuayue:steel_gantry_pillar"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "208F191BD1706701"
+					item: "kuayue:gantry_cast"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0E571D7DB0AD9A25"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "龙门架"
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: "kuayue:new_catenary_grid_a2"
+			id: "54A6B11095CEA13F"
+			rewards: [
+				{
+					count: 64
+					id: "177739F435A352FF"
+					item: "kuayue:new_catenary_grid_d"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DD3F159F734E5E7"
+					item: "kuayue:new_catenary_grid_c2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D9678B1F60DA19A"
+					item: "kuayue:new_catenary_grid_c"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "193E7C71367D015C"
+					item: "kuayue:new_catenary_grid_a2"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "648100C9D713EBBB"
+					item: "kuayue:new_catenary_grid_a"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3F746108B9FA3DC7"
+					item: "kuayue:new_catenary_end_counterweight"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4867BB89AD0F0C07"
+					item: "kuayue:new_insulator_b"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1586F28E55547D34"
+					item: "kuayue:new_insulator_a"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "23C032AB0CB59697"
+					item: "kuayue:new_catenary_grid_d2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1D01369F2123858A"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "接触网"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "kuayue:general_hyperbolic"
+				tag: {
+					pos_cache: { }
+				}
+			}
+			id: "7A595988030ABB00"
+			rewards: [
+				{
+					count: 64
+					id: "583C1D11DA16D842"
+					item: {
+						Count: 1
+						id: "kuayue:general_hyperbolic"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C0F46F91B9B229B"
+					item: {
+						Count: 1
+						id: "kuayue:general_straight"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "744A05ACC911C3B5"
+					item: {
+						Count: 1
+						id: "kuayue:general_catenary"
+						tag: {
+							pos_cache: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "18D8D4AA9ADB369F"
+				item: { Count: 10, id: "gtceu:silver_credit" }
+				type: "item"
+			}]
+			title: "电缆"
+			x: 11.0d
+			y: 10.0d
+		}
+	]
+	title: "建筑材料"
+}

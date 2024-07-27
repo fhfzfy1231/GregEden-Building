@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "6DD56F56769467C8"
+	group: "7C3D569440DB422B"
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "6DD56F56769467C8"
+	order_index: 3
+	quest_links: [
+		{
+			id: "400ACD7817E46B81"
+			linked_quest: "46F82A0A3D57C225"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "4D7309760C15F2E6"
+			linked_quest: "12E605EC5CFDE71A"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["46F82A0A3D57C225"]
+			description: [
+				"正式进入蒸汽时代"
+				"还有燃烧液体和太阳能的版本可以制作"
+			]
+			id: "51F4B817346DEC45"
+			rewards: [{
+				count: 10
+				id: "130034AE86191509"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DEB22F369EAA5FC"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "蒸汽来源"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51F4B817346DEC45"]
+			description: ["这台&a蒸汽压缩机&f解锁了一些令人兴奋的新配方"]
+			id: "00E6D3C8BA0EADEE"
+			rewards: [{
+				count: 10
+				id: "3743FF9B0559BF4E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7397C0BA7453C60C"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51F4B817346DEC45"]
+			description: ["3=>2提升板的产能"]
+			id: "20326B6B01CACFAC"
+			rewards: [{
+				count: 10
+				id: "1A9932A7EA51CD07"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C307495D0147CF"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51F4B817346DEC45"]
+			description: [
+				"研磨机让你摆脱了使用&3研钵&r将物品磨成粉末的痛苦过程，但代价是时间，在这台机器中处理一块铁矿石需要二十秒 - 是熔炉熔炼一个锭的两倍时间!"
+				"研磨机只会输出JEI配方中显示的第一件物品，&a其他&f槽被锁定，直到你制作一个&6HV&r研磨机。"
+				"&o重要&r的建议：实际上，直接熔炼&a现在&f更好!&a效率&f损失通过更快的采矿得到弥补，使用研磨机主要是来制作像&a&a黏土粉&f&r这样的物品!"
+			]
+			id: "1F5EDCA27B0462E9"
+			rewards: [{
+				count: 10
+				id: "0A96CA2FBD240093"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "643D74ED6FD053D9"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"00E6D3C8BA0EADEE"
+				"1F5EDCA27B0462E9"
+			]
+			description: ["2个高炉共享一面墙，还需要12个"]
+			id: "46A03A08E1C2AC76"
+			rewards: [
+				{
+					count: 40
+					id: "41510A017B000E27"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					id: "65A22772E4D15053"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "456812355EC53DEC"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11D53449C405C0B6"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51F4B817346DEC45"]
+			description: [
+				"用于冶炼合金，你将需要它来获得高效的&6青铜&r配方，以及不久的将来用于&4&a红色合金&f&r。"
+				"在所有&6蒸汽时代&r机器中，这是最消耗蒸汽的，如果你发现自己蒸汽不足，用&d任何软锤&r轻轻敲打你的机器，暂时暂停它。"
+			]
+			id: "10B5D98AD1BE649E"
+			rewards: [{
+				count: 10
+				id: "3F40CC8D43369FAF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20400263BFE50908"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"10B5D98AD1BE649E"
+				"7C722E54C642B3CF"
+			]
+			description: ["真空管，也称为电子管，是一种利用电场和磁场控制电子流动的电子器件，主要用于放大和开关电子信号。它是早期电子设备中不可或缺的组成部分。"]
+			id: "79832DF7023F6028"
+			rewards: [{
+				count: 10
+				id: "62D4961A3370CC1E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "48F2987BB816E8DB"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46A03A08E1C2AC76"]
+			description: ["LV时代主要材料"]
+			id: "7C722E54C642B3CF"
+			rewards: [{
+				count: 10
+				id: "298F181FF4CD8ECD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "501E26926139315C"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7C722E54C642B3CF"
+				"00E6D3C8BA0EADEE"
+			]
+			description: ["进入电力时代"]
+			id: "59D7F512A30C4290"
+			rewards: [{
+				count: 10
+				id: "5056DBC4A0895D68"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "172E78FD760C4DB9"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F5EDCA27B0462E9"]
+			description: ["查看蒸汽多方块描述"]
+			id: "3A224A610A0730D3"
+			rewards: [
+				{
+					count: 22
+					id: "766C56350233D989"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2418697D4D7E8399"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C1F1489BE411E2F"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51F4B817346DEC45"]
+			description: [
+				"蒸汽机器需要&a&d设置排气口&r，运行一次后就需要排气，否则就无法工作"
+				"使用扳手右键以设置排气口"
+			]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "74005696A462B0A6"
+			rewards: [{
+				count: 10
+				id: "08D755CCDDC3B177"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64267A1BD3D2D0B3"
+				title: "我的蒸汽机器为什么运行一次就停了"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"46F82A0A3D57C225"
+				"1ADCD127B6621645"
+			]
+			description: [
+				"早期生产无限水的手段"
+				"对原始水泵按U可查看多方块结构"
+				"使用管道输出从水泵仓出来的水"
+			]
+			icon: "gtceu:primitive_pump"
+			id: "0626E7D4F9EAB1B2"
+			rewards: [{
+				count: 10
+				id: "2219885CC3AE5352"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1D4962F6D848F85A"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "710AE6B4C54218FD"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0649E3A78BCA5C9C"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3457DC6709F42185"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12E605EC5CFDE71A"]
+			icon: "gtceu:creosote_bucket"
+			id: "1ADCD127B6621645"
+			rewards: [{
+				count: 10
+				id: "32B35DCC2CC7E26C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7012AD604451425F"
+				title: "杂酚油"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"蒸汽多方块都有8并行，比小方块机器快很多"
+				"需要使用蒸汽输入总线和蒸汽输出总线"
+				"由蒸汽仓提供动力"
+			]
+			id: "6305F303ED99FFE4"
+			rewards: [{
+				count: 10
+				id: "3B8939BBCE63727B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FBD1A3A4F784CA8"
+				title: "蒸汽多方块"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+	]
+	title: "蒸汽时代"
+}

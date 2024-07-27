@@ -1,0 +1,802 @@
+[
+  {
+    "modid": "kuayue",
+    "name": "KuaYue",
+    "version": "0.3.9m-izayoi_sakuya-rc1"
+  },
+  {
+    "modid": "cccbridge",
+    "name": "CC:C Bridge",
+    "version": "1.6.3-forge"
+  },
+  {
+    "modid": "botarium",
+    "name": "Botarium",
+    "version": "2.3.3"
+  },
+  {
+    "modid": "modernfix",
+    "name": "ModernFix",
+    "version": "5.18.1+mc1.20.1"
+  },
+  {
+    "modid": "ldlib",
+    "name": "LowDragLib",
+    "version": "1.0.25.p"
+  },
+  {
+    "modid": "balm",
+    "name": "Balm",
+    "version": "7.3.4"
+  },
+  {
+    "modid": "create_new_age",
+    "name": "Create: New Age",
+    "version": "1.1.2"
+  },
+  {
+    "modid": "cloth_config",
+    "name": "Cloth Config v10 API",
+    "version": "11.1.118"
+  },
+  {
+    "modid": "moa_decor_bath",
+    "name": "MOA DECOR: BATH",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "embeddium",
+    "name": "Embeddium",
+    "version": "0.3.20+mc1.20.1"
+  },
+  {
+    "modid": "rubidium",
+    "name": "Rubidium (Embeddium)",
+    "version": "0.7.1"
+  },
+  {
+    "modid": "athena",
+    "name": "Athena",
+    "version": "3.1.2"
+  },
+  {
+    "modid": "lmft",
+    "name": "Load My F***ing Tags",
+    "version": "1.0.4+1.20.1"
+  },
+  {
+    "modid": "glodium",
+    "name": "Glodium",
+    "version": "1.20-1.3-forge"
+  },
+  {
+    "modid": "vintagedelight",
+    "name": "Vintage Delight",
+    "version": "0.0.1"
+  },
+  {
+    "modid": "torchmaster",
+    "name": "Torchmaster",
+    "version": "20.1.6"
+  },
+  {
+    "modid": "supermartijn642corelib",
+    "name": "SuperMartijn642\u0027s Core Lib",
+    "version": "1.1.17"
+  },
+  {
+    "modid": "curios",
+    "name": "Curios API",
+    "version": "5.9.1+1.20.1"
+  },
+  {
+    "modid": "oculus",
+    "name": "Oculus",
+    "version": "1.6.15a"
+  },
+  {
+    "modid": "gamestages",
+    "name": "GameStages",
+    "version": "15.0.1"
+  },
+  {
+    "modid": "searchables",
+    "name": "Searchables",
+    "version": "1.0.3"
+  },
+  {
+    "modid": "framedblocks",
+    "name": "FramedBlocks",
+    "version": "9.3.0"
+  },
+  {
+    "modid": "constructionwand",
+    "name": "Construction Wand",
+    "version": "1.20.1-2.11"
+  },
+  {
+    "modid": "cfm",
+    "name": "MrCrayfish\u0027s Furniture Mod",
+    "version": "7.0.0-pre36"
+  },
+  {
+    "modid": "akzs_custom_items",
+    "name": "AkZ\u0027s Custom Items",
+    "version": "1.0.0"
+  },
+  {
+    "modid": "trafficcraft",
+    "name": "TrafficCraft",
+    "version": "1.0.4-1.20.1"
+  },
+  {
+    "modid": "tmted",
+    "name": "Engineers Delight",
+    "version": "1.0.3"
+  },
+  {
+    "modid": "dynamic_fps",
+    "name": "Dynamic FPS",
+    "version": "3.4.3"
+  },
+  {
+    "modid": "jadeaddons",
+    "name": "Jade Addons",
+    "version": "5.2.2"
+  },
+  {
+    "modid": "l2library",
+    "name": "L2 Library",
+    "version": "2.4.25"
+  },
+  {
+    "modid": "moa_decor_art",
+    "name": "MOA DECOR: ART",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "create_tweaked_controllers",
+    "name": "Create: Tweaked Controllers",
+    "version": "1.20.1-1.2.4"
+  },
+  {
+    "modid": "ratatouille",
+    "name": "Ratatouille",
+    "version": "1.0"
+  },
+  {
+    "modid": "createbigcannons",
+    "name": "Create Big Cannons",
+    "version": "0.5.4-nightly-8b9cea6"
+  },
+  {
+    "modid": "jei",
+    "name": "Just Enough Items",
+    "version": "15.3.0.7"
+  },
+  {
+    "modid": "yes_steve_model",
+    "name": "Yes Steve Model",
+    "version": "2.2.1"
+  },
+  {
+    "modid": "school",
+    "name": "Wanyantu\u0027s School Mod",
+    "version": "0.1.13.7"
+  },
+  {
+    "modid": "laserbridges",
+    "name": "LaserBridge",
+    "version": "1.20.1-2-forge"
+  },
+  {
+    "modid": "peripherals",
+    "name": "More Peripherals",
+    "version": "1.13.0"
+  },
+  {
+    "modid": "design_decor",
+    "name": "Create: Design n\u0027 Decor",
+    "version": "0.4.0"
+  },
+  {
+    "modid": "electrodynamics",
+    "name": "Electrodynamics",
+    "version": "0.0NONE"
+  },
+  {
+    "modid": "fusion",
+    "name": "Fusion",
+    "version": "1.1.1"
+  },
+  {
+    "modid": "crafttweaker",
+    "name": "CraftTweaker",
+    "version": "14.0.40"
+  },
+  {
+    "modid": "mekanism",
+    "name": "Mekanism",
+    "version": "10.4.8"
+  },
+  {
+    "modid": "memoryleakfix",
+    "name": "Memory Leak Fix",
+    "version": "1.1.5"
+  },
+  {
+    "modid": "immersivepetroleum",
+    "name": "Immersive Petroleum",
+    "version": "4.2.0-30"
+  },
+  {
+    "modid": "forge",
+    "name": "Forge",
+    "version": "47.3.1"
+  },
+  {
+    "modid": "minecraft",
+    "name": "Minecraft",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "emi",
+    "name": "EMI",
+    "version": "1.1.7+1.20.1+forge"
+  },
+  {
+    "modid": "smoothchunk",
+    "name": "Smoothchunk mod",
+    "version": "1.20.1-3.6"
+  },
+  {
+    "modid": "terrablender",
+    "name": "TerraBlender",
+    "version": "3.0.1.7"
+  },
+  {
+    "modid": "biomesoplenty",
+    "name": "Biomes O\u0027 Plenty",
+    "version": "18.0.0.598"
+  },
+  {
+    "modid": "mousetweaks",
+    "name": "Mouse Tweaks",
+    "version": "2.25.1"
+  },
+  {
+    "modid": "immersiveengineering",
+    "name": "Immersive Engineering",
+    "version": "1.20.1-10.1.0-171"
+  },
+  {
+    "modid": "delightfulburgers",
+    "name": "Delightful Burgers",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "construction_deco",
+    "name": "PlayTics Deco",
+    "version": "1.0"
+  },
+  {
+    "modid": "createutilities",
+    "name": "Create Utilities",
+    "version": "0.3.0+1.20.1"
+  },
+  {
+    "modid": "mr_hostile_mobsimproveovertime",
+    "name": "Hostile Mobs Improve Over Time",
+    "version": "1.6"
+  },
+  {
+    "modid": "kotlinforforge",
+    "name": "Kotlin For Forge",
+    "version": "4.11.0"
+  },
+  {
+    "modid": "flywheel",
+    "name": "Flywheel",
+    "version": "0.6.10-7"
+  },
+  {
+    "modid": "xaerominimap",
+    "name": "Xaero\u0027s Minimap",
+    "version": "24.2.0"
+  },
+  {
+    "modid": "zeta",
+    "name": "Zeta",
+    "version": "1.0-19"
+  },
+  {
+    "modid": "entityculling",
+    "name": "EntityCulling",
+    "version": "1.6.6"
+  },
+  {
+    "modid": "argentinas_delight",
+    "name": "Argentina\u0027s Delight",
+    "version": "1.3"
+  },
+  {
+    "modid": "immediatelyfast",
+    "name": "ImmediatelyFast",
+    "version": "1.2.18+1.20.4"
+  },
+  {
+    "modid": "appleskin",
+    "name": "AppleSkin",
+    "version": "2.5.1+mc1.20.1"
+  },
+  {
+    "modid": "connectedglass",
+    "name": "Connected Glass",
+    "version": "1.1.11"
+  },
+  {
+    "modid": "valkyrienskies",
+    "name": "Valkyrien Skies 2",
+    "version": "2.3.0-beta.5"
+  },
+  {
+    "modid": "vs_tournament",
+    "name": "VS Tournament Mod",
+    "version": "1.1.0_beta-5.3+af35b3821f"
+  },
+  {
+    "modid": "fruitsdelight",
+    "name": "Fruits Delight",
+    "version": "1.0.10"
+  },
+  {
+    "modid": "kuma_api",
+    "name": "KumaAPI",
+    "version": "20.1.6"
+  },
+  {
+    "modid": "create_dd",
+    "name": "Create: Dreams \u0026 Desires",
+    "version": "0.2c.PREBETA"
+  },
+  {
+    "modid": "geckolib",
+    "name": "GeckoLib 4",
+    "version": "4.4.6"
+  },
+  {
+    "modid": "ars_nouveau",
+    "name": "Ars Nouveau",
+    "version": "4.12.0"
+  },
+  {
+    "modid": "bigger_ae2",
+    "name": "Bigger AE2",
+    "version": "1.3.4"
+  },
+  {
+    "modid": "sophisticatedcore",
+    "name": "Sophisticated Core",
+    "version": "0.6.22.611"
+  },
+  {
+    "modid": "gpumemleakfix",
+    "name": "Gpu memory leak fix",
+    "version": "1.20.1-1.8"
+  },
+  {
+    "modid": "mekaweapons",
+    "name": "Mekanism: Weapons",
+    "version": "1.5"
+  },
+  {
+    "modid": "vs_eureka",
+    "name": "VS Eureka Mod",
+    "version": "1.5.1-beta.3"
+  },
+  {
+    "modid": "ritchiesprojectilelib",
+    "name": "Ritchie\u0027s Projectile Library",
+    "version": "1.0.0-369e88d+1.20.1-forge"
+  },
+  {
+    "modid": "controlling",
+    "name": "Controlling",
+    "version": "12.0.2"
+  },
+  {
+    "modid": "cookingforblockheads",
+    "name": "CookingForBlockheads",
+    "version": "16.0.6"
+  },
+  {
+    "modid": "xaeroworldmap",
+    "name": "Xaero\u0027s World Map",
+    "version": "1.38.8"
+  },
+  {
+    "modid": "zombieawareness",
+    "name": "Zombie Awareness",
+    "version": "1.20.1-1.13.1"
+  },
+  {
+    "modid": "mixinextras",
+    "name": "MixinExtras",
+    "version": "0.2.0"
+  },
+  {
+    "modid": "bookshelf",
+    "name": "Bookshelf",
+    "version": "20.2.13"
+  },
+  {
+    "modid": "sophisticatedbackpacks",
+    "name": "Sophisticated Backpacks",
+    "version": "3.20.5.1044"
+  },
+  {
+    "modid": "create_dragon_lib",
+    "name": "Create: Dragon Lib",
+    "version": "1.4.3"
+  },
+  {
+    "modid": "mekanismgenerators",
+    "name": "Mekanism: Generators",
+    "version": "10.4.8"
+  },
+  {
+    "modid": "create_connected",
+    "name": "Create: Connected",
+    "version": "0.8.2-mc1.20.1"
+  },
+  {
+    "modid": "farmersdelight",
+    "name": "Farmer\u0027s Delight",
+    "version": "1.20.1-1.2.4"
+  },
+  {
+    "modid": "moa_decor_cookery",
+    "name": "MOA DECOR: COOKERY",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "touhou_little_maid",
+    "name": "Touhou Little Maid",
+    "version": "1.1.10-hotfix"
+  },
+  {
+    "modid": "netmusic",
+    "name": "Net Music Mod",
+    "version": "0.0NONE"
+  },
+  {
+    "modid": "patchouli",
+    "name": "Patchouli",
+    "version": "1.20.1-84-FORGE"
+  },
+  {
+    "modid": "cc_vs",
+    "name": "CC: VS",
+    "version": "1.20.1-forge-0.1.0"
+  },
+  {
+    "modid": "ftbultimine",
+    "name": "FTB Ultimine",
+    "version": "2001.1.5"
+  },
+  {
+    "modid": "citymod",
+    "name": "CityMod",
+    "version": "0.1.6.2"
+  },
+  {
+    "modid": "mekanismtools",
+    "name": "Mekanism: Tools",
+    "version": "10.4.8"
+  },
+  {
+    "modid": "architectury",
+    "name": "Architectury",
+    "version": "9.2.14"
+  },
+  {
+    "modid": "doapi",
+    "name": "[Let\u0027s Do] API",
+    "version": "1.2.13"
+  },
+  {
+    "modid": "terraform",
+    "name": "Terraform Wood Api Reforged",
+    "version": "7.0.1"
+  },
+  {
+    "modid": "vinery",
+    "name": "[Let\u0027s Do] Vinery",
+    "version": "1.4.24"
+  },
+  {
+    "modid": "ftblibrary",
+    "name": "FTB Library",
+    "version": "2001.2.2"
+  },
+  {
+    "modid": "valkyrien_mod",
+    "name": "VMod",
+    "version": "0.0.7"
+  },
+  {
+    "modid": "ftbteams",
+    "name": "FTB Teams",
+    "version": "2001.3.0"
+  },
+  {
+    "modid": "ftbquests",
+    "name": "FTB Quests",
+    "version": "2001.4.6"
+  },
+  {
+    "modid": "yuushya",
+    "name": "Yuushya",
+    "version": "2.1.1"
+  },
+  {
+    "modid": "computercraft",
+    "name": "CC: Tweaked",
+    "version": "1.111.0"
+  },
+  {
+    "modid": "cupboard",
+    "name": "Cupboard utilities",
+    "version": "1.20.1-2.6"
+  },
+  {
+    "modid": "ballistix",
+    "name": "Ballistix",
+    "version": "0.0NONE"
+  },
+  {
+    "modid": "quarkdelight",
+    "name": "Quark Delight",
+    "version": "1.0.0"
+  },
+  {
+    "modid": "lradd",
+    "name": "LesRaisinsAddon",
+    "version": "0.2.1"
+  },
+  {
+    "modid": "rhino",
+    "name": "Rhino",
+    "version": "2001.2.2-build.18"
+  },
+  {
+    "modid": "kubejs",
+    "name": "KubeJS",
+    "version": "2001.6.5-build.7"
+  },
+  {
+    "modid": "irisflw",
+    "name": "Oculus Flywheel Compat",
+    "version": "1.20.1-0.2.4"
+  },
+  {
+    "modid": "copycats",
+    "name": "Create: Copycats+",
+    "version": "1.20.1-1.3.2"
+  },
+  {
+    "modid": "tacz",
+    "name": "Timeless \u0026 Classics Guns: Zero",
+    "version": "1.0.1-hotfix"
+  },
+  {
+    "modid": "create",
+    "name": "Create",
+    "version": "0.5.1.f"
+  },
+  {
+    "modid": "create_central_kitchen",
+    "name": "Create: Central Kitchen",
+    "version": "1.3.12"
+  },
+  {
+    "modid": "vs_clockwork",
+    "name": "Clockwork: Create x Valkyrien Skies",
+    "version": "1.20.1-0.1.16-forge-b3b22e39fe"
+  },
+  {
+    "modid": "waystones",
+    "name": "Waystones",
+    "version": "14.1.3"
+  },
+  {
+    "modid": "gtceu",
+    "name": "GregTech",
+    "version": "1.3.0"
+  },
+  {
+    "modid": "distanthorizons",
+    "name": "Distant Horizons",
+    "version": "2.1.1-a-dev"
+  },
+  {
+    "modid": "pineapple_delight",
+    "name": "Pineapple Delight",
+    "version": "1.0.8"
+  },
+  {
+    "modid": "coffee_delight",
+    "name": "Coffee Delight",
+    "version": "1.4"
+  },
+  {
+    "modid": "moredelight",
+    "name": "More Delight",
+    "version": "1.1.2-1.20.1-forge"
+  },
+  {
+    "modid": "skinlayers3d",
+    "name": "3d-Skin-Layers",
+    "version": "1.6.6"
+  },
+  {
+    "modid": "recipestages",
+    "name": "Recipe Stages",
+    "version": "8.0.0.2"
+  },
+  {
+    "modid": "tfmg",
+    "name": "Create: The Factory Must Grow",
+    "version": "0.8.0b"
+  },
+  {
+    "modid": "delightfulsandwich",
+    "name": "Delightful Sandwiches",
+    "version": "1.20.1"
+  },
+  {
+    "modid": "reterraforged",
+    "name": "ReTerraForged",
+    "version": "0.0.6"
+  },
+  {
+    "modid": "itemstages",
+    "name": "ItemStages",
+    "version": "8.0.3"
+  },
+  {
+    "modid": "configuration",
+    "name": "Configuration",
+    "version": "2.2.0"
+  },
+  {
+    "modid": "mysterious_mountain_lib",
+    "name": "Mysterious Mountain Lib",
+    "version": "1.4.7-1.20.1"
+  },
+  {
+    "modid": "corn_delight",
+    "name": "Corn Delight",
+    "version": "1.0.4-1.20.1"
+  },
+  {
+    "modid": "jade",
+    "name": "Jade",
+    "version": "11.9.3+forge"
+  },
+  {
+    "modid": "ae2",
+    "name": "Applied Energistics 2",
+    "version": "15.2.3"
+  },
+  {
+    "modid": "mae2",
+    "name": "Modern AE2 Additions",
+    "version": "1.2.1"
+  },
+  {
+    "modid": "ae2wtlib",
+    "name": "AE2WTLib",
+    "version": "15.2.3-forge"
+  },
+  {
+    "modid": "expatternprovider",
+    "name": "ExtendedAE",
+    "version": "1.20-1.1.5-forge"
+  },
+  {
+    "modid": "ae2things",
+    "name": "AE2 Things",
+    "version": "1.2.1"
+  },
+  {
+    "modid": "duckyperiphs",
+    "name": "Ducky Peripherals",
+    "version": "1.20.1-1.3.1"
+  },
+  {
+    "modid": "enderio",
+    "name": "Ender IO",
+    "version": "6.0.25-alpha"
+  },
+  {
+    "modid": "quark",
+    "name": "Quark",
+    "version": "4.0-458"
+  },
+  {
+    "modid": "barbequesdelight",
+    "name": "Barbeque\u0027s Delight",
+    "version": "1.0.2"
+  },
+  {
+    "modid": "storagedrawers",
+    "name": "Storage Drawers",
+    "version": "12.0.3"
+  },
+  {
+    "modid": "immersive_paintings",
+    "name": "Immersive Paintings",
+    "version": "0.6.7+1.20.1"
+  },
+  {
+    "modid": "jecharacters",
+    "name": "Just Enough Characters",
+    "version": "4.5.4"
+  },
+  {
+    "modid": "betterchunkloading",
+    "name": "betterchunkloading mod",
+    "version": "1.20.1-4.3"
+  },
+  {
+    "modid": "miners_delight",
+    "name": "Miner\u0027s Delight",
+    "version": "1.20.1-1.2.3"
+  },
+  {
+    "modid": "coroutil",
+    "name": "CoroUtil",
+    "version": "1.20.1-1.3.7"
+  },
+  {
+    "modid": "engineersdecor",
+    "name": "Engineer\u0027s Decor",
+    "version": "1.3.30"
+  },
+  {
+    "modid": "ferritecore",
+    "name": "Ferrite Core",
+    "version": "6.0.1"
+  },
+  {
+    "modid": "enhancedcelestials",
+    "name": "Enhanced Celestials",
+    "version": "5.0.0.4"
+  },
+  {
+    "modid": "corgilib",
+    "name": "CorgiLib",
+    "version": "4.0.1.3"
+  },
+  {
+    "modid": "betterf3",
+    "name": "BetterF3",
+    "version": "7.0.2"
+  },
+  {
+    "modid": "crabbersdelight",
+    "name": "Crabber\u0027s Delight",
+    "version": "1.1.4"
+  },
+  {
+    "modid": "appmek",
+    "name": "Applied Mekanistics",
+    "version": "1.4.2"
+  },
+  {
+    "modid": "createaddition",
+    "name": "Create Crafts \u0026 Additions",
+    "version": "1.20.1-1.2.3"
+  }
+]

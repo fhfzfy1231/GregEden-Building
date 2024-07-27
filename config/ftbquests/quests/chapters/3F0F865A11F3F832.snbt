@@ -1,0 +1,3245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3F0F865A11F3F832"
+	group: "3A7548FF9A1E28AB"
+	icon: "create:brass_hand"
+	id: "3F0F865A11F3F832"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BC7ECCEF679B391"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "54E86F86333C59D9"
+			rewards: [{
+				count: 10
+				id: "5BF1DB272F6B0A2E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "012BED7A0EBA5BB0"
+				item: "vs_clockwork:wanderwand"
+				type: "item"
+			}]
+			title: "物理学照亮世界"
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [
+				"按说很长的传动杆会产生很大的扭力把它扭断"
+				"但是这是mc，所以尽管接你的动力，不会有任何事情"
+			]
+			id: "4BDABCB20155E2BA"
+			rewards: [{
+				count: 10
+				id: "75C2081D55B8013E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "意外地结实"
+			tasks: [{
+				count: 32L
+				id: "3073E53CEC25DE2C"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "小棍棍"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [
+				"先用斧头去皮原木，再用安山合金右键"
+				"建议一次多做点，因为这实际上也挺麻烦的"
+				"之后你可以用动力锯和机械手自动化"
+				"另外，只有安山机壳和黄铜机壳支持封装传送带和传动杆，如果你能开发一个附属让其它机壳也能做到，我不胜感激！"
+			]
+			id: "12E08E5A49B6FE18"
+			rewards: [{
+				count: 10
+				id: "5CCBD84FB557167E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "意外地很好看"
+			tasks: [{
+				count: 4L
+				id: "5376DC82DCDEF512"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "镶边的木头"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [
+				"之后你可以用更漂亮的齿轮来装点机器"
+				"可惜更高级的齿轮也没法承受更快的转速，只是外表不同"
+				"由于机械动力：更多齿轮不兼容这个版本的机械动力，所以只能有这几种齿轮，飞轮也只有一种"
+				"在这个任务里，你只用提交木头的那一种"
+				""
+				"注意：除了木头齿轮外，其它齿轮都无法被机壳封装"
+			]
+			id: "2F5254E9498526ED"
+			rewards: [{
+				count: 10
+				id: "2FC2932F06B3AA13"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你需要很多这些"
+			tasks: [
+				{
+					id: "4DF4C526DF01CB5E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "78BAF8805B911727"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "咬牙切齿"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BDABCB20155E2BA"]
+			description: ["注意，最新版本的机械动力，水车产生的应力与水流接触的格数无关，所以不用纠结这些"]
+			id: "6C48130A0FDF1887"
+			rewards: [{
+				count: 10
+				id: "4B76AE61CDDB78CD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "很廉价的应力源"
+			tasks: [
+				{
+					count: 2L
+					id: "29E9AD299C22E4CE"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "011895F16903BB8D"
+					item: "create:large_water_wheel"
+					title: "多一倍的应力，但转速不变"
+					type: "item"
+				}
+			]
+			title: "水力科技.mcmod"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BDABCB20155E2BA"]
+			description: ["应力非常大，就是有点费羊"]
+			id: "3A7872331189CFFA"
+			rewards: [{
+				count: 10
+				id: "13EEF81CAD2029A2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "简单而占地小的应力源"
+			tasks: [
+				{
+					id: "7C491D0092F2A892"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64358582E3EE6FAF"
+					item: "create:white_sail"
+					title: "可以染成你喜欢的颜色"
+					type: "item"
+				}
+			]
+			title: "风袭之地"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2F5254E9498526ED"
+				"12E08E5A49B6FE18"
+			]
+			description: ["你实际需要的量是你预期的三到四倍！"]
+			id: "0BF9895F36B2C491"
+			rewards: [{
+				count: 10
+				id: "0C5BC7B236C94949"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让应力换位思考一下"
+			tasks: [{
+				count: 4L
+				id: "543A702425FE18FF"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "北构而西折"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [
+				"海带用来合成传送带，不仅可以传递物品，更可以在长距离应力传输时节省传动杆和传动箱"
+				"如果你所处的群系附近没海找不到的话也没关系，找找你周围的花或者仙人掌，烧/磨出来一个绿色染料也能完成任务，之后你会获得一些海带，种植它们吧"
+			]
+			id: "778718122C2A6EB6"
+			rewards: [{
+				count: 10
+				id: "55E72F1E8F61BC6C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "谁知道你知不知道"
+			tasks: [{
+				id: "212E1F43852C33A6"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			title: "海的味道"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"侧面和底部都能输入应力（我敢打赌一些人不知道底面也能）"
+				"顶上丢进去原料，右键手动取出成品"
+				"之后你可以通过管道自动化"
+				"它比粉碎轮功能少很多，一些配方的产率也低，但应力消耗和占地面积都更小"
+				"如果你发现你想要的配方它和粉碎轮产出完全相同，考虑使用它来自动化吧"
+			]
+			id: "51041A5DCCFDAF42"
+			rewards: [{
+				count: 10
+				id: "299B3199D095DAEE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这应该是最简单的机械了"
+			tasks: [{
+				id: "064264384315FF77"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "压碎磨细"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"基本是最简单快捷的制作板的方法，比很多电力机器都简便的多"
+				"实际上不用置物台，直接扔在它底下也能压，但是当然用置物台更好了"
+			]
+			id: "08F76F40F6175CD1"
+			rewards: [{
+				count: 10
+				id: "11EE552403754051"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不必担心，这个铁压头可能比任何东西都硬"
+			tasks: [{
+				id: "6CF4510CC4C4BCA6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "压扁任何东西"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"这东西可以避免掉落物的产生，很多时候是很方便的"
+				"机械动力的很多设备只有在下方是置物台上的物品时才会加工"
+			]
+			id: "53BA80FCC208CE11"
+			rewards: [{
+				count: 10
+				id: "721A5775E4ADD8E7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "心态也要放平"
+			tasks: [{
+				id: "6B92DBDF4260FC2D"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "放平"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [
+				"也是一个避免掉落物产生的容器，和置物台很相似"
+				"这里几句话也没法全部阐释它的功能，如果有不明白的地方的话还是看看思索吧"
+			]
+			id: "3C2063A4E4493D55"
+			rewards: [{
+				count: 10
+				id: "653C1E76EBCF6095"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不能用来洗脚"
+			tasks: [{
+				id: "7D5402E2DF574607"
+				item: "create:basin"
+				title: "别被工业铁锭吓到，安山合金也能做的"
+				type: "item"
+			}]
+			title: "结实的小盆"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"现在最大的作用就是翻倍生产安山合金"
+				"之后如果你的冶炼炉燃料不够了，也可以用它生产部分合金"
+				"对于一些简单的配方，使用搅拌器比使用动力合成器要更方便自动化，需要的应力也更少"
+				"建议对每个想自动化的配方都查一查能不能用搅拌器做"
+			]
+			id: "64A403F5A665DB6F"
+			rewards: [{
+				count: 10
+				id: "0298DFF27FB5CD59"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "扔我盆里"
+			tasks: [
+				{
+					id: "4F7E1A2C947129AA"
+					item: "create:whisk"
+					type: "item"
+				}
+				{
+					id: "604857254DC6DDFD"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "打个搅先"
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21701A34562B5D58"]
+			description: [
+				"通过把物品扔来扔去来代替管道，是所有人都爱干的事情"
+				"但是你得注意别把它扔的路径给挡住了，要不它没有扔到目的地就会一直扔，浪费你的材料"
+				"也别让任何生物踩在上面，这玩意任何生物踩上去都会弹射一次，如果目标方块现在还容纳不了弹过去的物品，材料又会被浪费了"
+			]
+			id: "3A1814B115EB9174"
+			rewards: [{
+				count: 10
+				id: "5282DED07DE2EB8A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "甚至你的防空炮都来不及反应"
+			tasks: [{
+				id: "59374D6517A11257"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			title: "看！不用管道！"
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D77C95EE18FF7F0"]
+			description: ["不用堆一大堆反转齿轮箱了，用来搭车和坦克的轴再好使不过"]
+			hide_dependency_lines: true
+			id: "39BD9620CC4F1C73"
+			rewards: [{
+				count: 10
+				id: "7D959A1A498B3D73"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "现在你可以在一格内转向任何方向！"
+			tasks: [{
+				id: "4510D639A69CFEE6"
+				item: "create_connected:brass_gearbox"
+				type: "item"
+			}]
+			title: "以防你想做辆车"
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0BF9895F36B2C491"]
+			description: [
+				"如果你想做六个面都旋转的复杂机械，一定少不了这个"
+				"注意别让半速旋转的面输入256RPM，方块会破坏成掉落物"
+			]
+			id: "23CE412822BFB40C"
+			rewards: [{
+				count: 10
+				id: "5D7F0B6AC026FC59"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "六面体战士"
+			tasks: [{
+				id: "49646E21B34CF983"
+				item: "create_connected:six_way_gearbox"
+				type: "item"
+			}]
+			title: "全能手"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BF9895F36B2C491"]
+			description: ["如果你的机器挤不下一个反转齿轮箱了，考虑用用这个"]
+			id: "56A3A5167E51176D"
+			rewards: [{
+				count: 10
+				id: "3F3FDD602ABB5082"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "尽量不要去想它的内部结构"
+			tasks: [{
+				id: "3506A38EFBA056D0"
+				item: "create_connected:parallel_gearbox"
+				type: "item"
+			}]
+			title: "看！不用反转！"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: ["可以扭90度，适用于短距离的平行传动"]
+			id: "64BD5002E8619A50"
+			rewards: [{
+				count: 10
+				id: "5CBAF771B15080B5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "如果太远的话还是用传送带吧"
+			tasks: [{
+				id: "5E880E54AA512F5E"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "平着传动！"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08F76F40F6175CD1"]
+			description: ["其它金属的板也该做一些，辊压机会是你的老朋友的"]
+			id: "1C1D0AC81AB4AFC4"
+			rewards: [{
+				count: 10
+				id: "4F96275F2BE2BE6D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但也差不多"
+			tasks: [{
+				count: 16L
+				id: "635835B7274292BF"
+				item: "create:iron_sheet"
+				title: "Any #forge:plates/iron"
+				type: "item"
+			}]
+			title: "不是铁板烧"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"你应该开始规划一片树场了"
+				"如果你能用树场供给一个锅炉，那十四万应力够用好久的，基本不愁了"
+				"之后可以升级为铜的版本，砍树速度更快"
+			]
+			id: "01D330D422A76374"
+			rewards: [{
+				count: 10
+				id: "637C7F00318CADC5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "一砍倒一片！"
+			tasks: [{
+				id: "1256706CC8DE7CEA"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "树木克星"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"不管是任意装置还是你的基地，动态结构都必不可少"
+				"用动力轴承配合水车可以很简单地搭建农场和树场，这值得好好规划一下，来便利你的资源获取"
+				"永远别忘记把你的动态结构用胶粘好，以及开始运动之前先检查一遍！"
+			]
+			id: "2FDA11E6E0A5561F"
+			rewards: [{
+				count: 10
+				id: "0E354D614DF24053"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让它转圈圈！"
+			tasks: [{
+				id: "057F5F89F8C43D96"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "动态结构，入门课"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: ["在后面加活塞杆，可以让它把东西推到难以置信的远处！"]
+			id: "5A5871E52B31379E"
+			rewards: [{
+				count: 10
+				id: "5D8E1A35C19758F2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "就，就只有这么长吗（指原版活塞）"
+			tasks: [
+				{
+					id: "3B46E30463AAFD8B"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "003DBC8CDA2222B0"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			title: "长长长"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["这个包拥有难以置信数量的作物种类，规划一些自动收割的农场来让植物们给你生产资源！"]
+			id: "4961316FA68A99F1"
+			rewards: [{
+				count: 10
+				id: "4D048F5ABAF294F9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "省去亲自下田的苦劳"
+			tasks: [{
+				id: "57C2D6165BB2010A"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "丰收日（机械化）"
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"免去你熔炼东西的燃料消耗，也能从无价值的东西里洗涤出宝贝"
+				"代价就是你无法获得熔炼东西的经验了"
+				"之后你可以结合气动工艺的科技做出四倍速的升级版本"
+			]
+			id: "593DA098947B04E5"
+			rewards: [{
+				count: 10
+				id: "623491D5CE97C5B3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这是1.12.2匠魂的材料属性，可以缴械敌人"
+			tasks: [
+				{
+					id: "6FD1D3A90B3BE995"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "5A3568F6269F819D"
+					item: "create:propeller"
+					type: "item"
+				}
+			]
+			title: "吹袭！"
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: ["工程师护目镜也可以让你更直观的看出网络情况"]
+			hide_dependency_lines: true
+			id: "4F007AE58384E943"
+			rewards: [{
+				count: 10
+				id: "343BD75F92267C4E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "省的不知不觉中又过载了"
+			tasks: [
+				{
+					id: "62A739C11D6D4CD5"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "59428B5B4446BA27"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			title: "监控你的网络"
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["还能看出一些物体和流体存储的信息"]
+			hide_dependency_lines: true
+			id: "7309492C0D6373FA"
+			rewards: [{
+				count: 10
+				id: "03EFCEAC6E5E9B57"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "更直观的看出你的网络哪里出问题"
+			tasks: [{
+				id: "007BD3FACC679ACF"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "机械动力的好伴侣"
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["还能顺带手装装逼"]
+			hide_dependency_lines: true
+			id: "7B3B069D6BCB08A7"
+			rewards: [{
+				count: 10
+				id: "4A0FA5A0B1E22035"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "解决那些方块总是不齐"
+			tasks: [{
+				id: "076DF65971FDD74F"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "机械动力的好手艺"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["747390FF7D6FC960"]
+			description: [
+				"虽然长的很像但是BOP的那个不能用在这"
+				"想用的话得在商店里兑换成这个"
+				"结合mek的科技之后你可以用富集仓做，更方便自动化"
+			]
+			id: "5BA3B25EF94AAF9C"
+			rewards: [{
+				count: 10
+				id: "11E1E74058C9D038"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不要和BOP下界生成的那些弄混了"
+			tasks: [
+				{
+					count: 4L
+					id: "0721C71FCA07ADFA"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "045548D36917CAD0"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			title: "漂亮的红色晶体"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2FDA11E6E0A5561F"]
+			description: ["如果你想平行搬运什么，或者耕一块狭长的地，很明显这个比轴承更棒"]
+			id: "21E5E3F1F1CC4900"
+			rewards: [{
+				count: 10
+				id: "23AD9E7F5DB41A7B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "看起来比转圈圈更酷"
+			tasks: [
+				{
+					id: "1B70FBD11EBE2D43"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "4BC6E8304C88C83B"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			title: "平行移动"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"钻掉挡路的任何玩意吧！"
+				"也有铜的升级版本"
+			]
+			id: "037ECD863087FFE8"
+			rewards: [{
+				count: 10
+				id: "75DD80F1A5406296"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "破坏方块非常给力"
+			tasks: [{
+				id: "12A7D08D2BDCB9F1"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "动力锯的好兄弟"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["但是你可以用这玩意配合动力轴承把生物一脚踹飞老远，这确实很好玩！"]
+			id: "4342E7D80623E3F4"
+			rewards: [{
+				count: 10
+				id: "6CD488227764956C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "因为开了耕地不浇水又会变回泥土"
+			tasks: [{
+				id: "133AC84C4B2B5E7A"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "说句实话用处不大"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: ["它的思索很详细了，这东西用好了很省机器空间的"]
+			hide_dependency_lines: true
+			id: "77B4C81B1602A80B"
+			rewards: [{
+				count: 10
+				id: "2DA789868C9A0727"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "省去你的齿轮组！"
+			tasks: [{
+				id: "2A9E9A4D8532C23C"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			title: "升降速随心"
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: ["那砂纸可能是用来擦嘴的吧"]
+			id: "747390FF7D6FC960"
+			rewards: [{
+				count: 10
+				id: "2C2E129E1D78FCC3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "实际上这个动作是在拿牙而不是砂纸打磨"
+			tasks: [{
+				id: "7BB51F4669F163DE"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "摩擦摩擦"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BA3B25EF94AAF9C"]
+			description: [
+				"这电子管是我见过的最简单的“电学”元件"
+				"问就是玩GTNH玩的"
+			]
+			id: "1C747ACB7FF916B6"
+			rewards: [{
+				count: 10
+				id: "558440160D303EC6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "至少原版机械动力没引入电"
+			tasks: [{
+				id: "6AD4DBD36906DCA4"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "电气时代...吗？"
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["778718122C2A6EB6"]
+			description: [
+				"对于想把东西自动抽出来成掉落物，或者提取传送带上的物品的场合，它很有用"
+				"但它不支持筛选，而且一次只能传一个，它的升级版是黄铜漏斗"
+			]
+			id: "236E6D1A9B38286E"
+			rewards: [{
+				count: 10
+				id: "345755A154636563"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "有的时候你不必总是用黄铜的版本"
+			tasks: [{
+				id: "57B5806B5DA14AC8"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "不太一样的漏斗"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"如果你想精确控制火炮的俯仰和旋转，这时候自动化就用不上了"
+				"所以这东西有必要关注一下"
+			]
+			hide_dependency_lines: true
+			id: "053D472766B11C50"
+			rewards: [{
+				count: 10
+				id: "0FAD4CCD8D3F9AB9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不是任何时候机器队都比人工队强"
+			tasks: [{
+				id: "60B7CF035B7F80C9"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "别看不起它"
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7EE3297B663F7039"]
+			description: ["虽然有很多种管道能控制流体的通过与否，但机械动力的毕竟最浪漫"]
+			id: "697A3CC9F13D73D2"
+			rewards: [{
+				count: 10
+				id: "1E7204C2F6C7F02A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "做液体的掌控者"
+			tasks: [
+				{
+					id: "30C42BA05FF7E7C8"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "34404B1FD8918121"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			title: "开源节流"
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["用的比较多的可能是金板和黄铜板"]
+			id: "21701A34562B5D58"
+			rewards: [{
+				count: 10
+				id: "7B354B1750174E0F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这些板的每一种都有独特的用处，但只有巧克力板是能吃的"
+			tasks: [{
+				id: "464E4D032C07F668"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			title: "更多板"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"那样的话不管有没有刷出烈焰人，右键都能随时获得一个满的燃烧室"
+				"烈焰人燃烧室可以作为气动工艺的热源"
+			]
+			id: "64A310D9D8DC8331"
+			rewards: [{
+				count: 10
+				id: "47EB01BC07EC84A8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你可以选择用mek纸箱直接包一个刷怪笼回家"
+			tasks: [
+				{
+					id: "0F9B057CE2B6A274"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "63E856C99D1B44E5"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "虽然没有顶但是不怕淋雨！"
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0BF9895F36B2C491"]
+			description: [
+				"接入红石就可以反转"
+				"如果你想单纯的反转不想接红石，用它旁边那个，或者“倒车挡”"
+			]
+			id: "1AB47DBB41324199"
+			rewards: [{
+				count: 10
+				id: "3AFC5A5A77C72419"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "反转了"
+			tasks: [{
+				id: "21CEF79435FE4AF3"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "未知全貌，不予置评"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1AB47DBB41324199"]
+			description: ["实际上你很少需要来回切换转向，一般只是让它永久反转"]
+			hide_dependency_lines: true
+			id: "03CE0A8442FF19CC"
+			rewards: [{
+				count: 10
+				id: "55BC796F098D870E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我觉得这个会比上面那个用的更多"
+			tasks: [{
+				id: "71AC33C99D77312A"
+				item: "create_connected:inverted_gearshift"
+				type: "item"
+			}]
+			title: "更好的反转齿轮箱"
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["21701A34562B5D58"]
+			description: [
+				"只是为了让你知道有这么一套机械动力的流体系统..."
+				"储罐的话，能搭蒸汽引擎，还是很有用的"
+				"这管道可以像传动轴一样用铜机壳封装"
+			]
+			id: "7EE3297B663F7039"
+			rewards: [{
+				count: 10
+				id: "2D21AF3BC087876F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "也就造价稍微便宜点"
+			tasks: [{
+				id: "6F3469B40CFBFA0D"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "不如mek一根"
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EE3297B663F7039"]
+			description: [
+				"注意，尽量使用桶装液体让它识别"
+				"使用智能流体管道时应尽量紧贴流体源，否则有几率因其他种类流体先被排出而使管道堵塞"
+			]
+			id: "3C8613D787BE3086"
+			rewards: [{
+				count: 10
+				id: "01CD7A54ADACEE3A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "之前好几次被mek不能识别种类的管道气晕了"
+			tasks: [{
+				id: "628841A2306FB638"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			title: "这个还有点用"
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EE3297B663F7039"]
+			description: ["原本还有个反向旋转就能让液体反流的功能，现在彻底不行了"]
+			id: "7E5201AB9C20C67C"
+			rewards: [{
+				count: 10
+				id: "0DED94B6FBA67F58"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "更新之后更不如mek了"
+			tasks: [{
+				id: "06B4C4DA8D34FE0D"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "难泵"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"石灰岩只能当装饰，其它多多少少都能洗涤出一些矿"
+				"由于这东西一次生成一大片所以也是很不错的矿物来源"
+			]
+			hide_dependency_lines: true
+			id: "53D2B9F983CB81FC"
+			rewards: [{
+				count: 10
+				id: "2310699D45EB24F3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "有5+1个也是很正常的吧"
+			tasks: [
+				{
+					id: "4BF39CB9E0AD3B09"
+					item: "create:ochrum"
+					type: "item"
+				}
+				{
+					id: "71C3ACA2F778E7AA"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					id: "4783023ADF879AAC"
+					item: "create:asurine"
+					type: "item"
+				}
+				{
+					id: "35AC43F6031B92FD"
+					item: "create:crimsite"
+					type: "item"
+				}
+				{
+					id: "31FE48087657B6BF"
+					item: "create:limestone"
+					type: "item"
+				}
+				{
+					id: "74FA5A3EAB79A852"
+					item: "create:scoria"
+					type: "item"
+				}
+			]
+			title: "四大天王"
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["21701A34562B5D58"]
+			description: [
+				"服务器用的时候别忘记开允许模拟玩家"
+				"其它的去思索里看看吧"
+			]
+			id: "2BC7ECCEF679B391"
+			rewards: [{
+				count: 10
+				id: "6F81850AF134EB40"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "指指点点"
+			tasks: [
+				{
+					id: "2A3E90E85838BA9E"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "6048B7DDB74C6194"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			title: "拿捏你"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"桀桀...这力量还有谁能阻挡的了了！"
+				"让那些看不起蒸汽朋克的人在这力量下颤抖吧！这才是科技！"
+			]
+			id: "360CF4103C970948"
+			rewards: [{
+				count: 10
+				id: "04B0E9B27BA28946"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "**的树场转动...十四万匹应力！"
+			tasks: [
+				{
+					id: "08D1594237A3695F"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "60DB9DB00427925C"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "工业革命！"
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["593DA098947B04E5"]
+			description: [
+				"放在鼓风机上就可以把所有实体全拉到一块或者吹散开"
+				"不过这样一来就没法再用鼓风机加工了"
+			]
+			hide_dependency_lines: true
+			id: "73D42617C9BD5736"
+			rewards: [{
+				count: 10
+				id: "2B0CBA72CB68D1A0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不过你可以让它爆起来"
+			tasks: [{
+				id: "45EF34D138AC5067"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			title: "真空内...没爆"
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["593DA098947B04E5"]
+			description: [
+				"洗涤或者熔炼的时候经常需要防止液体乱跑，或者一脚踩到营火上头"
+				"现在你可以用这东西，就不用再担心了！"
+				"总共有四种触媒，鼓风机的所有加工都能包含"
+			]
+			hide_dependency_lines: true
+			id: "2C89479AF0EA56F6"
+			rewards: [{
+				count: 10
+				id: "222E1A24C5A6E1FC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "一格之内解决问题"
+			tasks: [{
+				id: "55BB1400500BE207"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "鼓风机的好伴侣"
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["360CF4103C970948"]
+			description: [
+				"放在运转的锅炉上方使用，但不消耗蒸汽"
+				"接入红石就可以鸣笛"
+				"冷知识：在上方叠更多蒸汽笛可以降低音调，扳手右击可以改变音域"
+			]
+			hide_dependency_lines: true
+			id: "2ECF3EDB681823DB"
+			rewards: [{
+				count: 10
+				id: "7B96EFA3230DFEB6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "以防有人不知道你建了一个漂亮的锅炉"
+			tasks: [{
+				id: "12638B79AB2E761D"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			title: "呜！呜！"
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["64BD5002E8619A50"]
+			description: [
+				"这个任务有点小bug，没法设定为提交“链式齿轮箱”"
+				"不过它的合成也很简单，用齿轮和链式传动箱就可以"
+			]
+			hide_dependency_lines: true
+			id: "315F2803E529506F"
+			rewards: [{
+				count: 10
+				id: "3AEF0F7B1235B421"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "齿轮和链式传动是可以兼得的！"
+			tasks: [{
+				id: "315FBFB35C3C7CCB"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "我全都要"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: [
+				"注意不同的合成物品滑动方向是影响合成速度的"
+				"虽然看起来有点怪但它可以用物品管道输入输出，mek的很合适"
+			]
+			id: "6BFEC023C6F3F522"
+			rewards: [{
+				count: 10
+				id: "1BA758BB79CD858F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "合成大一点的东西"
+			tasks: [{
+				count: 9L
+				id: "218681CCBE552738"
+				item: "create:mechanical_crafter"
+				title: "如果只是用来合成一种物品，那剩下的格子不放合成器也行"
+				type: "item"
+			}]
+			title: "中级工作台"
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: ["可以写一些花里胡哨的变来变去的话"]
+			hide_dependency_lines: true
+			id: "4EEBAC0CEBFC5455"
+			rewards: [{
+				count: 10
+				id: "6C7CC7E7ECE29FD7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用它来讲一些会变化的话！"
+			tasks: [{
+				id: "41932B2E3FAABF58"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "复古的显示法"
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6BFEC023C6F3F522"]
+			description: [
+				"上次它就吞了我的meka工具！"
+				"还得注意不要把它的转向设置成和物品通过方向相反，不然它会把物品反向到处乱喷，或者彻底罢工"
+				"粉碎轮对很多配方的产率比石磨更高，但不是全部，所以石磨是会有用处的"
+			]
+			id: "6D0F10864649E2A4"
+			rewards: [{
+				count: 10
+				id: "50EE6C5F46669274"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "注意，它会吞掉任何没有加工配方的东西，基岩也行"
+			tasks: [{
+				count: 2L
+				id: "68E0FEFAC080464D"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "更高级的磨碎"
+			x: 17.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"思索里写了它的各种妙用"
+				"之后你可以升级为有过滤槽的版本"
+			]
+			hide_dependency_lines: true
+			id: "7885C49FC494E889"
+			rewards: [{
+				count: 10
+				id: "313A5C00433AB1D3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "但又不太一样"
+			tasks: [{
+				id: "0250C5BD44990DA0"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "有点像漏斗"
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"1C747ACB7FF916B6"
+				"7885C49FC494E889"
+			]
+			description: ["AE的系统比这个强，它唯一的作用可能就是造价便宜"]
+			hide_dependency_lines: true
+			id: "52C022B59876B4AB"
+			rewards: [{
+				count: 10
+				id: "03A7FF9778DC9541"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "虽然用处不大"
+			tasks: [{
+				id: "2E70D440DE58C13C"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			title: "高端货"
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"在搭建载具的时候有助于防止你的车趁你不注意乱跑"
+				"有需求的话，可以看看别的种类的离合器的描述并运用它们"
+			]
+			hide_dependency_lines: true
+			id: "7E0162D40986AA13"
+			rewards: [{
+				count: 10
+				id: "64A68F751535D816"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "也让你的网络歇一歇"
+			tasks: [{
+				id: "05B9A1C4354C82A9"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "二挡起步"
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			description: ["或许通过这种方式停下来网络也会有需要运用的地方"]
+			hide_dependency_lines: true
+			id: "7CF8E1728D2A5C7F"
+			rewards: [{
+				count: 10
+				id: "419DFA0FC7AFA8B7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "基本也是一种“离合器”，但是原理不同"
+			tasks: [{
+				id: "422AD440E3FF98BD"
+				item: "create_connected:brake"
+				type: "item"
+			}]
+			title: "给我停！"
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D0F10864649E2A4"]
+			description: ["可以用在开路的火车上，它自动填充方块的功能相当棒"]
+			id: "0962BDBD373DAA8F"
+			rewards: [{
+				count: 10
+				id: "007A1BCB1DF789D0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "怎么感觉作用还没动力钻头多"
+			tasks: [{
+				id: "62C34FFA8C002D40"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			title: "食我压路机哒！"
+			x: 19.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: [
+				"做一些精密的系统少不了它"
+				"比如把按钮的效果变成拉杆的效果，或者精确控制旋转"
+				"不过一般的机械暂时还是用不上的"
+			]
+			hide_dependency_lines: true
+			id: "0E145632E83FD545"
+			rewards: [{
+				count: 10
+				id: "795CFC3065CE6AE1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "小心我用C语言开你的盒（指齿轮箱）"
+			tasks: [{
+				id: "5A16A1E16B879B6F"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "C（create）语言"
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2BC7ECCEF679B391"]
+			description: [
+				"所以你得想办法分离那些加工失败的产物，同时别把半成品丢掉"
+				"这是对你的一个考验，要不你就只能手搓了！"
+			]
+			id: "088C562E7FE48287"
+			rewards: [{
+				count: 10
+				id: "3C6D96293D824706"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "可惜这里没有"
+			tasks: [{
+				id: "3B083A59A2E7A667"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "你需要超净间"
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["778718122C2A6EB6"]
+			description: [
+				"这海带说句实话还挺结实的"
+				"传送带只能平着连或者斜45度角，因此其它的链式传动箱之类的还是很有用的"
+				"我猜还有人不知道传送带能被染色，已经染上的颜色还能用水桶和水瓶洗掉"
+				""
+				"穿上潜水靴可以避免被传送带带着跑"
+			]
+			id: "62F6D50436E32167"
+			rewards: [{
+				count: 10
+				id: "0111FD6054115269"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "和长距离传动！"
+			tasks: [
+				{
+					id: "6F19764ACD228D4B"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					id: "05ABC172A7E97B3E"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "平移"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["088C562E7FE48287"]
+			description: [
+				"用好了的话你可以完全和那些齿轮组说拜拜"
+				"齿轮的唯一作用就只剩下短距离传动了"
+			]
+			id: "3D77C95EE18FF7F0"
+			rewards: [{
+				count: 10
+				id: "4D1EBFF9E431ED0A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "之所以它在上面而不是下面是因为它真的很重要"
+			tasks: [{
+				id: "0AEC19431321D7C5"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "省去你99%的齿轮组！"
+			x: 21.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"伊甸号的飞控只需要一个这个，一个普通拉杆，一个电脑，和两个无线红石接收器"
+				"就是这样简单而强大"
+			]
+			hide_dependency_lines: true
+			id: "134F45D499B89FE0"
+			rewards: [{
+				count: 10
+				id: "705FDD71C6F1BEBB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "多少原版生电玩家想要的东西"
+			tasks: [{
+				id: "6CE38AF254CC0842"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			title: "梦中情器"
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2FDA11E6E0A5561F"]
+			description: [
+				"这东西的用处很多，比如做一个到了末端就反向旋转的起重机杆，设计让起重机倒回去的系统"
+				"可以说用途只受限于你的创造力"
+			]
+			id: "6BD72CC4D357FB78"
+			rewards: [{
+				count: 10
+				id: "071F5ACA5FA0590B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "总得让你知道它动到了哪里吧"
+			tasks: [{
+				id: "6BF26EDA3D2D0E4F"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			title: "动态结构，第二课"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["229ED69E86DCB45D"]
+			description: ["每一辆载具基本都需要这个，才能用遥控器控制"]
+			id: "729698AD926B6CA9"
+			rewards: [{
+				count: 10
+				id: "6234AD98D04B3AF6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用好了才能真正做到远程控制和调整"
+			tasks: [{
+				count: 2L
+				id: "537A6C0DB758D4BC"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			title: "没了这个你的载具就是废铁"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: [
+				"对着的容器存量百分比低于某个阈值时，它会发出红石信号，在容量再次达到第二个更高的阈值之前，红石信号不中断"
+				"也可以设定为反过来"
+				"在保持存量这方面它比AE可是更简单"
+			]
+			id: "7A13B0B665D46CCC"
+			rewards: [{
+				count: 10
+				id: "38E1D5DEB9043544"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "保持你仓库的储量别见底！"
+			tasks: [{
+				id: "66A580AB0090F93C"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			title: "损有余以益不足"
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["看起来可以做一些有意思的电路"]
+			hide_dependency_lines: true
+			id: "34CE651FE38B3724"
+			rewards: [{
+				count: 10
+				id: "0607C4EACF4C674D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我也不知道具体能怎么用"
+			tasks: [
+				{
+					id: "32C72528302D4A36"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "3DB5B6C568249DF5"
+					item: "create:powered_latch"
+					type: "item"
+				}
+			]
+			title: "机械动力红石全家桶"
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			description: ["功能非常齐全，值得一试"]
+			hide_dependency_lines: true
+			id: "33BC00EA69A79FE5"
+			rewards: [{
+				count: 10
+				id: "76EDB149F091F861"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让你的过滤系统不再那么一根筋"
+			tasks: [{
+				id: "3592A67E21183068"
+				item: "create:filter"
+				type: "item"
+			}]
+			title: "博学多识"
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["有一些相当花的玩法，比如实时监控你工厂所有产品的剩余量！"]
+			hide_dependency_lines: true
+			id: "30A78CAD41715762"
+			rewards: [{
+				count: 10
+				id: "3C99CDE69BAEAED9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "然后显示设备才知道该显示什么"
+			tasks: [{
+				id: "0B4A40028A04A4B6"
+				item: "create:display_link"
+				type: "item"
+			}]
+			title: "发出信号"
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6BD72CC4D357FB78"]
+			description: [
+				"在方块模式下标记指定作业元件，可在实体化状态下控制指定类型的作业元件工作状态"
+				"实体状态下动态结构控制器若收到红石信号则改变动态结构的作业元件工作状态"
+				"可以用来做电梯选层！"
+			]
+			id: "5226630546126702"
+			rewards: [{
+				count: 10
+				id: "0053A2C2C7FD7F4C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "防止拆家或者任何意外发生"
+			tasks: [{
+				id: "0C6A66A788A9F96A"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			title: "不要乱动！"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: [
+				"用这个很快乐的玩意来侦测它前面的物品和存储形态"
+				"详见思索，它的用途也很广泛"
+			]
+			hide_dependency_lines: true
+			id: "69548F667B65DD7F"
+			rewards: [{
+				count: 10
+				id: "6502EBB5D0D08D0B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "笑嘻了"
+			tasks: [{
+				id: "4224BD9F71F965DC"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			title: "乐"
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6BD72CC4D357FB78"]
+			description: [
+				"需要两个来配合工作，一个在动态结构上，一个是方块，接口相对，中间空1或2格"
+				"动态结构运行到这块的时候就会停下来输入或者输出物品，放心，并不是方块化"
+				"是哪边输入哪边输出和它连接的结构有关"
+				"不过你得注意不要让它转太快了，要不它可能会反应不过来"
+				"用红石激活可以让它不在这停下，当然不输出物品"
+			]
+			id: "3B6F0C6EFACC19C1"
+			rewards: [{
+				count: 10
+				id: "5EEEFFB0BF90D33F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "给我你的午饭钱（收割的作物）！"
+			tasks: [{
+				count: 4L
+				id: "0DED8D69BF090E4B"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			title: "动态结构，第三课"
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"宽和高最大3*3，最小2*2，长度最大是宽（高）的三倍"
+				"没有GUI，但任何和箱子交互的方式都能对它用，包括AE的总线"
+				"每块能存放20组物品"
+				"所以可能唯一用处就是身上可以多接点漏斗和管道，但只要有存储总线这根本不是问题..."
+			]
+			id: "06CC69D818917EFE"
+			rewards: [{
+				count: 10
+				id: "159B7E84C1CF8B2D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "说句实话在这里真没太大用"
+			tasks: [{
+				count: 4L
+				id: "47D1EB50C0108E6A"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "闷头箱子"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: ["除了和安山漏斗相同的功能之外，它一次可以漏出/塞进最多一组而不是一个，而且支持过滤器！"]
+			id: "3E1A636A3F1D69B6"
+			rewards: [{
+				count: 10
+				id: "3796B7BD9D44D1D8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你一定会用到很多"
+			tasks: [{
+				count: 2L
+				id: "01E8D39DDFC1A14B"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "相当棒的漏斗"
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["088C562E7FE48287"]
+			description: [
+				"除了正常功能外还有一些很魔性的用法"
+				"比如在你朋友家的动力臂旁边用唱片机点歌看看会发生什么"
+			]
+			id: "2DF2CB28EC3674F1"
+			rewards: [{
+				count: 10
+				id: "37C8501858F00D0A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "永不疲倦的手臂！"
+			tasks: [{
+				id: "2B5A6AFB1D6BF695"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "少说也得单身两三百年"
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: ["用它构建你复杂的分支传送带吧"]
+			id: "4E6A7715337A55B7"
+			rewards: [{
+				count: 10
+				id: "4894F7E44120CC40"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "比安山小玩意强了不止一点半点"
+			tasks: [{
+				count: 2L
+				id: "7AA6B22412F5919D"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "更棒的分流系统"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C747ACB7FF916B6"]
+			description: ["如果你没有修一个超级大钟的需求，实际上也不太用做这个"]
+			hide_dependency_lines: true
+			id: "71DBF87AD58E0F7C"
+			rewards: [{
+				count: 10
+				id: "10A8686D30C54C40"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "可以按表走的动态结构"
+			tasks: [{
+				id: "3AB2382AC5A55539"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			title: "大本钟"
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"相当于一个能往下伸很长的动力活塞，用来垂直搬运物品"
+				"做个电梯之类的会有用的"
+			]
+			hide_dependency_lines: true
+			id: "5C97EF523C247C7F"
+			rewards: [{
+				count: 10
+				id: "3B3FC16836E9304B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "记得把东西绑牢"
+			tasks: [{
+				id: "445570E4D5B569CB"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "栓q"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: ["在矿车上搭你的东西的时候要时刻小心，不要搭太多让nbt过大，这会废掉整个矿车"]
+			id: "73D42EF768119703"
+			rewards: [{
+				count: 10
+				id: "6FAF90AF7F1EDA60"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "因为它更简便啊"
+			tasks: [{
+				id: "4EDD80EEAFAF647E"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "都有火车了我要这个干嘛"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["做动态结构之类的非常有用"]
+			id: "6B29E1B1AFDA680E"
+			rewards: [{
+				count: 10
+				id: "2A460EDD52CEE827"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "建议好好使用这管黏糊糊的东西"
+			tasks: [{
+				id: "51CBFAC1146EDDC5"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "现在开始打胶"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B6F0C6EFACC19C1"]
+			description: ["也可以用胶单独右击某个露在外面的木质面，让它变成可以黏附前面方块的面"]
+			id: "5D5897D5F58CA33F"
+			rewards: [{
+				count: 10
+				id: "09FB1FE5704A2F98"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "先动带动后动"
+			tasks: [{
+				id: "64990AF0AF0B37DD"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			title: "动态结构，第四课"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2FDA11E6E0A5561F"]
+			description: ["都是用来上下移动动态结构的东西"]
+			id: "701188C72F039BC1"
+			rewards: [{
+				count: 10
+				id: "1FBFF8BC84B50BFD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "和绳索滑轮很像"
+			tasks: [{
+				id: "1900B41BB1CA42C5"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "另一种电梯？"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"088C562E7FE48287"
+				"6BFEC023C6F3F522"
+			]
+			description: ["虽然这可能没有枪械伤害高，但是子弹大概是最便宜的"]
+			id: "0038954F464296E7"
+			rewards: [{
+				count: 10
+				id: "7BBE7B66A63F9242"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "发射有机物来应对任何怪物！"
+			tasks: [{
+				id: "340D9F8CF5A0A706"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "植物大战僵尸"
+			x: 19.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4BDABCB20155E2BA"]
+			description: [
+				"这玩意是我目前唯一说不出任何作用的东西"
+				"大概这就是它的作用吧"
+			]
+			hide_dependency_lines: true
+			id: "04959C921970747D"
+			rewards: [{
+				count: 10
+				id: "7F214DD6F2DD86A4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "脑浆子都给你晃匀了"
+			tasks: [{
+				id: "63B0674B14B85F7F"
+				item: "create:turntable"
+				type: "item"
+			}]
+			title: "玩家旋转3分钟"
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D0F10864649E2A4"]
+			description: [
+				"粉碎矿石或者用机械手杀怪物，都会把掉落的经验凝聚成这个"
+				"除了给自己涨点经验，还有更多的用途"
+			]
+			id: "646584EF6872DE0A"
+			rewards: [{
+				count: 10
+				id: "4FCCEE39017663F7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "简称：天地宝精"
+			tasks: [{
+				count: 8L
+				id: "685C211314BE4683"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			title: "凝聚起来的精华"
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"需要一点应力"
+				"在6000tick时（中午）会响起铃声，从钟里探出小猪手办两次并发出两声猪叫"
+				"在12500tick时（也就是刚好可以睡觉的时候）弹出的则是苦力怕手办并发出两声ss叫"
+			]
+			hide_dependency_lines: true
+			id: "38591F0AB21DFE50"
+			rewards: [{
+				count: 10
+				id: "2B5CB902405F96DD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "硬核布谷鸟"
+			tasks: [{
+				id: "1A8D63C9748AA91D"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			title: "哼，哼，哼"
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"装饰性方块，用于将管道，传动杆和两种齿轮和临近的方块衔接"
+				"使用扳手对其直接右键会单独将其拆下，潜行右键（以及直接破坏）会连带被装上的方块一起破坏"
+			]
+			hide_dependency_lines: true
+			id: "56D0B46473249E2C"
+			rewards: [{
+				count: 10
+				id: "6A58EA1DF4E6CD3B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用来让你的mc看起来更科学"
+			tasks: [{
+				id: "7512AE19C91185BB"
+				item: "create:wooden_bracket"
+				type: "item"
+			}]
+			title: "支棱起来"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: [""]
+			id: "0555E2400DFB1274"
+			rewards: [{
+				count: 10
+				id: "6DF2FF7210612610"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用来构建别人和自己的大作"
+			tasks: [
+				{
+					id: "201BF8EBF25E342B"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "11B65DF5349497BE"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "2ECAE1B7FAF87274"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			title: "宏伟蓝图"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0038954F464296E7"]
+			description: [
+				"放在地上，在上方输入应力来充气，转速越快充气越快"
+				"之后可以供给土豆加农炮、伸缩机械手和潜水套装使用来让它们的耐久不消耗"
+			]
+			id: "0E0BF88D89FE75FB"
+			rewards: [{
+				count: 10
+				id: "09CC719A07D70E92"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "空气动力的力量"
+			tasks: [{
+				id: "38E7D937D429038C"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "圆身，气动"
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E0BF88D89FE75FB"]
+			description: ["没错，坚固的材料除了能提供有效的保护，如果你穿齐全套，还能免疫熔岩伤害！"]
+			id: "22E6354AD7C95AF8"
+			rewards: [{
+				count: 10
+				id: "5D1DC728B4B64706"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "竟有此等好事？"
+			tasks: [{
+				id: "0DD6C8B7E930D782"
+				item: {
+					Count: 1
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "无限耐久的下界合金胸甲"
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E0BF88D89FE75FB"]
+			description: [
+				"一切适用于胸甲的附魔（耐久和经验修补除外）都能在背罐上生效！"
+				"除此之外，背罐附魔扩容可以增加气体容量，让你能够使用更长时间"
+			]
+			id: "2D369EBBD3796C5D"
+			rewards: [{
+				count: 10
+				id: "3AABCAE68729C469"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "而且效果很好！"
+			tasks: [{
+				id: "2510BC8E459A3B86"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "cofh_core:holding"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "这东西也能附魔"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["729698AD926B6CA9"]
+			description: [
+				"你可以注意到这玩意只有六个按键"
+				"所以如果你造固定翼飞机的话，没法加偏航了，只能用滚转和俯仰代替"
+			]
+			id: "2012386BD56B1B11"
+			rewards: [{
+				count: 10
+				id: "7D0BBD5FB460EF6C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "只有在舰上没人或者处于遥控状态下，才能启动前进四"
+			tasks: [{
+				id: "29E08383949F9ABB"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			title: "远程控制"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["088C562E7FE48287"]
+			description: [
+				"这个遥控器就支持更多的功能，因为手柄的按键要更多！"
+				"可以在主菜单右边小遥控器图标里配置你想要的按键对应"
+				"不会的话建议别问，这点英文看不懂也没必要玩这东西了，你说是不是这个理"
+			]
+			id: "38149E5F1D0FE865"
+			rewards: [{
+				count: 10
+				id: "60F6F51E59A893AF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你得想办法整到一个手柄，或者在设置里调好键位输入"
+			tasks: [{
+				id: "4DF9A80D7F66CB05"
+				item: "create_tweaked_controllers:tweaked_linked_controller"
+				type: "item"
+			}]
+			title: "更高级的遥控器"
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2BC7ECCEF679B391"]
+			description: ["除了一样的合成成功率不是百分之百，和电路板几乎没啥关系"]
+			id: "16C59F1AC1D59E79"
+			rewards: [{
+				count: 10
+				id: "0AB35EE9F2032448"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "最不像电路板的一集"
+			tasks: [{
+				id: "5822EBA13B5285F3"
+				item: "create_dd:integrated_circuit"
+				type: "item"
+			}]
+			title: "电路板，但很草率"
+			x: 23.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["16C59F1AC1D59E79"]
+			description: [
+				"这东西唯一的作用大概就是增加一些需要精密构件的配方的产量"
+				"不过名字取得很好，这可能意味着我会给它加更多的作用..."
+			]
+			id: "5C3D21A84498178C"
+			rewards: [{
+				count: 10
+				id: "10F5CAA00A907B30"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "没啥大用就是了"
+			tasks: [{
+				id: "3D8339CEC483BE14"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			title: "有用吗？"
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C3D21A84498178C"]
+			description: [
+				"论上限不如板斧，论便利不如动力锯"
+				"而且基本你能做这个的时候已经不用手动砍树了"
+				""
+				"不过你要做的话...我还是有奖励给你"
+			]
+			id: "3655A58EC3E7412B"
+			rewards: [{
+				count: 10
+				id: "03617620FE98AA58"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "实际很垃圾"
+			tasks: [{
+				id: "213DB031557F6791"
+				item: {
+					Count: 1
+					id: "create_dd:forest_ravager"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "名字很装逼"
+			x: 27.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2BC7ECCEF679B391"]
+			description: ["这东西可以增产你的各种传动系统元件，应该是相当有用的"]
+			id: "125ECCBE24AE250B"
+			rewards: [{
+				count: 10
+				id: "7FC5B5CF7EBEC64F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "作用当然远远不限于此"
+			tasks: [{
+				id: "4C4E1BFD63A8A86E"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			title: "实体化AE"
+			x: 23.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["125ECCBE24AE250B"]
+			description: ["当然你要做的话，我会给你一些好东西"]
+			id: "73EDB3125B838242"
+			rewards: [{
+				count: 10
+				id: "46654646774E97F8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "匠魂的三板斧是一板也没有"
+			tasks: [{
+				id: "27A25840EB8727B3"
+				item: {
+					Count: 1
+					id: "create_dd:deforester_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "鸡肋，太鸡肋了"
+			x: 25.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: ["这可能是一个消耗应力来做到恒定反转的齿轮箱，但是这个翻译属实有点笑话的"]
+			hide_dependency_lines: true
+			id: "50210674E2BFC3D8"
+			rewards: [{
+				count: 10
+				id: "23B8EAD85E0FB227"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你没看错"
+			tasks: [{
+				id: "6A07B36E0FCB8F35"
+				item: "create_dd:reversed_gearshift"
+				type: "item"
+			}]
+			title: "请注意，倒车"
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D0F10864649E2A4"]
+			description: [
+				"用途那是广泛的很"
+				"这个包的地狱岩你可以方便地在主世界做，所以你可以整一个超级加热的29万应力的锅炉！"
+			]
+			id: "4A836CA828191641"
+			rewards: [{
+				count: 10
+				id: "4F548498B2C5C267"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "所以下界是一块大面包"
+			tasks: [{
+				count: 8L
+				id: "22787537F032F737"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			title: "石头磨出来面粉"
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4A836CA828191641"]
+			description: [
+				"不过那些给你打工的烈焰人就好这口！"
+				"如果你馋这个的话，我给你点长的像但你能吃的蛋糕吧"
+			]
+			id: "3A51E65886F64B2A"
+			rewards: [{
+				count: 10
+				id: "5E2672DF37A0ADEA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不是给你吃的"
+			tasks: [
+				{
+					id: "3A9C2DC44325AA4F"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+				{
+					id: "42446F920AAB43DE"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "太烫嘴了"
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"不需要应力，可以给物品注入一些流体"
+				"不要误会，不能用来干那种事情"
+			]
+			id: "4513F8E31B56F197"
+			rewards: [{
+				count: 10
+				id: "7D9E9D1E305C246E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "灌注蛋糕胚喵，灌注蛋糕胚谢谢喵"
+			tasks: [{
+				id: "2F12975AC7348F86"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "裱花嘴"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			description: [
+				"可以把上面的容器里的液体取出来"
+				"应该是个很有用的功能"
+			]
+			hide_dependency_lines: true
+			id: "5B5E81415CBE9CBB"
+			rewards: [{
+				count: 10
+				id: "66A8150451D881E6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "取罐了"
+			tasks: [{
+				id: "100AC0150797857B"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "灌注的反义词"
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6D0F10864649E2A4"]
+			description: [
+				"但是它在部分场合可以代替其它模组需要一个黑曜石才能磨出来的黑曜石粉"
+				"在一些配方里可以省材料"
+			]
+			id: "5811479AE7B41A45"
+			rewards: [{
+				count: 10
+				id: "16C38A3856384149"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "机械动力的黑曜石粉占四分之一个黑曜石"
+			tasks: [{
+				count: 4L
+				id: "484E87280EB520B2"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			title: "别弄混了"
+			x: 21.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5811479AE7B41A45"]
+			description: ["这应该是比较高级的材料了，合成的东西都是重量级的"]
+			id: "589231887281CF10"
+			rewards: [{
+				count: 10
+				id: "6C0F987AE873FD59"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "要不这玩意太硬会把胳膊卡住"
+			tasks: [{
+				id: "5A3CF84F8174349D"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "不能当盔甲"
+			x: 23.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"037ECD863087FFE8"
+				"01D330D422A76374"
+				"21701A34562B5D58"
+			]
+			description: ["它用的青铜和其它模组的青铜不一样，注意！"]
+			id: "628772B6F1131B52"
+			rewards: [{
+				count: 10
+				id: "52FEC3C6193B03F0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "青铜机器比铁挖的还快，谁知道这是咋想的"
+			tasks: [
+				{
+					id: "7FC29116C8C294C0"
+					item: "create_dd:bronze_drill"
+					type: "item"
+				}
+				{
+					id: "6721A8CDC06F8183"
+					item: "create_dd:bronze_saw"
+					type: "item"
+				}
+				{
+					id: "0B4B5D8B490044B5"
+					item: "create_dd:hydraulic_press"
+					type: "item"
+				}
+			]
+			title: "铁＜青铜"
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["589231887281CF10"]
+			description: ["是你所有火车的基石，也是一种美观的建材"]
+			id: "66A8103EA4E06A95"
+			rewards: [{
+				count: 10
+				id: "26BB7610E4330704"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "一脚油门创死死"
+			tasks: [{
+				count: 4L
+				id: "24EC4F5FF8351456"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "小火车，绝绝子"
+			x: 27.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: ["不过你完全可以在下界做，这个包的无线传输工具相当多"]
+			hide_dependency_lines: true
+			id: "053E3E7881D0CAE8"
+			rewards: [{
+				count: 10
+				id: "25B5EBC859F89C9B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "我猜你一定会考虑做无限岩浆的"
+			tasks: [{
+				id: "23FB53772D7C4219"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "经典无限岩浆取法"
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["66A8103EA4E06A95"]
+			description: ["用这个来搭建你的第一辆铁路交通工具，来更浪漫的实现物流"]
+			id: "2751074FEC2F8D3C"
+			rewards: [{
+				count: 10
+				id: "0F7C26627D0497F1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你需要先来一段铁轨"
+			tasks: [{
+				id: "153319B665C56808"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "开始修建火车！"
+			x: 29.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["66A8103EA4E06A95"]
+			description: [
+				"用来搭建你的列车网络！"
+				"建立MC里的御一夜铁路，"
+				"或者，用单轨搭建一个用来游览的小型铁路线！"
+				"{image:akzs_custom_items:textures/ai_shang_huo_che_.png width:108 height:60 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "akzs_custom_items:textures/zhong_guo_tie_lu_.png"
+				}
+			}
+			id: "423E6345BA7F67E6"
+			rewards: [
+				{
+					count: 20
+					id: "50C54E918D12F300"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "3DDD94542FD1ACA8"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "akzs_custom_items:hachiroku_pic_1"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "还有困住怪物的奇妙作用"
+			tasks: [
+				{
+					id: "43A37AB9928DA601"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "5818E75C47489D76"
+					item: "kuayue:ballastless_track"
+					type: "item"
+				}
+			]
+			title: "铁路浪漫谈"
+			x: 27.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["66A8103EA4E06A95"]
+			description: ["用这个指挥你的列车适时停下，避免撞车或者创死你自己"]
+			id: "30911308E813E16A"
+			rewards: [{
+				count: 10
+				id: "2B7097435C34B3E9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "禁止列车互创"
+			tasks: [{
+				id: "1171DB6F56EFCD36"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "火车的红绿灯"
+			x: 27.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["589231887281CF10"]
+			description: ["记得把驾驶员拴牢，或者干脆用跑不掉的烈焰人燃烧室"]
+			id: "2898371E70FB5416"
+			rewards: [{
+				count: 10
+				id: "10B1F36A37850E20"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "用这个来杜绝驾驶员偷懒"
+			tasks: [{
+				id: "096027D84F00C663"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "怎么又晚点了？"
+			x: 23.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66A8103EA4E06A95"]
+			description: ["用这个来记录你的列车走到了哪里，和有没有带你最爱的货物回来，防止跟丢了！"]
+			id: "76422FD856AE8ECB"
+			rewards: [{
+				count: 10
+				id: "0FC1F305FA63E805"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "一个合格的铁道工"
+			tasks: [{
+				id: "37CE57126667D23E"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "敬礼！"
+			x: 25.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66A8103EA4E06A95"]
+			description: ["你和任何生物都能开车——只要你抓的到并且能拴住它们"]
+			id: "73F738CFA1C00E5F"
+			rewards: [{
+				count: 10
+				id: "084C3F9B3F82450A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "蒸汽笛可不一定只有在锅炉上才能用！"
+			tasks: [{
+				id: "29DF1B7E3F68EF40"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "别忘了鸣笛"
+			x: 29.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"对于固定的大炮，我并不擅长，建议浏览"
+				"https://www.mcmod.cn/class/7178.html"
+				"来获取相关教程"
+				"你用的更多的应该是机炮，相关部件的思索很详细，应该容易上手！"
+				"我就不再赘述这个模组相关的任务了"
+			]
+			id: "65CE45B03BD4A819"
+			rewards: [{
+				count: 10
+				id: "3C3511D5356A814D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "实际上火炮的用处没你想象中大"
+			tasks: [{
+				id: "44417372C09B66C4"
+				item: "createbigcannons:empty_autocannon_cartridge"
+				type: "item"
+			}]
+			title: "建造你的大火炮！"
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["21701A34562B5D58"]
+			description: ["其中有一些还相当有用"]
+			id: "6ADEBDA246D23C0A"
+			rewards: [{
+				count: 10
+				id: "1843FD0EAE96F6CC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "机械动力和电力模组是有联动的！"
+			tasks: [{
+				id: "0DE61C18FC3BC3AE"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			title: "机电玩家"
+			x: 23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C1D0AC81AB4AFC4"]
+			description: [
+				"似乎唯一的作用就是做点线..."
+				"没啥自动化的必要"
+			]
+			id: "3463BB916CD9A4E7"
+			rewards: [{
+				count: 10
+				id: "368A0E7CF517F607"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "把各种东西压扁！"
+			tasks: [{
+				id: "6610F97AA4BF6A09"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			title: "小心夹手"
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B477AAA14DC1296"]
+			description: ["批量充能赛特斯石英特别好使"]
+			id: "198437EC6F27CFFF"
+			rewards: [{
+				count: 10
+				id: "35404C8DC27884FB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "完全可以代替AE的充能器"
+			tasks: [{
+				id: "0A50FCD9C84C0DDF"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			title: "充电嘎嘎快"
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B477AAA14DC1296"]
+			description: [
+				"每个方块存电2MRF，比基础能量立方强"
+				"多个可以连接成一个大蓄电池"
+				"虽然不能随身带走但胜在造价便宜"
+			]
+			id: "61B58FD0089BAEB2"
+			rewards: [{
+				count: 10
+				id: "18502845D95520B4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这个着实不错"
+			tasks: [{
+				id: "2CD2CD18F1D18281"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			title: "能量立方！"
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64A310D9D8DC8331"]
+			description: [
+				"右键让烈焰人燃烧室改为使用液体燃料，可以通过管道注入"
+				"注意，改造之后不能再使用固体燃料，而且不能再作为气动工艺的热源"
+				"如果你只是为了超级燃烧，那做烈焰蛋糕和这个难度差不多"
+				""
+				"不过如果你有了IE的炼油厂了，那可以直接做生物柴油喂给燃烧室做超级燃烧，这就很方便了"
+			]
+			id: "185CA98860EDA002"
+			rewards: [{
+				count: 10
+				id: "03F97F558B44279F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "让你的烈焰人喝点小酒！"
+			tasks: [{
+				id: "13B2CE04E868BA5A"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			title: "美汁儿汁儿"
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B477AAA14DC1296"]
+			description: ["只适合在应力机械旁边放一些电力小物件的时候免去接线过来，就地发电"]
+			id: "63DFBA6F7DCBE11E"
+			rewards: [{
+				count: 10
+				id: "4F8F0D892EADB07A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "不建议作为主流发电"
+			tasks: [{
+				id: "588BCDB4922EF857"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			title: "应力发电"
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B477AAA14DC1296"]
+			description: [
+				"最高速度下每秒耗电9600RF，产生16384应力，和一台蒸汽引擎相同"
+				"mek线缆轻松就能供应它的耗电"
+				"而且造价相当便宜，强烈建议建造mek乙烯发电系统，多带动几台马达来作为应力源"
+				"它的结构很紧凑而且方便再生，也是载具应力源的好选择"
+			]
+			id: "27AF3A50657243B1"
+			rewards: [{
+				count: 10
+				id: "0AD12368C083592E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这东西强的一批"
+			tasks: [{
+				id: "23C47833EF1A4FAB"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "交流发电机该学学它"
+			x: 25.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5022A9960DEC3E65"]
+			description: ["对机械动力的部件有任何问题的话，都可以长按w来看看它的使用方法！"]
+			icon: "create:brass_hand"
+			id: "082AD08315FDB383"
+			rewards: [{
+				count: 10
+				id: "0C7FCCC5425A38F7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这个思索比手册强多了"
+			tasks: [{
+				id: "51B1B4752A008A9A"
+				title: "思索一下"
+				type: "checkmark"
+			}]
+			title: "俺寻思"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AB47DBB41324199"]
+			description: [
+				"不通入红石时，转速不变"
+				"通入的红石强度越大，输出的转速越低，15级时停转"
+				"看起来真心有用"
+			]
+			hide_dependency_lines: true
+			id: "305784BF86FC96DF"
+			rewards: [{
+				count: 10
+				id: "4ADF4267A8692CE2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "十五挡的速度调节，还不够吗"
+			tasks: [{
+				id: "0E7E01F3A876293E"
+				item: "vs_clockwork:redstone_resistor"
+				type: "item"
+			}]
+			title: "呐，这就叫精确"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["088C562E7FE48287"]
+			description: ["它们无法在物理化结构上使用，但是造价便宜，所以也有自己的用途"]
+			id: "4CEF8B21CAFBFBAE"
+			rewards: [{
+				count: 10
+				id: "198E7B3FE64AC2A0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "另一种远程传递各种玩意的方案"
+			tasks: [
+				{
+					id: "79F24DE01364295F"
+					item: "createutilities:void_motor"
+					type: "item"
+				}
+				{
+					id: "20A2BC6DFFCAA4ED"
+					item: "createutilities:void_chest"
+					type: "item"
+				}
+				{
+					id: "58F4CCC51532648A"
+					item: "createutilities:void_tank"
+					type: "item"
+				}
+				{
+					id: "4E977A4049D31975"
+					item: "createutilities:void_battery"
+					type: "item"
+				}
+			]
+			title: "虚空无线套装"
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			id: "5022A9960DEC3E65"
+			rewards: [{
+				count: 10
+				id: "45420BAF7682E7D4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A72FD567F0643A6"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "机械动力的开端"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12E08E5A49B6FE18"]
+			id: "229ED69E86DCB45D"
+			rewards: [{
+				count: 10
+				id: "0287155A511DBC9F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5400920E53B4247E"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6ADEBDA246D23C0A"]
+			description: ["沉浸动力？"]
+			id: "2B477AAA14DC1296"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "12C8962037AF179E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "112A628C3804AF79"
+					item: "createaddition:copper_spool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D584F98C9224A46"
+					item: "createaddition:gold_spool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3395D64543F12BF3"
+					item: "createaddition:electrum_spool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5FCBBDD3CB73AF45"
+					item: "createaddition:spool"
+					type: "item"
+				}
+			]
+			title: "机械动力的线缆"
+			x: 25.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["423E6345BA7F67E6"]
+			description: [
+				"通向未来的铁轨，永不终结的旋律"
+				"爱上火车：一封写给铁路时代的情书"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "akzs_custom_items:textures/86tou_xiang_.png"
+				}
+			}
+			id: "3E8E3E3529FCAAB1"
+			rewards: [
+				{
+					count: 86
+					id: "09589A2828D13ED9"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "50B719C3D7580EB6"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "3EDC392232C5D771"
+					item: "akzs_custom_items:hachiroku_headportrait"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8620L
+					id: "2B3010B6DB774714"
+					item: "kuayue:ballastless_track"
+					type: "item"
+				}
+				{
+					count: 8620L
+					id: "24BE5D540A106B1D"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			title: "爱上火车"
+			x: 27.0d
+			y: 17.5d
+		}
+	]
+	title: "机械动力"
+}

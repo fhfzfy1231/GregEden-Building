@@ -1,0 +1,25 @@
+
+#.
+#Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
+[client]
+	#.
+	#This config controls how far between two catenary hang lines.
+	#Range: 1 ~ 90
+	catenaryRenderSpacing = 5
+	#.
+	#Sagging coefficient of the catenary lines
+	#Range: 1.0 ~ 100000.0
+	catenarySaggingCoefficient = 300.0
+	#.
+	#How many frames does the init animation of catenary selection cube has.
+	#Range: 1 ~ 100
+	catenarySelectionCubeInitAnimationFrame = 30
+	#.
+	#How many frames does the transform animation of catenary selection cube has.
+	#Range: 1 ~ 100
+	catenarySelectionCubeTransformAnimationFrame = 40
+	#.
+	#When the distance between a Block with a Selection Cube and the player is less than this value, the Selection Cube will be rendered. When this value is 0, the Selection Cube will not be rendered.
+	#Range: 0 ~ 128
+	catenarySelectionCubeRenderDistance = 32
+

@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qiguai1"
+	group: "49F29100A45C3528"
+	icon: "akzs_custom_items:beng_damm"
+	id: "23B03C16658C3D63"
+	images: [{
+		height: 10.0d
+		image: "akzs_custom_items:item/chi_cheng_tou_xiang_"
+		rotation: 0.0d
+		width: 10.0d
+		x: 4.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "28EFAD0C82701340"
+			rewards: [{
+				id: "26CA0914793415A9"
+				item: "akzs_custom_items:akzs_headportrait"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "超级厉害的赤城的头"
+			tasks: [{
+				count: 16L
+				id: "173F227AE2B72F56"
+				item: "akzs_custom_items:beng_damm"
+				type: "item"
+			}]
+			title: "如果你是PVPboss的话"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "akzs_custom_items:item/chi_cheng_tou_xiang_"
+				}
+			}
+			id: "6488E4093DCB511A"
+			rewards: [{
+				count: 10
+				id: "0261F7E3854F3AA8"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "不要赖死我！！！"
+			tasks: [{
+				entity: "akzs_custom_items:ak_z_self"
+				id: "1284E60847E4545A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6488E4093DCB511A"]
+			hide: true
+			hide_details_until_startable: true
+			id: "30624B0A68E46956"
+			rewards: [{
+				count: 64
+				id: "70AEBDC520BC258B"
+				item: {
+					Count: 1
+					id: "enderio:fused_quartz_ep"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"防火防盗防赤城\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.0d
+			tasks: [{
+				id: "6AAE4683FB108742"
+				title: "赤城太可爱啦"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "akzs_custom_items:textures/chi_cheng_tou_xiang_.png"
+				}
+			}
+			id: "6A856B51E20C1EAC"
+			rewards: [{
+				id: "37C529CC80FA1D22"
+				item: "akzs_custom_items:ak_z_self_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F7BB062D23C70D0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "来吧！挑战大笨蛋"
+			x: -2.0d
+			y: -2.5d
+		}
+	]
+	title: "奇奇怪怪，怪怪奇奇"
+}

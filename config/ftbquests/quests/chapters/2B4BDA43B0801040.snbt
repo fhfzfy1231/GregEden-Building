@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B4BDA43B0801040"
+	group: "7186237C57DBE938"
+	icon: "vs_eureka:oak_ship_helm"
+	id: "2B4BDA43B0801040"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47FB7B81CB778557"]
+			description: [
+				"聚乙烯外壳阻挡了风雨"
+				"精密构件赋予船舵机械的能量和兼容性"
+				"高级电路板构成控制系统的根基"
+				"量子环让船舵的空间能够与世界交互"
+				"玄冥锭赋予船舵来自宇宙的控制力量"
+				"最终，这一切被巧妙地整合在一起"
+				"潜行右键船舵，按下组装，飞船就能够脱离方块规则的束缚，自由航行于这个世界"
+				""
+				"船舵的本质是物理化的媒介和一个水平方向的配平设备，所以已经物理化的载具就不再需要船舵，可以拆掉"
+				"注意，船舵的配平不太好使，容易让飞船横着走，优点仅仅是不需要应力，不过或许你也会用到它的配平功能吧"
+				"动量轮也有配平的作用，所以你最好用动量轮，船舵就只用于其它载具的物理化吧"
+			]
+			id: "3E83265DF67B61D5"
+			rewards: [
+				{
+					id: "3529F3669AD5775C"
+					item: "vs_tournament:delete_wand"
+					title: "如果不想要物理化结构了用这个右键直接清掉，慎用！别把你伊甸号给删了！"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6464AB0910C2DC0F"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "物理规则的变化让伊甸号脱离方块的泥潭"
+			tasks: [{
+				id: "09C01AC632FDD525"
+				item: "vs_eureka:oak_ship_helm"
+				title: "把船舵放在飞船上你方便操作的位置"
+				type: "item"
+			}]
+			title: "航行的起点"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"你肯定不想它带着一坨地上的草和花飞起来..."
+				"如果你的飞船处于一头创进山里那种状态，可能就要费点劲了"
+				"顺便也最好给它做个保养，把那些表面上的小树枝、花和蘑菇之类的清掉"
+			]
+			icon: "create_dd:refined_radiance"
+			id: "47FB7B81CB778557"
+			rewards: [{
+				count: 10
+				id: "796D905F32992546"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "最好上下左右前后三格以内啥也没有"
+			tasks: [{
+				id: "7F9049C6C19E181D"
+				title: "一定要清空好之后再来点击"
+				type: "checkmark"
+			}]
+			title: "清空飞船的周围"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"首先，确保下方的推进器都能提供朝上的推力（烟花头朝上，引信朝下），不对的话拆掉重放"
+				"确保后方的推进器都能提供朝前的推力（烟花头朝船头，引信朝后）"
+				"确保推进器旁边的所有无线红石发信器都是接收状态（天线带有锅盖，可能被上方的方块挡住，建议挖开看看），不是的话shift右键更改"
+				"重新调频推进器，确保四个下方推进器连接的发信器和船舱前面的电脑旁边的发信器处于同一频率，四个后方推进器和遥控器的W键处于同一频率"
+				"调整电脑上面的两个拉杆和接收器，确保你面对电脑黑色屏幕时模拟拉杆在左边，原版拉杆在上边，接收器在右边，如果不对的话拆掉重放"
+			]
+			icon: "create:linked_controller"
+			id: "68081D926E0F6A16"
+			rewards: [
+				{
+					id: "566D46253698016C"
+					item: "biomesoplenty:bop_icon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "759B8A9B03791708"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "瓦尔基里的物理化可能会弄乱你的推进器"
+			tasks: [{
+				id: "4B25B5B708175C36"
+				title: "校准好了点一下"
+				type: "checkmark"
+			}]
+			title: "校准推进器"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68081D926E0F6A16"]
+			description: ["加油，我相信你会用lua"]
+			icon: "create_tweaked_controllers:tweaked_linked_controller"
+			id: "24C7BF1D90C39231"
+			rewards: [
+				{
+					id: "1D25D0C33EAC4276"
+					item: "computercraft:disk_drive"
+					type: "item"
+				}
+				{
+					id: "1C111DCCC370324D"
+					item: {
+						Count: 1
+						id: "computercraft:disk"
+						tag: {
+							Color: 5020082
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5FDF2FE75C99F5A2"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "428C64A9A5E834FE"
+				title: "导入好了点一下"
+				type: "checkmark"
+			}]
+			title: "导入升降飞控程序"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C7BF1D90C39231"]
+			description: [
+				"如果你还留着船舵，现在你就可以从船舵控制伊甸号的转弯了，右键船舵按a和d就可以，最好预先确定航向，因为船舵不适合控制前进（速度很慢）"
+				"如果你已经拆了船舵而依赖动量轮，那我送你两个spinner，参考后面的spinner任务来控制船的转弯吧"
+				"定下方向后，用你之前绑定的遥控器，右键按w就可以前进了"
+				"如果你想降落的话，慢慢扳低模拟拉杆的信号强度，一点点降到地面（当然想猛一点也是可以的，但我建议你降落之前观察一下地形...）"
+			]
+			icon: "minecraft:firework_rocket"
+			id: "0DAF5EE69672A60F"
+			rewards: [
+				{
+					id: "520745C599255DD3"
+					item: "biomesoplenty:music_disc_wanderer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F7C515A57D7070A"
+					item: "vs_tournament:spinner"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2E59E06D88BF4C76"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "别忘了给它安上区块加载器和传送石碑"
+			tasks: [{
+				id: "2BCBBA1E6E737BC3"
+				title: "你已经完成了！"
+				type: "checkmark"
+			}]
+			title: "现在操控伊甸号，开始环游世界！"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DAF5EE69672A60F"]
+			description: [
+				"改装的时候，你得遵循配平原则，要不操纵手感会很奇怪"
+				"所谓配平，就是保证各个方向的推力都经过质心，这样推力不会造成其它方向的偏移。按下F3+B，你的船里会出现一个黄色方框，那就是重心的位置。"
+				"船舵和动量轮是自动配平设备，基本可以保持飞船水平，不幸的是，它无法消除不平衡推力带来的速度变化"
+				"所以，如果你的飞船没配平，效果可能就是看起来保持了水平状态，但是上升的时候走的是奇怪的45度上升没法垂直起降，或者明明按着前进却把飞船的高度压低了一大截"
+				"想杜绝这些怪异的操作，你得仔细规划引擎的位置。"
+				"一个好的确定引擎位置的办法是拆掉所有船舵和动量轮，手动激活上升（或加速）引擎，看看飞船是否垂直上升或者向前平着移动"
+				"（测试加速引擎就别在地上测试了，那不掩耳盗铃吗）"
+				"如果没有垂直/水平移动的话，你就得重新安排一下引擎的位置或者船的质量分布，让它能做到垂直上升或者平动"
+				"测试完美后，重新安回船舵或动量轮，这样调整过的飞船操纵就会非常舒适"
+			]
+			icon: "mekanism:upgrade_speed"
+			id: "1E6FC614B1B61B4A"
+			rewards: [{
+				count: 10
+				id: "007C011B308163AE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "开始你的爆改之路，我也会提供一些指导"
+			tasks: [{
+				id: "608D2D367D979A72"
+				title: "别忘了分享你的爆改，只要它能正常飞..."
+				type: "checkmark"
+			}]
+			title: "来点改装？"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E6FC614B1B61B4A"]
+			description: [
+				"只需要提供红石信号，就能产生巨大的可控推力，真是棒极了"
+				"这个tiny thruster则提供了精确的选择，虽然比thruster小但是仍然可用"
+				""
+				"注意，配方里的“无限核弹”应该单独查询合成表，JEI有点抽风..."
+			]
+			id: "642913616B4F99D2"
+			rewards: [{
+				count: 10
+				id: "28EFEA73289B87B2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "终于，你重现了这种无上的技术"
+			tasks: [
+				{
+					id: "46B95A4886D06E3C"
+					item: "vs_tournament:thruster"
+					type: "item"
+				}
+				{
+					id: "41DD75C89137012C"
+					item: "vs_tournament:tiny_thruster"
+					type: "item"
+				}
+			]
+			title: "天顶星科技"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["642913616B4F99D2"]
+			description: [
+				"进一步增大thruster的推力！"
+				"右键thruster就可以升级了，总共有五级"
+				"注意，tiny thruster没法升级"
+			]
+			id: "6112B84A751E5D3A"
+			rewards: [{
+				count: 10
+				id: "696755F841FC59E1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你对虚空能量的利用更上一层楼"
+			tasks: [{
+				id: "319059775CE1584B"
+				item: "vs_tournament:upgrade_thruster"
+				type: "item"
+			}]
+			title: "终极增压技术"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DAF5EE69672A60F"]
+			description: [
+				"简单来讲，安装一些让它旋转的东西，来让你可以更方便地用遥控器控制旋转"
+				"当然，如果有船舵或动量轮卡在那，往对应方向的旋转是很难做到的，不过如果没有这二者的阻碍，那飞船就可以轻易地被它旋转"
+				""
+				"这个东西可以让飞船往烟花火箭指的那一面旋转，只需要红石信号，也就是说两个就能包办你伊甸号的旋转，六个就能包办飞船所有可能的旋转"
+				"虽然很昂贵，但是很方便"
+				"如果你还合成不了，也可以用一组相反方向推力的引擎分别安装在飞船的前后来代替"
+			]
+			id: "2D727115CDB76687"
+			rewards: [{
+				count: 10
+				id: "7DD91FEF1F6A3DBE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "目前伊甸号只给你提供了最基础的操控，要不要试试让它灵活一些？"
+			tasks: [{
+				count: 3L
+				id: "43A12AE73FEC7C85"
+				item: "vs_tournament:spinner"
+				type: "item"
+			}]
+			title: "旋转跳跃"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24C7BF1D90C39231"]
+			description: [
+				"这个高度计右键可以设定高度，到达指定高度后就会发出红石信号"
+				"只要你稍微改造一下飞控程序和那台电脑，你就可以更便捷而精确地控制飞船的高度"
+			]
+			id: "0893371EDBA30565"
+			rewards: [
+				{
+					id: "5DD6A7139CF12BAF"
+					item: "biomesoplenty:bop_icon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "75656EE7EFD9C062"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "这可能需要你会一些cc版本的lua语言，去学习一下！"
+			tasks: [{
+				id: "491365B203B07453"
+				item: "vs_clockwork:alt_meter"
+				type: "item"
+			}]
+			title: "更精确地控制高度"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"首先，把你的载具物理化"
+				"然后，在灰白色的一面搭你的轮子，如果是多方块的需要用强力胶粘成一个整体"
+				"然后，在有洞的那头接入应力"
+				"最后，空手右击轴承，轮子就正常运行了！"
+			]
+			id: "52F8F4A4D4B6B07F"
+			rewards: [
+				{
+					id: "45790AB1B3C82453"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7DF8FEB77E12C084"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "虽然目前还没有悬挂"
+			tasks: [{
+				id: "4C7B49ED05B06A43"
+				item: "vs_clockwork:phys_bearing"
+				type: "item"
+			}]
+			title: "车轮的轴"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52F8F4A4D4B6B07F"]
+			description: [
+				"就像发电机和电动机的关系一样。用来接受风的&l风帆&r，也可以驱动风，不过运动的风帆本身不能提供力，你需要配上一个&l螺旋桨轴承&r来制作螺旋桨。"
+				"将带有螺旋桨轴承的结构&l物理化&r后，从螺旋桨轴承的灰白面出发，搭建足量风帆（和风车风帆规则相同），空手右键螺旋桨轴承创建螺旋桨，再在有洞面接入应力，它就可以提供推力。"
+				"小型低速螺旋桨也许只能带来一缕清风，就像电风扇一样。但是，巨型高速螺旋桨能提供巨大的推力，甚至能托起隐天蔽日的宏伟巨构。"
+				""
+				"因其可用推力方向没有限制，无论物理结构向哪个方向运动，推力总是将结构带往轴承灰白面面朝的方向，所以无论是轻便还是笨重载具，都不妨一试。"
+			]
+			id: "2EC995C8F7BA034C"
+			rewards: [
+				{
+					count: 16
+					id: "73DF52E47208E278"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "159D30EB121377CD"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "感受风，然后利用风"
+			tasks: [{
+				id: "7069C823383A9B62"
+				item: "vs_clockwork:propeller_bearing"
+				type: "item"
+			}]
+			title: "螺旋桨引擎"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"提供升力的玩意，飞机必备"
+				"可以用染料染成你喜欢的颜色"
+			]
+			id: "52185AA78542D9C6"
+			rewards: [
+				{
+					count: 4
+					id: "14D9409425C69FC6"
+					item: "vs_clockwork:wing"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FADD7009E8A425A"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "Mojang星材料学"
+			tasks: [{
+				id: "0756ACDCE7ECE0A2"
+				item: "vs_clockwork:wing"
+				type: "item"
+			}]
+			title: "机翼"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52185AA78542D9C6"]
+			description: [
+				"物理化后，在紧贴着flap bearing的左边和右边输入红石信号，再在后面接入应力，能让它往两边偏转"
+				"在上面接一些拿强力胶粘在一起的flap，就可以做一个副翼了"
+				""
+				"注意，由于一些逆天的物理属性，flap不能提供升力，wing不能提供滚转俯仰力，属实是把空气动力学毁了个稀巴烂"
+			]
+			id: "5ACB54D23B867A87"
+			rewards: [
+				{
+					count: 4
+					id: "25045A99EF40B60E"
+					item: "vs_clockwork:flap"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "38E8F70B76376960"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "高级飞机机动"
+			tasks: [
+				{
+					id: "56DFF944A990C025"
+					item: "vs_clockwork:flap"
+					type: "item"
+				}
+				{
+					id: "1B95BFBC635626F8"
+					item: "vs_clockwork:flap_bearing"
+					type: "item"
+				}
+			]
+			title: "副翼"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"物理化后，右键设定方向，通入转速，动量轮就会努力让它的轴偏移到那个方向，转速越大力越大，反转的话则是偏向反方向"
+				"如果你想做一个能垂直起降的飞机，但是也要求它保留滚转能力，就可以通过动量轮的旋转与否来切换，而不用在上面安船舵"
+				""
+				"伊甸号上已经有一个动量轮了，设定好方向垂直向上，给它通入较高的转速，它就能维持好你飞船的稳定"
+			]
+			id: "27607428EBCA4A98"
+			rewards: [
+				{
+					id: "404592DB315F6BB8"
+					item: "mekanism:module_gyroscopic_stabilization_unit"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "45892EB8B9C5F5BF"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "受沙漠里转来转去的那些生物启发，史蒂夫发明了这个"
+			tasks: [{
+				count: 2L
+				id: "0D0AF009983D455D"
+				item: "vs_clockwork:gyro"
+				type: "item"
+			}]
+			title: "动量轮"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40404937CF55232D"]
+			description: [
+				"有四个模式，按alt滚轮切换"
+				"第一个模式右键物理化的载具可以把它拖起来，你走它也走，再右键可以放下"
+				"第二个模式是物理化已经选定的区域，需要结合前面的那个仙女棒使用"
+				"第三个模式是在第二个模式的基础上，物理化并且拖起来"
+				"第四个模式是解除物理化，慎用，可能会损坏你的载具"
+			]
+			id: "22E84EA397FE2844"
+			rewards: [{
+				count: 10
+				id: "112583CDA95F6387"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "或者你单纯想把自己造好的船挪个位置"
+			tasks: [{
+				id: "7E538B2C20CA9DCD"
+				item: "vs_clockwork:gravitron"
+				type: "item"
+			}]
+			title: "救援你翻沟里/沉海里的载具"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"使用方法和蓝图与笔很像"
+				"把这个漂亮的方块放地上（不需要放在你打算物理化的载具上），然后拿这根仙女棒选定你想物理化区域的两个角"
+				"选好之后，拿仙女棒右击这个方块，等一段炫酷的动画之后，这片区域就被物理化了（之后方块就可以拆掉拿走了，物理化不依赖这个方块），仙女棒会返还给你"
+				""
+				"物理化之后的船和船舵物理化之后的船没有区别，因为它们都用的一套物理引擎"
+				"总的来说物理化方面并无差异，没有船舵的配平功能，但可以更精确地指定物理化区域，船舵自动识别物理化区域有的时候会出小麻烦"
+			]
+			icon: "vs_clockwork:physics_infuser"
+			id: "40404937CF55232D"
+			rewards: [
+				{
+					count: 16
+					id: "1EA1443842AAFC24"
+					item: "vs_clockwork:physics_infuser"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4273F537A55223A8"
+					item: "vs_clockwork:wanderwand"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4873AA967B78C3E0"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "整到船舵，我就送你clockwork自带的物理化系统"
+			tasks: [{
+				id: "1DCA267A9D2E6B9C"
+				item: "vs_eureka:oak_ship_helm"
+				type: "item"
+			}]
+			title: "不同方式的物理化"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"让你上升的很高！"
+				"注意，高度越高，提供的升力越低"
+				"powered balloon则是红石信号越强，提供升力越高，15级和balloon相同，不提供信号则没有升力"
+			]
+			id: "10FA3D4339CFD740"
+			rewards: [{
+				count: 10
+				id: "70C6B2498C334827"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这逆天玩意balloon是\"unpowered_balloon\"，powered balloon是\"balloon\"，魔改的时候卡了我半小时"
+			tasks: [
+				{
+					id: "4AFF6770793F116A"
+					item: "vs_tournament:balloon_unpowered"
+					type: "item"
+				}
+				{
+					id: "0C390B4905E27F00"
+					item: "vs_tournament:balloon"
+					type: "item"
+				}
+			]
+			title: "轻飘飘"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"虽说这一块应该挺沉的，但是你还是可以轻松拿动"
+				"通入红石信号越强，压载重量越大"
+			]
+			id: "1E3F43FF4EC343A8"
+			rewards: [{
+				count: 10
+				id: "58611B590B8BF6B6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "可以调节重心的位置，也可以增加重量"
+			tasks: [{
+				id: "52525CD724F76E4B"
+				item: "vs_tournament:ballast"
+				type: "item"
+			}]
+			title: "压载铁"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: ["产生恒定的浮力，所以如果你要做潜艇，配合压载吧"]
+			id: "3688CCE783992C36"
+			rewards: [{
+				count: 10
+				id: "0B2108D0A6FCCF3D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "负责浮起来...没别的了"
+			tasks: [{
+				id: "334DC1603DAA144A"
+				item: "vs_tournament:floater"
+				type: "item"
+			}]
+			title: "浮子"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"本质上这通红石就能动的也是天顶星科技..."
+				"但因为只有船能用，所以便宜"
+			]
+			id: "546CCC26EA4F8687"
+			rewards: [
+				{
+					id: "635BAB1794493301"
+					item: "biomesoplenty:bop_icon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "488A834A636CAE61"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "只在水里好用"
+			tasks: [
+				{
+					id: "476051E598D42E94"
+					item: "vs_tournament:prop_big"
+					type: "item"
+				}
+				{
+					id: "2350D825A51E1BC6"
+					item: "vs_tournament:prop_small"
+					type: "item"
+				}
+			]
+			title: "船用引擎"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E83265DF67B61D5"]
+			description: [
+				"离面对方块1格时输出15信号，以此类推，直到16格时不输出信号。与大路货不一样，在物理化结构上可用"
+				"可以做悬浮载具，让它离地距离恒定"
+			]
+			id: "2EB4423D86695E42"
+			rewards: [
+				{
+					id: "771D2B44CD024D79"
+					item: "minecraft:observer"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "381C63B5953BAA03"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+			]
+			subtitle: "有点短视..."
+			tasks: [{
+				id: "531191D881F6F29A"
+				item: "vs_tournament:sensor"
+				type: "item"
+			}]
+			title: "距离传感器"
+			x: -4.0d
+			y: -2.0d
+		}
+	]
+	title: "芜湖起飞"
+}

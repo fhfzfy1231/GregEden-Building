@@ -1,0 +1,1529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "638DCC8CE533C851"
+	group: "5AF12DAB74779B81"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "638DCC8CE533C851"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["翻开这本书，查看入门指南一节内的所有条目。 &m好了，现在你已经会这个mod了，教程到此结束。&r"]
+			id: "08E8997250E6AD91"
+			rewards: [{
+				count: 10
+				id: "384DB7A944C99A5A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "进入存档后你会发现物品栏多了一本书，这本书就是mod的教科书，碰到问题请首先翻翻这本书。如果没有也可以用一个青金石和一本书无序合成"
+			tasks: [{
+				id: "4316C735E6F581C5"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "开启魔法世界的大门"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["08E8997250E6AD91"]
+			description: ["接下来打开法术书，开始编写你的第一个法术：按顺序点击弹射物-伤害-制作。"]
+			id: "62FA8534F1E45223"
+			rewards: [{
+				count: 10
+				id: "30A349EE8E49C055"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "法术书是本mod的核心物品，施法主要依靠这本书。"
+			tasks: [{
+				id: "6A69E865BF11D0D2"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "编写法术吧"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "31FBCC1727F1476D"
+			rewards: [{
+				count: 10
+				id: "2E7B8F86C4FAF685"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "浆果食物，它和以它为原料的食物都能提供魔力再生的buff，同时也是酿造魔力再生药水的关键物品。"
+			tasks: [{
+				id: "2505069438ACD826"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "62626321C8DAF1B9"
+			rewards: [{
+				count: 10
+				id: "33969D6B595BDE5C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "mod会生成4种不同的至高木，所有生物群系均有小概率生成，每种至高木都需要收集，但前期有一种木头即可。"
+			tasks: [
+				{
+					id: "66D2378EB679D88B"
+					item: "ars_nouveau:blue_archwood_log"
+					type: "item"
+				}
+				{
+					id: "72A21BE0C89296E5"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+				{
+					id: "3427D939E0DA1638"
+					item: "ars_nouveau:purple_archwood_log"
+					type: "item"
+				}
+				{
+					id: "36DACDE693BDB52D"
+					item: "ars_nouveau:green_archwood_log"
+					type: "item"
+				}
+			]
+			title: "至高木与至高木群系"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62626321C8DAF1B9"]
+			description: [
+				"恼人至高木-堡垒果：buff期间可以减少受到的伤害。"
+				""
+				"奔流至高木-霜木瓜：buff期间会被冰冻，类似踩进细雪。"
+				""
+				"繁茂至高木-门多山竹：buff期间受到的治疗效果提升。"
+				""
+				"烈焰至高木-炸弹石榴：buff结束后会爆炸。钓不到鱼我就拿爆炸药水来炸"
+				""
+				"这些果子可以直接食用，也可以酿造药水。"
+			]
+			id: "49C5C5A800EC49D8"
+			rewards: [{
+				count: 10
+				id: "5F4722FB3107B8DD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "类似可可豆，每种至高木都会有对应的果子伴随生成。"
+			tasks: [
+				{
+					id: "2F960196D31BE0EB"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					id: "6214A60B28679F1E"
+					item: "ars_nouveau:frostaya_pod"
+					type: "item"
+				}
+				{
+					id: "5E644AEEDC5B0F61"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+				{
+					id: "6E06AF2333B0D341"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+			]
+			title: "各种奇怪的果子"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08E8997250E6AD91"]
+			description: ["占卜杖可以高亮大范围的友好生物，还可以高亮地下的紫水晶洞穴。为了之后的发展，请储备一些紫水晶。"]
+			id: "698B79475D890F03"
+			rewards: [{
+				count: 10
+				id: "454214D3820EEA02"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EA9B35A755DE910"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["62FA8534F1E45223"]
+			description: ["5个魔符显然是不够用的。为了获取新魔符，你需要准备一个抄写台。将其摆放出来，用法术书右键即可打开GUI，书中会给出所有可以解锁的魔符，右侧可以按照魔符等级筛选魔符。"]
+			id: "2BCD5BABC56F474F"
+			rewards: [{
+				count: 10
+				id: "3FEEA11F923E53CB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36ABCD9048079FD7"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "获取魔符吧"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BCD5BABC56F474F"]
+			description: [
+				"当解锁新魔符:延时时，你发现延时需要操纵之精华。"
+				""
+				"为了继续发展，你需要合成灌注室以合成魔源宝石。"
+			]
+			id: "0E1CFFA0B20E0C12"
+			rewards: [{
+				count: 10
+				id: "0F1888048450D6C3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DECA214784A0A1C"
+				type: "checkmark"
+			}]
+			title: "魔符"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E1CFFA0B20E0C12"]
+			id: "37F6CD23C6F57759"
+			rewards: [{
+				count: 10
+				id: "5183168C268C7D7C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FBD86CCA0CEE949"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "灌注物品吧"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37F6CD23C6F57759"]
+			description: ["合成魔源宝石非常简单，你只需要放下灌注室，之后用紫水晶或青金石右键灌注室，随后等待合成完毕。"]
+			id: "13C2CA456D22955C"
+			rewards: [{
+				count: 10
+				id: "2570BE17A0238C63"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "250451415E6CEF71"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13C2CA456D22955C"]
+			description: ["用获得的魔源宝石合成火山魔源通道，该装置吸取附近的可燃物掉落物产生魔源。此外，你还需要在附近放置魔源罐，用来存储魔源。"]
+			id: "69BF632DFB23A3EF"
+			rewards: [{
+				count: 10
+				id: "205053A82ACBB1D7"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B61A4F842908D5E"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "12A3E65842A399B8"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69BF632DFB23A3EF"]
+			description: ["为了合成延时之精华，你需要在灌注台附近放置3个奥术基座或者奥数平台；随后，按照合成表，在奥数基座上放置好额外材料；最后，使用魔源宝石右击中心的灌注室。"]
+			id: "274FAF09C1BDF96D"
+			rewards: [{
+				count: 10
+				id: "511CAA5ABBEA13A4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7D5CD772E75504E3"
+				item: { Count: 3, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["274FAF09C1BDF96D"]
+			description: [
+				"为了提供魔源，你需要把含有魔源的魔源罐放置在操纵室2格的范围内。灌注台的合成虽然不需要魔源，但是提供的魔源能给合成加速，毕竟你也不想合成一个精华等3分钟吧。"
+				""
+				"在合成精华时，放置在基座上的额外物品并不会被消耗。"
+			]
+			id: "1250EA411B013FD5"
+			rewards: [{
+				count: 10
+				id: "1586836740CCB39F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00C8AFD8CFF7E08E"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "478248C018FA4FD9"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "2FEB23F1753B8C4E"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "24331003621E35E4"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "02C94DF26CB793E5"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "6C9A04CBA316CDBE"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "07C58DD4A4E56578"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "精华"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"62FA8534F1E45223"
+				"1250EA411B013FD5"
+			]
+			description: ["打开抄写台，合成等级2的魔符。打开法术书，却无法将魔符添加进法术中，这是因为初学者法术书仅能释放等级1以及以下的魔符，你需要升级法术书。解锁的魔符将会继承。"]
+			id: "19386674175865A6"
+			rewards: [{
+				count: 10
+				id: "3997AED163DEA17C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5CA580E97DDDBF"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "升级书本吧I"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69BF632DFB23A3EF"]
+			description: [
+				"当然了，种地不是为了吃浆果(虽然浆果也挺有用的)，而是为了获取新资源以及魔源。火山魔源通道虽然方便，但是太耗费资源了，为了获取足够你挥霍的魔源，这里使用较为简便的农艺魔源通道。"
+				""
+				"农艺魔源通道可以在作物和树木生长时输出魔源，在耕地面积较大时拥有可观的产能，而且在至高木、法师之花和魔源浆果生长时产出额外的魔源。"
+			]
+			id: "054558135D558562"
+			rewards: [{
+				count: 10
+				id: "1CF195E82D0A78EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69F05A499E6B30E2"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "开始种地吧"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["054558135D558562"]
+			description: [
+				"摆放完农艺魔源通道后，第一个问题就是如何将分散的魔源收集起来，这时需要用到魔源中继器和支配之杖。"
+				""
+				"使用支配之杖链接中继器和农艺魔源通道，如果先点击A再点击B，那么魔源将会从A输送到B。要清除中继器的链接，只需要按住shift点击中继器。另外在点击中继器时，来源会用蓝光标识，去向会以红光标识。"
+				""
+				"魔源中继器可以在30格内传输魔源，但是一个魔源中继器只能从一个位置抽取，再输出到另一个目标，因此你需要对每个农艺魔源通道都放置一个魔源中继器。"
+				""
+				"在目的地，使用魔源中继器：存放型是一个好选择，该中继器会将魔源输出到5格范围内所有未链接的魔源罐。"
+				""
+				"此外，魔源中继器：折跃型允许传输距离超过30格，但是会损失魔源；魔源中继器：分流型可以将接收到的魔源分流给多个目标，实现一对多输出；魔源中继器：收集型可以搜集5格内魔源罐的魔源并输出，这允许你将魔源仓库的魔源运送出去。"
+			]
+			id: "5485A39336C88736"
+			rewards: [{
+				count: 10
+				id: "60292D0CEE6DB28B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F876666C0E3C682"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "4BE4A15AA9150746"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "运送魔源吧"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5485A39336C88736"
+				"13C2CA456D22955C"
+			]
+			id: "041CB35C2BCC33A5"
+			rewards: [{
+				count: 10
+				id: "0D88AA571CDD09A8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C7CDD913F570220"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["041CB35C2BCC33A5"]
+			id: "443011FA37C7AD3E"
+			rewards: [{
+				count: 10
+				id: "6F27BFBC8B1E1F37"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F386797E137BA7C"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5485A39336C88736"
+				"1250EA411B013FD5"
+			]
+			description: [
+				"第一个附魔的物品应当是法师之花种子，该作物生长产出更多魔源的同时，还会产出法术纤维，这是制作魔法师衣服的物品。大多数物品附魔时不消耗魔源，但是制作附魔书、升级盔甲等物品需要大量魔源。"
+				""
+				"为了进行附魔，你需要准备奥术核心、附魔装置和若干奥数基座。将附魔装置摆放在奥数核心正上方，再在附魔装置附近摆放奥术基座，最后在附近放上魔源罐即完成放置。附魔操作与灌注台类似。"
+			]
+			id: "13CE97D4218A1255"
+			rewards: [{
+				count: 10
+				id: "6805EF0CED90A4EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "解决魔源问题后，便可以尝试更加耗魔的附魔装置了。与灌注台不同，附魔时所有的额外物品均会被消耗。"
+			tasks: [
+				{
+					id: "43B1209F8C6EE90D"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "6A9AAF27C0AC8B7A"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "77D181BD337EC904"
+					item: { Count: 9, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			title: "附魔物品吧"
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13CE97D4218A1255"]
+			description: ["附魔台也能制作许多饰品，我建议首先制作魔力提升护身符、魔力再生护身符、高等节魔之戒。"]
+			id: "5C80DE18FB5422DC"
+			rewards: [{
+				count: 10
+				id: "035CC547A59D3B45"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "006183DABFA24D45"
+					item: "ars_nouveau:amulet_of_mana_boost"
+					type: "item"
+				}
+				{
+					id: "733F91E82F2A162C"
+					item: "ars_nouveau:amulet_of_mana_regen"
+					type: "item"
+				}
+				{
+					id: "6186298CABE676A4"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13C2CA456D22955C"]
+			description: ["基础法术炮塔会在通入红石信号后对前方释放法术，需要的魔源由附近的魔源罐提供。在炮塔旁边放置物品容器时，炮塔能够拾取物品，也能放置方块。"]
+			id: "7C0477573F396A14"
+			rewards: [{
+				count: 10
+				id: "5EEF89CCB78C7276"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "193B14143BDF043B"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C0477573F396A14"]
+			id: "49019F78DA61F972"
+			rewards: [{
+				count: 10
+				id: "7E3687346025BAF5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A96458471D1D163"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49019F78DA61F972"]
+			id: "24A15F8664B139B7"
+			rewards: [{
+				count: 10
+				id: "4E33998156E9F9F2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "194CAD21D504A7FD"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"生成在荒野兽穴中的生物，荒野兽穴是一种拱起来的自然生成的结构。书上说能在森林群系找到，&m反正我是只在特定结构找到过&r"
+				""
+				"荒野伏击者，击杀掉落荒野膜翼"
+			]
+			id: "3F9A89F587388788"
+			rewards: [{
+				count: 10
+				id: "1DA3B746AF8FDA20"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					id: "73ECBA37D8DF85C7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					id: "28EA784583293759"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					id: "78C5CF69693FFD08"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "荒野族群"
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3F9A89F587388788"]
+			description: ["那么这些碎片有什么用呢？这是之后会用到的神秘妙妙工具。"]
+			id: "5D9000F0FCE6CFDC"
+			rewards: [{
+				count: 10
+				id: "15CB248ECE64D11E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "风转草，在它旁边种树可以获得风转草碎片，建议骨粉催熟。星宝石兽，给与金粒可获得星宝石兽碎片。德格米，给与荒野之角可获得德格米碎片。"
+			tasks: [
+				{
+					id: "7E04061506702752"
+					item: "ars_nouveau:whirlisprig_shards"
+					type: "item"
+				}
+				{
+					id: "402BE2ED1A2C56FC"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+				{
+					id: "23C70D0C621A1489"
+					item: "ars_nouveau:drygmy_shard"
+					type: "item"
+				}
+			]
+			title: "友好生物"
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5D9000F0FCE6CFDC"
+				"13CE97D4218A1255"
+			]
+			description: [
+				"对着花右键风转草护符可召唤风转草，它的幸福度由附近的方块数量和多样性决定。它会根据附近的自然材料产出对应的材料，且需要魔源。例如，如果你想要木头，那么需要多种点树。"
+				""
+				"对着地面右键星宝石兽护符可召唤星宝石兽，它可以拾取掉落物，也可以收获长成的魔源浆果，还可以在箱子之间搬运物品。要设置目的地，首先用支配之杖点击星宝石兽，再右键箱子。你可以使用物品卷轴设置过滤器。经测试，当前似乎无法从箱子中运出物品"
+				""
+				"对着苔石右键德克米护符可召唤德克米，它的幸福度由附近的实体数量和多样性决定。它会根据附近的有掉落物的实体产出对应的材料和经验值，需要在石阵附近摆放箱子和魔源罐。它也会将收容罐内的生物视为实体。"
+			]
+			id: "2AAC6FF537CFA0A7"
+			rewards: [{
+				count: 10
+				id: "011C54D412833D54"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "还记得之前的神秘妙妙工具吗，现在它们可以派上用场了。将它们的碎片合成为对应的护符，可以召唤它们，为你工作。"
+			tasks: [
+				{
+					id: "6F89DA0FC65FB772"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+				{
+					id: "521BE9B49592BEA9"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "411C84587BB86AC9"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+			]
+			title: "召唤生物护符"
+			x: 15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5D9000F0FCE6CFDC"]
+			description: [
+				"对着半血以下的女巫施展解除魔法可以获得薇克精碎片，对着炼药锅右键护符可以召唤薇克精。"
+				""
+				"薇克精能够自动合成物品，要如此做，只需要在附近的箱子放上原料，随后使用目标物品右键炼药锅。要停止自动合成，通入红石信号。"
+				""
+				"薇克精最强大的功能还是自动合成药水。要自动合成药水，你需要在附近的箱子放上原料，并在附近摆放若干药水罐，需要的水会由薇克精提供。一个薇克精只能设置一个配方，因此多阶段药水需要多个薇克精配合。以合成夜视药水为例："
+				""
+				"在附近的箱子中放入金胡萝卜和下界疣，并召唤两个薇克精，其中一个合成粗糙的药水，另一个合成夜视药水，最后摆上两个药水罐和魔源罐。"
+				""
+				"可以使用支配之杖Shift右键药水罐来锁定该药水罐，使其只能接受特定种类的药水。"
+			]
+			id: "5F0344C27FCFF24D"
+			rewards: [{
+				count: 10
+				id: "640D6FF899C1127F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "对着半血以下的女巫施展解除魔法可以获得薇克精碎片，对着炼药锅右键护符可以召唤薇克精"
+			tasks: [{
+				id: "5F721AC9DCB41959"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			title: "自动化合成以及药水酿造"
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5F0344C27FCFF24D"
+				"1250EA411B013FD5"
+			]
+			id: "062B40B07987C7B3"
+			rewards: [{
+				count: 10
+				id: "71B9BEB81A991CAA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7831688F94700524"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["274FAF09C1BDF96D"]
+			description: [
+				"使用仪式火盆可以举行仪式。手持仪式之板右键仪式火盆，火盆便会进入等待激活状态；此时可以选择进一步增强仪式(用额外物品右键或者直接将物品丢给火盆)，或者用空手右击火盆直接激活仪式，仪式运行时需要魔源。"
+				""
+				"所有可用的仪式可以查阅破旧的笔记本。"
+			]
+			id: "69F23C3D262B0C02"
+			rewards: [{
+				count: 10
+				id: "55108B40503AFF23"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79ACABB5018414F9"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "举行仪式吧"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69F23C3D262B0C02"]
+			description: [
+				"mod提供了一种存储管理系统，以存储讲台为核心。"
+				""
+				"首先需要召唤出书龙护符：举行启蒙仪式，并且将书与笔作为额外物品投入，再准备好魔源罐，就可以获得书龙护符。用书龙护符对存储讲台右键，将书龙添加到存储核心，每一个书龙都会让存储核心能绑定的容器上限+1。"
+				""
+				"使用支配之杖将30格以内的容器链接到存储讲台，此处推荐使用mod自带的仓库，因为仓库可以被命名，命名后在存储讲台处可以按仓库名称过滤物品。"
+				""
+				"存储讲台可以扩展，30格以内的子讲台可以和仓库一样绑定到主讲台上，子讲台拥有主讲台的所有功能，但是不能再绑定仓库和书龙。"
+				""
+				"放置在讲台附近的未绑定容器内的物品会被自动输入到讲台中。"
+				""
+				""
+				"书龙似乎只有这种召唤方式，对普通讲台用了半天书龙护符也没召唤出来。"
+			]
+			id: "0981441C84775093"
+			rewards: [{
+				count: 10
+				id: "53C3761C5E5A003C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3884F24585154B29"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+				{
+					id: "125FE85503DF13C5"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "019CFC475DAF92A8"
+					item: "ars_nouveau:repository"
+					type: "item"
+				}
+			]
+			title: "存储物品吧"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13CE97D4218A1255"]
+			description: [
+				"通过使用折跃卷轴，你能够传送到你设定的地方，但是会消耗掉卷轴，且无法跨纬度传送。手持折跃卷轴时，Shift右击将当前位置设定为传送点，随后直接右键即可传送到该位置。副手手持卷轴，对实体释放闪现法术时，实体会被传送到指定位置。"
+				""
+				"为了节省卷轴，你可以使用魔源石以及变体构建一个1*1~21*21的传送门框架，水平垂直均可。之后向传送门投掷已经设定好位置的折跃卷轴，若附近有足够的魔源，卷轴会被消耗，并生成一个永久的传送门，且不再消耗魔源。"
+				""
+				"另一个不消耗卷轴的方法是将卷轴进一步合成为稳定化折跃卷轴。使用该卷轴会创建一个5*5的临时传送门，空间不够会创建失败，创建完成后，传送门会维持一段时间，并在之后自行消失。使用稳定化折跃卷轴时，卷轴不会被消耗，并且可以跨纬度传送。创建固定传送门时，投入稳定化折跃卷轴可以创建跨纬度的传送门。"
+			]
+			id: "304C9B10B72BCD33"
+			rewards: [{
+				count: 10
+				id: "42EA2BA6F890478E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "31517F17CC7CDE60"
+					item: {
+						Count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "287AEBF11AAC89E3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "掌控空间吧"
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["13CE97D4218A1255"]
+			description: [
+				"预言师之眼允许你远距离视察各地的情况。合成预言师之眼和预言师水晶，将预言师水晶摆放在你需要观察的位置，之后用空白的羊皮纸右键水晶获得预言师卷轴。最后将预言师卷轴摆放在预言师之眼附近的奥术基座上，右键预言师之眼就可以从该预言师水晶观察环境。"
+				""
+				"你还可以使用巫师之眼，可以让你从预言师水晶处释放魔法。将巫师之眼摆放在抄写台，使用法术书誊写法术，再手持巫师之眼右键预言师水晶，便可把巫师之眼与水晶绑定。右键巫师之眼就会从水晶处施放法术，法术的施放者为自己。"
+			]
+			id: "67FF6CADB090E49B"
+			rewards: [{
+				count: 10
+				id: "5B02AB0960395275"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4052E56577DDFB30"
+					item: "ars_nouveau:scryers_oculus"
+					type: "item"
+				}
+				{
+					id: "5EA33864FB94EB0C"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+				{
+					id: "296F9843541D5078"
+					item: {
+						Count: 1
+						id: "ars_nouveau:scryer_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "视察情况吧"
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			id: "40C575DF03FA294F"
+			rewards: [{
+				count: 10
+				id: "752E66FA60E4A556"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5729200920A0FD52"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			description: ["巫师之弓：对实体造成伤害前对实体施放自身的法术，若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			id: "78B1B5AA3EC3A1BE"
+			rewards: [{
+				count: 10
+				id: "6A8097BE3BB6E997"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "302BB501A66699BA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			description: ["巫师之剑：对实体造成伤害前对实体施放自身的法术，会在法术链开头添加触摸，结尾添加强化。可被附魔。"]
+			id: "278218344B750971"
+			rewards: [{
+				count: 10
+				id: "5738882982BE8146"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11E84F5CF364D8E0"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			description: ["巫师之盾：成功防御时，对自身添加魔力再生和法术伤害提升Buff。可被附魔，但不可写入法术。"]
+			id: "7847C87109014F42"
+			rewards: [{
+				count: 10
+				id: "773FDA2D32BD2032"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B42D25C49A4BB44"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			description: ["巫师之镜：施放对自身起效的法术的专精工具。右键施放法术，会在法术链开头添加自身。施放法术的消耗会被降低，而对自身生效的Buff的持续时间会增加。"]
+			id: "1F2332500E3D8C1B"
+			rewards: [{
+				count: 10
+				id: "753A623A48009894"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "418176421C129B3F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A1BE70BD4F1D601"]
+			description: ["巫师之弩：对实体造成伤害前对实体施放自身的法术，魔力会在上箭时被扣除。若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			id: "333F42E7376C6707"
+			rewards: [{
+				count: 10
+				id: "43596F6C3AC3F9AB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "309512BC6BD6B536"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1250EA411B013FD5"]
+			description: ["厌倦了总是从法术书施法？也许你需要这些东西。以下装备可以在抄写台写入法术，还会吸取魔力来自我修复，但它们只能被写入不含形态魔符的法术。"]
+			id: "2A1BE70BD4F1D601"
+			rewards: [{
+				count: 10
+				id: "793B5F7959C372FA"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "278D3D9CEB393E1D"
+				type: "checkmark"
+			}]
+			title: "工具类"
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1250EA411B013FD5"]
+			id: "45C3A90A5861237F"
+			rewards: [{
+				count: 10
+				id: "6241BEBBED1FEA05"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED544BE7CF879DA"
+				type: "checkmark"
+			}]
+			title: "饰品类"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45C3A90A5861237F"]
+			description: ["浮空腰带：跳跃时按住Shift可浮空一段距离。"]
+			id: "3E2C83440769DF04"
+			rewards: [{
+				count: 10
+				id: "70DAE9FFE4A42598"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BBC20CE360B988"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45C3A90A5861237F"]
+			description: ["不稳定礼物腰带：随机给与正面Buff。"]
+			id: "2ACD8D1FEF1E2268"
+			rewards: [{
+				count: 10
+				id: "2BFD3E3904ECF5A9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09E1004112B2A37D"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2BCD5BABC56F474F"
+				"443011FA37C7AD3E"
+			]
+			description: ["作为一名魔法师，当然要有一套魔法师的衣服。正好mod提供了一套具有升级功能的法师袍。法师袍除了提供防御力，还提供最大魔力值。"]
+			id: "7B589823B2E5398A"
+			rewards: [{
+				count: 10
+				id: "19746620E201A98E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04E089AF22E53CC9"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			title: "增强防御吧"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"443011FA37C7AD3E"
+				"7B589823B2E5398A"
+			]
+			description: ["纤维是独一的，因此每种纤维只会生效一次。此外，一些纤维有等级限制，例如滑翔之纤维只能安装在III级槽位。"]
+			id: "56EF95B569837C24"
+			rewards: [{
+				count: 10
+				id: "61D744A039013DCF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F56E4EA139465F2"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["69F23C3D262B0C02"]
+			description: ["想要开始挑战BOSS，你需要用荒野召唤之板举行仪式，并且投入3种荒野怪物的掉落物。此后，火盆附近的方块会被摧毁，荒野奇美拉会被召唤。"]
+			id: "14D0E31DD8E79898"
+			rewards: [{
+				count: 10
+				id: "4E80364A81FCA793"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "为了将法术书升级到3级，使用最高级的魔符，BOSS奇美拉是你必须打败的目标。为了击败该BOSS，请务必做好万全的准备。"
+			tasks: [
+				{
+					id: "3741106C79B19D02"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "2FE70C4260595300"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "击败BOSS吧"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"19386674175865A6"
+				"14D0E31DD8E79898"
+			]
+			description: ["击败奇美拉后，你会获得荒野供物。它可以制作召唤之核心、反应IV附魔书和最高级的法术书：大法师法术书。"]
+			id: "413B8853043127AC"
+			rewards: [{
+				count: 10
+				id: "39C245CB021550D0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7E368705B02E520C"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "升级书本吧II"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "6F9FCB2E22DD3FDF"
+			rewards: [{
+				count: 10
+				id: "75F4E7DF320FFEB2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78787A54A32E3E8B"
+				item: "ars_nouveau:thread_depths"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "7E76116816B88111"
+			rewards: [{
+				count: 10
+				id: "6A9638124F6E8681"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E7DBF7CCBE89B57"
+				item: "ars_nouveau:thread_heights"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "7FC1ED9CCE02405F"
+			rewards: [{
+				count: 10
+				id: "5CEDC17354077712"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51F23B1F124DC005"
+				item: "ars_nouveau:thread_whirlisprig"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "34DD0F505CA288E0"
+			rewards: [{
+				count: 10
+				id: "26AE420C4FD7B47B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "740506D364B307DA"
+				item: "ars_nouveau:thread_drygmy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "69A6DB9581F068F0"
+			rewards: [{
+				count: 10
+				id: "31B95476F7E9475C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A79873B56C4F7EB"
+				item: "ars_nouveau:thread_high_step"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "3120017F0CBD8CF8"
+			rewards: [{
+				count: 10
+				id: "76AA0DD3A5DEE8E8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5124C5D37D4A714A"
+				item: "ars_nouveau:thread_spellpower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "311A856CBFFAE889"
+			rewards: [{
+				count: 10
+				id: "25D6164ABFF72F3D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34385A20451E33EB"
+				item: "ars_nouveau:thread_life_drain"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "29D751DCDB134964"
+			rewards: [{
+				count: 10
+				id: "1EB2623BE5150B24"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B324CF7D70DAB7"
+				item: "ars_nouveau:thread_starbuncle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "2E15A1ED52BE4D75"
+			rewards: [{
+				count: 10
+				id: "2ADF9E5C94DBC8D9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "732DA3F204096791"
+				item: "ars_nouveau:thread_chilling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "1E692F71160E371B"
+			rewards: [{
+				count: 10
+				id: "643C53F7C692ECBD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5259FD56479FFCCF"
+				item: "ars_nouveau:thread_undying"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "0B3F6D6DCE1ADFBA"
+			rewards: [{
+				count: 10
+				id: "07768AEDB2EC8D32"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "422E721043E17B44"
+				item: "ars_nouveau:thread_feather"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "163B82D9086A3FFF"
+			rewards: [{
+				count: 10
+				id: "5C2BC0CBADBEEFD5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FADDFBA0C2579B9"
+				item: "ars_nouveau:thread_warding"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "13A14E6D1883BD8D"
+			rewards: [{
+				count: 10
+				id: "300A4875D5672B05"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "423421D4B16B2B61"
+				item: "ars_nouveau:thread_gliding"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "0CAE8046648FAA18"
+			rewards: [{
+				count: 10
+				id: "424C80B234705BBD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A3586C949CE873"
+				item: "ars_nouveau:thread_immolation"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "7DB5C2D99A73E2B9"
+			rewards: [{
+				count: 10
+				id: "47D64F7BAC873839"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475C8958FF09ACE4"
+				item: "ars_nouveau:thread_amethyst_golem"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "0FD4ECEF6E42970C"
+			rewards: [{
+				count: 10
+				id: "1067A3CF28FCE61A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D15DFC347143529"
+				item: "ars_nouveau:thread_magic_capacity"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "78E6313A4F43CAD6"
+			rewards: [{
+				count: 10
+				id: "666979B705DBF58B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57E6D6ACD0AF1316"
+				item: "ars_nouveau:thread_kindling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "787D9A606542B24B"
+			rewards: [{
+				count: 10
+				id: "1FB44DD1A772F647"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B5346AB4FB86EE8"
+				item: "ars_nouveau:thread_wixie"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56EF95B569837C24"]
+			id: "5B712A2B9114C63B"
+			rewards: [{
+				count: 10
+				id: "2C9F4D83C947B9A1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E8FEC9E013AB2F2"
+				item: "ars_nouveau:thread_repairing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -10.5d
+		}
+	]
+	title: "新生魔艺"
+}

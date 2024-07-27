@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36613BDAC3227859"
+	group: "130ACEFB20AECFEF"
+	icon: "immersivepetroleum:distillation_tower"
+	id: "36613BDAC3227859"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EF03DFC8735712A"]
+			description: ["我也不理解，为什么鹿弹产生的次声波能用来探测石油"]
+			id: "36FF8C02FE53E290"
+			rewards: [{
+				count: 10
+				id: "0787BC82875FAFED"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D69CF562F28D248"
+					item: "immersivepetroleum:seismic_survey"
+					type: "item"
+				}
+				{
+					id: "4F8B1831623AA5F5"
+					item: "immersiveengineering:buckshot"
+					type: "item"
+				}
+			]
+			title: "嗡嗡嗡"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41F392720A9D6F82"]
+			description: [
+				"井架是抽油的必要工具之一"
+				"该结构必须建造在水平面以上（y>64），否则会直接罢工"
+				"注意：喷井一旦开始就无法停止，且喷井时喷出的流体如果没有及时被存储则会全部被浪费！作者测试的一次井喷至少需要十多个mek的终极流体储罐才能接住，如果暂时做不起mek的储罐可以看看“绅士们的浴缸”"
+			]
+			icon: "immersivepetroleum:derrick"
+			id: "17D9E9A1751017E5"
+			rewards: [{
+				count: 10
+				id: "62DC898C8A8F9A30"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "在迎接喷井前多做些储罐"
+			tasks: [
+				{
+					count: 8L
+					id: "3C403CB817C7555D"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "52C320FB5111D2E7"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "7AE038AA2D462F28"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "72BEEDBB8702B8FF"
+					item: { Count: 19, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "222C5D862CF6929F"
+					item: { Count: 16, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4020BC282F337B58"
+					item: { Count: 4, id: "immersiveengineering:slab_steel_scaffolding_grate_top" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6D6143F69D59C498"
+					item: { Count: 9, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "抽油的第二步"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17D9E9A1751017E5"]
+			description: [
+				"虽然慢，但是终究能抽出来"
+				"而且可以显而易见的是之前的井架也可以拆了"
+			]
+			icon: "immersivepetroleum:pumpjack"
+			id: "72B4E62AB2C80D4E"
+			rewards: [{
+				count: 10
+				id: "2DE3FD4B6822091E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "54385EA5542C277C"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "7D734537E745944C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "161FFCB1ED4976E7"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6492687669BE68F4"
+					item: { Count: 2, id: "immersiveengineering:storage_steel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A3D4817EB697C0C"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "18A79659104B92DB"
+					item: { Count: 11, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "086AEE96CE21C825"
+					item: { Count: 6, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F76061D3FA52182"
+					item: { Count: 4, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "挤挤总是有的"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36FF8C02FE53E290"]
+			description: ["一个罐可以储存1024桶流体，关于它的其他有趣特性可以查阅工程师手册"]
+			icon: "immersivepetroleum:oiltank"
+			id: "1364C5E2FD84C48D"
+			rewards: [{
+				count: 10
+				id: "15E35AFC7B82F919"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 62L
+					id: "0C17296820A8DC08"
+					item: { Count: 62, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "340DD26181F5DBE8"
+					item: { Count: 18, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "3EC4EAFD9764E75F"
+					item: { Count: 18, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03E52EF68F2747F4"
+					item: { Count: 2, id: "immersiveengineering:slab_steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			title: "绅士们的浴缸"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36FF8C02FE53E290"]
+			description: [
+				"虽然井架里也可以灌水，但前30%进度必须要用液态混凝土完成，而且不兼容其他mod的液态混凝土。"
+				"ps.不要用太高级的管道接到井架上，否则会因为一次灌入的流体量大于其内部缓存而导致无法灌入"
+			]
+			icon: "immersivepetroleum:derrick"
+			id: "41F392720A9D6F82"
+			rewards: [{
+				count: 10
+				id: "7D30624A906A02E2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你需要先用这个整一些液态混凝土"
+			tasks: [
+				{
+					count: 4L
+					id: "3F7E1CC01A001482"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E8A4454098DF1E8"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "3947E3731C659E0D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1C71C9F5EE268D43"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "631447AA9FA88539"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7DE0DDE465B4E6B7"
+					item: { Count: 3, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "抽油之前的准备"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1364C5E2FD84C48D"]
+			description: [
+				"注：沉浸本身对石油需求不高（甚至可以说几乎没有），因此建议把绝大部分石油都用来发电或者供格雷"
+				"ps.经过试验，沉浸的一台柴油发电机烧柴油可以带动2蒸馏塔+1磕头机+1高压蒸馏装置+1焦炭塔+1炼油厂，全系统可以稳定输出石脑油、润滑油、汽油、硫粉和石油焦，且电和柴油都有剩余，不过如果想加上裂化润滑油产线的话就需要两台柴油发电机了（但是原油和中间产物消耗殆尽的时候只靠一台磕头机产原油的话一台柴油发电机的发电量又足够了）"
+				"另：你也可以用多的石脑油来造酚醛树脂，但那就是另外的事了"
+			]
+			icon: "immersivepetroleum:distillation_tower"
+			id: "09CCEB84844033A2"
+			rewards: [
+				{
+					count: 10
+					id: "71CDA4253DAE9A1E"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "2074E13961F5B241"
+					item: "immersiveengineering:fluid_sorter"
+					title: "所有蒸馏产物均从一个口出，所以你需要这个来分配不同种流体（应该）"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0D5AC41D2EF003CD"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "0A46109CF5CC84B3"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "32AB349F0D410B6D"
+					item: { Count: 60, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "04F2CBF0BF578B14"
+					item: { Count: 25, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "565844FBFA2A6E38"
+					item: { Count: 30, id: "immersiveengineering:slab_steel_scaffolding_grate_top" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "5DD5FBC41DA8B21B"
+					item: { Count: 17, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "虽然也是蒸馏，但是不能喝"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09CCEB84844033A2"]
+			description: [
+				"这么大的东西唯一的作用就是拿来处理沥青"
+				"副产物石油焦不仅可以烧也可以磨粉后用来炼钢（需要ie电弧炉）或者做HOP（&mLover~F**ker~&r），即高定向热解石墨"
+			]
+			icon: "immersivepetroleum:coker_unit"
+			id: "6DC0D7A9674B4D8C"
+			rewards: [{
+				count: 10
+				id: "03F1B290A0F011CE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 18L
+					id: "04F76B4D0F60943A"
+					item: { Count: 18, id: "immersiveengineering:concrete" }
+					type: "item"
+				}
+				{
+					id: "27D408A8E2FDCC06"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "0CFD50A13A6990A2"
+					item: { Count: 7, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06C5F5E5E251191F"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "3C32BF5D48EDAC4D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "7AB2F1A4ECB94B23"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					count: 182L
+					id: "5A670AB1099867AB"
+					item: { Count: 182, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "490E6CB1F5945FAD"
+					item: { Count: 27, id: "immersiveengineering:concrete_tile" }
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "4A4032576618582E"
+					item: { Count: 29, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7E5D47D2440B4C8B"
+					item: { Count: 16, id: "immersiveengineering:slab_storage_steel" }
+					type: "item"
+				}
+				{
+					count: 193L
+					id: "637C9B7C1E8A3E9C"
+					item: { Count: 193, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 82L
+					id: "5572503539404616"
+					item: { Count: 82, id: "immersiveengineering:slab_steel_scaffolding_grate_top" }
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "7872AFF55582E0DE"
+					item: { Count: 51, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "黏，黏黏的"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09CCEB84844033A2"]
+			description: ["石油化工的二级机器，可以承担裂化和脱硫之类的任务"]
+			icon: "immersivepetroleum:hydrotreater"
+			id: "22385FC3C6DDDC90"
+			rewards: [{
+				count: 10
+				id: "4F55D2C6F8038427"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "66DE2DE33DC0FCC9"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "598AA09A4D426655"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4FEDDE8EAC3774E0"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "585471D14BBF2093"
+					item: { Count: 15, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7DAA81644C75FBB8"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			title: "有压力才有动力"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17D9E9A1751017E5"]
+			description: ["就这么烧了还不如存着"]
+			id: "73945BE4E427DC7E"
+			rewards: [{
+				count: 10
+				id: "14EC4F716C15D1BF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78EE67EB2CA15326"
+				item: "immersivepetroleum:flarestack"
+				type: "item"
+			}]
+			title: "这就是浪费"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09CCEB84844033A2"]
+			description: ["不知道为什么，抽油机不能被润滑（虽然工程师手册上说可以）"]
+			id: "304AC1960A28389F"
+			rewards: [{
+				count: 10
+				id: "00F4370748A6E1C9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "589F1425EE8F85A9"
+					item: "immersivepetroleum:auto_lubricator"
+					type: "item"
+				}
+				{
+					id: "357BA862827565A8"
+					item: "immersivepetroleum:oil_can"
+					type: "item"
+				}
+			]
+			title: "是时候加点润滑剂了"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09CCEB84844033A2"]
+			description: [
+				"已知可以烧的包括煤油，柴油（无论是否含硫）以及生物柴油（原油汽油和石脑油不行），发电量固定为4096FE/t"
+				"注意：柴油发电机目前有输入非沉浸本体的燃料会导致无限发电的bug，也就是说只要你稍微往里面输入了一点柴油。。。"
+			]
+			icon: "immersiveengineering:diesel_generator"
+			id: "74D1CBF363A1C3C6"
+			rewards: [{
+				id: "28F61E149DC16590"
+				item: "immersivepetroleum:gas_generator"
+				title: "这个只能烧轻油（比如汽油和石脑油）"
+				type: "item"
+			}]
+			subtitle: "毕竟也不能只耗电不发电不是"
+			tasks: [
+				{
+					count: 9L
+					id: "39F09009FCB62D2D"
+					item: { Count: 9, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3506820C10483B3D"
+					item: { Count: 4, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "0C6EF46876629F01"
+					item: { Count: 13, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "3E36DC3522B7BB45"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0A29CD41B4F6A093"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7E4FA485B128EB38"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "燃油发电"
+			x: -5.5d
+			y: 2.5d
+		}
+	]
+	title: "沉浸原油"
+}
